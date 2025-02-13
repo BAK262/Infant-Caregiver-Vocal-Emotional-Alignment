@@ -1,0 +1,1173 @@
+---
+title: "Analysis_Edinburgh"
+author: "MingLi"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, echo=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+	eval = TRUE, # Whether to evaluate the code chunk.
+	echol = TRUE, # Whether to display the source code in the output document.
+	include = TRUE, # Whether to include the chunk output in the output document.
+	warning = FALSE,
+	error = FALSE,
+	message = FALSE
+)
+library(bruceR)
+library(ggiraph)
+library(PupillometryR)
+library(boot)
+library(ggpubr)
+library(ggdist)
+library(patchwork)
+library(ggcorrplot)
+library(DescTools)
+options(datatable.showProgress = FALSE)
+options(datatable.verbose  = FALSE)
+```
+
+## Load data
+
+Note that all scripts and data are stored in the root directory of UTokyo project (`r getwd()`), which is also the default working directory for this script. The sample label will be stored in data table `sample.label`. The embedding data obtained from 5 models will be stored in list `sample.embedding` with each corresponding to a data table.
+
+Now, load data and select the samples from `Edinburgh` corpus:
+
+```{r load-data, echo=FALSE}
+sample.label = fread("Data_Analysis/sample_label.csv",verbose=F)
+sample.prosody = fread("Data_Analysis/sample_prosody.csv",verbose=F)
+index.Edinburgh = sample.label[,which(Dataset=="corpus_Edinburgh")]
+sample.label <- sample.label[index.Edinburgh,]
+sample.embedding = list()
+for (e in c(1:5)){
+  fread(paste0("Data_Analysis/sample_embedding",e,".csv"),verbose=F) %>%
+    .[index.Edinburgh,] -> sample.embedding[[e]]
+}
+head(sample.label)
+```
+
+There are totally `r nrow(sample.label)` utterance samples obtained from `r sample.label[,length(unique(infant))]` families with 9 month old infant. Five triplet-loss models with same architecture but different parameters were used to get the `r ncol(sample.embedding[[1]])`-dimensional embedding of these samples.
+
+The quality of these utterance samples have already been controlled by
+
+1.  valid length of raw audio (should \> 0 ms),
+
+2.  containing target's voice (see `step2_voice_enhancement.py` for details),
+
+3.  valid audio features (should be able to be extracted by `openSMILE toolbox`),
+
+4.  being produced in conversation,
+
+5.  non-overlapping with nearby utterances.
+
+However, due to the uncertainty of the natural data collection environment, maybe we need to take one more step to detect and remove outliers based on their distribution in embedding space, such as PCA?
+
+## Principle Components Analysis for embedding space
+
+First, we perform PCA to reduce the dimensionality of the embedding space, with the aim of showing the overall distribution of the samples. Since the emotional similarity was measured as the Euclidean distance in embedding space, we do not re-scale the dimensions when performing PCA. Below is cumulative explained variation of the first 20 PCs:
+
+```{r pca-viriation-embedding, echo=FALSE}
+pca_result = list()
+pca.variation = list()
+for (e in c(1:5)) {
+  pca_result[[e]] = prcomp(sample.embedding[[1]], center = T, scale. = F)
+  eigs <- pca_result[[e]]$sdev^2
+  data.table(PC = c(1:length(eigs)),
+             SD = sqrt(eigs),
+             Proportion = eigs/sum(eigs),
+             Cumulative = cumsum(eigs)/sum(eigs)) %>%
+    .[-c(21:512),] %>% 
+    .[,model:=paste0("model ",as.character(e))] -> pca.variation[[e]]
+}
+pca.variation <- rbindlist(pca.variation)
+
+p.pca.variation = ggplot(pca.variation, aes(x=PC, y=Cumulative, color=model, group=model))+
+  geom_line()+
+  geom_point()
+# p.pca.variation
+ggsave("Data_Analysis/Analysis_Edinburgh/pca_viriation_embedding.pdf",p.pca.variation)
+```
+
+The results are highly consistent: the first 2 PCs can explain more than 99% variation together.
+
+Then, we check the distribution of samples with different speakers from different families on the first 2 PCs:
+
+```{r pca-distribution-embedding, echo=FALSE}
+data.frame(pca_result[[1]]$x[,1:2]) %>%
+  as.data.table() %>%
+  cbind(.,sample.label[,c("infant","speaker","speaker_type")]) -> pca.distribution
+p.pca.distribution = ggplot(pca.distribution[-8922],
+                            aes(PC1,PC2,color=speaker,fill=speaker,shape=speaker_type))+
+  geom_point(alpha=0.7)+
+  scale_x_continuous()+
+  scale_y_continuous()+
+  coord_fixed()+
+  facet_wrap(vars(infant))
+p.pca.distribution
+ggsave("Data_Analysis/Analysis_Edinburgh/pca_distribution_embedding.pdf",p.pca.distribution)
+```
+
+It is strange that these samples are distributed on an acute angle formed by two rays (nearly two PCs) ......
+
+However, we can still find some regularities:
+
+-   Infant samples have a smaller distribution than caregiver samples;
+-   Some of the infants' samples extended mainly along the direction of PC1, and only Micheal's samples would also extend along the direction of PC2.
+
+In addition, `sample #8922` is far away from the other samples, which is considered as an outlier and excluded.
+
+```{r remove-outlier, echo=FALSE}
+sample.label <- sample.label[-8922]
+for (e in c(1:5)) {
+  sample.embedding[[e]] <- sample.embedding[[e]][-8922]
+}
+sample.prosody <- sample.prosody[-8922]
+```
+
+## Principle Components Analysis for prosody features
+
+For prosody features, we also perform PCA to reduce the dimensionality of the prosody feature space, with the aim of retaining the most dominant information. We re-scale the dimensions when performing PCA since the range of different prosody features varies. Below is cumulative explained variation of the PCs:
+
+```{r pca-viriation-embedding, echo=FALSE}
+# center and scale raw data to perform correlation-based PCA
+# the purpose is to ignore the variance degree of raw variables
+pca_result = prcomp(sample.prosody, center = T, scale. = T)
+eigs <- pca_result$sdev^2
+data.table(PC = c(1:length(eigs)),
+             eigs = eigs,
+             Proportion = eigs/sum(eigs),
+             Cumulative = cumsum(eigs)/sum(eigs))  -> pca.variation
+p.pca.variation = ggplot(pca.variation)+
+  geom_line(aes(x=PC, y=Cumulative))+
+  geom_point(aes(x=PC, y=Cumulative))+
+  # geom_line(aes(x=PC, y=eigs))+
+  # geom_point(aes(x=PC, y=eigs))+
+  geom_vline(xintercept = sum(pca.variation$Cumulative<0.8)+1)+#519th PC
+  geom_vline(xintercept = sum(pca.variation$eigs>1))#818th PCs
+p.pca.variation
+ggsave("Data_Analysis/Analysis_Edinburgh/pca_viriation_prosody.pdf",p.pca.variation)
+fwrite(pca_result$x,"Data_Analysis/sample_prosody_pca.csv")
+```
+
+We retain the first 519 PCs for further analysis.
+
+```{r retain PCs of prosody features, echo=FALSE}
+# either
+pca_result$x[,1:519] %>%
+  as.data.table() -> sample.prosodyPC
+rm(pca_result)
+
+# or
+fread("Data_Analysis/sample_prosody_pca.csv",verbose=F) %>%
+  .[,c(1:519)] -> sample.prosodyPC
+
+# Since the variance of a PC expresses the extent to which it is shared by the original variables, we keep only the most dominant PCs and assign the same weight to them by scaling them to unit variance
+sample.prosodyPC %>%
+  scale() %>%
+  as.data.table() -> sample.prosodyPC
+
+```
+
+## Interactive Effect
+
+To investigate the emotional and prosody similarity, we first generate different sample pairs and then calculate their distance (Euclidean distance of sample pairs) on the embedding/prosody space.
+
+Every sample was produced by either infant or caregiver in a conversation. Therefore, the sample pairs can be distinguished by tow factors: - Infant-Caregiver (I-C) vs. Infant-Infant (I-I) vs. Caregiver-Caregiver (C-C), - within-block vs. between-blocks, which causes 3\*2=6 unique level combinations.
+
+For the second factor, the `block` variable in `sample.label` indicates a conversation block's id in one whole audio recording (`file_id`). A conversation block is composed of sequential utterances produced consecutively between infants and caregivers with pauses shorter than 3 seconds. The pauses between blocks are greater than 3 seconds. The `file_id` and `block` indicators allow us to identify those samples from the same conversation block and those that do not belong to the same block. Based on this, we can calculate the distance between sample pairs within and between blocks.
+
+Specifically, the pair (dis)similarities for whole dataset and each family (`infant`) can be computed as:
+
+```{r calculate-similarities, eval=FALSE, echo=FALSE, include=FALSE}
+# Generate sample pairs
+infants = sample.label[,unique(child)]
+for (cur.infant in infants) {
+  index.samples = sample.label[,which(child==cur.infant)]
+  index.pairs = combn(index.samples,2)
+  expected.rows = ncol(index.pairs)
+  cur.sample.pairs = data.table(infant = rep.int(cur.infant, expected.rows),
+                                type1 = rep.int("between-blocks", expected.rows),
+                                type2 = rep.int("I-C pair",expected.rows),
+                                sample1_row = index.pairs[1,],
+                                sample1_file_id = rep.int(NA_character_, expected.rows),
+                                sample1_block = rep.int(NA_integer_, expected.rows),
+                                sample1_speaker_type = rep.int(NA_character_, expected.rows),
+                                sample2_row = index.pairs[2,],
+                                sample2_file_id = rep.int(NA_character_, expected.rows),
+                                sample2_block = rep.int(NA_integer_, expected.rows),
+                                sample2_speaker_type = rep.int(NA_character_, expected.rows),
+                                distance_1 = rep.int(NA_real_, expected.rows),
+                                distance_2 = rep.int(NA_real_, expected.rows),
+                                distance_3 = rep.int(NA_real_, expected.rows),
+                                distance_4 = rep.int(NA_real_, expected.rows),
+                                distance_5 = rep.int(NA_real_, expected.rows),
+                                distance_p = rep.int(NA_real_, expected.rows),
+                                distance_ppc = rep.int(NA_real_, expected.rows))
+  cur.sample.pairs[, c("sample1_file_id", "sample1_block","sample1_speaker_type") := sample.label[sample1_row, c("file_id", "block","speaker_type")]]
+  cur.sample.pairs[, c("sample2_file_id", "sample2_block","sample2_speaker_type") := sample.label[sample2_row, c("file_id", "block","speaker_type")]]
+  cur.sample.pairs[sample1_file_id == sample2_file_id & sample1_block == sample2_block, type1 := "within-block"]
+  cur.sample.pairs[sample1_speaker_type == "Children" & sample2_speaker_type == "Children", type2 := "I-I pair"]
+  cur.sample.pairs[sample1_speaker_type == "Adult" & sample2_speaker_type == "Adult", type2 := "C-C pair"]
+  cur.sample.pairs[sample1_speaker_type=="Children",sample1_speaker_type:="Infant"]
+  cur.sample.pairs[sample1_speaker_type=="Adult",sample1_speaker_type:="Caregiver"]
+  cur.sample.pairs[sample2_speaker_type=="Children",sample2_speaker_type:="Infant"]
+  cur.sample.pairs[sample1_speaker_type=="Adult",sample1_speaker_type:="Caregiver"]
+  cur.sample.pairs[!((type1=="between-blocks")&(type2=="I-I pair"))] -> cur.sample.pairs
+  cur.sample.pairs[!((type1=="between-blocks")&(type2=="C-C pair"))] -> cur.sample.pairs
+  if (cur.infant == infants[1]){
+    sample.pairs = cur.sample.pairs
+  } else {
+    sample.pairs = rbindlist(list(sample.pairs,
+                                   cur.sample.pairs))
+  }
+}
+rm(cur.sample.pairs,cur.infant,infants,expected.rows,index.pairs,index.samples)
+
+# Calculate similarities
+pb=txtProgressBar(0,100,style = 3)
+for (e in c(1:5)) {
+  chunk.pairs = ceiling(nrow(sample.pairs)/20)
+  col_name = paste0("distance_",e)
+  for (chunk in c(1:20)){
+    if (chunk!=20) {
+      matrix1 = as.matrix(sample.embedding[[e]][sample.pairs$sample1_row[((chunk-1)*chunk.pairs+1):(chunk*chunk.pairs)]])
+      matrix2 = as.matrix(sample.embedding[[e]][sample.pairs$sample2_row[((chunk-1)*chunk.pairs+1):(chunk*chunk.pairs)]])
+      chunk.distance = sqrt(rowSums((matrix1 - matrix2)^2))
+      rm(matrix1,matrix2)
+      sample.pairs[((chunk-1)*chunk.pairs+1):(chunk*chunk.pairs), (col_name):=chunk.distance]
+      rm(chunk.distance)
+      setTxtProgressBar(pb,(e-1)*20+chunk)
+    }else{
+      matrix1 = as.matrix(sample.embedding[[e]][sample.pairs$sample1_row[((chunk-1)*chunk.pairs+1):(nrow(sample.pairs))]])
+      matrix2 = as.matrix(sample.embedding[[e]][sample.pairs$sample2_row[((chunk-1)*chunk.pairs+1):(nrow(sample.pairs))]])
+      chunk.distance = sqrt(rowSums((matrix1 - matrix2)^2))
+      rm(matrix1,matrix2)
+      sample.pairs[((chunk-1)*chunk.pairs+1):(nrow(sample.pairs)), (col_name):=chunk.distance]
+      rm(chunk.distance)
+      setTxtProgressBar(pb,(e-1)*20+chunk)
+    }
+  }
+}
+close(pb)
+chunk.pairs = ceiling(nrow(sample.pairs)/500)
+for (chunk in c(1:500)){
+  if (chunk!=500) {
+    matrix1 = as.matrix(sample.prosody[sample.pairs$sample1_row[((chunk-1)*chunk.pairs+1):(chunk*chunk.pairs)]])
+    colnames(matrix1)=NULL
+    matrix2 = as.matrix(sample.prosody[sample.pairs$sample2_row[((chunk-1)*chunk.pairs+1):(chunk*chunk.pairs)]])
+    colnames(matrix2)=NULL
+    chunk.distance = sqrt(rowSums((matrix1 - matrix2)^2))
+    rm(matrix1,matrix2)
+    sample.pairs[((chunk-1)*chunk.pairs+1):(chunk*chunk.pairs), distance_p:=chunk.distance]
+    rm(chunk.distance)
+  }else{
+    matrix1 = as.matrix(sample.prosody[sample.pairs$sample1_row[((chunk-1)*chunk.pairs+1):(nrow(sample.pairs))]])
+    colnames(matrix1)=NULL
+    matrix2 = as.matrix(sample.prosody[sample.pairs$sample2_row[((chunk-1)*chunk.pairs+1):(nrow(sample.pairs))]])
+    colnames(matrix2)=NULL
+    chunk.distance = sqrt(rowSums((matrix1 - matrix2)^2))
+    rm(matrix1,matrix2)
+    sample.pairs[((chunk-1)*chunk.pairs+1):(nrow(sample.pairs)), distance_p:=chunk.distance]
+    rm(chunk.distance)
+  }
+}
+chunk.pairs = ceiling(nrow(sample.pairs)/500)
+for (chunk in c(1:500)){
+  if (chunk!=500) {
+    matrix1 = as.matrix(sample.prosodyPC[sample.pairs$sample1_row[((chunk-1)*chunk.pairs+1):(chunk*chunk.pairs)]])
+    colnames(matrix1)=NULL
+    matrix2 = as.matrix(sample.prosodyPC[sample.pairs$sample2_row[((chunk-1)*chunk.pairs+1):(chunk*chunk.pairs)]])
+    colnames(matrix2)=NULL
+    chunk.distance = sqrt(rowSums((matrix1 - matrix2)^2))
+    rm(matrix1,matrix2)
+    sample.pairs[((chunk-1)*chunk.pairs+1):(chunk*chunk.pairs), distance_ppc:=chunk.distance]
+    rm(chunk.distance)
+  }else{
+    matrix1 = as.matrix(sample.prosodyPC[sample.pairs$sample1_row[((chunk-1)*chunk.pairs+1):(nrow(sample.pairs))]])
+    colnames(matrix1)=NULL
+    matrix2 = as.matrix(sample.prosodyPC[sample.pairs$sample2_row[((chunk-1)*chunk.pairs+1):(nrow(sample.pairs))]])
+    colnames(matrix2)=NULL
+    chunk.distance = sqrt(rowSums((matrix1 - matrix2)^2))
+    rm(matrix1,matrix2)
+    sample.pairs[((chunk-1)*chunk.pairs+1):(nrow(sample.pairs)), distance_ppc:=chunk.distance]
+    rm(chunk.distance)
+  }
+}
+rm(chunk.pairs,col_name,e)
+sample.pairs[,distance_e:=(distance_1+distance_2+distance_3+distance_4+distance_5)/5]
+
+# Save result
+fwrite(sample.pairs,"Data_Analysis/Analysis_Edinburgh/sample_pairs.csv")
+```
+
+```{r load-similarities, echo=FALSE, include=FALSE}
+# Load result
+sample.pairs=fread("Data_Analysis/Analysis_Edinburgh/sample_pairs.csv")
+```
+
+Then, we compare within-block and between-blocks similarities by bootstrapping and comparing their mean/median/cohensD:
+
+```{r bootstrapped-estimation, eval=FALSE, echo=FALSE}
+# Estimate the median and Cohen's d (real vs. pseudo interactions) for whole data set----
+k = 1000
+pairs.boot.median.all = data.table(type1 = rep(NA_character_,k*4),
+                                   type2 = rep(NA_character_,k*4),
+                                   dist_p = rep(NA_real_,k*4),
+                                   dist_ppc = rep(NA_real_,k*4),
+                                   dist_e = rep(NA_real_,k*4))
+pairs.boot.cohensD.all = data.table(dist_type = rep(NA_character_,k*3),
+                                    cohensD = rep(NA_real_,k*3))
+pb <- txtProgressBar(1,k,style = 3)
+for (i in c(1:k)){
+  cur.index = sample.pairs[,.I[sample(.N, .N, replace = T)],
+                           by=.(type1,type2)][[3]]
+  cur.sample = sample.pairs[cur.index]
+  rm(cur.index)
+  pairs.boot.median.all[((i-1)*4+1):(i*4)] = cur.sample[,.(dist_p = median(distance_p),
+                                                           dist_ppc = median(distance_ppc),
+                                                           dist_e = median(distance_e)),
+                                                        by=.(type1,type2)]
+  temp_D = cohens_d(cur.sample[(type1=="within-block")&(type2=="I-C pair"),distance_e],
+                    cur.sample[(type1=="between-blocks")&(type2=="I-C pair"),distance_e],
+                    verbose = FALSE)
+  pairs.boot.cohensD.all[(i-1)*3+1,`:=`(dist_type="e",
+                                        cohensD=temp_D[[1]])]
+  temp_D = cohens_d(cur.sample[(type1=="within-block")&(type2=="I-C pair"),distance_p],
+                    cur.sample[(type1=="between-blocks")&(type2=="I-C pair"),distance_p],
+                    verbose = FALSE)
+  pairs.boot.cohensD.all[(i-1)*3+2,`:=`(dist_type="p",
+                                        cohensD=temp_D[[1]])]
+  temp_D = cohens_d(cur.sample[(type1=="within-block")&(type2=="I-C pair"),distance_ppc],
+                    cur.sample[(type1=="between-blocks")&(type2=="I-C pair"),distance_ppc],
+                    verbose = FALSE)
+  pairs.boot.cohensD.all[(i-1)*3+3,`:=`(dist_type="ppc",
+                                        cohensD=temp_D[[1]])]
+  if ((i %% 10)==0){
+    setTxtProgressBar(pb, i)
+  }
+}
+close(pb)
+# Save estimations
+fwrite(pairs.boot.median.all,"Data_Analysis/Analysis_Edinburgh/pairs_median_all.csv")
+fwrite(pairs.boot.cohensD.all,"Data_Analysis/Analysis_Edinburgh/pairs_cohensD_all.csv")
+
+# Estimate the median and Cohen's d (real vs. pseudo interactions) for each family----
+k = 1000
+n.infants = length(sample.pairs[,unique(infant)])
+pairs.boot.median.family = data.table(child = rep(NA_character_,k * n.infants * 4),
+                                      type1 = rep(NA_character_,k * n.infants * 4),
+                                      type2 = rep(NA_character_,k * n.infants * 4),
+                                      dist_p = rep(NA_real_,k * n.infants * 4),
+                                      dist_ppc = rep(NA_real_,k * n.infants * 4),
+                                      dist_e = rep(NA_real_,k * n.infants * 4))
+pairs.boot.cohensD.family = data.table(Family = rep(NA_character_,k * n.infants * 3),
+                                       dist_type = rep(NA_character_,k * n.infants * 3),
+                                       cohensD = rep(NA_real_,k * n.infants * 3))
+pb <- txtProgressBar(1,k,style = 3)
+for (i in c(1:k)){
+  cur.index = sample.pairs[, .I[sample(.N, .N, replace = T)],
+                           by = .(infant,type1,type2)][[4]]
+  cur.sample = sample.pairs[cur.index]
+  pairs.boot.median.family[((i-1)*n.infants*4+1):(i*n.infants*4)] = cur.sample[,.(dist_p = median(distance_p),
+                                                                                  dist_ppc = median(distance_ppc),
+                                                                                  dist_e = median(distance_e)),
+                                                                               by=.(infant,type1,type2)]
+  for (c in c(1:n.infants)) {
+    cur.infant = sample.pairs[,unique(infant)[c]]
+    temp_D = cohens_d(cur.sample[(type1=="within-block")&(type2=="I-C pair")&(infant==cur.infant),
+                                 distance_e],
+                      cur.sample[(type1=="between-blocks")&(type2=="I-C pair")&(infant==cur.infant),
+                                 distance_e],
+                      verbose = FALSE)
+    pairs.boot.cohensD.family[(i-1)*n.infants*3+(c-1)*3+1,
+                              `:=`(Family=cur.infant,
+                                   dist_type="e",
+                                   cohensD=temp_D[[1]])]
+    temp_D = cohens_d(cur.sample[(type1=="within-block")&(type2=="I-C pair")&(infant==cur.infant),distance_p],
+                      cur.sample[(type1=="between-blocks")&(type2=="I-C pair")&(infant==cur.infant),distance_p],
+                      verbose = FALSE)
+    pairs.boot.cohensD.family[(i-1)*n.infants*3+(c-1)*3+2,
+                              `:=`(Family=cur.infant,
+                                   dist_type="p",
+                                   cohensD=temp_D[[1]])]
+    temp_D = cohens_d(cur.sample[(type1=="within-block")&(type2=="I-C pair")&(infant==cur.infant),distance_ppc],
+                      cur.sample[(type1=="between-blocks")&(type2=="I-C pair")&(infant==cur.infant),distance_ppc],
+                      verbose = FALSE)
+    pairs.boot.cohensD.family[(i-1)*n.infants*3+(c-1)*3+3,
+                              `:=`(Family=cur.infant,
+                                   dist_type="ppc",
+                                    cohensD=temp_D[[1]])]
+  }
+  if ((i %% 10)==0){
+    setTxtProgressBar(pb, i)
+  }
+}
+close(pb)
+# Save estimations
+fwrite(pairs.boot.median.family,"Data_Analysis/Analysis_Edinburgh/pairs_median_family.csv")
+fwrite(pairs.boot.cohensD.family,"Data_Analysis/Analysis_Edinburgh/pairs_cohensD_family.csv")
+```
+
+```{r load-estimation}
+pairs.boot.median.all=fread("Data_Analysis/Analysis_Edinburgh/pairs_median_all.csv")
+pairs.boot.median.family=fread("Data_Analysis/Analysis_Edinburgh/pairs_median_family.csv")
+pairs.boot.cohensD.all=fread("Data_Analysis/Analysis_Edinburgh/pairs_cohensD_all.csv")
+pairs.boot.cohensD.family=fread("Data_Analysis/Analysis_Edinburgh/pairs_cohensD_family.csv")
+```
+
+```{r compare-median-emotion}
+# 1A. (within- vs. between blocks) * (I-C pair) for whole dataset ----
+pairs.boot.median.all[type2=="I-C pair"] %>%
+# sample.pairs[type2=="I-C pair"] %>%
+  ggplot(aes(type1,
+             (dist_1+dist_2+dist_3+dist_4+dist_5)/5,
+             fill=type1))+
+  stat_eye(point_interval = "mean_qi",
+           n = 1000,
+           .width = c(0.95),
+           size = 1)+
+  scale_y_continuous(name="Difference of Vocal Emotions",)+
+  scale_x_discrete(name=NULL,
+                   labels=c("Pseudo Interactions",
+                            "Real Interactions"))+
+  scale_fill_manual(name = NULL,
+                    guide = "none",
+                    values = c("grey80","#70AD47"))+ # 
+  # labs(caption = '(a). Comparison for the whole data set (p < .001)')+
+  theme_bw()+
+  theme(plot.caption = element_text(size = 12, hjust = 0.5),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12)) -> p.1A
+p.1A
+ggsave("Data_Analysis/Analysis_Edinburgh/emotion_median_1A.pdf",p.1A,width = 4.5,height = 6)
+
+# 1B. (within- vs. between blocks) * (I-C pair) for each family----
+cbind(pairs.boot.median.family[type1=="within-block"&type2=="I-C pair",1],
+      pairs.boot.median.family[type1=="within-block"&type2=="I-C pair",dist_e]-
+        pairs.boot.median.family[type1=="between-blocks"&type2=="I-C pair",dist_e]) %>%
+  ggplot()+
+  aes(V2,
+      reorder(child,V2),
+      fill=stat(abs(x<0)))+
+  geom_vline(aes(xintercept=0), linetype=2)+
+  stat_halfeye(point_interval = "mean_qi",
+               n = 1000,
+               .width = c(0.998),
+               size = 0.5)+ # correct multiple comparison by Bonferroni method
+  scale_x_continuous(name = "Difference in Real Interactions - in Pseudo Interactions")+
+  scale_y_discrete(name="Family",breaks=NULL)+
+  scale_fill_gradient(low = "gray85",
+                      high = "#70AD47",
+                      guide = "none")+
+  # labs(caption = expression('(b). Comparison for each family (individual '~alpha~' = .002)'))+
+  theme_bw()+
+  theme(plot.caption = element_text(size = 12, hjust = 0.5),
+        axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12)) -> p.1B
+p.1B
+ggsave("Data_Analysis/Analysis_Edinburgh/emotion_median_1B.pdf",p.1B,width = 4.5,height = 3)
+
+p.1 = p.1A / p.1B
+ggsave("Data_Analysis/Analysis_Edinburgh/emotion_median_1.pdf",p.1,width = 6,height = 8)
+
+# 2A. (within-block) * (I-I vs. C-C pars) for whole data set----
+pairs.boot.median.all[type1=="within-block" &
+                        type2!="I-C pair"] %>%
+  ggplot(aes(type2,
+             dist_e,
+             fill=type2))+
+  stat_eye(point_interval = "mean_qi",
+           n = 1000,
+           .width = c(0.95),
+           size = 1)+
+  scale_x_discrete(name =NULL,labels=c("Caregiver","Infant"))+
+  scale_y_continuous("Variability in Vocal Emotions")+
+  scale_fill_manual(name = NULL,
+                    values = c("#4472C4","#ED7D31"),
+                    guide = "none")+
+  # labs(caption = '(a). Comparison for the whole data set (p < .001)')+
+  theme_bw()+
+  theme(plot.caption = element_text(size = 12, hjust = 0.5),
+        axis.text.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12)) -> p.2A
+p.2A
+ggsave("Data_Analysis/Analysis_Edinburgh/emotion_median_2A.pdf",p.2A,width = 4.5,height = 6)
+
+# 2B. (within-block) * (I-I vs. C-C pars) for each family----
+cbind(pairs.boot.median.family[type1=="within-block"&type2=="I-I pair",1],
+      pairs.boot.median.family[type1=="within-block"&type2=="I-I pair",dist_e]-
+        pairs.boot.median.family[type1=="between-blocks"&type2=="C-C pair",dist_e]) %>%
+  ggplot(aes(dist_e,
+             reorder(Family,dist_e),
+             fill=stat(abs(x<0))))+
+  geom_vline(xintercept = 0,linetype=2)+
+  stat_halfeye(point_interval = "mean_qi",
+               n = 1000,
+               .width = c(0.998),
+               size = 0.5)+
+  scale_x_continuous(name = "Variability  of Infant - Variability of Caregiver")+
+  scale_y_discrete(name="Family",breaks=NULL)+
+  scale_fill_gradient(low = "gray85",
+                      high = "skyblue",
+                      guide = "none")+
+  labs(caption = expression('(b). Comparison for each family (individual '~alpha~' = .002)'))+
+  theme_bw()+
+  theme(plot.caption = element_text(size = 12, hjust = 0.5),
+        axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12)) -> p.2B
+p.2B
+ggsave("Data_Analysis/Analysis_Edinburgh/emotion_median_2B.pdf",p.2B,width = 4.5,height = 3)
+
+p.2 = p.2A / p.2B
+ggsave("Data_Analysis/Analysis_Edinburgh/emotion_median_2.pdf",p.2,width = 6,height = 8)
+
+# 3. (within-block) * (CC ~ AA pairs) across families----
+copy(pairs.boot.median.family[type1=="within-block" & type2!="I-C pair"]) %>%
+  .[,.(dist_mean=mean(dist_e),
+       dist_min=quantile(dist_e,probs = c(.002)),
+       dist_max=quantile(dist_e,probs = c(.998))),
+    by=.(child,type2)] %>%
+  .[,type2:=ifelse(type2=="I-I pair","CC","AA")] %>%
+  dcast(.,
+        child ~type2,
+        value.var = c("dist_mean","dist_min","dist_max")) %>%
+  ggplot(aes(dist_mean_AA,
+             dist_mean_CC))+
+  scale_x_continuous(name = "Variability in Caregiver Vocal Emotions")+
+  scale_y_continuous(name = "Variability in Infant Vocal Emotions")+
+  # geom_abline(slope = 1,linetype=2)+
+  geom_smooth(method="lm",color="black")+
+  # I tried to display the confidence interval of both I-I pairs and C-C pairs, but it's so ugly...
+  # geom_linerange(aes(xmin=dist_min_AA,xmax=dist_max_AA),color="grey80",linewidth=0.5)+
+  # geom_linerange(aes(ymin=dist_min_CC,ymax=dist_max_CC),color="skyblue")+
+  geom_point()+
+  annotate(geom="text",x=0.55,y=0.87,label=expression("Pearson's "~italic(r)~" = .56"),size=5,hjust=0)+
+  annotate(geom="text",x=0.55,y=0.83,label=expression(italic(p)~" = .003"),size=5,hjust=0)+
+  annotate(geom="text",x=0.85,y=0.52,label="(25 families)",size=4)+
+  coord_fixed()+
+  theme_bw()+
+  theme(axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12)) -> p.3 # Pearson's r = .56, p = .003
+p.3
+ggsave("Data_Analysis/Analysis_Edinburgh/emotion_median_3.pdf",p.3,width = 8,height = 8,units = "cm")
+
+```
+
+```{r compare-dist-across-domains}
+sample.pairs[type1=="within-block",
+             .(cor.r=cor.test(distance_e,distance_ppc)$estimate,
+               cor.p=cor.test(distance_e,distance_ppc)$p.value,
+               cor.Z=FisherZ(cor.test(distance_e,distance_ppc)$estimate)),
+             by=.(infant,type2)] %>%
+  as.data.table %>%
+  .[,"Type":="family"]->a
+a %>%
+  group_by(type2) %>%
+  summarise(infant="average",
+            cor.r=CorCI(FisherZInv(mean(cor.Z)),1000)[1],
+            cor.p=NA,
+            cor.Z=mean(cor.Z),
+            Type="average") %>%
+  as.data.table -> b
+a %>%
+  group_by(type2) %>%
+  summarise(mean.corZ = t.test(cor.Z)$estimate[1],
+            t.value = t.test(cor.Z)$statistic[1],
+            df = t.test(cor.Z)$parameter[1],
+            SE = t.test(cor.Z)$stderr,
+            p.value = t.test(cor.Z)$p.value,
+            mean.rho = FisherZInv(t.test(cor.Z)$estimate[1]),
+            lwr.rho = FisherZInv(t.test(cor.Z)$conf.int[1]),
+            upr.rho = FisherZInv(t.test(cor.Z)$conf.int[2])) %>%
+  as.data.table -> c
+list(individual.rs = a,
+     average.rs = b,
+     t.test = c) -> FisherCor
+rm(a,b,c)
+FisherCor[[3]] %>%
+  .[,signif:=""] %>%
+  .[p.value<.01,signif:="**"] %>%
+  .[p.value<.001,signif:="***"] -> domain.corr
+p.domain.corr = ggplot(domain.corr[type2!="I-C pair"], aes(factor(type2), mean.rho))+
+  geom_col(fill="lightgrey", color="black")+ #show mean
+  geom_jitter(data=FisherCor[["individual.rs"]][type2!="I-C pair"],
+              aes(x=factor(type2),y=cor.r,color=infant),
+              alpha=0.7,width = 0.15,size=1)+ #show samples
+  # geom_text(aes(y=0.75, label=signif), colour="black", size = 2)+
+  geom_errorbar(aes(ymin=lwr.rho, ymax=upr.rho), color="black",width=0.2)+ #show CI
+  scale_color_viridis_d(name = "Families",option = "cividis")+
+  scale_x_discrete(name="Distance of Sample Pairs",labels=c("Caregiver","Infant"))+
+  scale_y_continuous(name="Correlation Coefficient")+#)+#limits = c(-0.75,NA),
+  guides(color=guide_legend(override.aes=list(shape=15,alpha=1)))+
+  theme_classic()+
+  theme(legend.position="none",
+        title = element_text(family = "Helvetica",size=6),
+        text = element_text(family = "Helvetica",size=6))
+p.domain.corr
+ggsave("Data_Analysis/Analysis_Edinburgh/domain_corr.pdf",p.domain.corr,width = 8,height = 4,units = "cm")
+```
+
+```{r compare-median-across-domains}
+
+# 1. (within- vs. between blocks) * (I-C pair) for whole dataset ----
+pairs.boot.median.all[type2=="I-C pair"] %>%
+  ggplot(aes(type1,
+             dist_p,
+             fill=type1))+
+  stat_eye(point_interval = "mean_qi",
+           n = 1000,
+           .width = c(0.95),
+           size = 1)+
+  scale_y_continuous(name="Difference of Prosody Features",)+
+  scale_x_discrete(name=NULL,
+                   labels=c("Pseudo\nInteractions",
+                            "Real\nInteractions"))+
+  scale_fill_manual(name = NULL,
+                    guide = "none",
+                    values = c("grey80","skyblue"))+
+  # labs(caption = '(a). Comparison for the whole data set (p < .001)')+
+  theme_bw()+
+  theme(plot.caption = element_text(size = 15, hjust = 0.5),
+        axis.text.x = element_text(size = 15),
+        axis.title.y = element_text(size = 15)) -> p.1A
+
+pairs.boot.median.all[type2=="I-C pair"] %>%
+  ggplot(aes(type1,
+             dist_ppc,
+             fill=type1))+
+  stat_eye(point_interval = "mean_qi",
+           n = 1000,
+           .width = c(0.95),
+           size = 1)+
+  scale_y_continuous(name="Difference of Prosody PCs",)+
+  scale_x_discrete(name=NULL,
+                   labels=c("Pseudo\nInteractions",
+                            "Real\nInteractions"))+
+  scale_fill_manual(name = NULL,
+                    guide = "none",
+                    values = c("grey80","skyblue"))+
+  # labs(caption = '(a). Comparison for the whole data set (p < .001)')+
+  theme_bw()+
+  theme(plot.caption = element_text(size = 15, hjust = 0.5),
+        axis.text.x = element_text(size = 15),
+        axis.title.y = element_text(size = 15)) -> p.1B
+
+pairs.boot.median.all[type2=="I-C pair"] %>%
+  ggplot(aes(type1,
+             dist_e,
+             fill=type1))+
+  stat_eye(point_interval = "mean_qi",
+  # point_interval(.point = "mean",
+           n = 1000,
+           .width = c(0.95),
+           size = 1)+
+  scale_y_continuous(name="Difference of Estimated Emotions",)+
+  scale_x_discrete(name=NULL,
+                   labels=c("Pseudo\nInteractions",
+                            "Real\nInteractions"))+
+  scale_fill_manual(name = NULL,
+                    guide = "none",
+                    values = c("grey80","skyblue"))+
+  # labs(caption = '(a). Comparison for the whole data set (p < .001)')+
+  theme_bw()+
+  theme(plot.caption = element_text(size = 15, hjust = 0.5),
+        axis.text.x = element_text(size = 15),
+        axis.title.y = element_text(size = 15)) -> p.1C
+
+p.1 = p.1B | p.1C
+ggsave("Data_Analysis/Analysis_Edinburgh/all_median_1.pdf",p.1,width = 8,height = 4)
+
+# 2. (within-block) * (CC or AA pairs) at family level ----
+pairs.boot.median.family[type1=="within-block" & type2!="I-C pair"] %>%
+  .[,.(p_mean=mean(dist_p),
+       ppc_mean=mean(dist_ppc),
+       e_mean=mean(dist_e)),
+    by=.(child,type2)] %>%
+  .[,type2:=ifelse(type2=="I-I pair","CC","AA")] %>%
+  dcast(.,
+        child ~type2,
+        value.var = c("p_mean","ppc_mean","e_mean")) %>%
+  .[,2:7] %>%
+  cor() -> variability.corr
+
+pairs.boot.median.family[type1=="within-block" & type2!="I-C pair"] %>%
+  .[,.(p_mean=mean(dist_p),
+       ppc_mean=mean(dist_ppc),
+       e_mean=mean(dist_e)),
+    by=.(child,type2)] %>%
+  .[,type2:=ifelse(type2=="I-I pair","CC","AA")] %>%
+  dcast(.,
+        child ~type2,
+        value.var = c("p_mean","ppc_mean","e_mean")) %>%
+  .[,2:7] %>%
+  cor_pmat() -> variability.corr.p
+
+ggcorrplot(variability.corr, p.mat=variability.corr.p,
+           lab=TRUE)+
+  scale_x_discrete(name=NULL,
+                   limits = c('p_mean_AA','p_mean_CC',
+                              'ppc_mean_AA','ppc_mean_CC',
+                              'e_mean_AA','e_mean_CC'),
+                   labels=c("Prosody Features (Caregiver)","Prosody Features (Infant)",
+                            "Prosody PCs (Caregiver)","Prosody PCs (Infant)",
+                            "Estimated Affects (Caregiver)","Estimated Affects (Infant)"))+
+  scale_y_discrete(name=NULL,
+                   limits = c('p_mean_AA','p_mean_CC',
+                              'ppc_mean_AA','ppc_mean_CC',
+                              'e_mean_AA','e_mean_CC'),
+                   labels=c("Prosody Features (Caregiver)","Prosody Features (Infant)",
+                            "Prosody PCs (Caregiver)","Prosody PCs (Infant)",
+                            "Estimated Affects (Caregiver)","Estimated Affects (Infant)"))+
+  theme(plot.caption = element_text(size = 17, hjust = 0.5),
+        axis.text = element_text(size = 17),
+        axis.title.y = element_text(size = 17)) -> p.2
+
+ggsave("Data_Analysis/Analysis_Edinburgh/all_median_2.pdf",p.2,width = 8,height = 8)
+
+```
+
+```{r compare-cohensD-across-domains}
+# 1. for whole dataset ----
+pairs.boot.cohensD.all[dist_type!="p"] %>%
+  .[,.(d_mean = -mean(cohensD),
+       d_max = -quantile(cohensD,probs=c(.025)),
+       d_min = -quantile(cohensD,probs=c(.975))),
+    by=.(dist_type)] %>%
+  ggplot(aes(dist_type,
+             d_mean))+
+  geom_col()+
+  geom_errorbar(aes(ymin=d_min,ymax=d_max),width=0.3)+
+  scale_y_continuous(name="Difference in Pseudo - Real Interactions\n(Cohen's D)",)+
+  scale_x_discrete(name=NULL,
+                   limits = c('ppc','e'),
+                   labels=c("Prosody Domain",
+                            "Emotion Domain"))+
+  # scale_fill_viridis_d(name = NULL,
+  #                      guide = "none",
+  #                      begin = 0.3, end = 1)+
+  # labs(caption = '(a) Comparison for the whole data set (p < .001)')+
+  theme_bw()+
+  theme(plot.caption = element_text(size = 17, hjust = 0.5),
+        axis.text = element_text(size = 17),
+        axis.title.y = element_text(size = 17)) -> p.1
+
+ggsave("Data_Analysis/Analysis_Edinburgh/all_cohensD_1.pdf",p.1,width = 10,height = 5)
+
+# 2. across families ----
+pairs.boot.cohensD.family %>%
+  .[,.(d_mean=mean(cohensD)),
+    by=.(Family,dist_type)] %>%
+  dcast(.,
+        Family ~ dist_type,
+        value.var = c("d_mean")) %>%
+  ggplot(aes(ppc,
+             e))+
+  scale_x_continuous(name = "Prosody Alignment (Cohen's D)")+
+  scale_y_continuous(name = "Emotion Alignment (Cohen's D)")+
+  geom_smooth(method="lm",color="black")+
+  geom_point()+
+  annotate(geom="text",x=-0.15,y=0.06,label=expression("Pearson's "~italic(r)~" = .42"),size=5,hjust=0)+
+  annotate(geom="text",x=-0.15,y=0.05,label=expression(italic(p)~" = .037"),size=5,hjust=0)+
+  annotate(geom="text",x=-0.15,y=0.04,label="(25 families)",size=4,hjust=0)+
+  coord_fixed()+
+  theme_bw()+
+  theme(axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12)) -> p.cohen.corr
+p.cohen.corr
+ggsave("Data_Analysis/Analysis_Edinburgh/cohensD_corr.pdf",p.cohen.corr,width = 8,height = 4)
+
+
+
+pairs.boot.cohensD.family %>%
+  .[,.(d_mean=mean(cohensD)),
+    by=.(Family,dist_type)] %>%
+  dcast(.,
+        Family ~ dist_type,
+        value.var = c("d_mean")) %>%
+  .[,2:4] %>%
+  cor() -> cohensD.corr
+
+pairs.boot.cohensD.family %>%
+  .[,.(d_mean=mean(cohensD)),
+    by=.(Family,dist_type)] %>%
+  dcast(.,
+        Family ~ dist_type,
+        value.var = c("d_mean")) %>%
+  .[,2:4] %>%
+  cor_pmat -> cohensD.corr.p
+
+ggcorrplot(cohensD.corr, p.mat=cohensD.corr.p,
+           lab=TRUE)+
+  scale_x_discrete(name=NULL,
+                   limits = c('p','ppc','e'),
+                   labels=c("Prosody Features",
+                            "Prosody PCs",
+                            "Estimated Affects"))+
+  scale_y_discrete(name=NULL,
+                   limits = c('p','ppc','e'),
+                   labels=c("Prosody Features",
+                            "Prosody PCs",
+                            "Estimated Affects"))+
+  theme(plot.caption = element_text(size = 17, hjust = 0.5),
+        axis.text = element_text(size = 17),
+        axis.title.y = element_text(size = 17)) -> p.2
+
+ggsave("Data_Analysis/Analysis_Edinburgh/all_cohensD_2.pdf",p.2,width = 5,height = 5)
+
+```
+
+The results showed that infant and caregivers in the same conversation block expressed their emotions more similarly (than in different conversation blocks).
+
+## Foraging Effect
+
+Since infant and caregivers exhibit relatively more similar emotional expressions during conversational interactions, we wonder how this (dis)similarity would change over time. Specifically, do emotional dissimilarities between time-adjacent sample pairs within a conversation block decrease over time?
+
+To investigate this question, we first find all the time-adjacent infant-caregiver sample pairs, i.e., infant-caregiver switches. A switch is identified if the pause between a infant's utterance and a caregiver's utterance was shorter than one second:
+
+```{r find-switches, eval=FALSE, include=FALSE}
+# function to find infant-caregiver switches
+find_switch <- function(block_data){
+  # get block information
+  cur_infant = block_data$infant[1]
+  cur_file_id = block_data$file_id[1]
+  cur_block = block_data$block[1]
+  # sort the data by start time
+  sorted_data <- block_data[order(block_data$start_time),]
+  # initialize the switch number
+  sample.switches = data.table()
+  switch_num <- 0
+  # loop through each row and determine the switch number
+  # A switch is identified if the pause between a infant's utterance and a caregiver's utterance was shorter than 3 seconds.
+  for (i in 2:nrow(sorted_data)){
+    if (((sorted_data[i,start_time] - sorted_data[i-1,end_time]) <= 3000) &
+        (sorted_data[i,speaker_type] != sorted_data[i-1,speaker_type])) {
+      switch_num = switch_num+1
+      sample.switches = rbindlist(list(sample.switches,
+                                       list(infant = cur_infant,
+                                            file_id = cur_file_id,
+                                            block = cur_block,
+                                            No_in_block = switch_num,
+                                            sample1_row = which(sample.label$infant == cur_infant &
+                                                                  sample.label$file_id == cur_file_id &
+                                                                  sample.label$block == cur_block &
+                                                                  sample.label$end_time == sorted_data[i-1,end_time]),
+                                            sample1_speaker = sorted_data[i-1,speaker],
+                                            sample1_speaker_type = sorted_data[i-1,speaker_type],
+                                            sample1_end_time = sorted_data[i-1,end_time],
+                                            sample2_row = which(sample.label$infant == cur_infant &
+                                                                  sample.label$file_id == cur_file_id &
+                                                                  sample.label$block == cur_block &
+                                                                  sample.label$start_time == sorted_data[i,start_time]),
+                                            sample2_speaker = sorted_data[i,speaker],
+                                            sample2_speaker_type = sorted_data[i,speaker_type],
+                                            sample2_start_time = sorted_data[i,start_time])))
+    }
+  }
+  # create a new column to store the switch type
+  if (length(sample.switches)!=0){
+    sample.switches[,"switch_type":= paste0(sample1_speaker_type,"-initialized")]
+  }
+  return(sample.switches)
+}
+
+# define switches for each block
+sample.label %>%
+  split(., by=c("infant","file_id","block")) %>%
+  lapply(., find_switch) %>%
+  rbindlist() -> sample.switches
+
+# load switch similarities by sample information
+index.switches = numeric(nrow(sample.switches))
+for (i in c(1:nrow(sample.switches))) {
+  if (sample.switches[i,sample1_speaker_type=="Infant"]) {
+    # infant-initialized switch
+    index.switches[i] = sample.pairs[,which(sample1_row==sample.switches$sample1_row[i] &
+                                              sample2_row==sample.switches$sample2_row[i])]
+  } else {
+    # caregiver-initialized switch
+    index.switches[i] = sample.pairs[,which(sample1_row==sample.switches$sample2_row[i] &
+                                              sample2_row==sample.switches$sample1_row[i])]
+  }
+}
+sample.switches[,`:=`(distance_1 = sample.pairs[index.switches,distance_1],
+                      distance_2 = sample.pairs[index.switches,distance_2],
+                      distance_3 = sample.pairs[index.switches,distance_3],
+                      distance_4 = sample.pairs[index.switches,distance_4],
+                      distance_5 = sample.pairs[index.switches,distance_5])]
+
+# save result
+fwrite(sample.switches,"Data_Analysis/Analysis_Edinburgh/sample_switches.csv")
+```
+
+```{r load-switches, echo=FALSE, include=FALSE}
+# load sample switches
+sample.switches <- fread("Data_Analysis/Analysis_Edinburgh/sample_switches.csv")
+```
+
+Then we use the `No_in_block` and (`sample1_end_time`+`sample2_start_tiem`)/2 as the relative and absolute time variables to conduct rank correlation.
+
+```{r rank-correlation, echo=FALSE}
+switches.corr = list(All=data.table(),
+                     Infant.initialized=data.table(),
+                     Caregiver.initialized=data.table(),
+                     by.infant=list())
+sample.switches[,.(No_dist1 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist2 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist3 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist4 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist5 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      time_dist1 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$estimate,
+                                                                           NA_real_),
+                                                      time_dist2 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$estimate,
+                                                                           NA_real_),
+                                                      time_dist3 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$estimate,
+                                                                           NA_real_),
+                                                      time_dist4 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$estimate,
+                                                                           NA_real_),
+                                                      time_dist5 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$estimate,
+                                                                           NA_real_))] -> switches.corr$All
+sample.switches[switch_type=="Infant-initialized",.(No_dist1 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist2 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist3 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist4 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist5 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      time_dist1 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$estimate,
+                                                                           NA_real_),
+                                                      time_dist2 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$estimate,
+                                                                           NA_real_),
+                                                      time_dist3 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$estimate,
+                                                                           NA_real_),
+                                                      time_dist4 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$estimate,
+                                                                           NA_real_),
+                                                      time_dist5 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$estimate,
+                                                                           NA_real_))] -> switches.corr$Infant.initialized
+sample.switches[switch_type=="Caregiver-initialized",.(No_dist1 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist2 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist3 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist4 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist5 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      time_dist1 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$estimate,
+                                                                           NA_real_),
+                                                      time_dist2 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$estimate,
+                                                                           NA_real_),
+                                                      time_dist3 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$estimate,
+                                                                           NA_real_),
+                                                      time_dist4 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$estimate,
+                                                                           NA_real_),
+                                                      time_dist5 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$estimate,
+                                                                           NA_real_))] -> switches.corr$Caregiver.initialized
+sample.switches[,.(No_dist1 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                      cor.test(No_in_block,distance_1)$estimate,
+                                      NA_real_),
+                      No_dist2 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                         cor.test(No_in_block,distance_1)$estimate,
+                                         NA_real_),
+                      No_dist3 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                         cor.test(No_in_block,distance_1)$estimate,
+                                         NA_real_),
+                      No_dist4 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                         cor.test(No_in_block,distance_1)$estimate,
+                                         NA_real_),
+                      No_dist5 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                         cor.test(No_in_block,distance_1)$estimate,
+                                         NA_real_),
+                      time_dist1 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$p.value<.05,
+                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$estimate,
+                                           NA_real_),
+                      time_dist2 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$p.value<.05,
+                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$estimate,
+                                           NA_real_),
+                      time_dist3 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$p.value<.05,
+                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$estimate,
+                                           NA_real_),
+                      time_dist4 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$p.value<.05,
+                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$estimate,
+                                           NA_real_),
+                      time_dist5 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$p.value<.05,
+                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$estimate,
+                                           NA_real_)),
+                by=.(infant)] -> switches.corr$by.infant[["All"]]
+sample.switches[switch_type=="Infant-initialized",.(No_dist1 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist2 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist3 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist4 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist5 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      time_dist1 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$estimate,
+                                                                           NA_real_),
+                                                      time_dist2 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$estimate,
+                                                                           NA_real_),
+                                                      time_dist3 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$estimate,
+                                                                           NA_real_),
+                                                      time_dist4 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$estimate,
+                                                                           NA_real_),
+                                                      time_dist5 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$estimate,
+                                                                           NA_real_)),
+                by=.(infant)] -> switches.corr$by.infant[["Infant-initialized"]]
+sample.switches[switch_type=="Caregiver-initialized",.(No_dist1 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist2 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist3 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist4 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      No_dist5 = fifelse(cor.test(No_in_block,distance_1)$p.value<.05,
+                                                                         cor.test(No_in_block,distance_1)$estimate,
+                                                                         NA_real_),
+                                                      time_dist1 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_1)$estimate,
+                                                                           NA_real_),
+                                                      time_dist2 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_2)$estimate,
+                                                                           NA_real_),
+                                                      time_dist3 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_3)$estimate,
+                                                                           NA_real_),
+                                                      time_dist4 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_4)$estimate,
+                                                                           NA_real_),
+                                                      time_dist5 = fifelse(cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$p.value<.05,
+                                                                           cor.test((sample1_end_time+sample2_start_time)/2,distance_5)$estimate,
+                                                                           NA_real_)),
+                by=.(infant)] -> switches.corr$by.infant[["Caregiver-initialized"]]
+p.switch.1 = ggplot(sample.switches, aes(No_in_block, distance_1))+
+  geom_point()+
+  geom_smooth(method = "lm")+
+  facet_wrap(vars(infant))+
+  theme_bw()
+p.switch.1
+ggsave("Data_Analysis/Analysis_Edinburgh/switch_time_corr.pdf",p.switch.1)
+```
+
+However, there is no clear evidence supporting this hypothesis.
+
+## Initialized Effect
+
+As we have divided the switched into two parts: Infant-initialized and Caregiver-initialized, we also concern which type of switches is more similar. This comparison can reveal who plays a greater role in the similarity of emotional expressions between the two parties to the conversation. So we conduct bootstrap to examine the difference between two kinds of switches.
+
+```{r compare-switches, echo=FALSE}
+# Estimate the median difference for whole dataset
+k = 1000
+switches.boot.median.all = list(caregiver.initialized = data.table(dist1 = rep(NA_real_,k),
+                                                        dist2 = rep(NA_real_,k),
+                                                        dist3 = rep(NA_real_,k),
+                                                        dist4 = rep(NA_real_,k),
+                                                        dist5 = rep(NA_real_,k)),
+                             infant.initialized = data.table(dist1 = rep(NA_real_,k),
+                                                          dist2 = rep(NA_real_,k),
+                                                          dist3 = rep(NA_real_,k),
+                                                          dist4 = rep(NA_real_,k),
+                                                          dist5 = rep(NA_real_,k)),
+                             difference = data.table(dist1 = rep(NA_real_,k),
+                                                     dist2 = rep(NA_real_,k),
+                                                     dist3 = rep(NA_real_,k),
+                                                     dist4 = rep(NA_real_,k),
+                                                     dist5 = rep(NA_real_,k)))
+pb <- txtProgressBar(1,k,style = 3)
+for (i in c(1:k)){
+  cur.index = sample(c(1:nrow(sample.switches)),replace = T)
+  cur.median = sample.switches[cur.index,
+                            .(dist1 = median(distance_1),
+                              dist2 = median(distance_2),
+                              dist3 = median(distance_3),
+                              dist4 = median(distance_4),
+                              dist5 = median(distance_5)),
+                            by=switch_type]
+  switches.boot.median.all[[1]][i,1:5] = cur.median[switch_type=="Caregiver-initialized",2:6]
+  switches.boot.median.all[[2]][i,1:5] = cur.median[switch_type=="Infant-initialized",2:6]
+  if ((i %% 10)==0){
+    setTxtProgressBar(pb, i)
+  }
+}
+close(pb)
+switches.boot.median.all[[3]] = switches.boot.median.all[[1]] - switches.boot.median.all[[2]]
+
+# Visualize results
+rbind(switches.boot.median.all$infant.initialized,
+      switches.boot.median.all$caregiver.initialized) %>%
+  setnames(.,paste0("dist",c(1:5)),paste0("Model ",c(1:5))) %>%
+  cbind(.,data.table("switch_type"=c(rep("infant initialized",k),rep("caregiver initialized",k)))) %>%
+  melt(.,id.vars="switch_type",
+       measure.vars=c(1:5),
+       variable.name="Model",
+       value.name="dist") %>%
+  ggplot(.,aes(switch_type,
+               dist,
+               fill=switch_type,
+               group=Model))+
+  stat_halfeye()+
+  scale_y_continuous(name = "Bootstrap Estimate")+
+  scale_x_discrete(name = "", label = NULL)+
+  scale_fill_manual(name = "Switch Type",
+                    values = c("gray85","skyblue"))+
+  facet_wrap(vars(Model), scales = "free")+
+  theme_bw() -> p.switches.boot.median.all
+p.switches.boot.median.all
+ggsave("Data_Analysis/Analysis_Edinburgh/switches_difference.pdf",p.switches.boot.median.all)
+```
+
+However, there is no clear evidence supporting the main role of any party in the interaction.
