@@ -1,0 +1,396 @@
+@UTF8
+@PID:	11312/a-00047509-1
+@Window:	258_616_668_685_-1_-1_10727_0_10727_0
+@Begin
+@Languages:	eng
+@Participants:	BRO Brother, MOT Mother, CHI Alistair Target_Child
+@ID:	eng|Edinburgh|BRO||male|||Brother|||
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@ID:	eng|Edinburgh|CHI|0;09.04|male|||Target_Child|||
+@Date:	16-FEB-2014
+@Media:	alistair0904, audio, missing
+@Types:	long, toyplay, TD
+*MOT:	who's a clever baby ?
+%xmor:	pro:int|who~cop|be&3S det:art|a adj|clever n|baby ?
+%xgra:	1|2|LINK 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+%com:	big brother, George, is making noises in the background .
+*MOT:	can you sit up by yourself ?
+%xmor:	mod|can pro:per|you v|sit adv|up prep|by pro:refl|yourself ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|JCT 6|5|POBJ 7|3|PUNCT
+*MOT:	what a clever boy &=claps, who's clever Alistair ?
+%xmor:	pro:int|what det:art|a adj|clever n|boy cm|cm pro:rel|who~cop|be&3S
+	adj|clever n:prop|Alistair ?
+%xgra:	1|4|LINK 2|4|DET 3|4|MOD 4|0|INCROOT 5|4|LP 6|7|LINK 7|4|CMOD 8|7|PRED
+	9|7|PRED 10|4|PUNCT
+*MOT:	who's clever &=claps .
+%xmor:	pro:int|who~cop|be&3S adj|clever .
+%xgra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	are you a clever baby ?
+%xmor:	cop|be&PRES pro:per|you det:art|a adj|clever n|baby ?
+%xgra:	1|0|ROOT 2|1|PRED 3|5|DET 4|5|MOD 5|2|OM 6|1|PUNCT
+*MOT:	are you clever, is that your ball ?
+%xmor:	cop|be&PRES pro:per|you adj|clever cm|cm aux|be&3S comp|that
+	det:poss|your n|ball ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|PRED 4|3|LP 5|3|ENUM 6|5|PRED 7|8|DET 8|6|OBJ
+	9|1|PUNCT
+*MOT:	shall we bring your ball out ?
+%xmor:	mod|shall pro:sub|we v|bring det:poss|your n|ball adv|out ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|3|PUNCT
+*MOT:	look it's there !
+%xmor:	co|look pro:per|it~cop|be&3S n|there !
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*MOT:	look !
+%xmor:	co|look !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	oo:h .
+%xmor:	v|ooh .
+%xgra:	1|0|ROOT 2|1|PUNCT
+*MOT:	what's Alistair doing ?
+%xmor:	pro:int|what~aux|be&3S n:prop|Alistair part|do-PRESP ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	is he playing with his ball ?
+%xmor:	cop|be&3S pro:sub|he part|play-PRESP prep|with det:poss|his n|ball
+	?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|3|JCT 5|6|DET 6|4|POBJ 7|1|PUNCT
+*MOT:	that's right, it's got lights on it doesn't it ?
+%xmor:	pro:dem|that~cop|be&3S adv|right cm|cm pro:per|it~aux|be&3S
+	part|get&PASTP n|light-PL prep|on pro:per|it mod|do&3S~neg|not
+	pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|LP 5|7|SUBJ 6|7|AUX 7|2|CPRED 8|7|OBJ
+	9|7|JCT 10|13|SUBJ 11|13|AUX 12|11|NEG 13|9|POBJ 14|2|PUNCT
+*MOT:	that's it, can you press the buttons on the side Alistair like this
+	?
+%xmor:	pro:dem|that~cop|be&3S pro:per|it cm|cm mod|can pro:per|you v|press
+	det:art|the n|button-PL prep|on det:art|the n|side n:prop|Alistair
+	prep|like pro:dem|this ?
+%xgra:	1|2|SUBJ 2|7|SUBJ 3|2|PRED 4|2|LP 5|7|AUX 6|7|SUBJ 7|0|ROOT 8|9|DET
+	9|7|OBJ 10|7|JCT 11|12|DET 12|10|POBJ 13|7|OBJ 14|13|NJCT 15|14|POBJ
+	16|7|PUNCT
+*MOT:	look .
+%xmor:	co|look .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	&waa:r !
+*MOT:	+< can you press this ?
+%xmor:	mod|can pro:per|you v|press pro:dem|this ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	there we go .
+%xmor:	adv|there pro:sub|we v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	one caterpillar: .
+%xmor:	det:num|one n|caterpillar .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+%com:	mother is echoing speaking toy .
+*MOT:	is there a caterpillar on the side there ?
+%xmor:	cop|be&3S adv|there det:art|a n|caterpillar prep|on det:art|the
+	n|side adv|there ?
+%xgra:	1|0|ROOT 2|1|JCT 3|4|DET 4|1|PRED 5|4|NJCT 6|7|DET 7|5|POBJ 8|4|JCT
+	9|1|PUNCT
+*MOT:	what can you hear ?
+%xmor:	pro:int|what mod|can pro:per|you v|hear ?
+%xgra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	that sounds like a cat miaow@o [/] miaow@o doesn't it George ?
+%xmor:	det:dem|that v|sound-3S prep|like det:art|a n|cat on|miaow
+	mod|do&3S~neg|not pro:per|it n:prop|George ?
+%xgra:	1|2|DET 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|XJCT 7|9|AUX 8|7|NEG
+	9|6|OBJ 10|9|APP 11|2|PUNCT
+*MOT:	that sounds like a cat miaow@o [/] miaow@o .
+%xmor:	det:dem|that v|sound-3S prep|like det:art|a n|cat on|miaow .
+%xgra:	1|2|DET 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|ENUM 7|2|PUNCT
+*MOT:	you like that ball don't you Alistair ?
+%xmor:	pro:per|you v|like det:dem|that n|ball mod|do~neg|not pro:per|you
+	n:prop|Alistair ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|7|AUX 6|5|NEG 7|8|SUBJ 8|4|APP
+	9|2|PUNCT
+*MOT:	do you like the music ?
+%xmor:	mod|do pro:per|you v|like det:art|the n|music ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	you like suckin(g) it .
+%xmor:	pro:per|you v|like part|suck-PRESP pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|COMP 4|3|OBJ 5|2|PUNCT
+*MOT:	let's &s turn it off, look, let's sing a song .
+%xmor:	v|let~pro:obj|us v|turn pro:per|it adv|off cm|cm n|look cm|cm
+	v|let~pro:obj|us v|sing det:art|a n|song .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|OBJ 5|3|JCT 6|3|LP 7|3|ENUM 8|7|LP
+	9|3|ENUM 10|11|SUBJ 11|9|COMP 12|13|DET 13|11|OBJ 14|1|PUNCT
+*MOT:	little Peter_Rabbit had a fly upon his nose [=! singing] . [+ SNG]
+%xmor:	adj|little n:prop|Peter_Rabbit v|have&PAST det:art|a n|fly
+	prep|upon det:poss|his n|nose .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	little Peter_Rabbit had a fly upon his nose [=! singing] . [+ SNG]
+%xmor:	adj|little n:prop|Peter_Rabbit v|have&PAST det:art|a n|fly
+	prep|upon det:poss|his n|nose .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*BRO:	+< “little Peter_Rabbit had a fly on his ear” &=laughs . [+ SNG]
+%xmor:	adj|little n:prop|Peter_Rabbit v|have&PAST det:art|a n|fly prep|on
+	det:poss|his n|ear .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	oh no . [+ NAC]
+%xmor:	co|oh co|no .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	little Peter_Rabbit had a fly upon his nose so he flipped it and he
+	flopped it and the fly flew away [=! singing] . [+ SNG]
+%xmor:	adj|little n:prop|Peter_Rabbit v|have&PAST det:art|a n|fly
+	prep|upon det:poss|his n|nose co|so pro:sub|he v|flip-PAST
+	pro:per|it coord|and pro:sub|he v|flop-PAST pro:per|it coord|and
+	det:art|the n|fly v|fly&PAST adv|away .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|11|COM 10|11|SUBJ 11|3|CJCT 12|11|OBJ 13|15|LINK 14|15|SUBJ 15|11|CJCT
+	16|15|OBJ 17|20|LINK 18|19|DET 19|20|SUBJ 20|15|CJCT 21|20|JCT 22|3|PUNCT
+*BRO:	+< no [/] no . [+ NAC]
+%xmor:	co|no .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	floppy ears and curly whiskers [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*BRO:	+< “floppy ears (.) (whis)kers” .
+%xmor:	adj|flop&dv-Y n|ear-PL n|whisker-PL .
+%xgra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	floppy ears and curly whiskers [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*BRO:	+< “floppy xxx whiskers” .
+%xmor:	adj|flop&dv-Y n|whisker-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	floppy ears and curly whiskers so he flipped it and he flopped it
+	and the fly flew away [=! singing] ! [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL conj|so
+	pro:sub|he v|flip-PAST pro:per|it coord|and pro:sub|he v|flop-PAST
+	pro:per|it coord|and det:art|the n|fly v|fly&PAST adv|away !
+%xgra:	1|2|MOD 2|13|SUBJ 3|2|CONJ 4|5|MOD 5|3|COORD 6|8|LINK 7|8|SUBJ 8|2|CJCT
+	9|8|OBJ 10|12|LINK 11|12|SUBJ 12|2|CJCT 13|0|ROOT 14|17|LINK 15|16|DET
+	16|17|SUBJ 17|13|CJCT 18|17|JCT 19|13|PUNCT
+*BRO:	(.) “whiskers (.) away” .
+%xmor:	n|whisker-PL adv|away .
+%xgra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*BRO:	and the fly flew away !
+%xmor:	coord|and det:art|the n|fly v|fly&PAST adv|away !
+%xgra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|4|PUNCT
+%com:	brother is screaming this .
+*MOT:	little Peter_Rabbit had a fly upon his nose [=! singing] . [+ SNG]
+%xmor:	adj|little n:prop|Peter_Rabbit v|have&PAST det:art|a n|fly
+	prep|upon det:poss|his n|nose .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	little Peter_Rabbit had a fly upon his nose [=! singing] . [+ SNG]
+%xmor:	adj|little n:prop|Peter_Rabbit v|have&PAST det:art|a n|fly
+	prep|upon det:poss|his n|nose .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	little Peter_Rabbit had a fly upon his nose so he flipped it and he
+	flopped it and the fly flew away [=! singing] . [+ SNG]
+%xmor:	adj|little n:prop|Peter_Rabbit v|have&PAST det:art|a n|fly
+	prep|upon det:poss|his n|nose co|so pro:sub|he v|flip-PAST
+	pro:per|it coord|and pro:sub|he v|flop-PAST pro:per|it coord|and
+	det:art|the n|fly v|fly&PAST adv|away .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|11|COM 10|11|SUBJ 11|3|CJCT 12|11|OBJ 13|15|LINK 14|15|SUBJ 15|11|CJCT
+	16|15|OBJ 17|20|LINK 18|19|DET 19|20|SUBJ 20|15|CJCT 21|20|JCT 22|3|PUNCT
+*MOT:	floppy ears and curly whiskers [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*MOT:	floppy ears and curly whiskers [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*MOT:	floppy ears and curly whiskers so he flipped it and he flopped it
+	and the fly flew away [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL conj|so
+	pro:sub|he v|flip-PAST pro:per|it coord|and pro:sub|he v|flop-PAST
+	pro:per|it coord|and det:art|the n|fly v|fly&PAST adv|away .
+%xgra:	1|2|MOD 2|13|SUBJ 3|2|CONJ 4|5|MOD 5|3|COORD 6|8|LINK 7|8|SUBJ 8|2|CJCT
+	9|8|OBJ 10|12|LINK 11|12|SUBJ 12|2|CJCT 13|0|ROOT 14|17|LINK 15|16|DET
+	16|17|SUBJ 17|13|CJCT 18|17|JCT 19|13|PUNCT
+*MOT:	yay, &=claps, was that a nice song ?
+%xmor:	co|yay cm|cm cm|cm cop|be&PAST&13S pro:rel|that det:art|a adj|nice
+	n|song ?
+%xgra:	1|0|INCROOT 2|1|LP 3|1|LP 4|1|ENUM 5|8|LINK 6|8|DET 7|8|MOD 8|4|PRED
+	9|1|PUNCT
+*MOT:	was it a nice song ?
+%xmor:	cop|be&PAST&13S pro:per|it det:art|a adj|nice n|song ?
+%xgra:	1|0|ROOT 2|1|PRED 3|5|DET 4|5|MOD 5|2|OM 6|1|PUNCT
+*MOT:	clap, <clever boy clapping> [/] &=claps clever boy clapping .
+%xmor:	n|clap cm|cm adj|clever n|boy part|clap-PRESP .
+%xgra:	1|0|INCROOT 2|1|LP 3|4|MOD 4|1|ENUM 5|4|XMOD 6|1|PUNCT
+*MOT:	what other songs shall we sing to Alistair ? [+ NAC]
+%xmor:	pro:int|what qn|other n|song-PL mod|shall pro:sub|we v|sing prep|to
+	n:prop|Alistair ?
+%xgra:	1|3|LINK 2|3|QUANT 3|6|SUBJ 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|JCT 8|7|POBJ
+	9|6|PUNCT
+*BRO:	um <baa_baa black sheep> [//] baa_baa pink sheep. [+ NAC]
+%xmor:	co|um on|baa&DUP adj|pink n|sheep .
+%xgra:	1|4|COM 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*BRO:	Mummy baa@o +/. [+ NAC]
+%xmor:	n:prop|Mummy on|baa +/.
+%xgra:	1|2|SUBJ 2|0|INCROOT 3|2|PUNCT
+*MOT:	baa_baa pink sheep have you any wool [=! singing] . [+ SNG]
+%xmor:	on|baa&DUP adj|pink n|sheep v|have pro:per|you qn|any n|wool .
+%xgra:	1|4|LINK 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|OBJ2 6|7|QUANT 7|4|OBJ 8|4|PUNCT
+*MOT:	<yes sir> [/] yes sir three bags full [=! singing ] . [+ SNG]
+%xmor:	co|yes n|sir det:num|three n|bag-PL adj|full .
+%xgra:	1|4|COM 2|4|MOD 3|4|QUANT 4|0|INCROOT 5|4|POSTMOD 6|4|PUNCT
+*CHI:	+< &=babbles .
+*BRO:	+< I got an idea how about xxx ? [+ NAC]
+%xmor:	pro:sub|I v|get&PAST det:art|a n|idea pro:rel|how adv|about ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|CONJ 6|5|JCT 7|2|PUNCT
+*BRO:	parrots xxx sing with parrots . [+ NAC]
+%xmor:	n|parrot-PL v|sing prep|with n|parrot-PL .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*MOT:	you want to sing the pirate song ? [+ NAC]
+%xmor:	pro:per|you v|want inf|to v|sing det:art|the n|pirate n|song ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|7|DET 6|7|MOD 7|4|OBJ 8|2|PUNCT
+*BRO:	parrot song . [+ NAC]
+%xmor:	n|parrot n|song .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	+< the parrot song ? [+ NAC]
+%xmor:	det:art|the n|parrot n|song ?
+%xgra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*BRO:	yeah . [+ NAC]
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+< how do you sing the parrot song ? [+ NAC]
+%xmor:	pro:int|how mod|do pro:per|you v|sing det:art|the n|parrot n|song ?
+%xgra:	1|4|JCT 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|7|DET 6|7|MOD 7|4|OBJ 8|4|PUNCT
+*MOT:	can you sing it (be)cause Mummy doesn't know the words darling ?
+	[+ NAC]
+%xmor:	mod|can pro:per|you v|sing pro:per|it conj|because n:prop|Mummy
+	mod|do&3S~neg|not v|know det:art|the n|word-PL co|darling ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|9|LINK 6|9|SUBJ 7|9|AUX 8|7|NEG
+	9|3|CJCT 10|11|DET 11|9|OBJ 12|9|COM 13|3|PUNCT
+*BRO:	xxx . [+ NAC]
+*BRO:	xxx o:h ! [+ NAC]
+%xmor:	co|oh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	I don't know the words . [+ NAC]
+%xmor:	pro:sub|I mod|do~neg|not v|know det:art|the n|word-PL .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*MOT:	+< oh well let's sing Baa_Baa_Black_Sheep just now . [+ NAC]
+%xmor:	co|oh co|well v|let~pro:obj|us v|sing n:prop|Baa_Baa_Black_Sheep
+	adv|just adv:tem|now .
+%xgra:	1|3|COM 2|3|COM 3|0|ROOT 4|3|OBJ 5|3|COMP 6|5|OBJ 7|8|JCT 8|5|JCT
+	9|3|PUNCT
+*MOT:	baa_baa black sheep have you any wool [=! singing] ? [+ SNG]
+%xmor:	on|baa&DUP adj|black n|sheep v|have pro:per|you qn|any n|wool ?
+%xgra:	1|4|LINK 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|OBJ2 6|7|QUANT 7|4|JCT 8|4|PUNCT
+*BRO:	+< xxx .
+*MOT:	<yes sir> [/] yes sir three bags full [=! singing ] . [+ SNG]
+%xmor:	co|yes n|sir det:num|three n|bag-PL adj|full .
+%xgra:	1|4|COM 2|4|MOD 3|4|QUANT 4|0|INCROOT 5|4|POSTMOD 6|4|PUNCT
+*MOT:	one for the master and one for the dame, one for the little boy who
+	lives down the lane [=! singing] . [+ SNG]
+%xmor:	det:num|one prep|for det:art|the n|master coord|and det:num|one
+	prep|for det:art|the n|dame cm|cm pro:indef|one prep|for det:art|the
+	adj|little n|boy pro:rel|who n|life-PL adv|down det:art|the n|lane .
+%xgra:	1|0|INCROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|CONJ 6|5|COORD 7|1|JCT 8|9|DET
+	9|7|POBJ 10|1|LP 11|1|ENUM 12|11|NJCT 13|15|DET 14|15|MOD 15|12|POBJ
+	16|17|LINK 17|15|CMOD 18|17|NJCT 19|20|DET 20|18|POBJ 21|1|PUNCT
+*MOT:	thank you said the master thank you said the dame [=! singing] .
+	[+ SNG]
+%xmor:	v|thank pro:per|you v|say&PAST det:art|the n|master v|thank
+	pro:per|you v|say&PAST det:art|the n|dame .
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|DET 5|6|SUBJ 6|3|COMP 7|8|SUBJ 8|6|COMP
+	9|10|DET 10|8|OBJ 11|1|PUNCT
+*CHI:	+< &=babbles .
+*MOT:	that's right .
+%xmor:	pro:dem|that~cop|be&3S co|right .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	thank you said the little boy who lives down the lane [=! singing]
+	. [+ SNG]
+%xmor:	v|thank pro:per|you v|say&PAST det:art|the adj|little n|boy
+	pro:rel|who v|live-3S prep|down det:art|the n|lane .
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|6|DET 5|6|MOD 6|3|OBJ 7|8|LINK 8|6|CMOD
+	9|8|JCT 10|11|DET 11|9|POBJ 12|1|PUNCT
+*MOT:	you just love the little tags on that pot .
+%xmor:	pro:per|you adv|just v|love det:art|the adj|little n|tag-PL prep|on
+	det:dem|that n|pot .
+%xgra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|3|JCT 8|9|DET
+	9|7|POBJ 10|3|PUNCT
+*MOT:	I think your teeth are sore are they ?
+%xmor:	pro:sub|I v|think det:poss|your n|tooth&PL cop|be&PRES n|sore
+	cop|be&PRES pro:sub|they ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|5|SUBJ 5|2|COMP 6|5|PRED 7|5|PRED 8|7|PRED
+	9|2|PUNCT
+*MOT:	where's your little hand ?
+%xmor:	pro:int|where~cop|be&3S det:poss|your adj|little n|hand ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	there, you're sitting on it darling .
+%xmor:	adv|there cm|cm pro:per|you~aux|be&PRES part|sit-PRESP prep|on
+	pro:per|it co|darling .
+%xgra:	1|5|JCT 2|1|LP 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|JCT 7|6|POBJ 8|5|COM
+	9|5|PUNCT
+*MOT:	look, whee !
+%xmor:	v|look cm|cm co|whee !
+%xgra:	1|0|ROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	I don't know why you've wedge yourself in the corner there .
+%xmor:	pro:sub|I mod|do~neg|not v|know pro:int|why pro:per|you~aux|have
+	v|wedge pro:refl|yourself prep|in det:art|the n|corner adv|there .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|8|LINK 6|8|SUBJ 7|8|AUX 8|4|COMP
+	9|8|OBJ 10|8|JCT 11|12|DET 12|10|POBJ 13|8|JCT 14|4|PUNCT
+*MOT:	look, that'll help your teeth darlin(g) .
+%xmor:	v|look cm|cm pro:rel|that~mod|will v|help det:poss|your n|tooth&PL
+	co|darling .
+%xgra:	1|0|ROOT 2|1|LP 3|5|LINK 4|5|AUX 5|1|COMP 6|7|DET 7|5|OBJ 8|5|COM
+	9|1|PUNCT
+*MOT:	I think they're sore .
+%xmor:	pro:sub|I v|think pro:sub|they~cop|be&PRES n|sore .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|PRED 6|2|PUNCT
+*MOT:	hey, oh that's good for chewing on isn't it ?
+%xmor:	co|hey cm|cm co|oh pro:dem|that~cop|be&3S adj|good prep|for
+	n:gerund|chew-PRESP adv|on cop|be&3S~neg|not pro:per|it ?
+%xgra:	1|5|COM 2|1|LP 3|5|COM 4|5|SUBJ 5|0|ROOT 6|5|PRED 7|5|JCT 8|7|POBJ
+	9|5|JCT 10|5|PRED 11|10|NEG 12|10|SUBJ 13|5|PUNCT
+*MOT:	oh you want the bunny ?
+%xmor:	co|oh pro:per|you v|want det:art|the n|bunny ?
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	okay .
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	do you want the bunny ?
+%xmor:	mod|do pro:per|you v|want det:art|the n|bunny ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	oh he's soft isn't he ?
+%xmor:	co|oh pro:sub|he~cop|be&3S adj|soft cop|be&3S~neg|not pro:sub|he ?
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PRED 6|5|NEG 7|5|PRED 8|3|PUNCT
+*CHI:	&=squeals .
+*MOT:	+< little Peter_Rabbit had a fly upon his nose [=! singing] .
+	[+ SNG]
+%xmor:	adj|little n:prop|Peter_Rabbit v|have&PAST det:art|a n|fly
+	prep|upon det:poss|his n|nose .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	little Peter_Rabbit had a fly upon his nose [=! singing] . [+ SNG]
+%xmor:	adj|little n:prop|Peter_Rabbit v|have&PAST det:art|a n|fly
+	prep|upon det:poss|his n|nose .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	little Peter_Rabbit had a fly upon his nose so he flipped it and he
+	flopped it and the fly flew away [=! singing] . [+ SNG]
+%xmor:	adj|little n:prop|Peter_Rabbit v|have&PAST det:art|a n|fly
+	prep|upon det:poss|his n|nose co|so pro:sub|he v|flip-PAST
+	pro:per|it coord|and pro:sub|he v|flop-PAST pro:per|it coord|and
+	det:art|the n|fly v|fly&PAST adv|away .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|11|COM 10|11|SUBJ 11|3|CJCT 12|11|OBJ 13|15|LINK 14|15|SUBJ 15|11|CJCT
+	16|15|OBJ 17|20|LINK 18|19|DET 19|20|SUBJ 20|15|CJCT 21|20|JCT 22|3|PUNCT
+*BRO:	+< &=screams .
+*MOT:	floppy ears and curly whiskers [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*MOT:	floppy ears an curly whiskers [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL det:art|a adj|curl&dv-Y n|whisker-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*BRO:	&=screams .
+*MOT:	floppy ears and curly whiskers so he flipped it and he flopped it
+	and the fly flew away [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL conj|so
+	pro:sub|he v|flip-PAST pro:per|it coord|and pro:sub|he v|flop-PAST
+	pro:per|it coord|and det:art|the n|fly v|fly&PAST adv|away .
+%xgra:	1|2|MOD 2|13|SUBJ 3|2|CONJ 4|5|MOD 5|3|COORD 6|8|LINK 7|8|SUBJ 8|2|CJCT
+	9|8|OBJ 10|12|LINK 11|12|SUBJ 12|2|CJCT 13|0|ROOT 14|17|LINK 15|16|DET
+	16|17|SUBJ 17|13|CJCT 18|17|JCT 19|13|PUNCT
+*CHI:	+< &aa .
+*BRO:	+< &=babbles ouch ! [+ NAC]
+%xmor:	n|ouch !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+@End

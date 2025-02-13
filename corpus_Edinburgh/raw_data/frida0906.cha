@@ -1,0 +1,1302 @@
+@UTF8
+@PID:	11312/a-00047572-1
+@Window:	160_447_662_685_-1_-1_48456_0_48456_0
+@Begin
+@Languages:	eng
+@Participants:	CHI Frida Target_Child, MOT Mother
+@ID:	eng|Edinburgh|CHI|0;09.15|female|||Target_Child|||
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@Date:	12-DEC-2013
+@Media:	frida0906, audio
+@Types:	long, toyplay, TD
+*MOT:	okay baby . 0_3452
+%xmor:	co|okay n|baby .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	&=clears:throat . 3452_5542
+*MOT:	right . 5542_6834
+%xmor:	co|right .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	are you gonna watch Mummy (.) wrap up some pressies for (.) <Granny
+	and> [/] Granny and Grandad ? 6834_13878
+%xmor:	cop|be&PRES pro:per|you part|go&PRESP~prep|to n|watch n:prop|Mummy
+	v|wrap adv|up pro:indef|some n|press-DIM-PL prep|for n:prop|Granny
+	coord|and n:prop|Grandad ?
+%xgra:	1|7|LINK 2|7|SUBJ 3|7|XJCT 4|3|JCT 5|4|POBJ 6|7|SUBJ 7|0|ROOT 8|7|JCT
+	9|10|MOD 10|8|POBJ 11|7|JCT 12|11|POBJ 13|12|CONJ 14|13|COORD 15|7|PUNCT
+*MOT:	what've [: what have ] we got ? 13878_19876
+%xmor:	pro:int|what v|have pro:sub|we v|get&PAST ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|2|PUNCT
+*MOT:	we got (.) some nice tea . 19876_23164
+%xmor:	pro:sub|we v|get&PAST qn|some adj|nice n|tea .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|QUANT 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*MOT:	some nice tin of tea . 23164_25401
+%xmor:	qn|some adj|nice n|tin prep|of n|tea .
+%xgra:	1|3|QUANT 2|3|MOD 3|0|INCROOT 4|3|NJCT 5|4|POBJ 6|3|PUNCT
+*MOT:	do you like that ? 25401_26340
+%xmor:	mod|do pro:per|you v|like pro:dem|that ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	oh, that one's a nice noise isn't it ? 26340_29725
+%xmor:	co|oh cm|cm pro:rel|that pro:indef|one~cop|be&3S det:art|a adj|nice
+	n|noise cop|be&3S~neg|not pro:per|it ?
+%xgra:	1|5|COM 2|1|LP 3|4|LINK 4|5|SUBJ 5|0|ROOT 6|8|DET 7|8|MOD 8|9|SUBJ
+	9|5|PRED 10|9|NEG 11|9|PRED 12|5|PUNCT
+%com:	tapping the tea tin .
+*MOT:	it's in the shape of &mea, of an elephant . 29725_32566
+%xmor:	pro:per|it~cop|be&3S prep|in det:art|the n|shape prep|of cm|cm
+	prep|of det:art|a n|elephant .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|5|NJCT 7|6|POBJ 8|7|NJCT
+	9|10|DET 10|8|POBJ 11|2|PUNCT
+*MOT:	okay . 32566_36853
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	I'll just let you play with that, just for a minute . 36853_39790
+%xmor:	pro:sub|I~mod|will adv|just v|let&ZERO pro:per|you v|play prep|with
+	det:dem|that cm|cm adv|just prep|for det:art|a n|minute .
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|6|SUBJ 6|4|COMP 7|6|JCT 8|7|POBJ
+	9|8|LP 10|11|JCT 11|8|JCT 12|13|DET 13|11|POBJ 14|4|PUNCT
+*MOT:	don't break it . 39790_40736
+%xmor:	mod|do~neg|not v|break pro:per|it .
+%xgra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	hm . 40736_44917
+%xmor:	co|hm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	I've got some (.) yummy (.) chocolates as well (.) for Granny . 44917_50931
+%xmor:	pro:sub|I~aux|have part|get&PASTP qn|some adj|yum&dn-Y
+	n|chocolate-PL prep|as n|well prep|for n:prop|Granny .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|6|QUANT 5|6|MOD 6|3|OBJ 7|8|COORD 8|6|ENUM
+	9|6|NJCT 10|9|POBJ 11|3|PUNCT
+*MOT:	(be)cause she likes chocolates . 50931_53359
+%xmor:	conj|because pro:sub|she v|like-3S n|chocolate-PL .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	are you trying to get in there ? 53359_56959
+%xmor:	cop|be&PRES pro:per|you part|try-PRESP inf|to v|get prep|in n|there
+	?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|JCT 7|6|POBJ 8|1|PUNCT
+*MOT:	are you trying to get in the tin ? 56959_60361
+%xmor:	cop|be&PRES pro:per|you part|try-PRESP inf|to v|get prep|in
+	det:art|the n|tin ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|JCT 7|8|DET 8|6|POBJ
+	9|1|PUNCT
+*MOT:	we've got lots of pressies <under the tea> [//] under the tree now .
+	60361_67045
+%xmor:	pro:sub|we~aux|have part|get&PASTP n|lot-PL prep|of n|press-DIM-PL
+	prep|under det:art|the n|tree adv:tem|now .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|4|NJCT 6|5|POBJ 7|10|JCT 8|9|DET
+	9|7|POBJ 10|3|JCT 11|3|PUNCT
+*MOT:	a:nd I need to stick this down . 67045_73215
+%xmor:	coord|and pro:sub|I v|need inf|to v|stick pro:dem|this adv|down .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|5|JCT 8|3|PUNCT
+*MOT:	with some Sellotape . 73215_77854
+%xmor:	prep|with qn|some n:prop|Sellotape .
+%xgra:	1|0|INCROOT 2|3|QUANT 3|1|POBJ 4|1|PUNCT
+*MOT:	that's a nice red . 77854_82716
+%xmor:	pro:dem|that~cop|be&3S det:art|a adj|nice adj|red .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	spotty (.) wrapping paper for Granny . 82716_86067
+%xmor:	adj|spot&dn-Y part|wrap-PRESP n|paper prep|for n:prop|Granny .
+%xgra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|NJCT 5|4|POBJ 6|3|PUNCT
+*MOT:	do you like that ? 86067_87766
+%xmor:	mod|do pro:per|you v|like pro:dem|that ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	you're wrapping up a present . 87766_88696
+%xmor:	pro:per|you~aux|be&PRES part|wrap-PRESP prep|up det:art|a n|present
+	.
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*MOT:	you're going to get lots of presents soon . 88696_90365
+%xmor:	pro:per|you~aux|be&PRES part|go-PRESP inf|to v|get n|lot-PL prep|of
+	n|present-PL adv|soon .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|6|NJCT 8|7|POBJ
+	9|5|JCT 10|3|PUNCT
+*MOT:	lots of presents . 90365_92373
+%xmor:	n|lot-PL prep|of n|present-PL .
+%xgra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|PUNCT
+*MOT:	you're going to be a very [/] very spoiled little girl . 92373_96826
+%xmor:	pro:per|you~aux|be&PRES part|go-PRESP inf|to cop|be det:art|a
+	adv|very adj|spoiled adj|little n|girl .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|10|DET 7|8|JCT 8|10|MOD
+	9|10|MOD 10|5|PRED 11|3|PUNCT
+*MOT:	there . 96826_99926
+%xmor:	adv|there .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=chuckles that makes a nice noise doesn't it ? 99926_104132
+%xmor:	pro:dem|that v|make-3S det:art|a adj|nice n|noise mod|do&3S~neg|not
+	pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|8|SUBJ 6|8|AUX 7|6|NEG 8|2|OBJ
+	9|2|PUNCT
+%com:	tapping the tin .
+*MOT:	can you hear that ? 104132_107775
+%xmor:	mod|can pro:per|you v|hear pro:dem|that ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	can you pat the top ? 107775_109337
+%xmor:	mod|can pro:per|you v|pat det:art|the n|top ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	press . 109337_114251
+%xmor:	n|press .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	don't think you can get in there, can you ? 114251_119252
+%xmor:	mod|do~neg|not v|think pro:per|you mod|can v|get prep|in n|there
+	cm|cm mod|can pro:per|you ?
+%xgra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|6|SUBJ 5|6|AUX 6|3|COMP 7|6|JCT 8|7|POBJ
+	9|3|LP 10|11|AUX 11|3|OBJ 12|3|PUNCT
+*MOT:	that makes a nice noise too . 119252_122852
+%xmor:	pro:dem|that v|make-3S det:art|a adj|nice n|noise post|too .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|5|POSTMOD 7|2|PUNCT
+%com:	puling out some Sellotape .
+*MOT:	it's Sellotape . 122852_123939
+%xmor:	pro:per|it~cop|be&3S n:prop|Sellotape .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	ah, so that's one pressie . 123939_128791
+%xmor:	co|ah cm|cm conj|so pro:dem|that~cop|be&3S det:num|one n|press-DIM
+	.
+%xgra:	1|5|COM 2|1|LP 3|5|LINK 4|5|SUBJ 5|0|ROOT 6|7|QUANT 7|5|PRED 8|5|PUNCT
+*MOT:	wrap that up . 128791_130518
+%xmor:	v|wrap comp|that adv|up .
+%xgra:	1|0|ROOT 2|1|OBJ 3|2|JCT 4|1|PUNCT
+*MOT:	&=hums . 130518_139549
+*MOT:	you're going to get lots of things for Christmas . 139549_144185
+%xmor:	pro:per|you~aux|be&PRES part|go-PRESP inf|to v|get n|lot-PL prep|of
+	n|thing-PL prep|for n:prop|Christmas .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|6|NJCT 8|7|POBJ
+	9|5|JCT 10|9|POBJ 11|3|PUNCT
+*MOT:	you get lots of things anyway, you're very lucky . 144185_147062
+%xmor:	pro:per|you v|get n|lot-PL prep|of n|thing-PL adv|anyway cm|cm
+	pro:per|you~cop|be&PRES adv|very adj|luck&dn-Y .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|NJCT 5|4|POBJ 6|2|JCT 7|2|LP 8|9|SUBJ
+	9|2|CJCT 10|11|JCT 11|9|PRED 12|2|PUNCT
+*MOT:	hey lucky little girl . 147062_149904
+%xmor:	co|hey adj|luck&dn-Y adj|little n|girl .
+%xgra:	1|4|COM 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MOT:	so that's one present . 149904_151540
+%xmor:	co|so pro:dem|that~cop|be&3S pro:indef|one n|present .
+%xgra:	1|2|COM 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|3|PUNCT
+*MOT:	you can play with that one . 151540_152829
+%xmor:	pro:per|you mod|can v|play prep|with det:dem|that pro:indef|one .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*MOT:	that makes a nice noise too . 152829_154263
+%xmor:	pro:dem|that v|make-3S det:art|a adj|nice n|noise post|too .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|5|POSTMOD 7|2|PUNCT
+*MOT:	can you do that ? 154263_156409
+%xmor:	mod|can pro:per|you v|do pro:dem|that ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	with your hands ? 156409_158232
+%xmor:	prep|with det:poss|your n|hand-PL ?
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*MOT:	if you put your hands like this, look . 158232_160889
+%xmor:	conj|if pro:per|you v|put&ZERO det:poss|your n|hand-PL prep|like
+	pro:dem|this cm|cm n|look .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|6|POBJ 8|7|LP
+	9|7|ENUM 10|3|PUNCT
+*MOT:	&=gasps, doesn't that make a nice noise ? 160889_165431
+%xmor:	cm|cm mod|do&3S~neg|not pro:rel|that v|make det:art|a adj|nice
+	n|noise ?
+%xgra:	1|5|SUBJ 2|5|AUX 3|2|NEG 4|5|LINK 5|0|ROOT 6|8|DET 7|8|MOD 8|5|OBJ
+	9|5|PUNCT
+*MOT:	oh yes, well done . 165431_167200
+%xmor:	co|oh co|yes cm|cm adv|well part|do&PASTP .
+%xgra:	1|5|COM 2|5|COM 3|2|LP 4|5|JCT 5|0|ROOT 6|5|PUNCT
+*MOT:	yay . 167200_168689
+%xmor:	co|yay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	can you do that ? 168689_170514
+%xmor:	mod|can pro:per|you v|do pro:dem|that ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	nice noise . 170514_174509
+%xmor:	adj|nice n|noise .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	&=gasps . 174509_176104
+*MOT:	can you do that ? 176104_181268
+%xmor:	mod|can pro:per|you v|do pro:dem|that ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	your go . 181268_187159
+%xmor:	det:poss|your v|go .
+%xgra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*MOT:	your go honey . 187159_188632
+%xmor:	det:poss|your v|go n|honey .
+%xgra:	1|2|DET 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	&=gasps, yes well done . 188632_190556
+%xmor:	cm|cm co|yes adv|well part|do&PASTP .
+%xgra:	1|0|INCROOT 2|4|COM 3|4|JCT 4|1|COMP 5|1|PUNCT
+*MOT:	well done . 190633_193198
+%xmor:	co|well part|do&PASTP .
+%xgra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*MOT:	your go . 193198_194177
+%xmor:	det:poss|your v|go .
+%xgra:	1|2|DET 2|0|ROOT 3|2|PUNCT
+*MOT:	yeah ! 194177_195290
+%xmor:	co|yeah !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	make a little drummer out of you . 195290_197304
+%xmor:	v|make det:art|a adj|little n|drum&dv-AGT adv|out prep|of
+	pro:per|you .
+%xgra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|JCT 6|5|JCT 7|6|POBJ 8|1|PUNCT
+*MOT:	oh . 197304_201977
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	are you trying to open it now ? 201977_204097
+%xmor:	cop|be&PRES pro:per|you part|try-PRESP inf|to v|open pro:per|it
+	adv:tem|now ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|OBJ 7|5|JCT 8|1|PUNCT
+*MOT:	trying to open the present ? 204097_206364
+%xmor:	part|try-PRESP inf|to v|open det:art|the n|present ?
+%xgra:	1|0|ROOT 2|3|INF 3|1|COMP 4|5|DET 5|3|OBJ 6|1|PUNCT
+*MOT:	oh, are you trying to bang the present ? 206364_208886
+%xmor:	co|oh cm|cm aux|be&PRES pro:per|you part|try-PRESP inf|to v|bang
+	det:art|the n|present ?
+%xgra:	1|5|COM 2|1|LP 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|7|INF 7|5|COMP 8|9|DET
+	9|7|OBJ 10|5|PUNCT
+*MOT:	can you clap your hands ? 208886_210633
+%xmor:	mod|can pro:per|you v|clap det:poss|your n|hand-PL ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+%com:	sound of clapping hands .
+*MOT:	so Mummy's going to wrap this present up now . 210633_215728
+%xmor:	co|so n:prop|Mummy~aux|be&3S part|go-PRESP inf|to v|wrap
+	det:dem|this adj|present adv|up adv:tem|now .
+%xgra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|6|OBJ 8|7|POSTMOD
+	9|8|JCT 10|9|POBJ 11|4|PUNCT
+*MOT:	so +... 215728_219272
+%xmor:	co|so +...
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+, some more wrapping paper . 219272_221183
+%xmor:	pro:indef|some adv|more part|wrap-PRESP n|paper .
+%xgra:	1|0|INCROOT 2|3|JCT 3|1|CMOD 4|3|OBJ 5|1|PUNCT
+*MOT:	and cut a bit off . 221183_226707
+%xmor:	coord|and v|cut&ZERO det:art|a n|bit adv|off .
+%xgra:	1|2|LINK 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|JCT 6|2|PUNCT
+*MOT:	there we go . 226707_230997
+%xmor:	adv|there pro:sub|we v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	oh, ugh . 230997_233983
+%xmor:	co|oh cm|cm co|ugh .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	nearly there . 233983_235054
+%xmor:	adv|near&dadj-LY adv|there .
+%xgra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*MOT:	okay ? 235054_240681
+%xmor:	co|okay ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	and then +... 240681_243574
+%xmor:	coord|and adv:tem|then +...
+%xgra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
+*MOT:	+, then we hide [/] hide the present in the wrapping paper . 243574_248144
+%xmor:	adv:tem|then pro:sub|we v|hide det:art|the adj|present prep|in
+	det:art|the part|wrap-PRESP n|paper .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|5|JCT 7|9|DET 8|9|MOD
+	9|6|POBJ 10|3|PUNCT
+*MOT:	so it's a big surprise for everyone . 248144_250400
+%xmor:	co|so pro:per|it~cop|be&3S det:art|a adj|big n|surprise prep|for
+	pro:indef|everyone .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|6|NJCT 8|7|POBJ
+	9|3|PUNCT
+*MOT:	yes . 250755_252626
+%xmor:	co|yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	big surprise . 252626_254903
+%xmor:	adj|big n|surprise .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	they don't know what they're getting . 254903_257228
+%xmor:	pro:sub|they mod|do~neg|not v|know pro:int|what
+	pro:sub|they~aux|be&PRES part|get-PRESP .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|8|LINK 6|8|SUBJ 7|8|AUX 8|4|COMP
+	9|4|PUNCT
+*MOT:	hopefully they'll be very pleased . 257228_259894
+%xmor:	adj|hope&dn-FUL-LY pro:sub|they~mod|will cop|be adv|very
+	part|please-PASTP .
+%xgra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|JCT 6|4|PRED 7|4|PUNCT
+*MOT:	then they say . 259894_262004
+%xmor:	adv:tem|then pro:sub|they v|say .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	thank you very much for my lovely present . 262183_264932
+%xmor:	v|thank pro:per|you adv|very adv|much prep|for det:poss|my n|lovely
+	n|present .
+%xgra:	1|0|ROOT 2|1|OBJ 3|4|JCT 4|1|JCT 5|1|JCT 6|8|DET 7|8|MOD 8|5|POBJ
+	9|1|PUNCT
+*MOT:	there you go . 264932_268942
+%xmor:	adv|there pro:per|you v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	there's your +//. 268942_270342
+%xmor:	pro:exist|there~cop|be&3S det:poss|your +//.
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=gasps, ooh, oh, cutie . 270342_274662
+%xmor:	cm|cm v|ooh cm|cm co|oh cm|cm n|cute&dadj-DIM .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|LP 4|2|ENUM 5|4|LP 6|4|ENUM 7|2|PUNCT
+*MOT:	have you finished with +//. 274948_276348
+%xmor:	aux|have pro:per|you v|finish-PAST prep|with +//.
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*MOT:	playing with your +... 276348_281341
+%xmor:	part|play-PRESP prep|with det:poss|your +...
+%xgra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
+*MOT:	&=whistles . 281341_287294
+%com:	mother is whistling along with a musical toy .
+*MOT:	&=hums . 287294_290000
+%com:	mother is humming along with the musical toy .
+*MOT:	right, we need some more Sellotape . 290000_292895
+%xmor:	adv|right cm|cm pro:sub|we v|need qn|some adv|more n:prop|Sellotape
+	.
+%xgra:	1|4|JCT 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|5|NJCT 7|6|POBJ 8|4|PUNCT
+*MOT:	tape it up . 292895_297127
+%xmor:	v|tape pro:per|it adv|up .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|1|PUNCT
+*MOT:	so that they can't see the present . 297127_298713
+%xmor:	adv|so pro:rel|that pro:sub|they mod|can~neg|not v|see det:art|the
+	n|present .
+%xgra:	1|0|INCROOT 2|6|LINK 3|6|SUBJ 4|6|AUX 5|4|NEG 6|1|CMOD 7|8|DET 8|6|OBJ
+	9|1|PUNCT
+*MOT:	okay . 298713_304138
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&n so that's that . 304138_313008
+%xmor:	co|so pro:dem|that~cop|be&3S pro:dem|that .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*MOT:	and a bit of tape . 313008_315004
+%xmor:	coord|and det:art|a n|bit prep|of n|tape .
+%xgra:	1|3|LINK 2|3|DET 3|0|INCROOT 4|3|NJCT 5|4|POBJ 6|3|PUNCT
+*MOT:	&=whistles . 315004_326620
+%com:	mother is whistling along with a musical toy .
+*MOT:	oh, you've made it go all funny . 326620_329003
+%xmor:	co|oh cm|cm pro:per|you~aux|have part|make&PASTP pro:per|it v|go
+	adv|all adj|fun&dn-Y .
+%xgra:	1|5|COM 2|1|LP 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|SUBJ 7|5|COMP 8|9|JCT
+	9|7|JCT 10|5|PUNCT
+%com:	musical toy sounds a bit strange .
+*MOT:	oh . 329003_339207
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	it's got a mind of its own [=! singing] . 339207_342970
+%xmor:	pro:per|it~aux|be&3S part|get&PASTP det:art|a n|mind prep|of
+	det:poss|its adj|own .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	okay . 342970_345867
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	that's the other present . 345867_348550
+%xmor:	pro:dem|that~cop|be&3S det:art|the qn|other n|present .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|QUANT 5|2|PRED 6|2|PUNCT
+*MOT:	it's all wrapped up too . 348550_349847
+%xmor:	pro:per|it~aux|be&3S adv|all part|wrap-PASTP adv|up adv|too .
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|4|JCT 6|4|JCT 7|4|PUNCT
+*MOT:	now Granny and Grandad have got a few more presents . 350323_353243
+%xmor:	adv:tem|now n:prop|Granny coord|and n:prop|Grandad aux|have
+	part|get&PASTP det:art|a qn|few qn|more n|present-PL .
+%xgra:	1|6|LINK 2|6|SUBJ 3|2|CONJ 4|3|COORD 5|6|AUX 6|0|ROOT 7|10|DET
+	8|9|QUANT 9|10|QUANT 10|6|OBJ 11|6|PUNCT
+*MOT:	so we put that under the tree, until sunday . 353243_356012
+%xmor:	co|so pro:sub|we v|put&ZERO pro:dem|that prep|under det:art|the
+	n|tree cm|cm conj|until adv:tem|sunday .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|DET 7|5|POBJ 8|3|LP
+	9|10|LINK 10|3|CJCT 11|3|PUNCT
+*MOT:	and then, we open them . 356012_359598
+%xmor:	coord|and adv:tem|then cm|cm pro:sub|we v|open pro:obj|them .
+%xgra:	1|5|LINK 2|5|JCT 3|2|LP 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*MOT:	and everyone gets lots of nice new things . 359598_364084
+%xmor:	coord|and pro:indef|everyone v|get-3S n|lot-PL prep|of adj|nice
+	adj|new n|thing-PL .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|NJCT 6|8|MOD 7|8|MOD 8|5|POBJ
+	9|3|PUNCT
+*MOT:	I'll just put that over there . 364084_368185
+%xmor:	pro:sub|I~mod|will adv|just v|put&ZERO pro:dem|that prep|over
+	n|there .
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|4|OBJ 6|4|JCT 7|6|POBJ 8|4|PUNCT
+*MOT:	can you tell what it is then ? 368185_371218
+%xmor:	mod|can pro:per|you v|tell pro:int|what pro:per|it cop|be&3S
+	adv:tem|then ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|LINK 5|6|SUBJ 6|3|COMP 7|6|JCT 8|3|PUNCT
+*MOT:	whatcha [: what do you ] think it is ? 371218_372686
+%xmor:	pro:int|what mod|do pro:per|you v|think pro:per|it cop|be&3S ?
+%xgra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|4|PUNCT
+*MOT:	whatcha [: what do you ] think it is ? 372686_374738
+%xmor:	pro:int|what mod|do pro:per|you v|think pro:per|it cop|be&3S ?
+%xgra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|4|PUNCT
+*MOT:	there you go . 374738_379320
+%xmor:	adv|there pro:per|you v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	have a look at that . 379320_380257
+%xmor:	v|have det:art|a v|look prep|at pro:dem|that .
+%xgra:	1|0|ROOT 2|3|DET 3|1|COMP 4|3|JCT 5|4|POBJ 6|1|PUNCT
+*MOT:	it's another pressie . 380257_382857
+%xmor:	pro:per|it~cop|be&3S pro:indef|another n|press-DIM .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|PRED 5|2|PUNCT
+*MOT:	so you were asleep last night . 382857_388972
+%xmor:	co|so pro:per|you cop|be&PAST adv|asleep adj|last n|night .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|JCT 5|6|MOD 6|3|PRED 7|3|PUNCT
+*MOT:	Granny and Grandad brought you a new book . 388972_393483
+%xmor:	n:prop|Granny coord|and n:prop|Grandad v|bring&PAST pro:per|you
+	det:art|a adj|new n|book .
+%xgra:	1|4|SUBJ 2|1|CONJ 3|2|COORD 4|0|ROOT 5|4|OBJ2 6|8|DET 7|8|MOD 8|4|OBJ
+	9|4|PUNCT
+*MOT:	&ahh it's called .
+%xmor:	pro:per|it~aux|be&3S part|call-PASTP .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	+" Dear_zoo . [+ RDG] 393483_398513
+%xmor:	n:prop|Dear_zoo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	a:nd (.) it's about the things that live in the zoo . 398513_405042
+%xmor:	coord|and pro:per|it~cop|be&3S adv|about det:art|the n|thing-PL
+	pro:rel|that v|live prep|in det:art|the n|zoo .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|JCT 5|6|DET 6|3|PRED 7|8|LINK 8|6|CMOD
+	9|8|JCT 10|11|DET 11|9|POBJ 12|3|PUNCT
+*MOT:	+" I wrote to the zoo to send me a pet . [+ RDG] 405042_409062
+%xmor:	pro:sub|I v|write&PAST prep|to det:art|the n|zoo inf|to v|send
+	pro:obj|me det:art|a n|pet .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|7|INF 7|2|XJCT 8|7|OBJ2
+	9|10|DET 10|7|OBJ 11|2|PUNCT
+*MOT:	+" and they sent me an +... [+ RDG] 409062_411418
+%xmor:	coord|and pro:sub|they v|send&PAST pro:obj|me det:art|a +...
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ2 5|6|DET 6|3|PUNCT
+*MOT:	what did they send me ? 411418_412676
+%xmor:	pro:int|what mod|do&PAST pro:sub|they v|send pro:obj|me ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	have a look in there . 412676_413964
+%xmor:	v|have det:art|a n|look prep|in n|there .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|3|NJCT 5|4|POBJ 6|1|PUNCT
+*MOT:	do you want to have a look ? 413964_415717
+%xmor:	mod|do pro:per|you v|want inf|to v|have det:art|a n|look ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*MOT:	does it open the +//.
+%xmor:	mod|do&3S pro:per|it v|open det:art|the +//.
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PUNCT
+*MOT:	this flap ? 415717_418620
+%xmor:	pro:dem|this v|flap ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	can you open it honey ? 418620_422394
+%xmor:	mod|can pro:per|you v|open pro:per|it co|honey ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|COM 6|3|PUNCT
+*MOT:	there you go . 422394_423881
+%xmor:	adv|there pro:per|you v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	you open it up . 423881_426333
+%xmor:	pro:per|you v|open pro:per|it adv|up .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|2|PUNCT
+*MOT:	&=gasps, oh look . 426333_427951
+%xmor:	cm|cm co|oh n|look .
+%xgra:	1|0|INCROOT 2|3|COM 3|1|ENUM 4|1|PUNCT
+*MOT:	peekaboo . 427951_429430
+%xmor:	co|peekaboo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	can you open it ? 429430_432297
+%xmor:	mod|can pro:per|you v|open pro:per|it ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	that's it . 432297_434719
+%xmor:	pro:dem|that~cop|be&3S pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	well done . 434719_435694
+%xmor:	co|well part|do&PASTP .
+%xgra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*MOT:	so, what is it ? 435694_438907
+%xmor:	adv|so cm|cm pro:int|what cop|be&3S pro:per|it ?
+%xgra:	1|4|JCT 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|PUNCT
+*MOT:	well, you won't know because you've never seen one before . 438907_441197
+%xmor:	co|well cm|cm pro:per|you mod|will~neg|not v|know conj|because
+	pro:per|you~aux|have adv:tem|never part|see&PASTP det:num|one
+	adv|before .
+%xgra:	1|6|COM 2|1|LP 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|11|LINK 8|11|SUBJ
+	9|11|AUX 10|11|AUX 11|6|COMP 12|11|OBJ 13|11|JCT 14|6|PUNCT
+*MOT:	but it's an elephant . 441197_442760
+%xmor:	conj|but pro:per|it~cop|be&3S det:art|a n|elephant .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*MOT:	+" he was too big and I sent him back . [+ RDG] 442760_446483
+%xmor:	pro:sub|he cop|be&PAST&13S adv|too adj|big coord|and pro:sub|I
+	v|send&PAST pro:obj|him adv|back .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|7|LINK 6|7|SUBJ 7|2|CJCT 8|7|OBJ
+	9|7|JCT 10|2|PUNCT
+*MOT:	yes, elephant . 446483_449312
+%xmor:	co|yes cm|cm n|elephant .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	elephant . 449312_451303
+%xmor:	n|elephant .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	in the box . 451303_453324
+%xmor:	prep|in det:art|the n|box .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*MOT:	a very heavy +//. 453324_454724
+%xmor:	det:art|a adv|very adj|heavy +//.
+%xgra:	1|3|DET 2|3|JCT 3|0|INCROOT 4|3|PUNCT
+*MOT:	&=gasps, there he is . 454724_457410
+%xmor:	cm|cm n|there pro:sub|he cop|be&3S .
+%xgra:	1|4|LINK 2|4|SUBJ 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	hiding . 457410_458646
+%xmor:	part|hide-PRESP .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	where is he ? 458646_460191
+%xmor:	pro:int|where cop|be&3S pro:sub|he ?
+%xgra:	1|2|JCT 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	where is he ? 460191_461040
+%xmor:	pro:int|where cop|be&3S pro:sub|he ?
+%xgra:	1|2|JCT 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=gasps, there he is . 461040_463273
+%xmor:	cm|cm n|there pro:sub|he cop|be&3S .
+%xgra:	1|4|LINK 2|4|SUBJ 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	yes . 463273_464097
+%xmor:	co|yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" so they sent me a +... [+ RDG] 464097_467866
+%xmor:	co|so pro:sub|they v|send&PAST pro:obj|me det:art|a +...
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|DET 6|3|PUNCT
+*MOT:	what's in the box ? 467866_469147
+%xmor:	pro:int|what~cop|be&3S prep|in det:art|the n|box ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*MOT:	what's in the box honey ? 469282_471117
+%xmor:	pro:int|what~cop|be&3S prep|in det:art|the n|box n|honey ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|6|DET 5|6|MOD 6|3|POBJ 7|2|PUNCT
+*MOT:	&=gasps, what's that ? 471117_472882
+%xmor:	cm|cm pro:int|what~cop|be&3S pro:dem|that ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*MOT:	what's that ? 472930_475975
+%xmor:	pro:int|what~cop|be&3S pro:dem|that ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	what's in the box ? 475975_477635
+%xmor:	pro:int|what~cop|be&3S prep|in det:art|the n|box ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*MOT:	can you see his little head poking out the top ? 477635_479874
+%xmor:	mod|can pro:per|you v|see det:poss|his adj|little n|head
+	n:gerund|poke-PRESP adv|out det:art|the n|top ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|7|SUBJ 7|3|COMP 8|7|JCT
+	9|10|DET 10|8|POBJ 11|3|PUNCT
+*MOT:	+" he was too small, so I sent him back . [+ RDG] 479874_486655
+%xmor:	pro:sub|he cop|be&PAST&13S adv|too adj|small cm|cm conj|so
+	pro:sub|I v|send&PAST pro:obj|him adv|back .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|LP 6|8|LINK 7|8|SUBJ 8|2|CJCT
+	9|8|OBJ 10|8|JCT 11|2|PUNCT
+*MOT:	&=gasps, elephant . 486655_488627
+%xmor:	cm|cm n|elephant .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	&=giggles, so +... 488627_493509
+%xmor:	cm|cm adv|so +...
+%xgra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*MOT:	yes . 493509_497957
+%xmor:	co|yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	there's an &ele +//. 497957_498957
+%xmor:	pro:exist|there~cop|be&3S det:art|a +//.
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	there's a +... 498957_499692
+%xmor:	pro:exist|there~cop|be&3S det:art|a +...
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	did I say elephant ?
+%xmor:	mod|do&PAST pro:sub|I v|say n|elephant ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	it's a giraffe &=chuckles . 499692_503018
+%xmor:	pro:per|it~cop|be&3S det:art|a n|giraffe .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	there's a giraffe in the box . 503018_504981
+%xmor:	pro:exist|there~cop|be&3S det:art|a n|giraffe prep|in det:art|the
+	n|box .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|4|NJCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*MOT:	let's turn the page . 504981_506993
+%xmor:	v|let~pro:obj|us v|turn det:art|the n|page .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|5|DET 5|3|OBJ 6|1|PUNCT
+*MOT:	+" so they sent me a +... [+ RDG] 506993_509786
+%xmor:	co|so pro:sub|they v|send&PAST pro:obj|me det:art|a +...
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|DET 6|3|PUNCT
+*MOT:	&=gasps, what's in here ? 509786_511518
+%xmor:	cm|cm pro:int|what~cop|be&3S prep|in n|here ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*MOT:	what's in this box ? 511668_513395
+%xmor:	pro:int|what~cop|be&3S prep|in det:dem|this n|box ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*MOT:	what's that ? 513395_514890
+%xmor:	pro:int|what~cop|be&3S pro:dem|that ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	can you see it through there, through the bars ? 514890_518331
+%xmor:	mod|can pro:per|you v|see pro:per|it prep|through n|there cm|cm
+	prep|through det:art|the n|bar-PL ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|5|POBJ 7|3|LP 8|3|JCT
+	9|10|DET 10|8|POBJ 11|3|PUNCT
+*MOT:	can you open it up ? 518331_520037
+%xmor:	mod|can pro:per|you v|open pro:per|it adv|up ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|PUNCT
+*MOT:	well done ! 520037_521084
+%xmor:	co|well part|do&PASTP !
+%xgra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*MOT:	what's that ? 521084_522726
+%xmor:	pro:int|what~cop|be&3S pro:dem|that ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	that's a lion . 522726_525028
+%xmor:	pro:dem|that~cop|be&3S det:art|a n|lion .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	grr@o . 525028_526892
+%xmor:	on|grr .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	or roar@o even . 526892_529580
+%xmor:	coord|or on|roar adv|even .
+%xgra:	1|0|INCROOT 2|1|COORD 3|2|JCT 4|1|PUNCT
+*MOT:	yes, that's a lion . 529580_533511
+%xmor:	co|yes cm|cm pro:dem|that~cop|be&3S det:art|a n|lion .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|PRED 7|4|PUNCT
+*MOT:	+" he was too fierce so I sent him back . [+ RDG] 533511_537759
+%xmor:	pro:sub|he cop|be&PAST&13S adv|too adj|fierce conj|so pro:sub|I
+	v|send&PAST pro:obj|him adv|back .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|7|LINK 6|7|SUBJ 7|2|CJCT 8|7|OBJ
+	9|7|JCT 10|2|PUNCT
+*MOT:	+" so they sent me a +... [+ RDG] 537759_540760
+%xmor:	co|so pro:sub|they v|send&PAST pro:obj|me det:art|a +...
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|DET 6|3|PUNCT
+*MOT:	what did they send me ? 540760_542137
+%xmor:	pro:int|what mod|do&PAST pro:sub|they v|send pro:obj|me ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	oh, look, they've sent me something else . 542137_545986
+%xmor:	co|oh cm|cm n|look cm|cm pro:sub|they~aux|have part|send&PASTP
+	pro:obj|me pro:indef|something post|else .
+%xgra:	1|7|COM 2|1|LP 3|1|ENUM 4|3|LP 5|7|SUBJ 6|7|AUX 7|0|ROOT 8|7|OBJ2
+	9|7|OBJ 10|9|PQ 11|7|PUNCT
+*MOT:	another animal . 545986_547188
+%xmor:	qn|another n|animal .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*MOT:	what's that ? 547188_549175
+%xmor:	pro:int|what~cop|be&3S pro:dem|that ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	can you open ? 549175_550573
+%xmor:	mod|can pro:per|you adj|open ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|INCROOT 4|3|PUNCT
+*MOT:	two little doors . 550573_552964
+%xmor:	det:num|two adj|little n|door-PL .
+%xgra:	1|3|QUANT 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	(be)cause he's very big so he needs two doors . 552964_555712
+%xmor:	conj|because pro:sub|he~cop|be&3S adv|very adj|big conj|so
+	pro:sub|he v|need-3S det:num|two n|door-PL .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|PRED 6|8|LINK 7|8|SUBJ 8|3|CJCT
+	9|10|QUANT 10|8|OBJ 11|3|PUNCT
+*MOT:	and he's quite tall too . 555712_557086
+%xmor:	coord|and pro:sub|he~cop|be&3S adv|quite adj|tall post|too .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|PRED 6|3|JCT 7|3|PUNCT
+*MOT:	he's got a little window to poke his head in . 557086_559043
+%xmor:	pro:sub|he~aux|be&3S part|get&PASTP det:art|a adj|little n|window
+	inf|to v|poke det:poss|his n|head adv|in .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|8|INF 8|6|XMOD
+	9|10|DET 10|8|OBJ 11|8|JCT 12|3|PUNCT
+*MOT:	yeah . 559043_562015
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	we'll shut the doors . 562015_564396
+%xmor:	pro:sub|we~mod|will v|shut&ZERO det:art|the n|door-PL .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	open the doors . 564396_567089
+%xmor:	v|open det:art|the n|door-PL .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	open that door . 567089_569706
+%xmor:	adj|open comp|that n|door .
+%xgra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	well done ! 569706_570919
+%xmor:	co|well part|do&PASTP !
+%xgra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*MOT:	well done ! 570919_573298
+%xmor:	co|well part|do&PASTP !
+%xgra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*MOT:	you won't know what animal that is ? 573298_575296
+%xmor:	pro:per|you mod|will~neg|not v|know det:int|what n|animal
+	pro:rel|that cop|be&3S ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|DET 6|4|OBJ 7|8|LINK 8|6|CMOD
+	9|4|PUNCT
+*MOT:	that is a camel . 575296_577890
+%xmor:	pro:dem|that cop|be&3S det:art|a n|camel .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	+" and he was too grumpy . [+ RDG] 577890_580194
+%xmor:	coord|and pro:sub|he cop|be&PAST&13S adv|too adj|grump&dn-Y .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|PRED 6|3|PUNCT
+*MOT:	a bit like Mummy in the mornings . 580194_582236
+%xmor:	det:art|a n|bit v|like n:prop|Mummy prep|in det:art|the
+	n|morning-PL .
+%xgra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*MOT:	+" so, I sent him back . [+ RDG] 582236_584452
+%xmor:	adv|so cm|cm pro:sub|I v|send&PAST pro:obj|him adv|back .
+%xgra:	1|4|JCT 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|4|PUNCT
+*MOT:	+" and they sent me a +... [+ RDG] 584452_587360
+%xmor:	coord|and pro:sub|they v|send&PAST pro:obj|me det:art|a +...
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ2 5|6|DET 6|3|PUNCT
+*MOT:	&=gasps, what did they send me ? 587360_589030
+%xmor:	cm|cm pro:int|what mod|do&PAST pro:sub|they v|send pro:obj|me ?
+%xgra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*MOT:	what's under there ? 588960_589978
+%xmor:	pro:int|what~cop|be&3S prep|under n|there ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*MOT:	that's it . 589978_591149
+%xmor:	pro:dem|that~cop|be&3S pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	well done . 591149_591819
+%xmor:	co|well part|do&PASTP .
+%xgra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*MOT:	you open it up . 591819_593345
+%xmor:	pro:per|you v|open pro:per|it adv|up .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|2|PUNCT
+*MOT:	&=gasps, well done, you nearly did it all by yourself . 593345_597008
+%xmor:	cm|cm adv|well part|do&PASTP cm|cm pro:per|you adv|near&dadj-LY
+	mod|do&PAST pro:per|it adv|all prep|by pro:refl|yourself .
+%xgra:	1|3|LINK 2|3|JCT 3|0|ROOT 4|3|LP 5|3|PUNCT 6|5|NJCT 7|6|INCROOT 8|7|OBJ
+	9|10|JCT 10|8|JCT 11|10|POBJ 12|7|PUNCT
+*MOT:	I didn't even have to show you how to do that . 597008_600068
+%xmor:	pro:sub|I mod|do&PAST~neg|not v|even aux|have inf|to v|show
+	pro:per|you pro:int|how inf|to v|do pro:dem|that .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|7|SUBJ 5|7|AUX 6|7|INF 7|0|ROOT 8|7|OBJ
+	9|11|LINK 10|11|INF 11|7|COMP 12|11|OBJ 13|7|PUNCT
+*MOT:	come on, there you go, it's a little bit open . 600068_603424
+%xmor:	v|come adv|on cm|cm adv|there pro:per|you v|go cm|cm
+	pro:per|it~cop|be&3S det:art|a adj|little n|bit adj|open .
+%xgra:	1|6|LINK 2|1|JCT 3|1|LP 4|1|JCT 5|6|SUBJ 6|0|ROOT 7|6|LP 8|9|SUBJ
+	9|6|CJCT 10|12|DET 11|12|MOD 12|9|PRED 13|12|POSTMOD 14|6|PUNCT
+*MOT:	what's that, what is it ? 603424_606142
+%xmor:	pro:int|what~cop|be&3S pro:dem|that cm|cm pro:int|what cop|be&3S
+	pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|LP 5|6|SUBJ 6|2|PRED 7|6|PRED 8|2|PUNCT
+*MOT:	you just gonna eat it, &=laughs ? 606676_609070
+%xmor:	pro:per|you adv|just part|go&PRESP~inf|to v|eat pro:per|it cm|cm ?
+%xgra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|3|LP 8|3|PUNCT
+*MOT:	are you going to, &=laughs +... 609070_613531
+%xmor:	cop|be&PRES pro:per|you part|go-PRESP prep|to cm|cm +...
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|3|JCT 5|4|LP 6|1|PUNCT
+*MOT:	are you trying to eat it ? 613531_615169
+%xmor:	cop|be&PRES pro:per|you part|try-PRESP inf|to v|eat pro:per|it ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|OBJ 7|1|PUNCT
+*MOT:	are you trying to eat the cardboard ? 615169_618193
+%xmor:	cop|be&PRES pro:per|you part|try-PRESP inf|to v|eat det:art|the
+	n|cardboard ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|7|DET 7|5|OBJ 8|1|PUNCT
+*MOT:	does it mean it's lunch time ? 618193_621071
+%xmor:	mod|do&3S pro:per|it v|mean pro:per|it~cop|be&3S n|lunch n|time ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|7|MOD 7|5|PRED 8|3|PUNCT
+*MOT:	(be)cause you're hungry ? 621071_622279
+%xmor:	conj|because pro:per|you~cop|be&PRES adj|hungry ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*MOT:	we haven't finished the book yet . 622279_624310
+%xmor:	pro:sub|we aux|have~neg|not part|finish-PASTP det:art|the n|book
+	conj|yet .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|JCT 8|4|PUNCT
+*MOT:	shall we see what's under here ? 624310_626640
+%xmor:	mod|shall pro:sub|we v|see pro:int|what~cop|be&3S prep|under n|here
+	?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|JCT 7|6|POBJ 8|3|PUNCT
+*MOT:	it's a snake . 626640_628451
+%xmor:	pro:per|it~cop|be&3S det:art|a n|snake .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	+" he was too scary . [+ RDG] 628451_631879
+%xmor:	pro:sub|he cop|be&PAST&13S adv|too adj|scare&dn-Y .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*MOT:	+" so, we sent him back . [+ RDG] 631879_634617
+%xmor:	adv|so cm|cm pro:sub|we v|send&PAST pro:obj|him adv|back .
+%xgra:	1|4|JCT 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|4|PUNCT
+*MOT:	+" and so they sent me a +... [+ RDG] 634617_639945
+%xmor:	coord|and co|so pro:sub|they v|send&PAST pro:obj|me det:art|a +...
+%xgra:	1|4|LINK 2|4|COM 3|4|SUBJ 4|0|ROOT 5|4|OBJ2 6|7|DET 7|4|PUNCT
+*MOT:	what did they send me ? 639945_642136
+%xmor:	pro:int|what mod|do&PAST pro:sub|they v|send pro:obj|me ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	what's this ? 642136_643245
+%xmor:	pro:int|what~cop|be&3S pro:dem|this ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=gasps, can you see what's in the box ? 643245_646154
+%xmor:	cm|cm mod|can pro:per|you v|see pro:int|what~cop|be&3S prep|in
+	det:art|the n|box ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|6|SUBJ 6|4|COMP 7|6|JCT 8|9|DET
+	9|7|POBJ 10|4|PUNCT
+*MOT:	&=gasps . 646154_649085
+*MOT:	can you see ? 649085_650110
+%xmor:	mod|can pro:per|you v|see ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	can you +//. 650110_650825
+%xmor:	mod|can pro:per|you +//.
+%xgra:	1|2|AUX 2|0|INCROOT 3|2|PUNCT
+*MOT:	oh, well done . 650825_652455
+%xmor:	co|oh cm|cm adv|well part|do&PASTP .
+%xgra:	1|4|COM 2|1|LP 3|4|JCT 4|0|ROOT 5|4|PUNCT
+*MOT:	dyou [: do you ] know what that is ? 652455_653745
+%xmor:	mod|do pro:per|you v|know pro:int|what comp|that cop|be&3S ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|LINK 5|6|SUBJ 6|3|COMP 7|3|PUNCT
+*MOT:	it's a cheeky monkey . 653745_656466
+%xmor:	pro:per|it~cop|be&3S det:art|a adj|cheek&dn-Y n|monkey .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	bit like someone else I know . 656466_658621
+%xmor:	v|bite&PAST prep|like pro:indef|someone post|else pro:sub|I v|know
+	.
+%xgra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|3|PQ 5|6|SUBJ 6|1|CJCT 7|1|PUNCT
+*MOT:	eating a banana like someone else I know . 658621_661221
+%xmor:	part|eat-PRESP det:art|a n|banana prep|like pro:indef|someone
+	post|else pro:sub|I v|know .
+%xgra:	1|8|XJCT 2|3|DET 3|1|OBJ 4|1|JCT 5|4|POBJ 6|5|PQ 7|8|SUBJ 8|0|ROOT
+	9|8|PUNCT
+*MOT:	from the zoo . 661221_662987
+%xmor:	prep|from det:art|the n|zoo .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*MOT:	yes, cheeky little monkey . 662987_666318
+%xmor:	co|yes cm|cm adj|cheek&dn-Y adj|little n|monkey .
+%xgra:	1|5|COM 2|1|LP 3|5|MOD 4|5|MOD 5|0|INCROOT 6|5|PUNCT
+*MOT:	+" but the monkey was too naughty . [+ RDG] 
+%xmor:	conj|but det:art|the n|monkey cop|be&PAST&13S adv|too adj|naughty .
+%xgra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|6|JCT 6|4|PRED 7|4|PUNCT
+*MOT:	like the pop_pops . 666318_670721
+%xmor:	prep|like det:art|the n|pop&DUP-PL .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*MOT:	+" so we sent him back . [+ RDG] 670721_672179
+%xmor:	co|so pro:sub|we v|send&PAST pro:obj|him adv|back .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|PUNCT
+*MOT:	+" and they sent me a +... [+ RDG] 672179_675191
+%xmor:	coord|and pro:sub|they v|send&PAST pro:obj|me det:art|a +...
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ2 5|6|DET 6|3|PUNCT
+*MOT:	what did they send me next ? [+ RDG] 675191_676776
+%xmor:	pro:int|what mod|do&PAST pro:sub|they v|send pro:obj|me adv|next ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|4|PUNCT
+*MOT:	what's in there ? 676776_678543
+%xmor:	pro:int|what~cop|be&3S prep|in n|there ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*MOT:	a froggy ! 678543_680635
+%xmor:	det:art|a adj|frog&dn-Y !
+%xgra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*MOT:	a froggy . 680635_682813
+%xmor:	det:art|a adj|frog&dn-Y .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*MOT:	+" but he was too jumpy . [+ RDG] 682813_686519
+%xmor:	conj|but pro:sub|he cop|be&PAST&13S adv|too adj|jump&dv-Y .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|PRED 6|3|PUNCT
+*MOT:	+" so I sent him back . [+ RDG] 686519_688418
+%xmor:	co|so pro:sub|I v|send&PAST pro:obj|him adv|back .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|PUNCT
+*MOT:	+" so they sent me +//. [+ RDG] 
+%xmor:	co|so pro:sub|they v|send&PAST pro:obj|me +//.
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	+" so they thought very hard and they sent me a +... [+ RDG] 688418_696607
+%xmor:	co|so pro:sub|they v|think&PAST adv|very adv|hard coord|and
+	pro:sub|they v|send&PAST pro:obj|me det:art|a +...
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|JCT 6|8|LINK 7|8|SUBJ 8|3|ROOT
+	9|8|OBJ 10|11|DET 11|8|PUNCT
+*MOT:	what did they send ? 696607_699703
+%xmor:	pro:int|what mod|do&PAST pro:sub|they v|send ?
+%xgra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	what did they send honey ? 699703_701512
+%xmor:	pro:int|what mod|do&PAST pro:sub|they v|send n|honey ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	can you see under here ? 701512_703275
+%xmor:	mod|can pro:per|you v|see prep|under n|here ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*MOT:	what's under here ? 703275_706735
+%xmor:	pro:int|what~cop|be&3S prep|under n|here ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*MOT:	you're not interested in the book any more . 706735_709608
+%xmor:	pro:per|you~aux|be&PRES neg|not part|interest-PASTP prep|in
+	det:art|the n|book qn|any adv|more .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|9|QUANT
+	9|4|JCT 10|4|PUNCT
+*MOT:	anyway . 709608_711363
+%xmor:	co|anyway .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" it was a little puppy and he was just perfect . [+ RDG] 711363_716299
+%xmor:	pro:per|it cop|be&PAST&13S det:art|a adj|little n|puppy coord|and
+	pro:sub|he cop|be&PAST&13S adv|just adj|perfect .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|8|LINK 7|8|SUBJ 8|5|CMOD
+	9|10|JCT 10|8|PRED 11|2|PUNCT
+*MOT:	that's a nice book isn't it ? 716299_718250
+%xmor:	pro:dem|that~cop|be&3S det:art|a adj|nice n|book cop|be&3S~neg|not
+	pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|6|SUBJ 6|2|PRED 7|6|NEG 8|6|PRED
+	9|2|PUNCT
+*MOT:	one day you're gonna have to say thank you to Granny for all these
+	lovely things that she's given you . 718250_723724
+%xmor:	det:num|one n|day pro:per|you~aux|be&PRES part|go&PRESP~inf|to
+	v|have inf|to co|say v|thank pro:per|you prep|to n:prop|Granny
+	prep|for qn|all det:dem|these n|lovely n|thing-PL pro:rel|that
+	pro:sub|she~aux|be&3S part|give&PASTP pro:per|you .
+%xgra:	1|2|QUANT 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|INF 7|5|COMP 8|10|INF
+	9|10|COM 10|7|COMP 11|10|OBJ 12|10|JCT 13|12|POBJ 14|10|JCT 15|18|QUANT
+	16|18|DET 17|18|MOD 18|14|POBJ 19|22|LINK 20|22|SUBJ 21|22|AUX 22|18|CMOD
+	23|22|OBJ 24|5|PUNCT
+*MOT:	lovely little things . 723724_725586
+%xmor:	n|lovely adj|little n|thing-PL .
+%xgra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	meanwhile, tick(le), tickle time . 725586_730096
+%xmor:	adv:tem|meanwhile cm|cm n|tickle cm|cm n|tickle n|time .
+%xgra:	1|0|INCROOT 2|1|LP 3|6|MOD 4|3|LP 5|6|MOD 6|1|ENUM 7|1|PUNCT
+*MOT:	tickle [/] tickle &tee &=laughs . 730096_733409
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	yes ! 733409_734976
+%xmor:	co|yes !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	hello baby . 734976_735976
+%xmor:	co|hello n|baby .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	let's do some standing up . 735976_737736
+%xmor:	v|let~pro:obj|us v|do qn|some n:gerund|stand-PRESP adv|up .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|5|QUANT 5|3|OBJ 6|3|JCT 7|1|PUNCT
+*CHI:	&=laughs . 737736_740059
+*MOT:	+< yes, &eh &he [x 3] . 
+%xmor:	co|yes cm|cm .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|PUNCT
+*MOT:	&ee &heehee . 740059_741984
+*MOT:	yay: ! 741984_744279
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you're very squidgy today aren't you ? 744279_746545
+%xmor:	pro:per|you~cop|be&PRES adv|very n|squidgy n|today
+	cop|be&PRES~neg|not pro:per|you ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|5|MOD 5|2|PRED 6|2|PRED 7|6|NEG 8|6|SUBJ
+	9|2|PUNCT
+*MOT:	very squidgy . 746545_748051
+%xmor:	adv|very n|squidgy .
+%xgra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
+*MOT:	yes you are &=laughs . 748051_750878
+%xmor:	co|yes pro:per|you cop|be&PRES .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	your little pot belly . 750878_752209
+%xmor:	det:poss|your adj|little n|pot n|belly .
+%xgra:	1|4|DET 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MOT:	little pot belly . 752209_753674
+%xmor:	adj|little n|pot n|belly .
+%xgra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	and shall we sing your song ? 753674_756676
+%xmor:	coord|and mod|shall pro:sub|we v|sing det:poss|your n|song ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*MOT:	heads, shoulders <knees and toes> [/] knees and toes [=! singing] . [+ SNG]
+	756676_760287
+%xmor:	n|head-PL cm|cm v|shoulder-3S n|knee-PL coord|and n|toe-PL .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|OBJ 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*MOT:	heads, shoulders <knees and toes> [/] knees and toes [=! singing] .
+	[+ SNG] 760287_762961
+%xmor:	n|head-PL cm|cm v|shoulder-3S n|knee-PL coord|and n|toe-PL .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|OBJ 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*MOT:	eyes and ears and mouth and nose [=! singing] . [+ SNG] 762961_767229
+%xmor:	n|eye-PL coord|and n|ear-PL coord|and n|mouth coord|and n|nose .
+%xgra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|CONJ 5|4|COORD 6|1|CONJ 7|6|COORD
+	8|1|PUNCT
+*MOT:	heads, hand [=! singing] +//. [+ SNG] 767229_768638
+%xmor:	n|head-PL cm|cm n|hand +//.
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	oh wrong one . 768638_769468
+%xmor:	co|oh v|wrong pro:indef|one .
+%xgra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	heads and shoulders <knees and toes> [/] knees and toes
+	[=! singing] . [+ SNG] 769468_771968
+%xmor:	n|head-PL coord|and v|shoulder-3S n|knee-PL coord|and n|toe-PL .
+%xgra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OBJ 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*MOT:	ah . 771968_773943
+%xmor:	co|ah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	so, what's this thing ? 773943_777046
+%xmor:	co|so cm|cm pro:int|what~cop|be&3S det:dem|this n|thing ?
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|PRED 7|4|PUNCT
+*MOT:	what's this bit called ? 777046_778772
+%xmor:	pro:int|what~cop|be&3S pro:dem|this n|bit part|call-PASTP ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|AUX 4|5|JCT 5|2|CPRED 6|2|PUNCT
+*MOT:	yes . 778772_781202
+%xmor:	co|yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	heads . 781202_782780
+%xmor:	n|head-PL .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	heads, shoulders <knees and toes> [/] knees and toes [=! singing] .
+	[+ SNG] 782780_785711
+%xmor:	n|head-PL cm|cm v|shoulder-3S n|knee-PL coord|and n|toe-PL .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|OBJ 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*MOT:	heads, shoulders <knees and toes> [/] knees and toes [=! singing] .
+	[+ SNG] 785711_788620
+%xmor:	n|head-PL cm|cm v|shoulder-3S n|knee-PL coord|and n|toe-PL .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|OBJ 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*MOT:	eyes and ears and mouth and nose [=! singing] . [+ SNG] 788620_793196
+%xmor:	n|eye-PL coord|and n|ear-PL coord|and n|mouth coord|and n|nose .
+%xgra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|CONJ 5|4|COORD 6|1|CONJ 7|6|COORD
+	8|1|PUNCT
+*MOT:	heads and shoulders <knees and toes> [/] knees and toes
+	[=! singing] . [+ SNG] 793196_796075
+%xmor:	n|head-PL coord|and v|shoulder-3S n|knee-PL coord|and n|toe-PL .
+%xgra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OBJ 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*MOT:	and a tickle, a tickle [x 3], &ticka [x 3] . 796075_800654
+%xmor:	coord|and det:art|a n|tickle cm|cm det:art|a n|tickle cm|cm .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|COORD 4|3|LP 5|6|DET 6|3|ENUM 7|6|LP 8|1|PUNCT
+*MOT:	tickle belly ? 800654_801887
+%xmor:	n|tickle n|belly ?
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	smack of the botty ? 801887_804395
+%xmor:	v|smack prep|of det:art|the adj|bot&dn-Y ?
+%xgra:	1|0|ROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+*MOT:	tickle on the tum_tum ? 804395_808252
+%xmor:	n|tickle prep|on det:art|the n|tum&DUP ?
+%xgra:	1|0|INCROOT 2|1|NJCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+*MOT:	mhm . 808252_811215
+%xmor:	co|mhm=yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	are you trying to escape ? 811215_812725
+%xmor:	cop|be&PRES pro:per|you part|try-PRESP inf|to v|escape ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|1|PUNCT
+*MOT:	are you trying to get away ? 812725_814111
+%xmor:	cop|be&PRES pro:per|you part|try-PRESP inf|to v|get adv|away ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|JCT 7|1|PUNCT
+*MOT:	you're gonna have to learn how to walk and then you can +//. 814111_816811
+%xmor:	pro:per|you~aux|be&PRES part|go&PRESP~inf|to v|have inf|to v|learn
+	pro:int|how inf|to v|walk coord|and adv:tem|then pro:per|you mod|can
+	+//.
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|7|INF 7|5|COMP 8|10|LINK
+	9|10|INF 10|7|COMP 11|10|CONJ 12|14|JCT 13|14|SUBJ 14|11|COORD 15|3|PUNCT
+*CHI:	+< &=moans .
+*MOT:	then you'll be able to get away properly . 816811_818931
+%xmor:	adv:tem|then pro:per|you~mod|will cop|be adj|able inf|to v|get
+	adv|away adv|proper&dadj-LY .
+%xgra:	1|4|JCT 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PRED 6|7|INF 7|5|XMOD 8|7|JCT
+	9|7|JCT 10|4|PUNCT
+*MOT:	I won't be able to resist . 818931_820832
+%xmor:	pro:sub|I mod|will~neg|not cop|be adj|able inf|to v|resist .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PRED 6|7|INF 7|5|XMOD 8|4|PUNCT
+*MOT:	ah, now how to do like your new dress ? 820832_824301
+%xmor:	co|ah cm|cm adv:tem|now pro:int|how inf|to mod|do v|like
+	det:poss|your adj|new n|dress ?
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|7|LINK 5|7|INF 6|7|AUX 7|3|COMP 8|10|DET
+	9|10|MOD 10|7|OBJ 11|1|PUNCT
+*MOT:	can you see what's on it ? 824301_826912
+%xmor:	mod|can pro:per|you v|see pro:int|what~cop|be&3S prep|on pro:per|it
+	?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|JCT 7|6|POBJ 8|3|PUNCT
+*MOT:	got a little pocket . 826912_828345
+%xmor:	v|get&PAST det:art|a adj|little n|pocket .
+%xgra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|PUNCT
+*MOT:	there's a little pocket here . 828345_830199
+%xmor:	pro:exist|there~cop|be&3S det:art|a adj|little n|pocket adv|here .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|5|NJCT 7|2|PUNCT
+*MOT:	what you gonna put in your pocket ? 830199_832195
+%xmor:	pro:int|what pro:per|you part|go&PRESP~inf|to part|put&PASTP
+	prep|in det:poss|your n|pocket ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|XJCT 6|5|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*CHI:	+< &=squeals . 
+*MOT:	o:h . 832195_836690
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	I was just looking at your pretty dress . 836690_838539
+%xmor:	pro:sub|I aux|be&PAST&13S adv|just part|look-PRESP prep|at
+	det:poss|your adj|pretty n|dress .
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|4|JCT 6|8|DET 7|8|MOD 8|5|POBJ
+	9|4|PUNCT
+*MOT:	ah . 838539_841084
+%xmor:	co|ah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	let's do some standing . 841084_842575
+%xmor:	v|let~pro:obj|us v|do qn|some n:gerund|stand-PRESP .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|5|QUANT 5|3|OBJ 6|1|PUNCT
+*MOT:	there you go . 842575_844822
+%xmor:	adv|there pro:per|you v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	what've you got round your wrist ? 844822_846168
+%xmor:	pro:int|what~aux|have pro:per|you v|get&PAST adv|round
+	det:poss|your n|wrist ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|PUNCT
+*MOT:	what's this ? 846168_847194
+%xmor:	pro:int|what~cop|be&3S pro:dem|this ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	is this a pretty hairband ? 847194_849194
+%xmor:	cop|be&3S det:dem|this det:art|a adj|pretty n|+n|hair+n|band ?
+%xgra:	1|0|ROOT 2|5|DET 3|5|DET 4|5|MOD 5|1|PRED 6|1|PUNCT
+*MOT:	is it a pretty hairband ? 849194_850933
+%xmor:	aux|be&3S pro:per|it det:art|a adj|pretty n|+n|hair+n|band ?
+%xgra:	1|5|AUX 2|5|SUBJ 3|5|DET 4|5|MOD 5|0|INCROOT 6|5|PUNCT
+*MOT:	is it ? 850933_852409
+%xmor:	aux|be&3S pro:per|it ?
+%xgra:	1|0|INCROOT 2|1|PRED 3|1|PUNCT
+*MOT:	&=chuckles, is it a pretty hairband ? 852409_854616
+%xmor:	cm|cm aux|be&3S pro:per|it det:art|a adj|pretty n|+n|hair+n|band ?
+%xgra:	1|6|SUBJ 2|6|AUX 3|6|SUBJ 4|6|DET 5|6|MOD 6|0|INCROOT 7|6|PUNCT
+*MOT:	shall I put it on your head ? 854616_855921
+%xmor:	mod|shall pro:sub|I v|put&ZERO pro:per|it prep|on det:poss|your
+	adj|head ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*MOT:	&waa, let's give that a go . 855921_857888
+%xmor:	cm|cm v|let~pro:obj|us v|give comp|that det:art|a v|go .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|COMP 5|7|LINK 6|7|DET 7|4|COMP 8|2|PUNCT
+*MOT:	come on then . 857888_859730
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	oh, let's pop it on . 859730_862196
+%xmor:	co|oh cm|cm v|let~pro:obj|us v|pop pro:per|it adv|on .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|OBJ 5|3|COMP 6|5|OBJ 7|5|JCT 8|1|PUNCT
+*MOT:	see how long this stays on . 862196_864002
+%xmor:	v|see pro:int|how adv|long pro:dem|this v|stay-3S adv|on .
+%xgra:	1|0|ROOT 2|5|LINK 3|4|JCT 4|5|SUBJ 5|1|COMP 6|5|JCT 7|1|PUNCT
+*MOT:	five seconds ? 864002_867004
+%xmor:	det:num|five n|second-PL ?
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*MOT:	there, that's nice isn't it ? 867004_870395
+%xmor:	adv|there cm|cm pro:dem|that~cop|be&3S adj|nice cop|be&3S~neg|not
+	pro:per|it ?
+%xgra:	1|4|JCT 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|PRED 7|6|NEG 8|6|SUBJ
+	9|4|PUNCT
+*MOT:	is that pretty ? 870395_873402
+%xmor:	cop|be&3S pro:dem|that adv|pretty ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|JCT 4|1|PUNCT
+*MOT:	will it make you even more of a pretty girl ? 873402_876283
+%xmor:	mod|will pro:per|it v|make pro:per|you v|even pro:indef|more
+	prep|of det:art|a adj|pretty n|girl ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|OBJ 7|6|NJCT 8|10|DET
+	9|10|MOD 10|7|POBJ 11|3|PUNCT
+*MOT:	shall we have some lunch ? 876283_879509
+%xmor:	mod|shall pro:sub|we v|have qn|some n|lunch ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|QUANT 5|3|OBJ 6|3|PUNCT
+*MOT:	shall we ? 879509_881415
+%xmor:	mod|shall pro:sub|we ?
+%xgra:	1|2|AUX 2|0|INCROOT 3|2|PUNCT
+*MOT:	what we going to have for lunch ? 881415_884233
+%xmor:	pro:int|what pro:sub|we part|go-PRESP inf|to v|have prep|for
+	n|lunch ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|JCT 7|6|POBJ 8|3|PUNCT
+*MOT:	I think we're gonna have chicken stew (be)cause <that was a> [/]
+	that was a good bet yesterday . 884233_891272
+%xmor:	pro:sub|I v|think pro:sub|we~aux|be&PRES part|go&PRESP~inf|to
+	v|have n|chicken n|stew conj|because pro:dem|that cop|be&PAST&13S
+	det:art|a adj|good n|bet adv:tem|yesterday .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|SUBJ 4|5|AUX 5|2|COMP 6|7|INF 7|5|COMP 8|9|MOD
+	9|7|OBJ 10|12|LINK 11|12|SUBJ 12|2|CJCT 13|15|DET 14|15|MOD 15|12|PRED
+	16|15|NJCT 17|2|PUNCT
+*MOT:	oh, you want to play with the book again ? 891272_893257
+%xmor:	co|oh cm|cm pro:per|you v|want prep|to n|play prep|with det:art|the
+	n|book adv:tem|again ?
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|JCT 8|9|DET
+	9|7|POBJ 10|4|JCT 11|4|PUNCT
+*MOT:	you see what's under the flap ? 893257_895605
+%xmor:	pro:per|you v|see pro:int|what~cop|be&3S prep|under det:art|the
+	v|flap ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*MOT:	see what's in the basket ? 895605_897427
+%xmor:	co|see pro:int|what~cop|be&3S prep|in det:art|the n|basket ?
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*MOT:	it's from the zoo . 897427_899550
+%xmor:	pro:per|it~cop|be&3S prep|from det:art|the n|zoo .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*MOT:	and it's a scary snake . 899550_901952
+%xmor:	coord|and pro:per|it~cop|be&3S det:art|a adj|scare&dn-Y n|snake .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*MOT:	it goes hiss::@o .
+%xmor:	pro:per|it v|go-3S on|hiss .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	&=laughs . 901952_907719
+*MOT:	it goes hiss::@o . 907719_911927
+%xmor:	pro:per|it v|go-3S on|hiss .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	what's on the back ? 911927_913202
+%xmor:	pro:int|what~cop|be&3S prep|on det:art|the n|back ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*MOT:	on the back there's a box and it's got cheeky monkey . 913202_916357
+%xmor:	prep|on det:art|the n|back pro:exist|there~cop|be&3S det:art|a
+	n|box coord|and pro:per|it~aux|be&3S part|get&PASTP adj|cheek&dn-Y
+	n|monkey .
+%xgra:	1|5|JCT 2|3|DET 3|1|POBJ 4|5|SUBJ 5|0|ROOT 6|7|DET 7|5|PRED 8|11|LINK
+	9|11|SUBJ 10|11|AUX 11|7|CMOD 12|13|MOD 13|11|OBJ 14|5|PUNCT
+*MOT:	a big elephant . 916357_917957
+%xmor:	det:art|a adj|big n|elephant .
+%xgra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	a tall giraffe . 917957_919457
+%xmor:	det:art|a adj|tall n|giraffe .
+%xgra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	a scary lion rar@o . 919457_922257
+%xmor:	det:art|a adj|scare&dn-Y n|lion on|rar .
+%xgra:	1|3|DET 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	a grumpy camel . 922257_923757
+%xmor:	det:art|a adj|grump&dn-Y n|camel .
+%xgra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	and a scary snake sss@o . 923757_927757
+%xmor:	coord|and det:art|a adj|scare&dn-Y n|snake on|sss .
+%xgra:	1|5|LINK 2|4|DET 3|4|MOD 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	and the monkey goes &=monkey:noise &=laughs . 927757_932956
+%xmor:	coord|and det:art|the n|monkey v|go-3S .
+%xgra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	&=monkey:noise &=laughs . 932956_938020
+*MOT:	this is monkey . 938020_938871
+%xmor:	pro:dem|this cop|be&3S n|monkey .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=monkey:noise . 938871_943408
+*MOT:	+" Frida, will you give me a kiss ? 943408_945308
+%xmor:	n:prop|Frida cm|cm mod|will pro:per|you v|give pro:obj|me det:art|a
+	n|kiss ?
+%xgra:	1|5|SUBJ 2|1|LP 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|OBJ2 7|8|DET 8|5|OBJ
+	9|5|PUNCT
+*MOT:	&=kiss . 945308_946368
+*MOT:	&=monkey:noise . 946368_948776
+*MOT:	and they live in the trees, whee ! 948776_952626
+%xmor:	coord|and pro:sub|they v|live prep|in det:art|the n|tree-PL cm|cm
+	co|whee !
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|LP 8|3|COM
+	9|3|PUNCT
+*MOT:	and they swing, whee ! 952626_955026
+%xmor:	coord|and pro:sub|they v|swing cm|cm co|whee !
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|LP 5|3|COM 6|3|PUNCT
+*MOT:	from branch to branch . 955026_956942
+%xmor:	prep|from n|branch prep|to n|branch .
+%xgra:	1|0|INCROOT 2|1|POBJ 3|2|NJCT 4|3|POBJ 5|1|PUNCT
+*MOT:	&=monkey:noise . 956942_958668
+*MOT:	and they eat lots of bananas like someone else I know . 958668_962629
+%xmor:	coord|and pro:sub|they v|eat n|lot-PL prep|of n|banana-PL prep|like
+	pro:indef|someone post|else pro:sub|I v|know .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|NJCT 6|5|POBJ 7|3|JCT 8|7|POBJ
+	9|8|PQ 10|11|SUBJ 11|3|CJCT 12|3|PUNCT
+*MOT:	someone else I know eats bananas a lot for their lunch
+	[=! singing] . 962629_967141
+%xmor:	pro:indef|someone post|else pro:sub|I v|know v|eat-3S n|banana-PL
+	det:art|a n|lot prep|for det:poss|their n|lunch .
+%xgra:	1|4|XJCT 2|1|PQ 3|4|SUBJ 4|0|ROOT 5|4|COMP 6|5|OBJ 7|8|DET 8|6|OBJ
+	9|8|NJCT 10|11|DET 11|9|POBJ 12|4|PUNCT
+*CHI:	+< &=whines . 
+*MOT:	and she stuffs them in her mouth and they make her belly even
+	bigger [=! singing] . 967141_972916
+%xmor:	coord|and pro:sub|she v|stuff-3S pro:obj|them prep|in det:poss|her
+	n|mouth coord|and pro:sub|they v|make det:poss|her n|belly adv|even
+	adj|big-CP .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|DET 7|5|POBJ 8|10|LINK
+	9|10|SUBJ 10|3|CJCT 11|12|DET 12|10|OBJ 13|14|JCT 14|12|POSTMOD
+	15|3|PUNCT
+*MOT:	yes . 972916_974063
+%xmor:	co|yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	and here's an elephant . 974063_975575
+%xmor:	coord|and pro:exist|here~cop|be&3S det:art|a n|elephant .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*MOT:	this one's an elephant . 975575_976567
+%xmor:	pro:dem|this pro:indef|one~cop|be&3S det:art|a n|elephant .
+%xgra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*MOT:	ready ? 976567_978144
+%xmor:	adj|ready ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	whee ! 978144_981700
+%xmor:	co|whee !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	it's a blue elephant . 981700_982833
+%xmor:	pro:per|it~cop|be&3S det:art|a adj|blue n|elephant .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	blue elephant with wheels for feet . 982833_986810
+%xmor:	adj|blue n|elephant prep|with n|wheel-PL prep|for n|foot&PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|NJCT 4|3|POBJ 5|4|NJCT 6|5|POBJ 7|2|PUNCT
+*MOT:	because it's a baby toy and they can do what the hell they want . 986810_992888
+%xmor:	conj|because pro:per|it~cop|be&3S det:art|a n|baby n|toy coord|and
+	pro:sub|they mod|can v|do pro:int|what det:art|the n|hell
+	pro:sub|they v|want .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|10|LINK 8|10|SUBJ
+	9|10|AUX 10|6|CMOD 11|10|OBJ 12|13|DET 13|11|OBJ 14|15|SUBJ 15|13|CMOD
+	16|3|PUNCT
+*MOT:	yes ! 992888_993870
+%xmor:	co|yes !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	so I think that it's lunch time for little babies . 993870_999559
+%xmor:	co|so pro:sub|I v|think comp|that pro:per|it~cop|be&3S n|lunch
+	n|time prep|for adj|little n|baby-PL .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|LINK 5|6|SUBJ 6|3|COMP 7|8|MOD 8|6|PRED
+	9|8|NJCT 10|11|MOD 11|9|POBJ 12|3|PUNCT
+*MOT:	and for Mummy too . 999559_1001094
+%xmor:	coord|and prep|for n:prop|Mummy post|too .
+%xgra:	1|0|INCROOT 2|1|COORD 3|2|POBJ 4|3|PQ 5|1|PUNCT
+*MOT:	time for a coffee . 1001094_1002987
+%xmor:	n|time prep|for det:art|a n|coffee .
+%xgra:	1|0|INCROOT 2|1|NJCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+*MOT:	and end this recording that we've done . 1002987_1006266
+%xmor:	coord|and v|end det:dem|this part|record-PRESP comp|that
+	pro:sub|we~aux|have part|do&PASTP .
+%xgra:	1|2|LINK 2|0|ROOT 3|2|OBJ 4|3|XMOD 5|8|LINK 6|8|SUBJ 7|8|AUX 8|4|COMP
+	9|2|PUNCT
+*MOT:	done enough recording so we can go and move into the kitchen
+	&=kiss . 1006266_1010735
+%xmor:	part|do&PASTP adv|enough n:gerund|record-PRESP adv|so pro:sub|we
+	mod|can v|go coord|and n|move prep|into det:art|the n|kitchen .
+%xgra:	1|0|INCROOT 2|3|JCT 3|1|COMP 4|7|JCT 5|7|SUBJ 6|7|AUX 7|3|COMP 8|7|CONJ
+	9|8|COORD 10|9|NJCT 11|12|DET 12|10|POBJ 13|1|PUNCT
+*MOT:	go and get you some food [=! singing] . 1010735_1012713
+%xmor:	v|go coord|and v|get pro:per|you qn|some n|food .
+%xgra:	1|0|ROOT 2|1|CONJ 3|2|COORD 4|3|OBJ2 5|6|QUANT 6|3|OBJ 7|1|PUNCT
+*MOT:	okay . 1012713_1014170
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	let's go . 1014170_1016109
+%xmor:	v|let~pro:obj|us v|go .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|1|PUNCT
+*MOT:	get some stuff . 1016109_1017743
+%xmor:	v|get qn|some n|stuff .
+%xgra:	1|0|ROOT 2|3|QUANT 3|1|OBJ 4|1|PUNCT
+@End

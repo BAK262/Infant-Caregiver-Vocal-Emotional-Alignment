@@ -1,0 +1,115 @@
+@UTF8
+@PID:	11312/a-00047623-1
+@Window:	262_181_668_685_-1_-1_985_0_985_0
+@Begin
+@Languages:	eng
+@Participants:	CHI Joanna Target_Child, FAT Father
+@ID:	eng|Edinburgh|CHI|0;09.01|female|||Target_Child|||
+@ID:	eng|Edinburgh|FAT||male|||Father|||
+@Date:	01-OCT-2013
+@Media:	joanna0911, audio, missing
+@Types:	long, toyplay, TD
+*FAT:	right come (h)ere .
+%xmor:	adv|right v|come adv|here .
+%xgra:	1|2|JCT 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*FAT:	what you doing ?
+%xmor:	pro:int|what pro:per|you part|do-PRESP ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*FAT:	are you misbehaving, lady, eh ?
+%xmor:	cop|be&PRES pro:per|you mis#n:gerund|behave-PRESP cm|cm n|lady
+	cm|cm co|eh ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|OM 4|3|LP 5|3|ENUM 6|5|LP 7|3|ENUM 8|1|PUNCT
+*FAT:	are you misbehaving ?
+%xmor:	cop|be&PRES pro:per|you mis#n:gerund|behave-PRESP ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*FAT:	are you misbehaving ?
+%xmor:	cop|be&PRES pro:per|you mis#n:gerund|behave-PRESP ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*FAT:	hm ?
+%xmor:	co|hm ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	are we gonna [: going to ] go for a wee drive today ?
+%xmor:	cop|be&PRES pro:sub|we part|go-PRESP inf|to v|go prep|for det:art|a
+	adj|wee n|drive adv:tem|today ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|JCT 7|9|DET 8|9|MOD
+	9|6|POBJ 10|9|JCT 11|1|PUNCT
+*FAT:	(be)cause your uncle needs to go buy a new pair of shoes .
+%xmor:	conj|because det:poss|your n|uncle v|need-3S inf|to v|go v|buy
+	det:art|a adj|new n|pair prep|of n|shoe-PL .
+%xgra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|7|INF 6|7|SRL 7|4|COMP 8|10|DET
+	9|10|MOD 10|7|OBJ 11|10|NJCT 12|11|POBJ 13|4|PUNCT
+*FAT:	hm ?
+%xmor:	co|hm ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=sneezes .
+*FAT:	what do you think about the books ?
+%xmor:	pro:int|what mod|do pro:per|you v|think prep|about det:art|the
+	n|book-PL ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|PUNCT
+*FAT:	do you like looking at the &pic pictures ?
+%xmor:	mod|do pro:per|you v|like part|look-PRESP prep|at det:art|the
+	n|picture-PL ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*FAT:	here .
+%xmor:	adv|here .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	+" The_gingerman_bread .
+%xmor:	n:prop|The_gingerman_bread .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	+" this belongs to Joanna .
+%xmor:	pro:dem|this v|belong-3S prep|to n:prop|Joanna .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*FAT:	yes, it does !
+%xmor:	co|yes cm|cm pro:per|it mod|do&3S !
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*FAT:	it belongs to Joanna !
+%xmor:	pro:per|it v|belong-3S prep|to n:prop|Joanna !
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*FAT:	give me your nose, you've got boogers .
+%xmor:	v|give pro:obj|me det:poss|your n|nose cm|cm pro:per|you~aux|have
+	part|get&PASTP n|booger-PL .
+%xgra:	1|0|ROOT 2|1|OBJ2 3|4|DET 4|1|OBJ 5|1|LP 6|8|SUBJ 7|8|AUX 8|1|CJCT
+	9|8|OBJ 10|1|PUNCT
+*FAT:	eh ?
+%xmor:	co|eh ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	what's happening ?
+%xmor:	pro:int|what~aux|be&3S part|happen-PRESP ?
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*FAT:	hm .
+%xmor:	co|hm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	+" Watch_shop_dot_com .
+%xmor:	n:prop|Watch_shop_dot_com .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+%com:	father is quoting something he's heard on the television .
+*FAT:	hey !
+%xmor:	co|hey !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	be nice to books, they're made of trees .
+%xmor:	cop|be adj|nice prep|to n|book-PL cm|cm pro:sub|they~aux|be&PRES
+	part|make&PASTP prep|of n|tree-PL .
+%xgra:	1|0|ROOT 2|1|PRED 3|2|JCT 4|3|POBJ 5|1|LP 6|8|SUBJ 7|8|AUX 8|1|CJCT
+	9|8|JCT 10|9|POBJ 11|1|PUNCT
+*FAT:	are we gonna [: going to ] watch football over the weekend ?
+%xmor:	cop|be&PRES pro:sub|we part|go-PRESP prep|to n|watch
+	n|+n|foot+n|ball prep|over det:art|the n|+n|week+n|end ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|3|JCT 5|6|MOD 6|4|POBJ 7|3|JCT 8|9|DET
+	9|7|POBJ 10|1|PUNCT
+*FAT:	hm ?
+%xmor:	co|hm ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	are we gonna [: going to ] watch football over the weekend Joanna ?
+%xmor:	cop|be&PRES pro:sub|we part|go-PRESP prep|to n|watch
+	n|+n|foot+n|ball prep|over det:art|the n|+n|week+n|end n:prop|Joanna
+	?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|3|JCT 5|6|MOD 6|4|POBJ 7|3|JCT 8|9|DET
+	9|7|POBJ 10|9|APP 11|1|PUNCT
+*FAT:	what do you think ?
+%xmor:	pro:int|what mod|do pro:per|you v|think ?
+%xgra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*FAT:	yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	&oy &=blows .
+@End

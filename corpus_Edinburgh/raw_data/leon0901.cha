@@ -1,0 +1,326 @@
+@UTF8
+@PID:	11312/a-00047633-1
+@Window:	74_110_662_685_-1_-1_4128_0_4128_0
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Leon Target_Child
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@ID:	eng|Edinburgh|CHI|0;09.03|male|||Target_Child|||
+@Date:	28-NOV-2013
+@Media:	leon0901, audio
+@Types:	long, toyplay, TD
+*MOT:	who's a good boy ? 0_3016
+%xmor:	pro:int|who~cop|be&3S det:art|a adj|good n|boy ?
+%xgra:	1|2|LINK 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	are we going to have some Ready_Brek now ? 3016_6216
+%xmor:	cop|be&PRES pro:sub|we part|go-PRESP inf|to v|have qn|some
+	n:prop|Ready_Brek adv:tem|now ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|7|QUANT 7|8|SUBJ 8|5|JCT
+	9|1|PUNCT
+*MOT:	ang_yang@f spoon ? 6216_8201
+%xmor:	fam|ang_yang n|spoon ?
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	&=cries . 8201_11592
+*MOT:	+< yeah, ang_yang@f  spoon ? 
+%xmor:	co|yeah cm|cm fam|ang_yang n|spoon ?
+%xgra:	1|4|COM 2|1|LP 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MOT:	cheeky boy . 11592_13375
+%xmor:	adj|cheek&dn-Y n|boy .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	+< &=coughs . 
+*MOT:	cough [/] cough . 13375_16230
+%xmor:	n|cough .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=cries . 16230_17230
+*MOT:	a wee cough ? 17230_18212
+%xmor:	det:art|a adj|wee n|cough ?
+%xgra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	good baby . 18212_25685
+%xmor:	adj|good n|baby .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	&aye [x 6] spoon [=! singing] . 25685_32546
+%xmor:	n|spoon .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	Leon's such a clever boy [=! singing] . 32546_37923
+%xmor:	n:prop|Leon~cop|be&3S qn|such det:art|a adj|clever n|boy .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|QUANT 4|6|DET 5|6|MOD 6|2|PRED 7|2|PUNCT
+*MOT:	now, time to get some Ready_Brek ? 37923_40589
+%xmor:	adv:tem|now cm|cm n|time inf|to v|get qn|some n:prop|Ready_Brek ?
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|5|INF 5|3|XMOD 6|7|QUANT 7|5|OBJ
+	8|1|PUNCT
+*CHI:	+< &=coughs . 
+*MOT:	oh cough [x 3] . 40589_42637
+%xmor:	co|oh n|cough .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	up [/] up . 42637_44427
+%xmor:	adv|up .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=cries . 44427_45627
+*MOT:	good boy . 45627_47054
+%xmor:	adj|good n|boy .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	<breakfast yum [x 3]> [/] breakfast yum [x 3] breakfast clever boy
+	[=! singing] . 47054_60449
+%xmor:	n|breakfast n|yum n|breakfast adj|clever n|boy .
+%xgra:	1|3|MOD 2|3|MOD 3|5|MOD 4|5|MOD 5|0|INCROOT 6|5|PUNCT
+*MOT:	mmm . 60449_62239
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	ang_yang@f  spoon ? 62239_63983
+%xmor:	fam|ang_yang n|spoon ?
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	Leon ? 63983_65010
+%xmor:	n:prop|Leon ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	come on cheeky . 65010_67181
+%xmor:	v|come prep|on adj|cheek&dn-Y .
+%xgra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
+*MOT:	mmm: . 67181_73933
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	yum [/] yum . 73933_76143
+%xmor:	n|yum .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	yum [/] yum, what a clever boy ! 76143_80044
+%xmor:	n|yum cm|cm pro:int|what det:art|a adj|clever n|boy !
+%xgra:	1|0|INCROOT 2|1|LP 3|6|DET 4|6|DET 5|6|MOD 6|1|APP 7|1|PUNCT
+*MOT:	mmm, you're doing so well little man . 80044_84249
+%xmor:	co|mmm cm|cm pro:per|you~aux|be&PRES part|do-PRESP adv|so adv|well
+	adj|little n|man .
+%xgra:	1|5|COM 2|1|LP 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|JCT 7|9|JCT 8|9|MOD
+	9|5|OBJ 10|5|PUNCT
+*MOT:	ang_yang@f . 84249_88328
+%xmor:	fam|ang_yang .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	mmm: . 88328_91514
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	Leon's such a clever boy eating up all his food [=! singing] . 91514_98381
+%xmor:	n:prop|Leon~aux|be&3S qn|such det:art|a adj|clever n|boy
+	part|eat-PRESP adv|up qn|all det:poss|his n|food .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|QUANT 4|6|DET 5|6|MOD 6|2|PRED 7|6|XMOD 8|7|JCT
+	9|11|QUANT 10|11|DET 11|7|OBJ 12|2|PUNCT
+*CHI:	&=whines . 98381_101844
+*MOT:	yum [x 7] [=! singing] . 101844_104599
+%xmor:	n|yum .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	mmm:, I love Ready_Brek ! 104599_111936
+%xmor:	co|mmm cm|cm pro:sub|I v|love n:prop|Ready_Brek !
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	tasty goo:d, clever baby . 111936_116510
+%xmor:	adj|taste&dn-Y adj|good cm|cm adj|clever n|baby .
+%xgra:	1|5|MOD 2|1|ENUM 3|2|LP 4|5|MOD 5|0|INCROOT 6|5|PUNCT
+*MOT:	yes you are . 116510_119923
+%xmor:	co|yes pro:per|you cop|be&PRES .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	&=kiss kisses . 119923_122396
+%xmor:	n|kiss-PL .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&mmm . 122396_125271
+*CHI:	&uoo [x 3] . 125271_128871
+*MOT:	&aoo: . 128871_131071
+*MOT:	&=hums . 131071_134558
+*CHI:	&=shouts . 134558_136158
+*MOT:	mmm, clever baby . 136158_139547
+%xmor:	co|mmm cm|cm adj|clever n|baby .
+%xgra:	1|4|COM 2|1|LP 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MOT:	who's a clever boy ? 139547_141607
+%xmor:	pro:int|who~cop|be&3S det:art|a adj|clever n|boy ?
+%xgra:	1|2|LINK 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	you're doing so well . 141607_143711
+%xmor:	pro:per|you~aux|be&PRES part|do-PRESP adv|so adv|well .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|JCT 5|3|JCT 6|3|PUNCT
+*MOT:	mmm: . 143711_147860
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you're so good at eating breakfast little man . 147860_150990
+%xmor:	pro:per|you~cop|be&PRES adv|so adj|good prep|at n:gerund|eat-PRESP
+	n|breakfast adj|little n|man .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|JCT 6|5|POBJ 7|9|MOD 8|9|MOD
+	9|6|OBJ 10|2|PUNCT
+*MOT:	what a clever boy . 150990_152156
+%xmor:	pro:int|what det:art|a adj|clever n|boy .
+%xgra:	1|4|DET 2|4|DET 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MOT:	yum [x 3] ! 152156_159203
+%xmor:	n|yum !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	mmm: . 159203_163794
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	yeah ang_yang@f  spoon . 163794_169171
+%xmor:	co|yeah fam|ang_yang n|spoon .
+%xgra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	clever baby . 169171_172582
+%xmor:	adj|clever n|baby .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	&ah: . 172582_179125
+*MOT:	&=pretend:eating:noise . 179125_180414
+*MOT:	clever boy ! 180414_182214
+%xmor:	adj|clever n|boy !
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	&=coughs . 182214_188565
+*MOT:	+< aw cough [/] cough . 
+%xmor:	co|aw n|cough .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	would you like a little drink maybe ? 188565_190527
+%xmor:	mod|will&COND pro:per|you v|like det:art|a adj|little n|drink
+	adv|maybe ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|3|JCT 8|3|PUNCT
+*MOT:	drinkies . 190527_194889
+%xmor:	n|drink-DIM-PL .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	mmm water . 194889_199382
+%xmor:	co|mmm n|water .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	clever boy . 199382_202860
+%xmor:	adj|clever n|boy .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	mmm, some more ? 202860_207204
+%xmor:	co|mmm cm|cm qn|some adv|more ?
+%xgra:	1|0|INCROOT 2|1|LP 3|4|QUANT 4|1|JCT 5|1|PUNCT
+*MOT:	what a clever baby you are . 207204_214345
+%xmor:	pro:int|what det:art|a adj|clever n|baby pro:per|you cop|be&PRES .
+%xgra:	1|4|DET 2|4|DET 3|4|MOD 4|0|INCROOT 5|6|SUBJ 6|4|CMOD 7|4|PUNCT
+*MOT:	Mummy have some coffee ? 214345_216355
+%xmor:	n:prop|Mummy v|have qn|some n|coffee ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|2|OBJ 5|2|PUNCT
+*MOT:	we see Scooby ? 216355_218829
+%xmor:	pro:sub|we v|see n:prop|Scooby ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	Scooby's a baby just like you, yeah . 218829_223175
+%xmor:	n:prop|Scooby~cop|be&3S det:art|a n|baby adv|just prep|like
+	pro:per|you cm|cm co|yeah .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|6|JCT 6|4|NJCT 7|6|POBJ 8|4|LP
+	9|4|ENUM 10|2|PUNCT
+*CHI:	&=grunts . 223175_230986
+*MOT:	&=grunts . 230986_232101
+*CHI:	&mmm: . 232101_233701
+*MOT:	&mmm:, yum [/] yum clever boy . 233701_238451
+%xmor:	cm|cm n|yum adj|clever n|boy .
+%xgra:	1|4|MOD 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MOT:	you're so good at eating your breakfast little man . 238451_242336
+%xmor:	pro:per|you~cop|be&PRES adv|so adj|good prep|at part|eat-PRESP
+	det:poss|your n|breakfast adj|little n|man .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|JCT 6|5|POBJ 7|8|DET 8|10|MOD
+	9|10|MOD 10|6|OBJ 11|2|PUNCT
+*MOT:	you're gonna be such a strong big boy . 242336_245935
+%xmor:	pro:per|you~aux|be&PRES part|go&PRESP~inf|to aux|be qn|such
+	det:art|a adj|strong adj|big n|boy .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|10|QUANT 7|10|DET 8|10|MOD
+	9|10|MOD 10|5|PRED 11|3|PUNCT
+*MOT:	yes you are . 245935_247785
+%xmor:	co|yes pro:per|you cop|be&PRES .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	(be)cause you eat up everything ! 247785_250000
+%xmor:	conj|because pro:per|you v|eat adv|up pro:indef|everything !
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*MOT:	yes, clever baby . 250000_253867
+%xmor:	co|yes cm|cm adj|clever n|baby .
+%xgra:	1|4|COM 2|1|LP 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*CHI:	+< &mm . 
+*MOT:	mmm: . 253867_258116
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	mmm: . 258116_260821
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	kissy noises . 260821_265339
+%xmor:	adj|kiss&dv-Y n|noise-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	kissy baby . 265339_266412
+%xmor:	adj|kiss&dv-Y n|baby .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	&=whines . 266412_269412
+*MOT:	mmm: . 269412_272306
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=whines . 272306_279045
+*MOT:	you alright ? 279045_280277
+%xmor:	pro:per|you co|alright ?
+%xgra:	1|2|SUBJ 2|0|INCROOT 3|2|PUNCT
+*CHI:	+< &=whines . 
+*MOT:	would you like some more water ? 280277_283233
+%xmor:	mod|will&COND pro:per|you v|like qn|some qn|more n|water ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|QUANT 5|6|QUANT 6|3|OBJ 7|3|PUNCT
+*MOT:	mmm . 283233_286487
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you're doing very well little man . 286487_291065
+%xmor:	pro:per|you~aux|be&PRES part|do-PRESP adv|very adv|well adj|little
+	n|man .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|JCT 5|7|JCT 6|7|MOD 7|3|OBJ 8|3|PUNCT
+*MOT:	very [/] very well . 291065_293170
+%xmor:	adv|very adv|well .
+%xgra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
+*CHI:	&=whines . 293170_296869
+*MOT:	mmm: . 296869_303284
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	ang_yang@f  spoo:n . 303284_305302
+%xmor:	fam|ang_yang n|spoon .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	ang_yang@f  spoo:n . 305302_308154
+%xmor:	fam|ang_yang n|spoon .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	ang_yang@f  spoon [=! singing] . 308154_312845
+%xmor:	fam|ang_yang n|spoon .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	Leon's such a clever boy [=! singing] . 312845_315794
+%xmor:	n:prop|Leon~cop|be&3S qn|such det:art|a adj|clever n|boy .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|QUANT 4|6|DET 5|6|MOD 6|2|PRED 7|2|PUNCT
+*CHI:	+< &=whines . 
+*CHI:	&=whines, &=gurgles . 315794_319494
+%xmor:	cm|cm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	mmm: . 319494_322028
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=grunts . 322028_327393
+*MOT:	+< he's gonna grow up big and strong [=! singing] .
+%xmor:	pro:sub|he~aux|be&3S part|go&PRESP~inf|to v|grow adv|up adj|big
+	coord|and adj|strong .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|JCT 7|5|JCT 8|7|CONJ
+	9|8|COORD 10|3|PUNCT
+%com:	sung to the tune of Twinkle Twinkle Little Star
+*MOT:	(be)cause he eats up all his food [=! singing] . 327393_331050
+%xmor:	conj|because pro:sub|he v|eat-3S prep|up qn|all det:poss|his n|food
+	.
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|7|QUANT 6|7|DET 7|4|POBJ 8|3|PUNCT
+*CHI:	&=whines . 331050_337797
+*MOT:	+< num [x 7] yes he's such a clever boy [=! singing] . 
+%xmor:	co|num co|yes pro:sub|he~cop|be&3S qn|such det:art|a adj|clever
+	n|boy .
+%xgra:	1|4|COM 2|4|COM 3|4|SUBJ 4|0|ROOT 5|8|QUANT 6|8|DET 7|8|MOD 8|4|PRED
+	9|4|PUNCT
+*MOT:	good baby . 337797_339947
+%xmor:	adj|good n|baby .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	num_nums . 339947_342747
+%xmor:	n|num_num-PL .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=whines .
+*MOT:	you wanna have a wee break for a minute ? 342747_347433
+%xmor:	pro:per|you v|want~inf|to v|have det:art|a adj|wee n|break prep|for
+	det:art|a n|minute ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|7|DET 6|7|MOD 7|4|OBJ 8|7|NJCT
+	9|10|DET 10|8|POBJ 11|2|PUNCT
+*CHI:	&=whines . 347433_350582
+*MOT:	+< we can have a break for a minute, that's okay . 
+%xmor:	pro:sub|we mod|can v|have det:art|a n|break prep|for det:art|a
+	n|minute cm|cm pro:dem|that~cop|be&3S adj|okay .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|3|LP 10|11|SUBJ 11|3|CJCT 12|11|PRED 13|3|PUNCT
+*MOT:	maybe some more water ? 350582_354153
+%xmor:	adv|maybe qn|some qn|more n|water ?
+%xgra:	1|2|JCT 2|4|QUANT 3|4|QUANT 4|0|INCROOT 5|4|PUNCT
+*MOT:	are you thirsty still ? 354153_356190
+%xmor:	cop|be&PRES pro:per|you adj|thirst&dn-Y adj|still ?
+%xgra:	1|0|ROOT 2|1|PRED 3|4|MOD 4|2|JCT 5|1|PUNCT
+*MOT:	you've drunk loads of water there . 356190_359762
+%xmor:	pro:per|you~aux|have part|drink&PASTP n|load-PL prep|of n|water
+	adv|there .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|4|NJCT 6|5|POBJ 7|3|JCT 8|3|PUNCT
+*MOT:	loa:ds ! 359762_361832
+%xmor:	n|load-PL !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+@End

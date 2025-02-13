@@ -1,0 +1,308 @@
+@UTF8
+@PID:	11312/a-00047637-1
+@Window:	86_679_896_1139_-1_-1_8929_0_8929_0
+@Begin
+@Languages:	eng
+@Participants:	FAT Father, CHI Leon Target_Child
+@ID:	eng|Edinburgh|FAT||male|||Father|||
+@ID:	eng|Edinburgh|CHI|0;09.07|male|||Target_Child|||
+@Date:	02-DEC-2013
+@Media:	leon0905, audio
+@Types:	long, toyplay, TD
+*FAT:	cheeky ! 0_5620
+%xmor:	adj|cheek&dn-Y !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	&=gasps . 5620_12157
+*FAT:	bubbles, see a bubble ? 12157_18006
+%xmor:	n|bubble-PL cm|cm v|see det:art|a n|bubble ?
+%xgra:	1|3|SUBJ 2|1|LP 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*FAT:	ooh . 18006_22530
+%xmor:	v|ooh .
+%xgra:	1|0|ROOT 2|1|PUNCT
+*FAT:	what's that cheeky ? 22530_24388
+%xmor:	pro:int|what~cop|be&3S det:dem|that adj|cheek&dn-Y ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*FAT:	shaky [x 4] . 24388_38253
+%xmor:	adj|shake&dv-Y .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&ah . 38253_45253
+*FAT:	&dah . 45253_46846
+*FAT:	I'm a standing baby: . 46846_50523
+%xmor:	pro:sub|I~aux|be&1S det:art|a part|stand-PRESP n|baby .
+%xgra:	1|5|SUBJ 2|5|AUX 3|5|DET 4|5|MOD 5|0|ROOT 6|5|PUNCT
+*FAT:	&=laughs, standing boy . 50523_52712
+%xmor:	cm|cm part|stand-PRESP co|boy .
+%xgra:	1|0|INCROOT 2|1|XMOD 3|2|OBJ 4|1|PUNCT
+*FAT:	are you standing ? 52712_54435
+%xmor:	cop|be&PRES pro:per|you part|stand-PRESP ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*FAT:	ah, yeah ! 54435_56235
+%xmor:	co|ah cm|cm co|yeah !
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*FAT:	yeah [x 3] ! 56235_57135
+%xmor:	co|yeah !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	stand and shakies . 57135_58366
+%xmor:	n|stand coord|and n|shake-DIM-PL .
+%xgra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*FAT:	yep . 58366_60427
+%xmor:	co|yep .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	I'm a standing up baby: . 60427_63703
+%xmor:	pro:sub|I~cop|be&1S det:art|a n:gerund|stand-PRESP adv|up n|baby .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|4|JCT 6|5|POBJ 7|2|PUNCT
+*FAT:	I'm a shake a bum baby: . 63703_65221
+%xmor:	pro:sub|I~cop|be&1S det:art|a n|shake det:art|a n|bum n|baby .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|7|DET 6|7|MOD 7|4|OBJ 8|2|PUNCT
+*FAT:	I'm a jumpy [/] jumpy jumpies . 65221_69242
+%xmor:	pro:sub|I~cop|be&1S det:art|a adj|jump&dv-Y n|jump-DIM-PL .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*FAT:	a jumpy [/] jumpy jumpies . 69242_72033
+%xmor:	det:art|a adj|jump&dv-Y n|jump-DIM-PL .
+%xgra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*FAT:	a swing [/] swing baby: . 72033_75782
+%xmor:	det:art|a n|swing n|baby .
+%xgra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*CHI:	&uu &uu: . 75782_79329
+*FAT:	+< &oo &oo, yeah I see . 
+%xmor:	cm|cm co|yeah pro:sub|I v|see .
+%xgra:	1|4|LINK 2|4|COM 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*FAT:	shaky [x 2], shaky [x 2] jumpies . 79329_83931
+%xmor:	adj|shake&dv-Y cm|cm adj|shake&dv-Y n|jump-DIM-PL .
+%xgra:	1|4|MOD 2|1|LP 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*FAT:	are you gonna jump up and down ? 83931_86887
+%xmor:	cop|be&PRES pro:per|you part|go&PRESP~inf|to v|jump adv|up
+	coord|and adv|down ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|JCT 7|6|CONJ 8|7|COORD
+	9|1|PUNCT
+*FAT:	shaky jumpies ? 86887_91149
+%xmor:	adj|shake&dv-Y n|jump-DIM-PL ?
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*FAT:	froggy . 91149_93920
+%xmor:	adj|frog&dn-Y .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	froggy . 93920_96597
+%xmor:	adj|frog&dn-Y .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	bubble . 96597_97992
+%xmor:	n|bubble .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	ah ! 97992_102830
+%xmor:	co|ah !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&huu &uu .102830_108388
+*FAT:	+< yeah, ooh, yeah . 
+%xmor:	co|yeah cm|cm v|ooh cm|cm co|yeah .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|LP 5|1|ENUM 6|1|PUNCT
+*FAT:	jumpy [/] jumpy jumpies . 108388_110888
+%xmor:	adj|jump&dv-Y n|jump-DIM-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*FAT:	are you a jumping baby ? 110888_112553
+%xmor:	cop|be&PRES pro:per|you det:art|a part|jump-PRESP n|baby ?
+%xgra:	1|0|ROOT 2|1|PRED 3|5|DET 4|5|MOD 5|2|OM 6|1|PUNCT
+*FAT:	&=grunts . 112553_115074
+*FAT:	oop . 115074_118442
+%xmor:	co|oop .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	&uh &uh, there we go . 118442_121630
+%xmor:	cm|cm n|there pro:sub|we v|go .
+%xgra:	1|4|LINK 2|4|SUBJ 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*CHI:	&uu: &uu: . 121630_127627
+*FAT:	+< ooh yeah ooh . 
+%xmor:	v|ooh co|yeah v|ooh .
+%xgra:	1|0|ROOT 2|3|COM 3|1|COMP 4|1|PUNCT
+*FAT:	shaky [/] shaky . 127627_130048
+%xmor:	adj|shake&dv-Y .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	&=babbles:&bub . 130048_132969
+*FAT:	&=babbles:&ba . 132969_135847
+*CHI:	&huu: &hu . 135847_141293
+*FAT:	+< &=laughs . 
+*FAT:	noise [x 3] . 141293_145058
+%xmor:	n|noise .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	do you like a noise [x 3] ? 145058_147785
+%xmor:	mod|do pro:per|you v|like det:art|a n|noise ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*FAT:	&=gasps noise_noise . 147785_151091
+%xmor:	n|noise&DUP .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	noise_noise . 151091_153117
+%xmor:	n|noise&DUP .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	&ner . 153117_163053
+*CHI:	&her . 163053_170053
+*FAT:	ooh . 170053_171209
+%xmor:	v|ooh .
+%xgra:	1|0|ROOT 2|1|PUNCT
+*FAT:	what's that ? 171209_172825
+%xmor:	pro:int|what~cop|be&3S pro:dem|that ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*FAT:	hey . 172825_176056
+%xmor:	co|hey .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	see you . 176056_178861
+%xmor:	v|see pro:per|you .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	yeah, I see you . 178861_181567
+%xmor:	co|yeah cm|cm pro:sub|I v|see pro:per|you .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	&uuh . 181567_184567
+*FAT:	ooh . 184567_186029
+%xmor:	v|ooh .
+%xgra:	1|0|ROOT 2|1|PUNCT
+*FAT:	shaky [/] shaky, are you doing shakies ? 186029_189515
+%xmor:	adj|shake&dv-Y cm|cm aux|be&PRES pro:per|you part|do-PRESP
+	n|shake-DIM-PL ?
+%xgra:	1|5|JCT 2|1|LP 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*FAT:	shaky shakies . 189515_191532
+%xmor:	adj|shake&dv-Y n|shake-DIM-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*FAT:	what's that ? 191532_195836
+%xmor:	pro:int|what~cop|be&3S pro:dem|that ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*FAT:	<shark attack, shark attack, shark attack> [/] shark attack &aa: . 195836_203291
+%xmor:	n|shark n|attack .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	&hm . 203291_204291
+*FAT:	&hm . 204291_205363
+*CHI:	&heer &hu . 205363_211425
+*FAT:	+< &hoo &ha . 
+*FAT:	&=laughs . 211425_216976
+*FAT:	shaky shakies . 216976_219327
+%xmor:	adj|shake&dv-Y n|shake-DIM-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*FAT:	&=babbles:&ba . 219327_224016
+*FAT:	&=babbles:&ba . 224016_226839
+*FAT:	are you sleeping baby [=! whispering] ? 226839_233152
+%xmor:	cop|be&PRES pro:per|you part|sleep-PRESP n|baby ?
+%xgra:	1|0|ROOT 2|4|MOD 3|4|MOD 4|1|PRED 5|1|PUNCT
+*FAT:	are you sleeping [=! whispering] . 233152_235695
+%xmor:	cop|be&PRES pro:per|you part|sleep-PRESP .
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|1|PUNCT
+*FAT:	yeah ? 235695_236854
+%xmor:	co|yeah ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	okay . 236854_239103
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	oop oh &=babbles:&ba . 239103_243985
+%xmor:	co|oop co|oh .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*FAT:	&naao . 243985_246472
+*FAT:	&=laughs . 246472_249003
+*FAT:	&=laughs . 249003_254264
+*FAT:	&=flying:noise . 254264_255800
+*FAT:	ready ? 255800_257351
+%xmor:	adj|ready ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	&=flying:noises &=laughs . 257351_264352
+*FAT:	haha: . 264352_266293
+%xmor:	co|haha .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	&=babbles:&ba . 266293_270418
+*CHI:	&he . 270418_272468
+*FAT:	yeah . 272468_273705
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	&=babbles:&ba . 273705_276245
+*FAT:	hm . 276245_280242
+%xmor:	co|hm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=grunts . 280242_282951
+*FAT:	+< &=imitates:noise . 
+*CHI:	&=shouts . 282951_285021
+*FAT:	are you wantin(g) that ? 285021_286586
+%xmor:	cop|be&PRES pro:per|you part|want-PRESP comp|that ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|3|OBJ 5|1|PUNCT
+*FAT:	you want the shaky ? 286586_289688
+%xmor:	pro:per|you v|want det:art|the adj|shake&dv-Y ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|JCT 5|2|PUNCT
+*FAT:	xxx [=! whispering] . 289688_294902
+*FAT:	&=flying:noise . 294902_296133
+*FAT:	&=babbles:&ba . 296133_299735
+*FAT:	&=babbles:&ba . 299735_302799
+*CHI:	+< &ah . 
+*FAT:	&oh . 302799_304215
+*FAT:	&abo . 304215_307792
+*FAT:	&=laughs . 307792_312199
+*CHI:	&ha . 312199_314899
+*FAT:	&hm . 314899_315603
+*FAT:	&=flying:noise . 315603_326617
+*FAT:	&=laughs . 326617_327800
+*CHI:	&ah . 327800_330500
+*FAT:	&ah . 330500_331647
+*CHI:	&=laughs . 331647_336647
+*FAT:	ooh, is that good ? 336647_339511
+%xmor:	v|ooh cm|cm aux|be&3S det:dem|that adj|good ?
+%xgra:	1|0|ROOT 2|1|LP 3|5|AUX 4|5|DET 5|1|JCT 6|1|PUNCT
+*FAT:	it's spinnin(g) . 339511_343818
+%xmor:	pro:per|it~aux|be&3S part|spin-PRESP .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*FAT:	it's looking <round and round and round and round and> [/] round and round . 343818_347681
+%xmor:	pro:per|it~aux|be&3S part|look-PRESP n|round coord|and adv|round .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|CONJ 6|5|COORD 7|3|PUNCT
+*FAT:	&=flying:noise . 347681_352383
+*FAT:	ah:, nosy nose [x 3] . 352383_355618
+%xmor:	co|ah cm|cm co|nosy n|nose .
+%xgra:	1|4|COM 2|1|LP 3|4|COM 4|0|INCROOT 5|4|PUNCT
+*FAT:	nosy nose [x 3] . 355618_358773
+%xmor:	co|nosy n|nose .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHI:	&uuh ! 358773_362773
+*FAT:	&oh . 362773_364094
+*FAT:	&=flying:noise . 364094_369950
+*CHI:	&=grunts . 369950_380716
+*CHI:	&=screams . 380716_383584
+*FAT:	+< &a &ba &ba . 
+*FAT:	where's Upsy_Daisy ? 383584_393691
+%xmor:	pro:int|where~cop|be&3S n:prop|Upsy_Daisy ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*FAT:	what does Upsy_Daisy do ? 393691_397355
+%xmor:	pro:int|what mod|do&3S n:prop|Upsy_Daisy v|do ?
+%xgra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*FAT:	&=kiss . 397355_398748
+*CHI:	&=shouts . 398748_406820
+*FAT:	+< &=laughs . 
+*CHI:	&heer . 406820_416820
+*FAT:	&hoo &=repeated:&chicky . 416820_420717
+*FAT:	tickle &ticka [x 7] . 420717_422717
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	tickle [x 6] . 422717_425436
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	tickle [x 5] . 425436_427638
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	tickle [x 6] &=laughs . 427638_431850
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	+< &mm . 
+*FAT:	tickle [x 4] . 431850_433723
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&ah &eh . 433723_434723
+*FAT:	tickle [x 4] . 434723_436369
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&ah: &=gurgles . 436369_440762
+*FAT:	+< tickle [/] tickle tickles . 
+%xmor:	n|tickle n|tickle-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	&=laughs . 440762_444762
+*FAT:	+< &=spooky:laugh shaky shakes .
+%xmor:	adj|shake&dv-Y n|shake-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*FAT:	you shake it . 444762_445900
+%xmor:	pro:per|you v|shake pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*FAT:	shake it, <shaky [/] shaky: yay:> [/] shaky [/] shaky: yay:
+	&=laughs ! 445900_452015
+%xmor:	v|shake pro:per|it cm|cm adj|shake&dv-Y co|yay !
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|LP 4|5|MOD 5|1|JCT 6|1|PUNCT
+*FAT:	spin it, spin [x 5] it round [/] round &=laughs . 452015_458854
+%xmor:	v|spin pro:per|it cm|cm n|spin pro:per|it adv|round .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|LP 4|1|OBJ 5|4|OBJ 6|5|JCT 7|1|PUNCT
+*FAT:	&=gasps &=flying:noise . 458854_462127
+@End

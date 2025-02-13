@@ -1,0 +1,276 @@
+@UTF8
+@PID:	11312/a-00047624-1
+@Window:	259_891_668_685_-1_-1_3321_0_3321_0
+@Begin
+@Languages:	eng
+@Participants:	FAT Father, CHI Joanna Target_Child
+@ID:	eng|Edinburgh|FAT||male|||Father|||
+@ID:	eng|Edinburgh|CHI|0;09.02|female|||Target_Child|||
+@Date:	02-OCT-2013
+@Media:	joanna0912, audio, missing
+@Types:	long, toyplay, TD
+*FAT:	right Joanna (.) tell me a story (.) of Balamory .
+%xmor:	adv|right n:prop|Joanna v|tell pro:obj|me det:art|a n|story prep|of
+	n:prop|Balamory .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|OBJ2 5|6|DET 6|3|OBJ 7|6|NJCT 8|7|POBJ
+	9|3|PUNCT
+*FAT:	Joanna ?
+%xmor:	n:prop|Joanna ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	what is it ?
+%xmor:	pro:int|what cop|be&3S pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*FAT:	hm ?
+%xmor:	co|hm ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	what is it ?
+%xmor:	pro:int|what cop|be&3S pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*FAT:	are you tired my wee cherub ?
+%xmor:	cop|be&PRES pro:per|you v|tire-PAST det:poss|my n|wee n|cherub ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|3|PUNCT
+*CHI:	&hoo .
+*FAT:	+< &=imitated:noise .
+*FAT:	Joanna, get back in .
+%xmor:	n:prop|Joanna cm|cm v|get adj|back adv|in .
+%xgra:	1|3|SUBJ 2|1|LP 3|0|ROOT 4|3|PRED 5|3|JCT 6|3|PUNCT
+*FAT:	oy .
+%xmor:	co|oy .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	get back in here .
+%xmor:	v|get adv|back prep|in n|here .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|3|POBJ 5|1|PUNCT
+*CHI:	&oo &oo .
+*FAT:	hm .
+%xmor:	co|hm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	Joanna, no .
+%xmor:	n:prop|Joanna cm|cm co|no .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*FAT:	Joanna no .
+%xmor:	n:prop|Joanna co|no .
+%xgra:	1|0|INCROOT 2|1|COM 3|1|PUNCT
+*FAT:	you know you're not allowed to do that .
+%xmor:	pro:per|you v|know pro:per|you~aux|be&PRES neg|not part|allow-PASTP
+	inf|to v|do pro:dem|that .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|SUBJ 4|6|AUX 5|4|NEG 6|2|COMP 7|8|INF 8|6|COMP
+	9|8|OBJ 10|2|PUNCT
+*FAT:	well done .
+%xmor:	co|well part|do&PASTP .
+%xgra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*FAT:	you're not allowed .
+%xmor:	pro:per|you~aux|be&PRES neg|not part|allow-PASTP .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT
+*FAT:	you know that .
+%xmor:	pro:per|you v|know pro:dem|that .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*FAT:	Joanna no .
+%xmor:	n:prop|Joanna co|no .
+%xgra:	1|0|INCROOT 2|1|COM 3|1|PUNCT
+*FAT:	Joanna .
+%xmor:	n:prop|Joanna .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	oy .
+%xmor:	co|oy .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	no .
+%xmor:	co|no .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	good girl .
+%xmor:	adj|good n|girl .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*FAT:	Joanna no .
+%xmor:	n:prop|Joanna co|no .
+%xgra:	1|0|INCROOT 2|1|COM 3|1|PUNCT
+*FAT:	Joanna, no .
+%xmor:	n:prop|Joanna cm|cm co|no .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*FAT:	you know you're not allowed to do that .
+%xmor:	pro:per|you v|know pro:per|you~aux|be&PRES neg|not part|allow-PASTP
+	inf|to v|do pro:dem|that .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|SUBJ 4|6|AUX 5|4|NEG 6|2|COMP 7|8|INF 8|6|COMP
+	9|8|OBJ 10|2|PUNCT
+*FAT:	that's not for you .
+%xmor:	pro:dem|that~cop|be&3S neg|not prep|for pro:per|you .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|NEG 4|2|JCT 5|4|POBJ 6|2|PUNCT
+*FAT:	Joanna ?
+%xmor:	n:prop|Joanna ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&oof .
+*FAT:	&oof !
+*FAT:	it's like you've got a hard life or something .
+%xmor:	pro:per|it~cop|be&3S conj|like pro:per|you~aux|have part|get&PASTP
+	det:art|a adj|hard n|life coord|or pro:indef|something .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|6|SUBJ 5|6|AUX 6|2|CJCT 7|9|DET 8|9|MOD
+	9|6|OBJ 10|9|CONJ 11|10|COORD 12|2|PUNCT
+*CHI:	&mm .
+*FAT:	uhhuh, you .
+%xmor:	co|uhhuh cm|cm pro:per|you .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*FAT:	Joanna .
+%xmor:	n:prop|Joanna .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&mm .
+*FAT:	&mm .
+*FAT:	yo_ho_ho .
+%xmor:	co|yo_ho_ho .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	where are you going ?
+%xmor:	pro:int|where aux|be&PRES pro:per|you part|go-PRESP ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*FAT:	where are you been ?
+%xmor:	pro:int|where cop|be&PRES pro:per|you cop|be&PASTP ?
+%xgra:	1|2|LINK 2|4|PRED 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*FAT:	oy !
+%xmor:	co|oy !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	yo_ho_ho Joanna .
+%xmor:	co|yo_ho_ho n:prop|Joanna .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*FAT:	Joanna give it to Dad .
+%xmor:	n:prop|Joanna v|give pro:per|it prep|to n:prop|Dad .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|4|POBJ 6|2|PUNCT
+*FAT:	Joanna give it to Dad .
+%xmor:	n:prop|Joanna v|give pro:per|it prep|to n:prop|Dad .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|4|POBJ 6|2|PUNCT
+*FAT:	good girl .
+%xmor:	adj|good n|girl .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*FAT:	that needs to go in the bin .
+%xmor:	pro:dem|that v|need-3S inf|to v|go prep|in det:art|the n|bin .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*FAT:	yeah .
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	three four five (.) six seven eight and nine, yay, ugh .
+%xmor:	det:num|three det:num|four det:num|five det:num|six det:num|seven
+	det:num|eight coord|and det:num|nine cm|cm co|yay cm|cm co|ugh .
+%xgra:	1|3|DATE 2|3|DATE 3|5|DATE 4|5|DATE 5|0|ROOT 6|5|ENUM 7|6|CONJ
+	8|7|COORD 9|6|LP 10|5|COM 11|5|LP 12|5|COM 13|5|PUNCT
+%com:	father is repeating counting he can hear on the t_v .
+*FAT:	why are you soaking ?
+%xmor:	pro:int|why aux|be&PRES pro:per|you part|soak-PRESP ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*FAT:	hm ?
+%xmor:	co|hm ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	yo_ho_ho .
+%xmor:	co|yo_ho_ho .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	right .
+%xmor:	co|right .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	+" sing [/] sing what shall I sing ? [+ RDG]
+%xmor:	v|sing pro:int|what mod|shall pro:sub|I v|sing ?
+%xgra:	1|0|ROOT 2|5|OBJ 3|5|AUX 4|5|SUBJ 5|1|COMP 6|1|PUNCT
+*FAT:	+" the cat's ran away with the pud and the string . [+ RDG]
+%xmor:	det:art|the n|cat~aux|be&3S part|run&PASTP adv|away prep|with
+	det:art|the n|pud coord|and det:art|the n|string .
+%xgra:	1|2|DET 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|4|JCT 7|8|DET 8|6|POBJ
+	9|8|CONJ 10|11|DET 11|9|COORD 12|4|PUNCT
+*FAT:	+" do [/] do, what shall I do ? [+ RDG]
+%xmor:	mod|do cm|cm pro:int|what mod|shall pro:sub|I v|do ?
+%xgra:	1|6|AUX 2|1|LP 3|6|OBJ 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|PUNCT
+*FAT:	+" the cat's ran away with the pudding too ! [+ RDG]
+%xmor:	det:art|the n|cat~aux|be&3S part|run&PASTP adv|away prep|with
+	det:art|the n|pudding adv|too !
+%xgra:	1|2|DET 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|4|JCT 7|8|DET 8|6|POBJ
+	9|4|JCT 10|4|PUNCT
+*FAT:	yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	the cat's ran away .
+%xmor:	det:art|the n|cat~aux|be&3S part|run&PASTP adv|away .
+%xgra:	1|2|DET 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*FAT:	right, next page .
+%xmor:	adv|right cm|cm adj|next n|page .
+%xgra:	1|3|JCT 2|1|LP 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*FAT:	well done .
+%xmor:	co|well part|do&PASTP .
+%xgra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*FAT:	excuse me .
+%xmor:	v|excuse pro:obj|me .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*FAT:	www .
+%exp:	FAT is on the phone
+*FAT:	that was your Uncle_Alex .
+%xmor:	pro:dem|that cop|be&PAST&13S det:poss|your n:prop|Uncle_Alex .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*FAT:	that was your Uncle_Alex .
+%xmor:	pro:dem|that cop|be&PAST&13S det:poss|your n:prop|Uncle_Alex .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*FAT:	what do you think about that ?
+%xmor:	pro:int|what mod|do pro:per|you v|think prep|about pro:dem|that ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|PUNCT
+*FAT:	eh, Uncle_Alex phoning .
+%xmor:	co|eh cm|cm n:prop|Uncle_Alex part|phone-PRESP .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|XMOD 5|1|PUNCT
+*FAT:	eh ?
+%xmor:	co|eh ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	Uncle_Alex phoning .
+%xmor:	n:prop|Uncle_Alex part|phone-PRESP .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*FAT:	we're gonna [: going to ] cut your nails ?
+%xmor:	pro:sub|we~aux|be&PRES part|go-PRESP inf|to v|cut&ZERO
+	det:poss|your n|nail-PL ?
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*FAT:	xxx cut, yeah, haha .
+%xmor:	v|cut&ZERO cm|cm co|yeah cm|cm co|haha .
+%xgra:	1|0|ROOT 2|1|LP 3|1|ENUM 4|3|LP 5|1|COM 6|1|PUNCT
+*FAT:	you happy we're cutting your nails ?
+%xmor:	pro:per|you adj|happy pro:sub|we~aux|be&PRES part|cut-PRESP
+	det:poss|your n|nail-PL ?
+%xgra:	1|0|INCROOT 2|1|PRED 3|5|SUBJ 4|5|AUX 5|2|CMOD 6|7|DET 7|5|OBJ
+	8|1|PUNCT
+*FAT:	it's been a while Joanna hasn't it ?
+%xmor:	pro:per|it~cop|be&3S cop|be&PASTP det:art|a n|while n:prop|Joanna
+	aux|have&3S~neg|not pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|5|DET 5|3|PRED 6|9|SUBJ 7|9|AUX 8|7|NEG
+	9|5|OBJ 10|2|PUNCT
+*FAT:	hm ?
+%xmor:	co|hm ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	oh pardon you .
+%xmor:	co|oh v|pardon pro:per|you .
+%xgra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*FAT:	you're a proper girl, sitting there getting your nails done .
+%xmor:	pro:per|you~cop|be&PRES det:art|a adj|proper n|girl cm|cm
+	part|sit-PRESP adv|there part|get-PRESP det:poss|your n|nail-PL
+	part|do&PASTP .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|LP 7|2|XJCT 8|7|JCT
+	9|7|XJCT 10|11|DET 11|9|OBJ 12|7|XJCT 13|2|PUNCT
+*FAT:	hm ?
+%xmor:	co|hm ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	you like pampering don't ya [: you ] ?
+%xmor:	pro:per|you v|like part|pamper-PRESP mod|do~neg|not pro:per|you ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|XJCT 4|6|AUX 5|4|NEG 6|3|OBJ 7|2|PUNCT
+*FAT:	not even a year old yet .
+%xmor:	neg|not adv|even det:art|a n|year adj|old adv:tem|yet .
+%xgra:	1|2|NEG 2|4|JCT 3|4|DET 4|0|INCROOT 5|4|PRED 6|5|JCT 7|4|PUNCT
+*FAT:	hey come on two fingers left .
+%xmor:	co|hey v|come prep|on det:num|two n|finger-PL v|leave&PAST .
+%xgra:	1|2|COM 2|0|ROOT 3|2|JCT 4|5|QUANT 5|3|POBJ 6|2|CJCT 7|2|PUNCT
+*FAT:	right, one pinkie .
+%xmor:	adv|right cm|cm det:num|one n|pink&dadj-DIM .
+%xgra:	1|3|JCT 2|1|LP 3|4|QUANT 4|0|INCROOT 5|4|PUNCT
+*FAT:	aye .
+%xmor:	co|aye .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	there you go .
+%xmor:	adv|there pro:per|you v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*FAT:	right, let's have a look at your toes .
+%xmor:	adv|right cm|cm v|let~pro:obj|us v|have det:art|a v|look prep|at
+	det:poss|your n|toe-PL .
+%xgra:	1|3|JCT 2|1|LP 3|0|ROOT 4|3|OBJ 5|3|COMP 6|7|DET 7|5|COMP 8|7|JCT
+	9|10|DET 10|8|POBJ 11|3|PUNCT
+*FAT:	see if they needing done .
+%xmor:	v|see conj|if pro:sub|they n:gerund|need-PRESP part|do&PASTP .
+%xgra:	1|0|ROOT 2|5|LINK 3|5|SUBJ 4|5|AUX 5|1|CJCT 6|1|PUNCT
+*FAT:	oh .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+%com:	doorbell rang .
+@End

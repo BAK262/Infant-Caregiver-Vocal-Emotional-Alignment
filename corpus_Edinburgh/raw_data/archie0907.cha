@@ -1,0 +1,1550 @@
+@UTF8
+@PID:	11312/a-00047522-1
+@Window:	257_788_668_685_-1_-1_17047_0_17047_0
+@Begin
+@Languages:	eng
+@Participants:	FAT Father, CHI Archie Target_Child, BRO Brother, MOT Mother
+@ID:	eng|Edinburgh|FAT||male|||Father|||
+@ID:	eng|Edinburgh|CHI|0;09.11|male|||Target_Child|||
+@ID:	eng|Edinburgh|BRO||male|||Brother|||
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@Date:	11-NOV-2013
+@Media:	archie0907, audio, missing
+@Types:	long, toyplay, TD
+*MOT:	let Archie have a little play . [+ NAC]
+%xmor:	v|let&ZERO n:prop|Archie v|have det:art|a adj|little n|play .
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|6|DET 5|6|MOD 6|3|OBJ 7|1|PUNCT
+*MOT:	so what are we going to do with Archie then ?
+%xmor:	co|so pro:int|what cop|be&PRES pro:sub|we part|go-PRESP inf|to v|do
+	prep|with n:prop|Archie adv:tem|then ?
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|4|XMOD 6|7|INF 7|5|COMP 8|7|JCT
+	9|8|POBJ 10|7|JCT 11|3|PUNCT
+*BRO:	+< Mummy ? [+ NAC]
+%xmor:	n:prop|Mummy ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	shall we read him a book ? [+ NAC]
+%xmor:	mod|shall pro:sub|we v|read&ZERO pro:obj|him det:art|a n|book ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ2 5|6|DET 6|3|OBJ 7|3|PUNCT
+*BRO:	but &nee, Mummy ? [+ NAC]
+%xmor:	conj|but cm|cm n:prop|Mummy ?
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	<dyou [: do you ] want> [/] dyou [: do you ] want to get him a book
+	? [+ NAC]
+%xmor:	mod|do pro:per|you v|want inf|to v|get pro:obj|him det:art|a n|book
+	?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ2 7|8|DET 8|5|OBJ
+	9|3|PUNCT
+*BRO:	but please I read it ? [+ NAC]
+%xmor:	conj|but v|please pro:sub|I v|read&ZERO pro:per|it ?
+%xgra:	1|2|LINK 2|4|CJCT 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	you can read it with him, yeah . [+ NAC]
+%xmor:	pro:per|you mod|can v|read&ZERO pro:per|it prep|with pro:obj|him
+	cm|cm co|yeah .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|JCT 6|5|POBJ 7|3|LP 8|3|COM
+	9|3|PUNCT
+*MOT:	shall we get it for him ? [+ NAC]
+%xmor:	mod|shall pro:sub|we v|get pro:per|it prep|for pro:obj|him ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|5|POBJ 7|3|PUNCT
+*BRO:	+< but . [+ NAC]
+%xmor:	conj|but .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	<I want> [//] I know what to get for him .[+ NAC]
+%xmor:	pro:sub|I v|know pro:int|what inf|to v|get prep|for pro:obj|him .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|INF 5|2|COMP 6|5|JCT 7|6|POBJ 8|2|PUNCT
+*MOT:	okay, which one shall we get for him ? [+ NAC]
+%xmor:	co|okay cm|cm pro:int|which pro:indef|one mod|shall pro:sub|we
+	v|get prep|for pro:obj|him ?
+%xgra:	1|7|COM 2|1|LP 3|4|LINK 4|7|SUBJ 5|7|AUX 6|7|SUBJ 7|0|ROOT 8|7|JCT
+	9|8|POBJ 10|7|PUNCT
+*BRO:	Archie xxx the baby one . [+ NAC]
+%xmor:	n:prop|Archie det:art|the n|baby det:num|one .
+%xgra:	1|0|INCROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|PUNCT
+*MOT:	dyou [: do you ] want him to read the baby one then ? [+ NAC]
+%xmor:	mod|do pro:per|you v|want pro:obj|him inf|to v|read&ZERO
+	det:art|the n|baby det:num|one adv:tem|then ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|INF 6|3|COMP 7|8|DET 8|6|OBJ
+	9|10|QUANT 10|8|APP 11|3|PUNCT
+*MOT:	let's give it to him . [+ NAC]
+%xmor:	v|let~pro:obj|us v|give pro:per|it prep|to pro:obj|him .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|OBJ 5|3|JCT 6|5|POBJ 7|1|PUNCT
+*BRO:	+< I [/] I +... [+ NAC]
+%xmor:	pro:sub|I +...
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	+, I give it to him . [+ NAC]
+%xmor:	pro:sub|I v|give pro:per|it prep|to pro:obj|him .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|4|POBJ 6|2|PUNCT
+*MOT:	okay, you give it to him, lovely . [+ NAC]
+%xmor:	co|okay cm|cm pro:per|you v|give pro:per|it prep|to pro:obj|him
+	cm|cm n|lovely .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|6|POBJ 8|4|LP
+	9|4|ENUM 10|4|PUNCT
+*BRO:	Mummy <please I> [/] please I &n +/. [+ NAC]
+%xmor:	n:prop|Mummy v|please pro:sub|I +/.
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	+< well why don't you come and read it with him and show him how it
+	works ? [+ NAC]
+%xmor:	co|well pro:int|why mod|do~neg|not pro:per|you v|come coord|and
+	v|read&ZERO pro:per|it prep|with pro:obj|him coord|and v|show
+	pro:obj|him pro:int|how pro:per|it v|work-3S ?
+%xgra:	1|6|COM 2|6|JCT 3|6|AUX 4|3|NEG 5|6|SUBJ 6|0|ROOT 7|6|CONJ 8|7|COORD
+	9|8|OBJ 10|8|JCT 11|10|POBJ 12|6|CONJ 13|12|COORD 14|13|OBJ 15|17|LINK
+	16|17|SUBJ 17|13|COMP 18|6|PUNCT
+*MOT:	right . [+ NAC]
+%xmor:	co|right .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	oh, that's it [/] it moves back and forwards doesn't it and you [/]
+	you show him what these things are . [+ NAC]
+%xmor:	co|oh cm|cm pro:dem|that~cop|be&3S pro:per|it v|move-3S adv|back
+	coord|and v|forward-3S mod|do&3S~neg|not pro:per|it coord|and
+	pro:per|you v|show pro:obj|him pro:int|what det:dem|these n|thing-PL
+	cop|be&PRES .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|6|SUBJ 6|4|CPRED 7|6|JCT 8|6|CONJ
+	9|8|COORD 10|12|AUX 11|10|NEG 12|9|OBJ 13|15|LINK 14|15|SUBJ 15|12|CJCT
+	16|15|OBJ 17|20|LINK 18|19|DET 19|20|SUBJ 20|15|COMP 21|4|PUNCT
+*BRO:	I don't know what +/. [+ NAC]
+%xmor:	pro:sub|I mod|do~neg|not v|know pro:int|what +/.
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	+< so that's two pens isn't it ?[+ NAC]
+%xmor:	co|so pro:dem|that~cop|be&3S det:num|two n|pen-PL cop|be&3S~neg|not
+	pro:per|it ?
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|QUANT 5|6|SUBJ 6|3|PRED 7|6|NEG 8|6|PRED
+	9|3|PUNCT
+*BRO:	yeah . [+ NAC]
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	and one is thick and one is thin ! [+ NAC]
+%xmor:	coord|and pro:indef|one cop|be&3S adj|thick coord|and det:num|one
+	cop|be&3S adj|thin !
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|7|LINK 6|7|SUBJ 7|3|CJCT 8|7|PRED
+	9|3|PUNCT
+*BRO:	+< one is (th)ick [/] thick . [+ NAC]
+%xmor:	pro:indef|one cop|be&3S adj|thick .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*BRO:	hm . [+ NAC]
+%xmor:	co|hm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	right, what's these two though Christopher ? [+ NAC]
+%xmor:	co|right cm|cm pro:int|what~cop|be&3S det:dem|these det:num|two
+	adv|though n:prop|Christopher ?
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|6|DET 6|7|QUANT 7|8|JCT 8|4|PRED
+	9|4|PUNCT
+*MOT:	you know what these ones are . [+ NAC]
+%xmor:	pro:per|you v|know pro:int|what det:dem|these n|one-PL cop|be&PRES
+	.
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|5|DET 5|6|SUBJ 6|2|COMP 7|2|PUNCT
+*BRO:	er +... [+ NAC]
+%xmor:	co|er +...
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you show him how it works . [+ NAC]
+%xmor:	pro:per|you v|show pro:obj|him pro:int|how pro:per|it v|work-3S .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|6|LINK 5|6|SUBJ 6|2|COMP 7|2|PUNCT
+*BRO:	a sky, a moon, a present . [+ NAC]
+%xmor:	det:art|a n|sky cm|cm det:art|a n|moon cm|cm det:art|a n|present .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|LP 4|5|DET 5|2|ENUM 6|5|LP 7|8|DET 8|5|APP
+	9|2|PUNCT
+*MOT:	there we go Archie, so that one's day and that one's night !
+%xmor:	adv|there pro:sub|we v|go n:prop|Archie cm|cm adv|so pro:rel|that
+	det:num|one~cop|be&3S n|day coord|and pro:dem|that
+	det:num|one~aux|be&3S n|night !
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|LP 6|15|JCT 7|9|LINK 8|9|SUBJ
+	9|15|CJCT 10|9|PRED 11|10|CONJ 12|11|COORD 13|15|SUBJ 14|15|AUX 15|3|OBJ
+	16|3|PUNCT
+*MOT:	that one's open, that one's closed !
+%xmor:	pro:dem|that pro:indef|one~cop|be&3S adj|open cm|cm pro:rel|that
+	pro:indef|one~aux|be&3S part|close-PASTP !
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|LP 6|9|LINK 7|9|SUBJ 8|9|AUX
+	9|3|CPRED 10|3|PUNCT
+*MOT:	that's it, you have a look .
+%xmor:	pro:dem|that~cop|be&3S pro:per|it cm|cm pro:per|you v|have
+	det:art|a n|look .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|LP 5|6|SUBJ 6|3|ENUM 7|8|DET 8|6|OBJ
+	9|2|PUNCT
+*BRO:	but Archie's holding the book wrong . [+ NAC]
+%xmor:	conj|but n:prop|Archie~aux|be&3S part|hold-PRESP det:art|the n|book
+	n|wrong .
+%xgra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|7|DET 6|7|MOD 7|4|OBJ 8|4|PUNCT
+*MOT:	+< it's alright, he's just having a wee look to see, how's that
+	work ? [+ NAC]
+%xmor:	pro:per|it~cop|be&3S adj|alright cm|cm pro:sub|he~aux|be&3S
+	adv|just part|have-PRESP det:art|a n|wee n|look inf|to v|see cm|cm
+	pro:rel|how~cop|be&3S det:dem|that n|work ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|LP 5|8|SUBJ 6|8|AUX 7|8|JCT 8|2|XJCT
+	9|11|DET 10|11|MOD 11|8|OBJ 12|13|INF 13|11|XMOD 14|13|LP 15|16|LINK
+	16|11|CMOD 17|18|DET 18|16|PRED 19|2|PUNCT
+*MOT:	aren't you Archie ?
+%xmor:	aux|be&PRES~neg|not pro:per|you n:prop|Archie ?
+%xgra:	1|4|OBJ 2|1|NEG 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	right, shall we do the next one ?
+%xmor:	adv|right cm|cm mod|shall pro:sub|we v|do det:art|the adj|next
+	pro:indef|one ?
+%xgra:	1|3|JCT 2|1|LP 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|8|DET 7|8|MOD 8|5|OBJ
+	9|5|PUNCT
+*BRO:	yes . [+ NAC]
+%xmor:	co|yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	oh ! [+ NAC]
+%xmor:	co|oh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	mind Archie's hand Christopher . [+ NAC]
+%xmor:	n|mind adj|Archie&dn-POSS n|hand n:prop|Christopher .
+%xgra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|APP 5|3|PUNCT
+*MOT:	there you are Archie .
+%xmor:	adv|there pro:per|you cop|be&PRES n:prop|Archie .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*MOT:	which one have we got here ?
+%xmor:	pro:int|which det:num|one v|have pro:sub|we v|get&PAST adv|here ?
+%xgra:	1|3|LINK 2|3|QUANT 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|JCT 7|3|PUNCT
+*MOT:	so what's there Christopher, what can you see ? [+ NAC]
+%xmor:	adv|so pro:int|what~cop|be&3S n|there n:prop|Christopher cm|cm
+	pro:int|what mod|can pro:per|you v|see ?
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|SUBJ 5|3|ENUM 6|5|LP 7|10|OBJ 8|10|AUX
+	9|10|SUBJ 10|3|CPRED 11|3|PUNCT
+*MOT:	you show him . [+ NAC]
+%xmor:	pro:per|you v|show pro:obj|him .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*BRO:	+< frogs . [+ NAC]
+%xmor:	n|frog-PL .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	what's [/] what's with the frog ? [+ NAC]
+%xmor:	pro:int|what~cop|be&3S prep|with det:art|the n|frog ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*MOT:	how's [/] how's he doing ? [+ NAC]
+%xmor:	pro:int|how~cop|be&3S pro:sub|he part|do-PRESP ?
+%xgra:	1|2|JCT 2|0|ROOT 3|2|PRED 4|3|OM 5|2|PUNCT
+*BRO:	frog [/] frog jump [x 3] . [+ NAC]
+%xmor:	n|frog n|jump .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	that's it, the froggies &f +//.
+%xmor:	pro:dem|that~cop|be&3S pro:per|it cm|cm det:art|the n|frog-DIM-PL
+	+//.
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|LP 5|6|DET 6|3|OM 7|2|PUNCT
+*MOT:	right Christopher let [/] let Archie have it . [+ NAC]
+%xmor:	adv|right n:prop|Christopher part|let&PASTP n:prop|Archie v|have
+	pro:per|it .
+%xgra:	1|2|JCT 2|5|SUBJ 3|5|XJCT 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*BRO:	why Archie want, why Archie +/? [+ NAC]
+%xmor:	pro:int|why n:prop|Archie v|want cm|cm pro:rel|why n:prop|Archie
+	+/?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|LP 5|6|LINK 6|3|INCROOT 7|6|PUNCT
+*MOT:	+< well it's Archie's book isn't it ? [+ NAC]
+%xmor:	co|well pro:per|it~cop|be&3S adj|Archie&dn-POSS n|book
+	cop|be&3S~neg|not pro:per|it ?
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|3|PRED 7|6|NEG 8|6|SUBJ
+	9|3|PUNCT
+*MOT:	so upside down and right way up !
+%xmor:	adv|so adv|upside adv|down coord|and n|right adv|way adv|up !
+%xgra:	1|2|JCT 2|3|JCT 3|0|INCROOT 4|3|CONJ 5|4|COORD 6|7|JCT 7|5|NJCT
+	8|3|PUNCT
+*MOT:	froggy at the front, froggy at the back .
+%xmor:	adj|frog&dn-Y prep|at det:art|the n|front cm|cm adj|frog&dn-Y
+	prep|at det:art|the n|back .
+%xgra:	1|0|INCROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|LP 6|1|ENUM 7|6|JCT 8|9|DET
+	9|7|POBJ 10|1|PUNCT
+*BRO:	+< back .
+%xmor:	adv|back .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	this one, bunnies white and this one, bunnies +...
+%xmor:	pro:dem|this pro:indef|one cm|cm n|bunny-PL n|white coord|and
+	det:dem|this pro:indef|one cm|cm n|bunny-PL +...
+%xgra:	1|2|SUBJ 2|0|INCROOT 3|2|LP 4|5|MOD 5|2|ENUM 6|5|CONJ 7|8|DET 8|6|COORD
+	9|8|LP 10|5|ENUM 11|2|PUNCT
+*BRO:	+< white .
+%xmor:	adj|white .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	++ black !
+%xmor:	n|black !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+< +, black !
+%xmor:	n|black !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	this pussy+cat, hello puss_puss .
+%xmor:	det:dem|this n|+n|pussy+n|cat cm|cm co|hello n|puss&DUP
+	.
+%xgra:	1|2|DET 2|0|INCROOT 3|2|LP 4|5|COM 5|2|ENUM 6|2|PUNCT
+*BRO:	+< puss_puss .
+%xmor:	n|puss&DUP .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	why Mummy, why's she not in his, <in their> [//] in his bird cage ?
+	[+ NAC]
+%xmor:	pro:int|why n:prop|Mummy cm|cm pro:rel|why~cop|be&3S pro:sub|she
+	neg|not prep|in det:poss|his cm|cm prep|in det:poss|his n|bird
+	n|cage ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|LP 4|5|LINK 5|2|CMOD 6|5|PRED 7|6|NEG 8|6|JCT
+	9|8|POBJ 10|9|LP 11|9|JCT 12|14|DET 13|14|MOD 14|11|POBJ 15|2|PUNCT
+*MOT:	+< look . [+ NAC]
+%xmor:	co|look .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+< well [/] well one's in the bucket one's out the bucket . [+ NAC]
+%xmor:	co|well pro:indef|one~cop|be&3S prep|in det:art|the n|bucket
+	pro:indef|one~cop|be&3S prep|out det:art|the n|bucket .
+%xgra:	1|3|COM 2|3|SUBJ 3|8|SUBJ 4|8|JCT 5|6|DET 6|4|POBJ 7|8|SUBJ 8|0|ROOT
+	9|8|JCT 10|11|DET 11|9|POBJ 12|8|PUNCT
+*BRO:	why ? [+ NAC]
+%xmor:	pro:rel|why ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	just it, it's just showing Archie what the different things are .
+	[+ NAC]
+%xmor:	adv|just pro:per|it cm|cm pro:per|it~aux|be&3S adv|just
+	part|show-PRESP n:prop|Archie pro:int|what det:art|the adj|different
+	n|thing-PL cop|be&PRES .
+%xgra:	1|2|JCT 2|0|INCROOT 3|2|LP 4|7|SUBJ 5|7|AUX 6|7|JCT 7|2|XJCT 8|7|OBJ
+	9|13|LINK 10|12|DET 11|12|MOD 12|13|SUBJ 13|7|COMP 14|2|PUNCT
+*MOT:	what are those Archie, they're wellies .
+%xmor:	pro:int|what cop|be&PRES det:dem|those n:prop|Archie cm|cm
+	pro:sub|they~cop|be&PRES n|welly-PL .
+%xgra:	1|2|LINK 2|0|ROOT 3|4|DET 4|2|PRED 5|4|LP 6|7|SUBJ 7|4|ENUM 8|7|PRED
+	9|2|PUNCT
+*MOT:	clean wellies and dirty wellies .
+%xmor:	adj|clean n|welly-PL coord|and adj|dirt&dn-Y n|welly-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*BRO:	clean wellies and dirty wellies .
+%xmor:	adj|clean n|welly-PL coord|and adj|dirt&dn-Y n|welly-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*MOT:	+< <where's the> [/] where's the little girl Archie ?
+%xmor:	pro:int|where~cop|be&3S det:art|the adj|little n|girl n:prop|Archie
+	?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|5|APP 7|2|PUNCT
+*MOT:	where can &t +//?
+%xmor:	pro:int|where mod|can +//?
+%xgra:	1|0|INCROOT 2|3|AUX 3|1|PUNCT
+*MOT:	oh look she's upset, she's crying .
+%xmor:	co|oh co|look pro:sub|she~cop|be&3S adj|upset cm|cm
+	pro:sub|she~aux|be&3S part|cry-PRESP .
+%xgra:	1|4|COM 2|4|COM 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|LP 7|9|SUBJ 8|9|AUX
+	9|4|CJCT 10|4|PUNCT
+*BRO:	+< &w why is she crying ? [+ NAC]
+%xmor:	pro:int|why cop|be&3S pro:sub|she part|cry-PRESP ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|3|XMOD 5|2|PUNCT
+*MOT:	she's crying there and what's she doing there, she's smiling .
+%xmor:	pro:sub|she~aux|be&3S part|cry-PRESP adv|there coord|and
+	pro:int|what~cop|be&3S pro:sub|she part|do-PRESP adv|there cm|cm
+	pro:sub|she~aux|be&3S part|smile-PRESP .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|3|CONJ 6|7|SUBJ 7|5|COORD 8|7|PRED
+	9|8|XMOD 10|9|JCT 11|9|LP 12|14|SUBJ 13|14|AUX 14|9|CJCT 15|3|PUNCT
+*BRO:	why what is she ? [+ NAC]
+%xmor:	pro:int|why pro:int|what cop|be&3S pro:sub|she ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*MOT:	she's just smiling isn't she ?
+%xmor:	pro:sub|she~aux|be&3S adv|just part|smile-PRESP cop|be&3S~neg|not
+	pro:sub|she ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|5|SUBJ 5|0|ROOT 6|5|NEG 7|5|PRED 8|5|PUNCT
+*BRO:	why, but Mummy +/. [+ NAC]
+%xmor:	pro:int|why cm|cm conj|but n:prop|Mummy +/.
+%xgra:	1|0|INCROOT 2|1|LP 3|1|CONJ 4|3|COORD 5|1|PUNCT
+*MOT:	Christopher let Archie play with it, it's Archie's book . [+ NAC]
+%xmor:	n:prop|Christopher part|let&PASTP n:prop|Archie n|play prep|with
+	pro:per|it cm|cm pro:per|it~cop|be&3S adj|Archie&dn-POSS n|book .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|JCT 6|5|POBJ 7|6|LP 8|9|SUBJ
+	9|2|CJCT 10|11|MOD 11|9|PRED 12|2|PUNCT
+*MOT:	there we are Archie .
+%xmor:	adv|there pro:sub|we cop|be&PRES n:prop|Archie .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*BRO:	+< xxx .
+*MOT:	shall we see what's on the next page ?
+%xmor:	mod|shall pro:sub|we v|see pro:int|what~cop|be&3S prep|on
+	det:art|the adj|next n|page ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|JCT 7|9|DET 8|9|MOD
+	9|6|POBJ 10|3|PUNCT
+*MOT:	shall we see the puss_puss Archie ?
+%xmor:	mod|shall pro:sub|we v|see det:art|the n|puss&DUP
+	n:prop|Archie ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|5|APP 7|3|PUNCT
+*MOT:	where's puss_puss ?
+%xmor:	pro:int|where~cop|be&3S n|puss&DUP ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	where's the puss_puss ?
+%xmor:	pro:int|where~cop|be&3S det:art|the n|puss&DUP ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*BRO:	<is it> [/] is it the one on the back ? [+ NAC]
+%xmor:	aux|be&3S pro:per|it det:art|the det:num|one prep|on det:art|the
+	n|back ?
+%xgra:	1|0|INCROOT 2|1|PRED 3|4|DET 4|2|OM 5|4|JCT 6|7|DET 7|5|POBJ 8|1|PUNCT
+*MOT:	yeah . [+ NAC]
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	please can you put it on the floo:r ? [+ NAC]
+%xmor:	co|please mod|can pro:per|you v|put&ZERO pro:per|it prep|on
+	det:art|the n|floor ?
+%xgra:	1|4|COM 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|8|DET 8|6|POBJ
+	9|4|PUNCT
+*MOT:	no, (be)cause it's Archie's book so he gets to read it . [+ NAC]
+%xmor:	co|no cm|cm conj|because pro:per|it~cop|be&3S adj|Archie&dn-POSS
+	n|book conj|so pro:sub|he v|get-3S inf|to v|read&ZERO pro:per|it .
+%xgra:	1|5|COM 2|1|LP 3|5|LINK 4|5|SUBJ 5|0|ROOT 6|7|MOD 7|5|PRED 8|10|LINK
+	9|10|SUBJ 10|5|CJCT 11|12|INF 12|10|COMP 13|12|OBJ 14|5|PUNCT
+*MOT:	that is sitting above the table, that is down below ![+ NAC]
+%xmor:	pro:rel|that aux|be&3S part|sit-PRESP prep|above det:art|the
+	n|table cm|cm pro:rel|that cop|be&3S adv|down prep|below !
+%xgra:	1|3|LINK 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|LP 8|9|LINK
+	9|3|CJCT 10|9|JCT 11|9|JCT 12|3|PUNCT
+*MOT:	this one is someone having a splish@o splash@o splosh@o !
+%xmor:	pro:dem|this pro:indef|one cop|be&3S pro:indef|someone
+	part|have-PRESP det:art|a on|splish on|splash on|splosh !
+%xgra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|4|XMOD 6|7|DET 7|5|OBJ 8|7|PRED
+	9|8|OM 10|3|PUNCT
+*MOT:	splish@o splash@o splosh@o !
+%xmor:	on|splish on|splash on|splosh !
+%xgra:	1|0|INCROOT 2|1|OM 3|2|OM 4|1|PUNCT
+*MOT:	oh and drying off .
+%xmor:	co|oh coord|and part|dry-PRESP adv|off .
+%xgra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|JCT 5|1|PUNCT
+*MOT:	what does this one do darling ?
+%xmor:	pro:int|what mod|do&3S det:dem|this pro:indef|one v|do co|darling ?
+%xgra:	1|5|SUBJ 2|5|AUX 3|4|DET 4|5|SUBJ 5|0|ROOT 6|5|COM 7|5|PUNCT
+*MOT:	what's this one ?
+%xmor:	pro:int|what~cop|be&3S pro:dem|this pro:indef|one ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*BRO:	but +/. [+ NAC]
+%xmor:	conj|but +/.
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	he's a little bear isn't he ?
+%xmor:	pro:sub|he~cop|be&3S det:art|a adj|little n|bear cop|be&3S~neg|not
+	pro:sub|he ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|6|SUBJ 6|2|PRED 7|6|NEG 8|6|PRED
+	9|2|PUNCT
+*MOT:	puddle [/] puddle that's it Archie .
+%xmor:	n|puddle pro:rel|that~cop|be&3S pro:per|it n:prop|Archie .
+%xgra:	1|0|INCROOT 2|3|LINK 3|1|CMOD 4|5|MOD 5|3|PRED 6|1|PUNCT
+*MOT:	you let Archie have a go ? [+ NAC]
+%xmor:	pro:per|you v|let&ZERO n:prop|Archie v|have det:art|a v|go ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|6|DET 6|4|COMP 7|2|PUNCT
+*MOT:	that's it, it moves across doesn't it ?
+%xmor:	pro:dem|that~cop|be&3S pro:per|it cm|cm pro:per|it v|move-3S
+	prep|across mod|do&3S~neg|not pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|LP 5|6|SUBJ 6|2|CPRED 7|6|JCT 8|10|AUX
+	9|8|NEG 10|7|POBJ 11|2|PUNCT
+*BRO:	one is upon the table .
+%xmor:	pro:indef|one cop|be&3S prep|upon det:art|the n|table .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*MOT:	+< tha:t's it .
+%xmor:	pro:dem|that~cop|be&3S pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*BRO:	that's it .
+%xmor:	pro:dem|that~cop|be&3S pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	+< yeah .
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	yeah .
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	moving it across now isn't he ?
+%xmor:	part|move-PRESP pro:per|it adv|across adv:tem|now cop|be&3S~neg|not
+	pro:sub|he ?
+%xgra:	1|5|SUBJ 2|1|OBJ 3|5|JCT 4|5|SUBJ 5|0|ROOT 6|5|NEG 7|5|PRED 8|5|PUNCT
+*BRO:	+< moving it, yes .
+%xmor:	part|move-PRESP pro:per|it cm|cm co|yes .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|LP 4|1|ENUM 5|1|PUNCT
+*MOT:	now you know how it works .
+%xmor:	adv:tem|now pro:per|you v|know pro:int|how pro:per|it v|work-3S .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|LINK 5|6|SUBJ 6|3|COMP 7|3|PUNCT
+*BRO:	+< works .
+%xmor:	n|work-PL .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	what's on the next page ?
+%xmor:	pro:int|what~cop|be&3S prep|on det:art|the adj|next n|page ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|6|DET 5|6|MOD 6|3|POBJ 7|2|PUNCT
+*MOT:	&=gasps who's this then &=elephant:noise ?
+%xmor:	pro:int|who~cop|be&3S pro:dem|this adv:tem|then ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|3|JCT 5|2|PUNCT
+*MOT:	it's Mister_Elephant .
+%xmor:	pro:per|it~cop|be&3S n:prop|Mister_Elephant .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	squeak@o [x 5] .
+%xmor:	on|squeak .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	+< what Mummy with a [/] a boy ? [+ NAC]
+%xmor:	pro:int|what n:prop|Mummy prep|with det:art|a n|boy ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*BRO:	a girl . [+ NAC]
+%xmor:	det:art|a n|girl .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*MOT:	yeah . [+ NAC]
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	a drink and another drink . [+ NAC]
+%xmor:	det:art|a n|drink coord|and qn|another n|drink .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|CONJ 4|5|QUANT 5|3|COORD 6|2|PUNCT
+*MOT:	and another juice . [+ NAC]
+%xmor:	coord|and qn|another n|juice .
+%xgra:	1|3|LINK 2|3|QUANT 3|0|INCROOT 4|3|PUNCT
+*MOT:	let Archie have a look now . [+ NAC]
+%xmor:	v|let&ZERO n:prop|Archie v|have det:art|a n|look adv:tem|now .
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|DET 5|3|OBJ 6|5|POSTMOD 7|1|PUNCT
+*MOT:	there you are Archie .
+%xmor:	adv|there pro:per|you cop|be&PRES n:prop|Archie .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*BRO:	why [/] why does he +//? [+ NAC]
+%xmor:	pro:int|why mod|do&3S pro:sub|he +//?
+%xgra:	1|3|JCT 2|3|AUX 3|0|INCROOT 4|3|PUNCT
+*BRO:	Mummy we &ha [//] why can't you read a book to me ? [+ NAC]
+%xmor:	n:prop|Mummy pro:sub|we pro:int|why mod|can~neg|not pro:per|you
+	v|read&ZERO det:art|a n|book prep|to pro:obj|me ?
+%xgra:	1|7|LINK 2|7|SUBJ 3|7|JCT 4|7|AUX 5|4|NEG 6|7|SUBJ 7|0|ROOT 8|9|DET
+	9|7|OBJ 10|7|JCT 11|10|POBJ 12|7|PUNCT
+*MOT:	I'll read a book to you in just a couple of minutes Christopher .
+	[+ NAC]
+%xmor:	pro:sub|I~mod|will v|read&ZERO det:art|a n|book prep|to pro:per|you
+	adv|in adv|just det:art|a n|couple prep|of n|minute-PL
+	n:prop|Christopher .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|6|POBJ 8|3|JCT
+	9|11|JCT 10|11|DET 11|3|OBJ 12|11|NJCT 13|14|MOD 14|12|POBJ 15|3|PUNCT
+*MOT:	what's on the last page ?
+%xmor:	pro:int|what~cop|be&3S prep|on det:art|the adj|last n|page ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|6|DET 5|6|MOD 6|3|POBJ 7|2|PUNCT
+%com:	brother is talking to himself in the background .
+*MOT:	&=gasps oh: you can see the little puppy and the choochoo train
+	choo_choo@o [x 2] .
+%xmor:	co|oh pro:per|you mod|can v|see det:art|the adj|little n|puppy
+	coord|and det:art|the n|choochoo n|train on|choo_choo .
+%xgra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|7|DET 6|7|MOD 7|4|OBJ 8|7|CONJ
+	9|11|DET 10|11|MOD 11|12|SUBJ 12|8|COORD 13|4|PUNCT
+*MOT:	look there's a slide, whoo .
+%xmor:	co|look pro:exist|there~cop|be&3S det:art|a n|slide cm|cm co|whoo .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|5|LP 7|5|ENUM 8|3|PUNCT
+*MOT:	and that's a little choochoo train .
+%xmor:	coord|and pro:dem|that~cop|be&3S det:art|a adj|little n|choochoo
+	n|train .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|7|DET 5|6|MOD 6|7|MOD 7|3|PRED 8|3|PUNCT
+*BRO:	+< Mum, Mummy ? [+ NAC]
+%xmor:	n:prop|Mum cm|cm n:prop|Mummy ?
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	and who's this one here ?
+%xmor:	coord|and pro:int|who~cop|be&3S pro:dem|this pro:indef|one n|here ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*MOT:	is this a doggy woof@o [x 3] ?
+%xmor:	cop|be&3S det:dem|this det:art|a adj|dog&dn-Y on|woof ?
+%xgra:	1|0|ROOT 2|5|DET 3|5|DET 4|5|MOD 5|1|PRED 6|1|PUNCT
+*MOT:	what's the doggy doing Archie ?
+%xmor:	pro:int|what~cop|be&3S det:art|the adj|dog&dn-Y part|do-PRESP
+	n:prop|Archie ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|4|XMOD 6|5|OBJ 7|2|PUNCT
+*MOT:	are you gonna [: going to ] have a little hold ?
+%xmor:	cop|be&PRES pro:per|you part|go-PRESP inf|to v|have det:art|a
+	adj|little n|hold ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|8|DET 7|8|MOD 8|5|OBJ
+	9|1|PUNCT
+*MOT:	that's it .
+%xmor:	pro:dem|that~cop|be&3S pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	whoops .
+%xmor:	co|whoops .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	who's on the back ?
+%xmor:	pro:int|who~cop|be&3S prep|on det:art|the n|back ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*MOT:	is that a picture of the elephant ?
+%xmor:	cop|be&3S comp|that det:art|a n|picture prep|of det:art|the
+	n|elephant ?
+%xgra:	1|0|ROOT 2|1|PRED 3|4|DET 4|2|OM 5|4|NJCT 6|7|DET 7|5|POBJ 8|1|PUNCT
+*MOT:	&=elephant:noise, big long nose .
+%xmor:	cm|cm adj|big adj|long n|nose .
+%xgra:	1|4|MOD 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*BRO:	Mummy where's my Thomas game and Mummy I'm trying to put this in my
+	Thomas game . [+ NAC]
+%xmor:	n:prop|Mummy pro:rel|where~cop|be&3S co|my n:prop|Thomas n|game
+	coord|and n:prop|Mummy pro:sub|I~aux|be&1S part|try-PRESP inf|to
+	v|put&ZERO pro:dem|this prep|in det:poss|my n:prop|Thomas n|game .
+%xgra:	1|0|INCROOT 2|3|LINK 3|1|CMOD 4|6|COM 5|6|MOD 6|3|PRED 7|6|CONJ
+	8|7|COORD 9|11|SUBJ 10|11|AUX 11|8|CMOD 12|13|INF 13|11|COMP 14|13|OBJ
+	15|13|JCT 16|18|DET 17|18|MOD 18|15|POBJ 19|1|PUNCT
+*MOT:	we'll put that in [/] in your Thomas game a bit later . [+ NAC]
+%xmor:	pro:sub|we~mod|will v|put&ZERO pro:dem|that prep|in det:poss|your
+	n:prop|Thomas n|game det:art|a n|bit adv|later .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|JCT 6|8|DET 7|8|MOD 8|5|POBJ
+	9|10|DET 10|3|JCT 11|10|POSTMOD 12|3|PUNCT
+*BRO:	why ? [+ NAC]
+%xmor:	pro:rel|why ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	it's okay, we'll, it's just I'll need to get it out and I'm just
+	with Archie just right now . [+ NAC]
+%xmor:	pro:per|it~cop|be&3S adj|okay cm|cm pro:sub|we~mod|will cm|cm
+	pro:per|it~cop|be&3S adj|just pro:sub|I~mod|will v|need inf|to v|get
+	pro:per|it adv|out coord|and pro:sub|I~cop|be&1S adv|just prep|with
+	n:prop|Archie adv|just adv|right adv:tem|now .
+%xgra:	1|2|SUBJ 2|13|SUBJ 3|2|PRED 4|2|LP 5|9|SUBJ 6|9|AUX 7|6|LP 8|9|SUBJ
+	9|13|AUX 10|13|JCT 11|13|SUBJ 12|13|AUX 13|0|ROOT 14|15|INF 15|13|COMP
+	16|15|OBJ 17|15|JCT 18|20|LINK 19|20|SUBJ 20|13|CJCT 21|20|JCT 22|20|JCT
+	23|22|POBJ 24|26|JCT 25|26|JCT 26|20|JCT 27|13|PUNCT
+*BRO:	why ? [+ NAC]
+%xmor:	pro:rel|why ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	please I see, please I show Archie what's on it ? [+ NAC]
+%xmor:	v|please pro:sub|I v|see cm|cm v|please pro:sub|I v|show
+	n:prop|Archie pro:int|what~cop|be&3S prep|on pro:per|it ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|LP 5|3|ENUM 6|7|SUBJ 7|5|COMP 8|7|OBJ
+	9|10|SUBJ 10|7|COMP 11|10|JCT 12|11|POBJ 13|3|PUNCT
+*MOT:	+< that's the slug .
+%xmor:	pro:dem|that~cop|be&3S det:art|the n|slug .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	yes if you like . [+ NAC]
+%xmor:	co|yes conj|if pro:per|you v|like .
+%xgra:	1|4|COM 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*BRO:	+< please . [+ NAC]
+%xmor:	co|please .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	<I want> [//] I like to . [+ NAC]
+%xmor:	pro:sub|I v|like inf|to .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	there you are bubby [= baby] .
+%xmor:	adv|there pro:per|you cop|be&PRES co|bubby .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*MOT:	whoops !
+%xmor:	co|whoops !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	can you see (.) the yellow pen and the red pen ?
+%xmor:	mod|can pro:per|you v|see det:art|the adj|yellow n|pen coord|and
+	det:art|the n|red n|pen ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|6|CONJ 8|10|DET
+	9|10|MOD 10|7|COORD 11|3|PUNCT
+*MOT:	that's right .
+%xmor:	pro:dem|that~cop|be&3S co|right .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*BRO:	Mum where's more of my trains ? [+ NAC]
+%xmor:	n:prop|Mum pro:rel|where~cop|be&3S pro:indef|more prep|of
+	det:poss|my n|train-PL ?
+%xgra:	1|0|INCROOT 2|3|LINK 3|1|CMOD 4|3|PRED 5|4|NJCT 6|7|DET 7|5|POBJ
+	8|1|PUNCT
+*MOT:	well you just get them out darling . [+ NAC]
+%xmor:	co|well pro:per|you adv|just v|get pro:obj|them adv|out co|darling
+	.
+%xgra:	1|4|COM 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|OBJ 6|4|JCT 7|4|COM 8|4|PUNCT
+*BRO:	where, why ? [+ NAC]
+%xmor:	pro:int|where cm|cm pro:rel|why ?
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	how does that work then ?
+%xmor:	pro:int|how mod|do&3S det:dem|that n|work adv:tem|then ?
+%xgra:	1|4|JCT 2|4|AUX 3|4|DET 4|0|INCROOT 5|4|JCT 6|4|PUNCT
+*BRO:	+< I don't want to: . [+ NAC]
+%xmor:	pro:sub|I mod|do~neg|not v|want prep|to .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*MOT:	oh okay . [+ NAC]
+%xmor:	co|oh co|okay .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*BRO:	please how can you really put this back together ? [+ NAC]
+%xmor:	v|please pro:int|how mod|can pro:per|you adv|real&dadj-LY
+	part|put&PASTP pro:dem|this v|back adv|together ?
+%xgra:	1|8|XJCT 2|6|JCT 3|6|AUX 4|6|SUBJ 5|6|JCT 6|1|COMP 7|8|SUBJ 8|0|ROOT
+	9|8|JCT 10|8|PUNCT
+*MOT:	I'll put it back in a minute Christopher . [+ NAC]
+%xmor:	pro:sub|I~mod|will v|put&ZERO pro:per|it adv|back prep|in det:art|a
+	n|minute n:prop|Christopher .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|JCT 7|8|DET 8|6|POBJ
+	9|8|APP 10|3|PUNCT
+*BRO:	you do it like this ? [+ NAC]
+%xmor:	pro:per|you mod|do pro:per|it v|like pro:dem|this ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	so, which one's which ?
+%xmor:	adv|so cm|cm pro:int|which det:num|one~aux|be&3S pro:int|which ?
+%xgra:	1|6|JCT 2|1|LP 3|6|LINK 4|6|SUBJ 5|6|AUX 6|0|ROOT 7|6|PUNCT
+*MOT:	you open it, <can you> [/] can you move it ?
+%xmor:	pro:per|you v|open pro:per|it cm|cm mod|can pro:per|you v|move
+	pro:per|it ?
+%xgra:	1|2|SUBJ 2|7|JCT 3|2|OBJ 4|2|LP 5|7|AUX 6|7|SUBJ 7|0|ROOT 8|7|OBJ
+	9|7|PUNCT
+*MOT:	are you gonna [: going to ] move the sliders ?
+%xmor:	cop|be&PRES pro:per|you part|go-PRESP inf|to v|move det:art|the
+	n|slide&dv-AGT-PL ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|7|DET 7|5|OBJ 8|1|PUNCT
+*BRO:	please I do it ? [+ NAC]
+%xmor:	v|please pro:sub|I mod|do pro:per|it ?
+%xgra:	1|0|ROOT 2|4|SUBJ 3|4|AUX 4|1|OBJ 5|1|PUNCT
+*BRO:	please I move the sliders ? [+ NAC]
+%xmor:	v|please pro:sub|I v|move det:art|the n|slide&dv-AGT-PL ?
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|DET 5|3|OBJ 6|1|PUNCT
+*MOT:	stop, it's Archie's book, Christopher . [+ NAC]
+%xmor:	n|stop cm|cm pro:per|it~cop|be&3S adj|Archie&dn-POSS n|book cm|cm
+	n:prop|Christopher .
+%xgra:	1|0|INCROOT 2|1|LP 3|4|SUBJ 4|1|ENUM 5|6|MOD 6|4|PRED 7|4|LP 8|1|ENUM
+	9|1|PUNCT
+*MOT:	you're playing with Thomas . [+ NAC]
+%xmor:	pro:per|you~aux|be&PRES part|play-PRESP prep|with n:prop|Thomas .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*BRO:	no I'm no:t . [+ NAC]
+%xmor:	co|no pro:sub|I~cop|be&1S neg|not .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|NEG 5|3|PUNCT
+*MOT:	yes you are . [+ NAC]
+%xmor:	co|yes pro:per|you cop|be&PRES .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	you just got that out, I thought that was you playing with Thomas .
+	[+ NAC]
+%xmor:	pro:per|you adv|just v|get&PAST comp|that adv|out cm|cm pro:sub|I
+	n|thought comp|that cop|be&PAST&13S pro:per|you part|play-PRESP
+	prep|with n:prop|Thomas .
+%xgra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|OBJ 5|4|JCT 6|5|LP 7|5|ENUM 8|7|POBJ
+	9|10|LINK 10|8|CMOD 11|10|PRED 12|11|XMOD 13|12|JCT 14|13|POBJ 15|3|PUNCT
+*MOT:	Archie just wants to play with the sliders, just a minute . [+ NAC]
+%xmor:	n:prop|Archie adv|just v|want-3S prep|to n|play prep|with
+	det:art|the n|slide&dv-AGT-PL cm|cm adv|just det:art|a n|minute .
+%xgra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|LP 10|3|JCT 11|12|DET 12|10|POBJ 13|3|PUNCT
+*MOT:	dyou [: do you ] want to get another little baby book for Archie ?
+	[+ NAC]
+%xmor:	mod|do pro:per|you v|want inf|to v|get qn|another adj|little n|baby
+	n|book prep|for n:prop|Archie ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|9|QUANT 7|9|MOD 8|9|MOD
+	9|5|OBJ 10|9|NJCT 11|10|POBJ 12|3|PUNCT
+*BRO:	xxx .
+*MOT:	+< well you see if you can find one just down the side there .
+	[+ NAC]
+%xmor:	co|well pro:per|you v|see conj|if pro:per|you mod|can v|find
+	det:num|one adj|just prep|down det:art|the n|side adv|there .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|7|LINK 5|7|SUBJ 6|7|AUX 7|3|COMP 8|7|OBJ
+	9|10|JCT 10|8|JCT 11|12|DET 12|10|POBJ 13|7|JCT 14|3|PUNCT
+*BRO:	why ? [+ NAC]
+%xmor:	pro:rel|why ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	just for fun . [+ NAC]
+%xmor:	adv|just prep|for adj|fun .
+%xgra:	1|2|JCT 2|0|INCROOT 3|2|POBJ 4|2|PUNCT
+*BRO:	right, I'll find one then . [+ NAC]
+%xmor:	adv|right cm|cm pro:sub|I~mod|will v|find det:num|one adv:tem|then
+	.
+%xgra:	1|3|JCT 2|1|LP 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|QUANT 7|5|JCT 8|5|PUNCT
+*MOT:	can you see xxx The_Island_of_Sodor to Archie ?
+%xmor:	mod|can pro:per|you v|see n:prop|The_Island_of_Sodor prep|to
+	n:prop|Archie ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|NJCT 6|5|POBJ 7|3|PUNCT
+*BRO:	I'll show you Sodor . [+ NAC]
+%xmor:	pro:sub|I~mod|will v|show pro:per|you n:prop|Sodor .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|SUBJ 5|3|OBJ 6|3|PUNCT
+*MOT:	well you show Archie what [/] what the bits are in Sodor then .
+	[+ NAC]
+%xmor:	co|well pro:per|you v|show n:prop|Archie pro:int|what det:art|the
+	n|bit-PL cop|be&PRES prep|in n:prop|Sodor adv:tem|then .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|8|LINK 6|7|DET 7|8|SUBJ 8|3|COMP
+	9|8|JCT 10|11|MOD 11|9|POBJ 12|3|PUNCT
+*MOT:	you show him all the good things on it . [+ NAC]
+%xmor:	pro:per|you v|show pro:obj|him qn|all det:art|the adj|good
+	n|thing-PL prep|on pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ2 4|7|QUANT 5|7|DET 6|7|MOD 7|2|OBJ 8|2|JCT
+	9|8|POBJ 10|2|PUNCT
+*MOT:	can you tell him what it, <tell him> [/] tell him what they are .
+	[+ NAC]
+%xmor:	mod|can pro:per|you v|tell pro:obj|him pro:int|what pro:per|it
+	cm|cm v|tell pro:obj|him pro:int|what pro:sub|they cop|be&PRES .
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|8|LINK 6|8|SUBJ 7|6|LP 8|3|COMP
+	9|8|OBJ 10|12|LINK 11|12|SUBJ 12|8|COMP 13|3|PUNCT
+*BRO:	a track . [+ NAC]
+%xmor:	det:art|a n|track .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*MOT:	a track .
+%xmor:	det:art|a n|track .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*MOT:	this is where the choochoos go choo_choo@o [x 2] .
+%xmor:	pro:dem|this cop|be&3S pro:int|where det:art|the n|choochoo-PL v|go
+	on|choo_choo .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|5|DET 5|6|SUBJ 6|2|CPRED 7|6|OBJ 8|2|PUNCT
+*BRO:	uhoh . [+ NAC]
+%xmor:	co|uhoh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	it's okay . [+ NAC]
+%xmor:	pro:per|it~cop|be&3S adj|okay .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*BRO:	+< and <and this> [/] and this is (.) and this is where they live .
+%xmor:	coord|and coord|and pro:dem|this cop|be&3S coord|and pro:dem|this
+	cop|be&3S pro:int|where pro:sub|they v|live .
+%xgra:	1|4|LINK 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|7|LINK 6|7|SUBJ 7|4|PRED
+	8|10|LINK 9|10|SUBJ 10|7|CPRED 11|4|PUNCT
+*BRO:	chee_chee@o .
+%xmor:	on|chee_chee .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	have you seen that Archie, that's +/.
+%xmor:	aux|have pro:per|you part|see&PASTP comp|that n:prop|Archie cm|cm
+	pro:rel|that~cop|be&3S +/.
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|8|LINK 5|8|SUBJ 6|5|LP 7|8|LINK 8|3|COMP
+	9|3|PUNCT
+*BRO:	+< and this is where the helicopter does &=blows:raspberry .
+%xmor:	coord|and pro:dem|this cop|be&3S pro:int|where det:art|the
+	n|helicopter mod|do&3S .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT 5|6|DET 6|4|INCROOT 7|6|INCROOT
+	8|7|PUNCT
+*BRO:	and this is where the bus stops .
+%xmor:	coord|and pro:dem|this cop|be&3S pro:int|where det:art|the n|bus
+	n|stop-PL .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|7|DET 6|7|MOD 7|4|OBJ 8|3|PUNCT
+*MOT:	that's where the bus stops .
+%xmor:	pro:dem|that~cop|be&3S pro:int|where det:art|the n|bus n|stop-PL .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|6|DET 5|6|MOD 6|3|OBJ 7|2|PUNCT
+*MOT:	and who are these here ?
+%xmor:	coord|and pro:int|who cop|be&PRES det:dem|these n|here ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*BRO:	sheep [/] sheep .
+%xmor:	n|sheep .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+< who are these ones Archie, who are these ?
+%xmor:	pro:int|who cop|be&PRES det:dem|these n|one-PL n:prop|Archie cm|cm
+	pro:rel|who cop|be&PRES pro:dem|these ?
+%xgra:	1|2|LINK 2|0|ROOT 3|4|DET 4|2|PRED 5|4|APP 6|5|LP 7|8|LINK 8|4|CMOD
+	9|8|PRED 10|2|PUNCT
+*BRO:	they're sheep .
+%xmor:	pro:sub|they~cop|be&PRES n|sheep .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*BRO:	Mummy that's a bridge ! [+ NAC]
+%xmor:	n:prop|Mummy pro:dem|that~cop|be&3S det:art|a n|bridge !
+%xgra:	1|2|SUBJ 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*MOT:	dyou [: do you ] know a little song about sheep ?
+%xmor:	mod|do pro:per|you v|know det:art|a adj|little n|song prep|about
+	n|sheep ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|6|NJCT 8|7|POBJ
+	9|3|PUNCT
+*BRO:	<I'm not> [//] I don't . [+ NAC]
+%xmor:	pro:sub|I mod|do~neg|not .
+%xgra:	1|0|INCROOT 2|4|AUX 3|2|NEG 4|1|PUNCT
+*MOT:	you don't know a song about sheep ? [+ NAC]
+%xmor:	pro:per|you mod|do~neg|not v|know det:art|a n|song prep|about
+	n|sheep ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|JCT 8|7|POBJ
+	9|4|PUNCT
+*BRO:	no, please can you read it, please xxx it ? [+ NAC]
+%xmor:	co|no cm|cm v|please mod|can pro:per|you v|read&ZERO pro:per|it
+	cm|cm v|please pro:per|it ?
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|6|AUX 5|6|SUBJ 6|3|COMP 7|6|OBJ 8|6|LP
+	9|6|ENUM 10|9|OBJ 11|1|PUNCT
+*MOT:	as in . [+ NAC]
+%xmor:	prep|as adv|in .
+%xgra:	1|2|COORD 2|0|INCROOT 3|2|PUNCT
+*MOT:	baa_baa [=! singing] +... [+ SNG]
+%xmor:	on|baa&DUP +...
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	++ baa_baa [=! singing] . [+ SNG]
+%xmor:	on|baa&DUP .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	black [=! singing] +... [+ SNG]
+%xmor:	n|black +...
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	++ black [=! singing] . [+ SNG]
+%xmor:	n|black .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	sheep . [+ SNG]
+%xmor:	n|sheep .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	sheep . [+ SNG]
+%xmor:	n|sheep .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	do you remember that one ? [+ NAC]
+%xmor:	mod|do pro:per|you v|remember det:dem|that pro:indef|one ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*BRO:	no: . [+ NAC]
+%xmor:	co|no .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you do . [+ NAC]
+%xmor:	pro:per|you v|do .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*BRO:	please can you read it +/? [+ NAC]
+%xmor:	co|please mod|can pro:per|you v|read&ZERO pro:per|it +/?
+%xgra:	1|4|COM 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	+< you've got a lovely singing voice . [+ NAC]
+%xmor:	pro:per|you~aux|have part|get&PASTP det:art|a n|lovely
+	part|sing-PRESP n|voice .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|5|XMOD 7|6|OBJ 8|3|PUNCT
+*MOT:	you do a sing of “Baa_baa_black_sheep” and we'll read that one in a
+	minute . [+ NAC]
+%xmor:	pro:per|you v|do det:art|a v|sing prep|of
+	n:prop|Baa_baa_black_sheep coord|and pro:sub|we~mod|will v|read&ZERO
+	det:dem|that pro:indef|one prep|in det:art|a n|minute .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|JCT 6|5|POBJ 7|10|LINK 8|10|SUBJ
+	9|10|AUX 10|4|CJCT 11|12|DET 12|10|OBJ 13|12|NJCT 14|15|DET 15|13|POBJ
+	16|2|PUNCT
+*BRO:	baa_baa@o black sheep have you any wool [=! singing] ? [+ SNG]
+%xmor:	on|baa_baa adj|black n|sheep v|have pro:per|you qn|any n|wool ?
+%xgra:	1|4|LINK 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|OBJ2 6|7|QUANT 7|4|JCT 8|4|PUNCT
+*BRO:	&=sings:tune three bags full [=! signing] . [+ SNG]
+%xmor:	det:num|three n|bag-PL adj|full .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|POSTMOD 4|2|PUNCT
+*MOT:	+< yes sir three bags full [= singing] . [+ SNG]
+%xmor:	co|yes n|sir det:num|three n|bag-PL adj|full .
+%xgra:	1|4|COM 2|4|MOD 3|4|QUANT 4|0|INCROOT 5|4|POSTMOD 6|4|PUNCT
+*BRO:	yes (.) master one for the dame [=! singing] . [+ SNG]
+%xmor:	co|yes n|master pro:indef|one prep|for det:art|the n|dame .
+%xgra:	1|3|COM 2|3|MOD 3|0|ROOT 4|3|NJCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*MOT:	+< one for the master [=! singing] . [+ SNG]
+%xmor:	det:num|one prep|for det:art|the n|master .
+%xgra:	1|0|INCROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+*BRO:	and one for +/. [+ SNG]
+%xmor:	coord|and pro:indef|one prep|for +/.
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|INCROOT 4|3|PUNCT
+*MOT:	for the little Archie who lives down the lane [=! singing] .
+	[+ SNG]
+%xmor:	prep|for det:art|the adj|little n:prop|Archie pro:rel|who v|live-3S
+	prep|down det:art|the n|lane .
+%xgra:	1|0|INCROOT 2|4|DET 3|4|MOD 4|1|POBJ 5|6|LINK 6|4|CMOD 7|6|JCT 8|9|DET
+	9|7|POBJ 10|1|PUNCT
+*BRO:	+< Mummy can you read this for me ? [+ NAC]
+%xmor:	n:prop|Mummy mod|can pro:per|you v|read&ZERO pro:dem|this prep|for
+	pro:obj|me ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|6|POBJ 8|4|PUNCT
+*MOT:	yeah I'll read that one in a little bit for you darling . [+ NAC]
+%xmor:	co|yeah pro:sub|I~mod|will v|read&ZERO det:dem|that pro:indef|one
+	prep|in det:art|a adj|little n|bit prep|for pro:per|you co|darling .
+%xgra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|JCT 8|10|DET
+	9|10|MOD 10|7|POBJ 11|4|JCT 12|13|SUBJ 13|11|POBJ 14|4|PUNCT
+*BRO:	why ? [+ NAC]
+%xmor:	pro:rel|why ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	well we're just <doing> [//] playing with Archie just right now .
+	[+ NAC]
+%xmor:	co|well pro:sub|we~aux|be&PRES adv|just part|play-PRESP prep|with
+	n:prop|Archie adv|just adv|right adv:tem|now .
+%xgra:	1|5|COM 2|5|SUBJ 3|5|AUX 4|5|JCT 5|0|ROOT 6|5|JCT 7|6|POBJ 8|10|JCT
+	9|10|JCT 10|5|JCT 11|5|PUNCT
+*BRO:	but I want to do it no:w . [+ NAC]
+%xmor:	conj|but pro:sub|I v|want prep|to mod|do pro:per|it adv:tem|now .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|7|AUX 6|7|SUBJ 7|4|POBJ 8|3|PUNCT
+*MOT:	+< I know +... [+ NAC]
+%xmor:	pro:sub|I v|know +...
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	well no, <we don't get> [/] we don't get things now when we say, I
+	want to do it now . [+ NAC]
+%xmor:	co|well co|no cm|cm pro:sub|we mod|do~neg|not v|get n|thing-PL
+	adv:tem|now conj|when pro:sub|we v|say cm|cm pro:sub|I v|want
+	prep|to mod|do pro:per|it adv:tem|now .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|LP 4|7|SUBJ 5|7|AUX 6|5|NEG 7|2|ENUM 8|9|MOD
+	9|7|JCT 10|12|LINK 11|12|SUBJ 12|15|CJCT 13|12|LP 14|15|SUBJ 15|7|CJCT
+	16|15|JCT 17|19|AUX 18|19|SUBJ 19|16|POBJ 20|2|PUNCT
+*BRO:	please can I do it please can, please +/. [+ NAC]
+%xmor:	co|please mod|can pro:sub|I mod|do pro:per|it v|please n|can cm|cm
+	v|please +/.
+%xgra:	1|6|COM 2|6|AUX 3|6|SUBJ 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|OBJ 8|6|LP
+	9|6|ENUM 10|6|PUNCT
+*MOT:	+< we'll do it in five minutes . [+ NAC]
+%xmor:	pro:sub|we~mod|will mod|do pro:per|it prep|in det:num|five
+	n|minute-PL .
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|AUX 4|0|ROOT 5|4|JCT 6|7|QUANT 7|5|POBJ 8|4|PUNCT
+*BRO:	why ? [+ NAC]
+%xmor:	pro:rel|why ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	so how many sheepies can you see Archie ?
+%xmor:	adv|so pro:int|how qn|many n|sheepie-PL mod|can pro:per|you v|see
+	n:prop|Archie ?
+%xgra:	1|2|JCT 2|7|LINK 3|4|QUANT 4|7|JCT 5|7|AUX 6|7|SUBJ 7|0|ROOT 8|7|OBJ
+	9|7|PUNCT
+*MOT:	how many baa_baa@o black sheeps [: sheep] can you see ?
+%xmor:	pro:int|how qn|many on|baa_baa adj|black n|sheep mod|can
+	pro:per|you v|see ?
+%xgra:	1|3|LINK 2|3|QUANT 3|8|PRED 4|5|MOD 5|8|SUBJ 6|8|AUX 7|8|SUBJ 8|0|ROOT
+	9|8|PUNCT
+*BRO:	+< baa_baa black sheep have you any wool [=! singing] . [+ SNG]
+%xmor:	on|baa&DUP adj|black n|sheep v|have pro:per|you qn|any n|wool .
+%xgra:	1|4|LINK 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|OBJ2 6|7|QUANT 7|4|OBJ 8|4|PUNCT
+*MOT:	+< can you see them all ?
+%xmor:	mod|can pro:per|you v|see pro:obj|them pro:indef|all ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|3|PUNCT
+*BRO:	&sings:tune yes sir three bags full [=! singing] . [+ SNG]
+%xmor:	co|yes n|sir det:num|three n|bag-PL adj|full .
+%xgra:	1|4|COM 2|4|MOD 3|4|QUANT 4|0|INCROOT 5|4|POSTMOD 6|4|PUNCT
+*MOT:	+< a:nd are you gonna [: going to ] point to the windmill ? [+ NAC]
+%xmor:	coord|and cop|be&PRES pro:per|you part|go-PRESP prep|to n|point
+	prep|to det:art|the n|windmill ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|3|XMOD 5|4|JCT 6|5|POBJ 7|6|NJCT 8|9|DET
+	9|7|POBJ 10|2|PUNCT
+*MOT:	&pin point to the windmill for Archie .[+ NAC]
+%xmor:	n|point prep|to det:art|the n|windmill prep|for n:prop|Archie .
+%xgra:	1|0|INCROOT 2|1|NJCT 3|4|DET 4|2|POBJ 5|1|NJCT 6|5|POBJ 7|1|PUNCT
+*MOT:	which ones the windmill Archie ?
+%xmor:	pro:int|which n|one-PL det:art|the n|windmill n:prop|Archie ?
+%xgra:	1|2|LINK 2|0|INCROOT 3|4|DET 4|2|ENUM 5|4|APP 6|2|PUNCT
+*MOT:	&=gasps that one goes <round and round and> [/] round and round !
+%xmor:	det:dem|that pro:indef|one v|go-3S adv|round coord|and adv|round !
+%xgra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|CONJ 6|5|COORD 7|3|PUNCT
+*BRO:	baa_baa white sheep [=! singing] . [+ SNG]
+%xmor:	on|baa&DUP adj|white n|sheep .
+%xgra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	+< and what else can you see Archie_Boy ?
+%xmor:	coord|and pro:int|what post|else mod|can pro:per|you v|see
+	n:prop|Archie_Boy ?
+%xgra:	1|6|LINK 2|6|SUBJ 3|2|PQ 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|OBJ 8|6|PUNCT
+*MOT:	are you gonna [: going to ] walk on it ?
+%xmor:	cop|be&PRES pro:per|you part|go-PRESP inf|to v|walk prep|on
+	pro:per|it ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|JCT 7|6|POBJ 8|1|PUNCT
+*MOT:	&=gasps, there you are, walk on The_Island_of_Sodor .
+%xmor:	cm|cm adv|there pro:per|you cop|be&PRES cm|cm n|walk prep|on
+	n:prop|The_Island_of_Sodor .
+%xgra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|LP 6|4|ENUM 7|6|NJCT 8|7|POBJ
+	9|4|PUNCT
+*BRO:	+< have you any wool, no sir [=! singing ] . [+ SNG]
+%xmor:	aux|have pro:per|you qn|any n|wool cm|cm qn|no n|sir .
+%xgra:	1|4|OBJ 2|4|SUBJ 3|4|QUANT 4|0|INCROOT 5|4|LP 6|7|QUANT 7|4|ENUM
+	8|4|PUNCT
+*MOT:	whee !
+%xmor:	co|whee !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	+< yes [=! singing] +//. [+ SNG]
+%xmor:	co|yes +//.
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	please can I do that ? [+ NAC]
+%xmor:	co|please mod|can pro:sub|I v|do pro:dem|that ?
+%xgra:	1|4|COM 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*BRO:	yes, whee: !
+%xmor:	co|yes cm|cm co|whee !
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	oh: .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	whee: [/] whee: !
+%xmor:	co|whee !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	Mum we giving hugs to each other: . [+ NAC]
+%xmor:	n:prop|Mum pro:sub|we part|give-PRESP v|hug-3S prep|to qn|each
+	qn|other .
+%xgra:	1|4|LINK 2|4|SUBJ 3|2|PQ 4|0|ROOT 5|4|JCT 6|7|QUANT 7|5|POBJ 8|4|PUNCT
+*MOT:	aw that's nice isn't it ? [+ NAC]
+%xmor:	co|aw pro:dem|that~cop|be&3S adj|nice cop|be&3S~neg|not pro:per|it
+	?
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PRED 6|5|NEG 7|5|SUBJ 8|3|PUNCT
+*MOT:	aw:, lovely standing Archie .
+%xmor:	co|aw cm|cm n|lovely part|stand-PRESP n:prop|Archie .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|XMOD 5|4|OBJ 6|1|PUNCT
+*MOT:	lovely standing Christopher, but you stand all the time anyway .
+	[+ NAC]
+%xmor:	n|lovely part|stand-PRESP n:prop|Christopher cm|cm conj|but
+	pro:per|you v|stand qn|all det:art|the n|time adv|anyway .
+%xgra:	1|0|INCROOT 2|1|XMOD 3|2|OBJ 4|3|LP 5|7|LINK 6|7|SUBJ 7|1|CJCT
+	8|10|QUANT 9|10|DET 10|7|OBJ 11|7|JCT 12|1|PUNCT
+*BRO:	“Tiddle” . [+ NAC]
+%xmor:	n:prop|Tiddle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	just put that over there and we'll read it in a little bit .
+	[+ NAC]
+%xmor:	adv|just v|put&ZERO pro:dem|that prep|over n|there coord|and
+	pro:sub|we~mod|will v|read&ZERO pro:per|it prep|in det:art|a
+	adj|little n|bit .
+%xgra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|JCT 5|4|POBJ 6|9|LINK 7|9|SUBJ 8|9|AUX
+	9|2|CJCT 10|9|OBJ 11|9|JCT 12|14|DET 13|14|MOD 14|11|POBJ 15|2|PUNCT
+*MOT:	what are you doing bouncy legs ?
+%xmor:	pro:int|what aux|be&PRES pro:per|you part|do-PRESP adj|bounce&dv-Y
+	n|leg-PL ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|6|MOD 6|4|OBJ 7|4|PUNCT
+*MOT:	ooh [/] ooh !
+%xmor:	v|ooh !
+%xgra:	1|0|ROOT 2|1|PUNCT
+*MOT:	&=laughs are you doing jumping ?
+%xmor:	cop|be&PRES pro:per|you part|do-PRESP part|jump-PRESP ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|3|COMP 5|1|PUNCT
+*MOT:	&=laughs .
+*MOT:	oh, are you gonna [: going to ] +...
+%xmor:	co|oh cm|cm aux|be&PRES pro:per|you part|go-PRESP prep|to +...
+%xgra:	1|5|COM 2|1|LP 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|JCT 7|5|PUNCT
+*CHI:	&=laughs .
+*BRO:	+< &=laughs .
+*MOT:	+< &=laughs .
+*MOT:	one two, ey: !
+%xmor:	det:num|one det:num|two cm|cm co|ey !
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|LP 4|2|COM 5|2|PUNCT
+*CHI:	&=laughs .
+*BRO:	&=laughs, Mummy we're [/] we're being crazed . [+ NAC]
+%xmor:	cm|cm n:prop|Mummy pro:sub|we~aux|be&PRES part|be-PRESP
+	part|craze-PASTP .
+%xgra:	1|0|INCROOT 2|1|OBJ 3|5|SUBJ 4|5|AUX 5|2|CMOD 6|5|PRED 7|1|PUNCT
+*MOT:	&=laughs, okay are you both gonna [: going to ] jump at the same
+	time then ?
+%xmor:	cm|cm adj|okay aux|be&PRES pro:per|you qn|both part|go-PRESP
+	prep|to n|jump prep|at det:art|the adj|same n|time adv:tem|then ?
+%xgra:	1|6|LINK 2|6|SUBJ 3|6|AUX 4|6|SUBJ 5|6|QUANT 6|0|ROOT 7|6|JCT 8|7|POBJ
+	9|8|NJCT 10|12|DET 11|12|MOD 12|9|POBJ 13|12|NJCT 14|6|PUNCT
+*MOT:	one: .
+%xmor:	det:num|one .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	two .
+%xmor:	det:num|two .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	two .
+%xmor:	det:num|two .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	+< two three four .
+%xmor:	det:num|two det:num|three det:num|four .
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*MOT:	no we'll do it on three .
+%xmor:	co|no pro:sub|we~mod|will mod|do pro:per|it prep|on det:num|three .
+%xgra:	1|5|COM 2|5|SUBJ 3|5|AUX 4|5|AUX 5|0|ROOT 6|5|JCT 7|6|POBJ 8|5|PUNCT
+*BRO:	+< one .
+%xmor:	det:num|one .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	one two three: !
+%xmor:	det:num|one det:num|two det:num|three !
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*BRO:	+< one two three &=laughs .
+%xmor:	det:num|one det:num|two det:num|three .
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*BRO:	let's do it again .
+%xmor:	v|let~pro:obj|us mod|do pro:per|it adv:tem|again .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|OBJ 5|4|JCT 6|1|PUNCT
+*MOT:	+< let's do that again .
+%xmor:	v|let~pro:obj|us v|do pro:dem|that adv:tem|again .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|OBJ 5|4|JCT 6|1|PUNCT
+*MOT:	okay one two three: !
+%xmor:	co|okay det:num|one det:num|two det:num|three !
+%xgra:	1|2|COM 2|4|DATE 3|4|DATE 4|0|INCROOT 5|4|PUNCT
+*BRO:	+< one two three &=laughs .
+%xmor:	det:num|one det:num|two det:num|three .
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*BRO:	&=laughs .
+*MOT:	+< &=laughs .
+*BRO:	xxx .
+*MOT:	+< okay, jumping again ?
+%xmor:	co|okay cm|cm part|jump-PRESP adv:tem|again ?
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|JCT 5|1|PUNCT
+*BRO:	one two three &=laughs .
+%xmor:	det:num|one det:num|two det:num|three .
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*MOT:	+< one two three: !
+%xmor:	det:num|one det:num|two det:num|three !
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*CHI:	+< &=laughs .
+*BRO:	&=laughs .
+*MOT:	+< &=laughs alright just +...
+%xmor:	co|alright adv|just +...
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*BRO:	one two three four five, go !
+%xmor:	det:num|one det:num|two det:num|three det:num|four det:num|five
+	cm|cm v|go !
+%xgra:	1|4|DATE 2|4|DATE 3|4|DATE 4|5|QUANT 5|0|ROOT 6|5|LP 7|5|ENUM 8|5|PUNCT
+*BRO:	jump !
+%xmor:	n|jump !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	let's jump at the same time .
+%xmor:	v|let~pro:obj|us v|jump prep|at det:art|the adj|same n|time .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|JCT 5|7|DET 6|7|MOD 7|4|POBJ 8|1|PUNCT
+*BRO:	I [/] I counted the number and we have to jump up .
+%xmor:	pro:sub|I v|count-PAST det:art|the n|number coord|and pro:sub|we
+	aux|have inf|to v|jump adv|up .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|9|LINK 6|9|SUBJ 7|9|AUX 8|9|INF
+	9|2|CJCT 10|9|JCT 11|2|PUNCT
+*MOT:	+< okay you count the number then and see what xxx .
+%xmor:	co|okay pro:per|you v|count det:art|the n|number adv:tem|then
+	coord|and v|see pro:int|what .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|5|NJCT 7|6|CONJ 8|7|COORD
+	9|8|OBJ 10|3|PUNCT
+*BRO:	one two three four five jump !
+%xmor:	det:num|one det:num|two det:num|three det:num|four det:num|five
+	n|jump !
+%xgra:	1|6|QUANT 2|4|DATE 3|4|DATE 4|5|DATE 5|6|QUANT 6|0|INCROOT 7|6|PUNCT
+*MOT:	whee: &=laughs .
+%xmor:	co|whee .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	+< &=laughs whee, cuddle .
+%xmor:	co|whee cm|cm v|cuddle .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	doing nice cuddles boys .
+%xmor:	part|do-PRESP adj|nice v|cuddle-3S n|boy-PL .
+%xgra:	1|0|ROOT 2|1|JCT 3|2|ENUM 4|3|OBJ 5|1|PUNCT
+*MOT:	there we go .
+%xmor:	adv|there pro:sub|we v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	oh .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	Mum, Mummy please I read xxx no:w ? [+ NAC]
+%xmor:	n:prop|Mum cm|cm n:prop|Mummy v|please pro:sub|I v|read&ZERO
+	adv:tem|now ?
+%xgra:	1|4|SUBJ 2|1|LP 3|1|ENUM 4|0|ROOT 5|6|SUBJ 6|4|COMP 7|6|JCT 8|4|PUNCT
+*MOT:	well either that or do you want to pass the football to Archie ?
+	[+ NAC]
+%xmor:	co|well adv|either pro:dem|that coord|or mod|do pro:per|you v|want
+	prep|to n|pass det:art|the n|+n|foot+n|ball prep|to n:prop|Archie ?
+%xgra:	1|3|COM 2|3|JCT 3|0|INCROOT 4|3|CONJ 5|7|AUX 6|7|SUBJ 7|4|COORD 8|7|JCT
+	9|8|POBJ 10|11|DET 11|7|JCT 12|11|NJCT 13|12|POBJ 14|3|PUNCT
+*BRO:	why ? [+ NAC]
+%xmor:	pro:rel|why ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	just (be)cause it's there . [+ NAC]
+%xmor:	adv|just conj|because pro:per|it~cop|be&3S n|there .
+%xgra:	1|2|JCT 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|PUNCT
+*MOT:	I think he'd quite like to play with it . [+ NAC]
+%xmor:	pro:sub|I v|think pro:sub|he~mod|genmod adv|quite co|like prep|to
+	n|play prep|with pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|SUBJ 4|6|AUX 5|6|JCT 6|2|COMP 7|6|JCT 8|7|POBJ
+	9|6|JCT 10|9|POBJ 11|2|PUNCT
+*MOT:	&=gasps what's this one ?
+%xmor:	pro:int|what~cop|be&3S pro:dem|this pro:indef|one ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	where's the big ball Archie ?
+%xmor:	pro:int|where~cop|be&3S det:art|the adj|big n|ball n:prop|Archie ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|5|APP 7|2|PUNCT
+*MOT:	oh xxx .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	+< please can you read this to me ? [+ NAC]
+%xmor:	co|please mod|can pro:per|you v|read&ZERO det:dem|this inf|to
+	pro:obj|me ?
+%xgra:	1|4|COM 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|7|DET 6|7|INF 7|4|OBJ 8|4|PUNCT
+*MOT:	read it to you in a minute okay ? [+ NAC]
+%xmor:	v|read&ZERO pro:per|it prep|to pro:per|you prep|in det:art|a
+	n|minute adj|okay ?
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|3|POBJ 5|4|NJCT 6|7|DET 7|5|POBJ 8|1|JCT
+	9|1|PUNCT
+*BRO:	why: ? [+ NAC]
+%xmor:	pro:rel|why ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	+< &=happy:noise .
+*MOT:	lots of balls .
+%xmor:	n|lot-PL prep|of n|ball-PL .
+%xgra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|PUNCT
+*BRO:	+< one two three jump !
+%xmor:	det:num|one det:num|two det:num|three n|jump !
+%xgra:	1|4|QUANT 2|3|DATE 3|4|QUANT 4|0|INCROOT 5|4|PUNCT
+*MOT:	shall we throw the ball ?
+%xmor:	mod|shall pro:sub|we v|throw det:art|the n|ball ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	how about you go to the other side of the room and we'll throw the
+	ball ? [+ NAC]
+%xmor:	pro:int|how adv|about pro:per|you v|go prep|to det:art|the qn|other
+	n|side prep|of det:art|the n|room coord|and pro:sub|we~mod|will
+	v|throw det:art|the n|ball ?
+%xgra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|8|DET 7|8|QUANT 8|5|POBJ
+	9|8|NJCT 10|11|DET 11|9|POBJ 12|15|LINK 13|15|SUBJ 14|15|AUX 15|4|CJCT
+	16|17|DET 17|15|OBJ 18|4|PUNCT
+*BRO:	no: . [+ NAC]
+%xmor:	co|no .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	no ? [+ NAC]
+%xmor:	co|no ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	okay, I'll do it with Archie . [+ NAC]
+%xmor:	co|okay cm|cm pro:sub|I~mod|will mod|do pro:per|it prep|with
+	n:prop|Archie .
+%xgra:	1|5|COM 2|1|LP 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|OBJ 7|6|JCT 8|7|POBJ
+	9|5|PUNCT
+*MOT:	one two: three !
+%xmor:	det:num|one det:num|two det:num|three !
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*BRO:	+< please I [/] I want to do it ! [+ NAC]
+%xmor:	v|please pro:sub|I v|want prep|to mod|do pro:per|it !
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|3|JCT 5|4|POBJ 6|5|OBJ 7|1|PUNCT
+*BRO:	one two three go . [+ NAC]
+%xmor:	det:num|one det:num|two det:num|three v|go .
+%xgra:	1|2|QUANT 2|4|QUANT 3|4|QUANT 4|0|ROOT 5|4|PUNCT
+*MOT:	throw it to Archie . [+ NAC]
+%xmor:	v|throw pro:per|it prep|to n:prop|Archie .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|3|POBJ 5|1|PUNCT
+*MOT:	there we go, good boy:, well done ! [+ NAC]
+%xmor:	adv|there pro:sub|we v|go cm|cm adj|good n|boy cm|cm adv|well
+	part|do&PASTP !
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|LP 5|6|MOD 6|3|ENUM 7|6|LP 8|9|JCT
+	9|3|XJCT 10|3|PUNCT
+*CHI:	+< &=happy:noise .
+*MOT:	are you gonna [: going to ] throw it back to Christopher ?
+%xmor:	cop|be&PRES pro:per|you part|go-PRESP inf|to v|throw pro:per|it
+	adv|back prep|to n:prop|Christopher ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|OBJ 7|5|JCT 8|5|JCT
+	9|8|POBJ 10|1|PUNCT
+*MOT:	one two three whee: !
+%xmor:	det:num|one det:num|two det:num|three co|whee !
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|COM 5|3|PUNCT
+*MOT:	right you go all the way over there and you throw it to [/] to
+	Archie . [+ NAC]
+%xmor:	adv|right pro:per|you v|go qn|all det:art|the n|way prep|over
+	n|there coord|and pro:per|you v|throw pro:per|it prep|to
+	n:prop|Archie .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|6|QUANT 5|6|DET 6|3|OBJ 7|3|JCT 8|7|POBJ
+	9|11|LINK 10|11|SUBJ 11|3|CJCT 12|11|OBJ 13|11|JCT 14|13|POBJ 15|3|PUNCT
+*MOT:	one two three:, you catch it .
+%xmor:	det:num|one det:num|two det:num|three cm|cm pro:per|you v|catch
+	pro:per|it .
+%xgra:	1|3|DATE 2|3|DATE 3|6|JCT 4|3|LP 5|6|SUBJ 6|0|ROOT 7|6|OBJ 8|6|PUNCT
+*MOT:	goo(d) [/] good boy .
+%xmor:	adj|good n|boy .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*BRO:	please can you throw it back to me ?
+%xmor:	co|please mod|can pro:per|you v|throw pro:per|it adv|back prep|to
+	pro:obj|me ?
+%xgra:	1|4|COM 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|4|JCT 8|7|POBJ
+	9|4|PUNCT
+*MOT:	+< we'll throw it back to Christopher, one: two three: !
+%xmor:	pro:sub|we~mod|will v|throw pro:per|it adv|back prep|to
+	n:prop|Christopher cm|cm det:num|one det:num|two det:num|three !
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|JCT 7|6|POBJ 8|3|LP
+	9|11|DATE 10|11|DATE 11|3|OBJ 12|3|PUNCT
+*MOT:	back to Archie .
+%xmor:	adv|back prep|to n:prop|Archie .
+%xgra:	1|0|INCROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
+*BRO:	+< one .
+%xmor:	det:num|one .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	one two +...
+%xmor:	det:num|one det:num|two +...
+%xgra:	1|2|DATE 2|0|INCROOT 3|2|PUNCT
+*BRO:	please can you say the other number ? [+ NAC]
+%xmor:	co|please mod|can pro:per|you v|say det:art|the qn|other n|number ?
+%xgra:	1|4|COM 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|7|DET 6|7|QUANT 7|4|OBJ 8|4|PUNCT
+*CHI:	+< &=happy:noise .
+*MOT:	one two three: !
+%xmor:	det:num|one det:num|two det:num|three !
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*MOT:	there it is Archie, you catch it .
+%xmor:	adv|there pro:per|it cop|be&3S n:prop|Archie cm|cm pro:per|you
+	v|catch pro:per|it .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|SUBJ 5|3|LP 6|7|SUBJ 7|3|CPRED 8|7|OBJ
+	9|3|PUNCT
+*CHI:	&=laughs .
+*MOT:	oh good catch Archie_Boo .
+%xmor:	co|oh adj|good v|catch n:prop|Archie_Boo .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*BRO:	oh Daddy's there .
+%xmor:	co|oh adj|Daddy&dn-POSS n|there .
+%xgra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	oh Daddy's home .
+%xmor:	co|oh adj|Daddy&dn-POSS n|home .
+%xgra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*FAT:	hello .
+%xmor:	co|hello .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+< are you going to say +...
+%xmor:	cop|be&PRES pro:per|you part|go-PRESP inf|to v|say +...
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|1|PUNCT
+%com:	father is in another room as he has just entered the house .
+*BRO:	hello . [+ NAC]
+%xmor:	co|hello .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	where's Daddy ?
+%xmor:	pro:int|where~cop|be&3S n:prop|Daddy ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	where's Daddy ?
+%xmor:	pro:int|where~cop|be&3S n:prop|Daddy ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHI:	+< &=happy:noise .
+*MOT:	where's Daddy ?
+%xmor:	pro:int|where~cop|be&3S n:prop|Daddy ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	is he coming ?
+%xmor:	cop|be&3S pro:sub|he part|come-PRESP ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*CHI:	&=happy:noise .
+*MOT:	+< <is it> [/] is it very exciting ?
+%xmor:	aux|be&3S pro:per|it adv|very part|excite-PRESP ?
+%xgra:	1|4|AUX 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|PUNCT
+%com:	father and brother are speaking outside the room .
+*MOT:	where's your Daddy ?
+%xmor:	pro:int|where~cop|be&3S det:poss|your n:prop|Daddy ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	where's Daddy ?
+%xmor:	pro:int|where~cop|be&3S n:prop|Daddy ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=gasps &p [x 6] .
+*MOT:	can you do a jump ?
+%xmor:	mod|can pro:per|you v|do det:art|a n|jump ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	can you do a jump ?
+%xmor:	mod|can pro:per|you v|do det:art|a n|jump ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*FAT:	wow, wowie, now you know what Christopher ? [+ NAC]
+%xmor:	co|wow cm|cm co|wowie cm|cm adv:tem|now pro:per|you v|know
+	pro:int|what n:prop|Christopher ?
+%xgra:	1|7|COM 2|1|LP 3|1|ENUM 4|3|LP 5|7|JCT 6|7|SUBJ 7|0|ROOT 8|9|DET
+	9|7|COMP 10|7|PUNCT
+*BRO:	yeah ? [+ NAC]
+%xmor:	co|yeah ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	I'm gonna [: going to ] go and get a jumper . [+ NAC]
+%xmor:	pro:sub|I~aux|be&1S part|go-PRESP inf|to v|go coord|and v|get
+	det:art|a n|jump&dv-AGT .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|CONJ 7|6|COORD 8|9|DET
+	9|7|OBJ 10|3|PUNCT
+*FAT:	dyou [: do you ] want me to get a jumper for you or have you got
+	one down here ? [+ NAC]
+%xmor:	mod|do pro:per|you v|want pro:obj|me inf|to v|get det:art|a
+	n|jump&dv-AGT prep|for pro:per|you coord|or v|have pro:per|you
+	part|get&PASTP pro:indef|one prep|down n|here ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|INF 6|3|COMP 7|8|DET 8|6|OBJ
+	9|6|JCT 10|9|POBJ 11|6|CONJ 12|11|COORD 13|12|OBJ 14|13|XMOD 15|14|OBJ
+	16|15|NJCT 17|16|POBJ 18|3|PUNCT
+*BRO:	+< um . [+ NAC]
+%xmor:	co|um .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	er, &aft after a teddy bear one . [+ NAC]
+%xmor:	co|er cm|cm prep|after det:art|a n|teddy n|bear pro:indef|one .
+%xgra:	1|7|COM 2|1|LP 3|7|JCT 4|6|DET 5|6|MOD 6|3|POBJ 7|0|ROOT 8|7|PUNCT
+*FAT:	you've got a teddy bear one downstairs have you ? [+ NAC]
+%xmor:	pro:per|you~aux|have part|get&PASTP det:art|a n|teddy n|bear
+	det:num|one adv|downstairs v|have pro:per|you ?
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|6|DET 5|6|MOD 6|9|SUBJ 7|8|QUANT 8|9|JCT
+	9|3|COMP 10|9|OBJ 11|3|PUNCT
+*BRO:	yeah . [+ NAC]
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	okay . [+ NAC]
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+< are you gonna [: going to ] say hello to your Daddy ?
+%xmor:	aux|be&PRES pro:per|you part|go-PRESP inf|to v|say co|hello prep|to
+	det:poss|your n:prop|Daddy ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|5|JCT 8|9|DET
+	9|7|POBJ 10|3|PUNCT
+*MOT:	oop .
+%xmor:	co|oop .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	<please can you &m> [/] please can you +/. [+ NAC]
+%xmor:	co|please mod|can pro:per|you +/.
+%xgra:	1|3|COM 2|3|AUX 3|0|INCROOT 4|3|PUNCT
+*MOT:	yeah, in a minute love . [+ NAC]
+%xmor:	co|yeah cm|cm prep|in det:art|a n|minute n|love .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|6|DET 5|6|MOD 6|3|POBJ 7|1|PUNCT
+*MOT:	there we go .
+%xmor:	adv|there pro:sub|we v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	ugh, you're eating that football, yum [x 5] .
+%xmor:	co|ugh cm|cm pro:per|you~aux|be&PRES part|eat-PRESP det:dem|that
+	n|+n|foot+n|ball cm|cm n|yum .
+%xgra:	1|5|COM 2|1|LP 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|DET 7|5|OBJ 8|7|LP
+	9|7|ENUM 10|5|PUNCT
+*BRO:	yum [x 4] .
+%xmor:	n|yum .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=grunts .
+*MOT:	oh !
+%xmor:	co|oh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=happy:noise .
+*MOT:	+< &=laughs .
+*MOT:	there you are bouncy legs .
+%xmor:	adv|there pro:per|you cop|be&PRES adj|bounce&dv-Y n|leg-PL .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|3|PUNCT
+*CHI:	&=happy:noise:sounds:like:cough .
+*MOT:	&=imitates:noise .
+*CHI:	&=happy:noise:sounds:like:cough .
+*MOT:	&=imitates:noise .
+*CHI:	&=happy:noise:sounds:like:cough .
+*MOT:	&=imitates:noise .
+*CHI:	&=happy:noise:sounds:like:cough .
+*MOT:	&=imitates:noise .
+*MOT:	you standing up, there's a good boy .
+%xmor:	pro:per|you part|stand-PRESP adv|up cm|cm pro:exist|there~cop|be&3S
+	det:art|a adj|good n|boy .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|LP 5|6|SUBJ 6|2|CJCT 7|9|DET 8|9|MOD
+	9|6|PRED 10|2|PUNCT
+*MOT:	oh !
+%xmor:	co|oh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=laughs .
+*MOT:	oh: there's +/.
+%xmor:	co|oh pro:exist|there~cop|be&3S +/.
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*CHI:	&=laughs .
+*MOT:	haha: .
+%xmor:	co|haha .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	good balancing .
+%xmor:	adj|good n:gerund|balance-PRESP .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*BRO:	<I can> [/] I can do balancing, look . [+ NAC]
+%xmor:	pro:sub|I mod|can v|do part|balance-PRESP cm|cm n|look .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|COMP 5|4|LP 6|4|ENUM 7|3|PUNCT
+*MOT:	okay, you do good balancing as well then . [+ NAC]
+%xmor:	co|okay cm|cm pro:per|you v|do adj|good n:gerund|balance-PRESP
+	adv|as adv|well adv:tem|then .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|5|ENUM 7|6|JCT 8|9|JCT
+	9|6|JCT 10|4|PUNCT
+*MOT:	and see who can stay up the longest .
+%xmor:	coord|and v|see pro:int|who mod|can v|stay adv|up det:art|the
+	adj|long-SP .
+%xgra:	1|2|LINK 2|0|ROOT 3|5|SUBJ 4|5|AUX 5|2|COMP 6|5|JCT 7|8|DET 8|5|JCT
+	9|2|PUNCT
+*MOT:	Archie win:s whoo: !
+%xmor:	n:prop|Archie v|win-3S co|whoo !
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|COM 4|2|PUNCT
+*BRO:	+< I wins as well ! [+ NAC]
+%xmor:	pro:sub|I v|win-3S adv|as adv|well !
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|JCT 5|2|PUNCT
+*MOT:	Archie win:s .
+%xmor:	n:prop|Archie v|win-3S .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*BRO:	I'd winned [: won ] . [+ NAC]
+%xmor:	pro:sub|I~mod|genmod part|win&PASTP .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	+< okay we'll have another [/] another go [/] go on then see if you
+	can do it as well .
+%xmor:	co|okay pro:sub|we~mod|will v|have pro:indef|another v|go adv|on
+	adv:tem|then v|see conj|if pro:per|you mod|can mod|do pro:per|it
+	prep|as adv|well .
+%xgra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|SUBJ 6|4|COMP 7|9|JCT 8|9|JCT
+	9|6|COMP 10|9|JCT 11|13|SUBJ 12|13|AUX 13|10|CPOBJ 14|13|OBJ 15|14|JCT
+	16|15|POBJ 17|4|PUNCT
+*MOT:	okay, so, right one two three start .
+%xmor:	co|okay cm|cm adv|so cm|cm n|right det:num|one det:num|two
+	det:num|three n|start .
+%xgra:	1|6|COM 2|1|LP 3|6|JCT 4|3|LP 5|6|MOD 6|9|QUANT 7|8|DATE 8|9|QUANT
+	9|0|INCROOT 10|9|PUNCT
+*BRO:	+< three .
+%xmor:	det:num|three .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	<I've done it> [/] I've done it !
+%xmor:	pro:sub|I~aux|have part|do&PASTP pro:per|it !
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	+< &=laughs .
+*MOT:	okay &=laughs .
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	+< I've winned [: won ] .
+%xmor:	pro:sub|I~aux|have part|win&PASTP .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	you've winned [: won ], you go and see Daddy then upstairs .
+	[+ NAC]
+%xmor:	pro:per|you~aux|have part|win&PASTP cm|cm pro:per|you v|go
+	coord|and v|see n:prop|Daddy adv:tem|then adv|upstairs .
+%xgra:	1|3|SUBJ 2|3|AUX 3|6|XJCT 4|3|LP 5|6|SUBJ 6|0|ROOT 7|6|CONJ 8|7|COORD
+	9|8|OBJ 10|11|JCT 11|9|JCT 12|6|PUNCT
+*BRO:	yeah . [+ NAC]
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*BRO:	I'll show Daddy how I do balancing . [+ NAC]
+%xmor:	pro:sub|I~mod|will v|show n:prop|Daddy pro:rel|how pro:sub|I v|do
+	part|balance-PRESP .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|7|LINK 6|7|SUBJ 7|4|CMOD 8|7|COMP
+	9|3|PUNCT
+*MOT:	+< you can show Daddy how good you <did> [//] are at balancing
+	Christopher . [+ NAC]
+%xmor:	pro:per|you mod|can v|show n:prop|Daddy pro:rel|how adj|good
+	pro:per|you aux|be&PRES prep|at part|balance-PRESP
+	n:prop|Christopher .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|6|LINK 6|4|CMOD 7|6|OBJ 8|7|INCROOT
+	9|8|JCT 10|9|POBJ 11|10|OBJ 12|8|PUNCT
+*MOT:	and you can show me how good you are .
+%xmor:	coord|and pro:per|you mod|can v|show pro:obj|me pro:int|how
+	adj|good pro:per|you cop|be&PRES .
+%xgra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|7|JCT 7|9|PRED 8|9|SUBJ
+	9|4|COMP 10|4|PUNCT
+*CHI:	+< &=happy:noise .
+%com:	brother and father continue talking out of the room .
+*MOT:	&=laughs !
+*MOT:	&=laughs !
+*MOT:	where's [/] where's your hand ?
+%xmor:	pro:int|where~cop|be&3S det:poss|your n|hand ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	okay, up you go .
+%xmor:	co|okay cm|cm adv|up pro:per|you v|go .
+%xgra:	1|5|COM 2|1|LP 3|5|JCT 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	whoops !
+%xmor:	co|whoops !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	whoops !
+%xmor:	co|whoops !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=laughs .
+*MOT:	+< &=laughs oh fall down .
+%xmor:	co|oh v|fall adv|down .
+%xgra:	1|2|COM 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*MOT:	uhoh !
+%xmor:	co|uhoh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	uhoh !
+%xmor:	co|uhoh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	all fall down .
+%xmor:	qn|all n|fall adv|down .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|NJCT 4|2|PUNCT
+*MOT:	there you go .
+%xmor:	adv|there pro:per|you v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	shall we go and see what's happening with dinner ?
+%xmor:	mod|shall pro:sub|we v|go coord|and v|see pro:int|what~aux|be&3S
+	part|happen-PRESP prep|with n|dinner ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|CONJ 5|4|COORD 6|8|SUBJ 7|8|AUX 8|5|COMP
+	9|8|JCT 10|9|POBJ 11|3|PUNCT
+*MOT:	what do you think ?
+%xmor:	pro:int|what mod|do pro:per|you v|think ?
+%xgra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	shall we go on through ?
+%xmor:	mod|shall pro:sub|we v|go adv|on prep|through ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|JCT 6|3|PUNCT
+@End

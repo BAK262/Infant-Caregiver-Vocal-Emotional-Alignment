@@ -1,0 +1,135 @@
+@UTF8
+@PID:	11312/a-00047600-1
+@Window:	77_110_662_685_-1_-1_123_0_123_0
+@Begin
+@Languages:	eng
+@Participants:	CHI Jaden Target_Child, MOT Mother
+@ID:	eng|Edinburgh|CHI|0;09.17|male|||Target_Child|||
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@Date:	13-JAN-2014
+@Media:	jaden0902, audio
+@Types:	long, toyplay, TD
+*CHI:	&=babbles . 0_4459
+*MOT:	+< did you say achoo@o . 
+%xmor:	mod|do&PAST pro:per|you v|say on|achoo .
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	&mm . 4459_5742
+*MOT:	+< achoo@o . 
+%xmor:	on|achoo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	achoo@o [/] achoo@o . 5742_8009
+%xmor:	on|achoo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=mouth:noise . 8009_10400
+*MOT:	+< achoo@o [/] achoo@o . 
+%xmor:	on|achoo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	achoo@o [/] achoo@o . 10400_13615
+%xmor:	on|achoo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&mm &mm . 13615_16174
+*CHI:	&=squeals . 16174_23946
+*CHI:	&=blows:raspberries . 23946_42377
+*MOT:	&waa . 42377_45310
+*MOT:	we try and wipe this ? 45310_49997
+%xmor:	pro:sub|we v|try coord|and v|wipe pro:dem|this ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|CONJ 4|3|COORD 5|4|OBJ 6|2|PUNCT
+*MOT:	where's your handies ? 49997_52243
+%xmor:	pro:int|where~cop|be&3S det:poss|your n:adj|handy-PL ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	there's those handies . 52243_55800
+%xmor:	pro:exist|there~cop|be&3S det:dem|those n:adj|handy-PL .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	&=laughs . 55800_60474
+*MOT:	oh dear . 60474_62940
+%xmor:	co|oh co|dear .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	look . 62940_64649
+%xmor:	co|look .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	two spoons . 64649_70111
+%xmor:	det:num|two n|spoon-PL .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*MOT:	two spoons &am [x 3] . 70111_83847
+%xmor:	det:num|two n|spoon-PL .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*MOT:	anymore water ? 83847_86794
+%xmor:	adv|anymore v|water ?
+%xgra:	1|2|JCT 2|0|ROOT 3|2|PUNCT
+*MOT:	good lad . 86794_90160
+%xmor:	adj|good n|lad .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	xxx . 90160_111671
+*MOT:	mhm . 111671_113862
+%xmor:	co|mhm=yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=babbles . 113862_157827
+*MOT:	wowie . 157827_158696
+%xmor:	co|wowie .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	look at you . 158696_161629
+%xmor:	v|look prep|at pro:per|you .
+%xgra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
+*MOT:	whatcha [: what are you] doing ? 161629_166627
+%xmor:	pro:int|what aux|be&PRES pro:per|you part|do-PRESP ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	think that's it, we managed . 166627_170542
+%xmor:	v|think pro:dem|that~cop|be&3S pro:per|it cm|cm pro:sub|we
+	v|manage-PAST .
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|3|PRED 5|4|LP 6|7|SUBJ 7|1|CJCT 8|1|PUNCT
+*MOT:	have you got it ? 170542_173564
+%xmor:	aux|have pro:per|you v|get&PAST pro:per|it ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	what do we think ? 173564_210958
+%xmor:	pro:int|what mod|do pro:sub|we v|think ?
+%xgra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	<let's go> [/] let's go . 210958_213236
+%xmor:	v|let~pro:obj|us v|go .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|1|PUNCT
+*MOT:	I think we'll change you nappy . 213236_216182
+%xmor:	pro:sub|I v|think pro:sub|we~mod|will v|change pro:per|you n|nappy
+	.
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|SUBJ 4|5|AUX 5|2|COMP 6|7|SUBJ 7|5|OBJ 8|2|PUNCT
+*MOT:	and wash your face . 216182_219123
+%xmor:	coord|and v|wash det:poss|your n|face .
+%xgra:	1|2|LINK 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	then we'll go and meet www, and www and www and www . 219123_226872
+%xmor:	adv:tem|then pro:sub|we~mod|will v|go coord|and v|meet cm|cm
+	coord|and coord|and coord|and .
+%xgra:	1|4|JCT 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|CONJ 6|5|COORD 7|6|LP 8|4|CONJ
+	9|8|CONJ 10|9|COORD 11|4|PUNCT
+*MOT:	oh and we'll say hello_oh_dee_oh_dee@wp . 226872_229002
+%xmor:	co|oh coord|and pro:sub|we~mod|will v|say wplay|hello_oh_dee_oh_dee
+	.
+%xgra:	1|5|COM 2|5|LINK 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*MOT:	will we ? 229002_230189
+%xmor:	mod|will pro:sub|we ?
+%xgra:	1|2|AUX 2|0|INCROOT 3|2|PUNCT
+*MOT:	say .
+%xmor:	co|say .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	hello_dee_oh_dee_oh@wp . 230189_232706
+%xmor:	wplay|hello_dee_oh_dee_oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	good . 232706_235205
+%xmor:	adj|good .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	we'll send a wee text . 235205_238956
+%xmor:	pro:sub|we~mod|will v|send det:art|a n|wee n|text .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|3|PUNCT
+*MOT:	send a wee text to Daddy . 238956_241767
+%xmor:	v|send det:art|a adj|wee n|text prep|to n:prop|Daddy .
+%xgra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|4|NJCT 6|5|POBJ 7|1|PUNCT
+*MOT:	and a picture . 241767_243925
+%xmor:	coord|and det:art|a n|picture .
+%xgra:	1|3|LINK 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*MOT:	Gran too . 243925_246410
+%xmor:	n:prop|Gran post|too .
+%xgra:	1|0|INCROOT 2|1|PQ 3|1|PUNCT
+*MOT:	and Gran too, yeah . 246410_249151
+%xmor:	coord|and n:prop|Gran post|too cm|cm co|yeah .
+%xgra:	1|5|LINK 2|5|SUBJ 3|2|PQ 4|2|LP 5|0|INCROOT 6|5|PUNCT
+*MOT:	there we go . 249151_250812
+%xmor:	adv|there pro:sub|we v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+@End

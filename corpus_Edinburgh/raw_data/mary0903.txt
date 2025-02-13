@@ -1,0 +1,72 @@
+MOT	4751	5901	1150	drink your water ? 
+MOT	5901	15906	10005	yes ? 
+MOT	15906	18282	2376	good girl . 
+MOT	18282	26675	8393	uhuh . 
+MOT	26675	28578	1903	that's it . 
+MOT	28578	38455	9877	cup . 
+MOT	38455	41781	3326	that's it, cup . 
+MOT	49911	52028	2117	what's that ? 
+MOT	55047	64438	9391	all done ? 
+MOT	64438	70900	6462	all done ? 
+MOT	70900	86152	15252	cup . 
+MOT	99058	111964	12906	+< are you waving ?
+MOT	116754	121543	4789	+< are you eating your bib ?
+MOT	126333	154432	28099	have you got hiccups ? 
+MOT	154432	159010	4578	you got hickey hiccups ? 
+MOT	178510	180743	2233	oh that's big hiccups . 
+MOT	180743	182435	1692	will we get rid of the hiccups ? 
+MOT	185835	187550	1715	let's get rid . 
+MOT	206080	208112	2032	are they gone ? 
+MOT	211927	213056	1129	no . 
+MOT	244056	246194	2138	you want the cup ? 
+MOT	272358	276856	4498	oh really ? 
+MOT	276856	285255	8399	not want that ? 
+MOT	294759	296876	2117	was it the worst thing ever ? 
+MOT	312938	316862	3924	aw, come on . 
+MOT	316862	319354	2492	I was away for two seconds . 
+MOT	325754	327780	2026	have we got the hickey hiccups ? 
+MOT	327780	334353	6573	have we got the hickey hiccups ? 
+MOT	334353	337018	2665	what will we do ? 
+MOT	337018	341327	4309	we have a little play and see ? 
+MOT	341327	347940	6613	there we go . 
+MOT	347940	351072	3132	what do you want to play with tonight ? 
+MOT	351072	353988	2916	in the box ? 
+MOT	353988	355970	1982	monkey drum ? 
+MOT	355970	388293	32323	and see what else is in your box . 
+MOT	388293	420483	32190	two rattles . 
+MOT	420483	423467	2984	have you got two rattles now ? 
+MOT	423467	448046	24579	where's the other one ? 
+MOT	448046	456350	8304	you got your rattles . 
+MOT	456350	475423	19073	you got Jenny here . 
+MOT	475423	477641	2218	here's your cat . 
+MOT	477641	480288	2647	here's your cat . 
+MOT	480288	482567	2279	&=gasps, is she there ? 
+MOT	482567	512612	30045	oh you got the hickey hiccups . 
+MOT	512612	515765	3153	oh you got the hickey hiccups . 
+MOT	515765	518544	2779	they go with your bottle . 
+MOT	518544	521950	3406	will they go with your bottle ? 
+MOT	521950	523376	1426	&ba [x 6] . 
+MOT	523376	536185	12809	oh, where did it go ? 
+MOT	536185	537316	1131	you dropped it ? 
+MOT	537316	539737	2421	did you drop it ? 
+MOT	539737	542635	2898	there you go . 
+MOT	542635	556223	13588	&hey &ya &hey &ya . 
+MOT	556223	560618	4395	you got thumb_thumb ? 
+MOT	560618	563452	2834	you're  tired now . 
+CHI	0	4751	4751	&=blows:raspberries . 
+CHI	41781	49911	8130	&=blows:raspberries . 
+CHI	52028	55047	3019	&=coughs . 
+CHI	86152	99058	12906	&=blows:raspberries &=babble . 
+CHI	111965	116754	4789	&=babbles . 
+CHI	121543	126332	4789	&=babble &=hiccups .
+CHI	159010	171510	12500	&=babbles . 
+CHI	171510	178510	7000	&=hiccups . 
+CHI	182435	185835	3400	&=hiccup . 
+CHI	187550	206080	18530	&=hiccup . 
+CHI	208112	211927	3815	&=hiccup . 
+CHI	213056	244056	31000	&=hiccup . 
+CHI	246194	256240	10046	&=blows:raspberries . 
+CHI	256240	272358	16118	&blows:raspberries &=hiccups &=babbles . 
+CHI	285255	294759	9504	&=unhappy:noise . 
+CHI	296876	312938	16062	&=cries . 
+CHI	319354	325754	6400	&=hiccup . 

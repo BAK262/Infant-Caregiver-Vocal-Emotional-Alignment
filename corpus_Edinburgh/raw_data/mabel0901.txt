@@ -1,0 +1,86 @@
+MOT	9002	12809	3807	get the nappies out of the box and we'll go and get you changed . 
+MOT	12809	21450	8641	and we'll put you on the changing table . 
+MOT	21450	24931	3481	+< hey, we're gonna put you on the changing table . 
+MOT	28412	40153	11741	+< aw: come on, what's this ? 
+MOT	40153	43172	3019	&=blows:raspberry . 
+MOT	43172	45628	2456	&=blows:raspberry &=nibbling:noise . 
+MOT	48085	50715	2630	&=blows:raspberry, <raspberries on your tummy> [/] raspberries on your tummy . 
+MOT	55412	57478	2066	+< &=blows:raspberry &=nibbling:noise .
+MOT	57478	60103	2625	&=blows:raspberry . 
+MOT	60103	65422	5319	we're gonna pop your legs up in the air, one two three, whee: ! 
+MOT	72673	79924	7251	+< xxx .
+MOT	94124	96731	2607	&=blows:raspberry &=kiss . 
+MOT	105731	107366	1635	good girl . 
+MOT	110366	112298	1932	Toby, it's not the door . [+ NAC] 
+MOT	112298	116498	4200	&=blows:raspberries . 
+MOT	116498	117355	857	&=chuckles . 
+MOT	122813	127413	4600	+< aw I took that away from you didn't I ?
+MOT	127413	129208	1795	you big grumpy xxx . 
+MOT	131222	132722	1500	&=blows:raspberries . 
+MOT	133722	135122	1400	&=blows:raspberries . 
+MOT	135122	137322	2200	<good girl> [/] good girl . 
+MOT	137322	144158	6836	&=claps <one two three one two three> [/] one two three . 
+MOT	149658	152009	2351	&=imitated:whining . 
+MOT	153509	155033	1524	that's right, &duh . 
+MOT	155033	156370	1337	there's Toby . 
+MOT	156370	157532	1162	&duh . 
+MOT	157532	159994	2462	there's a dog, &duh . 
+MOT	168594	169094	500	yeah . 
+MOT	169894	170971	1077	yeah . 
+MOT	173360	175749	2389	+< that's a duck [/] duck .
+MOT	175750	178575	2825	that's a rubber duckie [/] duckie ? 
+MOT	178575	182422	3847	chew the duck &=nibbling:noise yummy duck . 
+MOT	184422	187336	2914	mmm &=nibbling:noise mmm yummy . 
+MOT	201922	211584	9662	quack@o [x 8] . 
+MOT	221763	223663	1900	quack@o [x 5] . 
+MOT	223663	225330	1667	ow that was my toe . 
+MOT	225330	227773	2443	ow [x 5] that was my toe ! 
+MOT	231758	235743	3985	+< that's you +...
+MOT	252523	256273	3750	well that was a lovely noise &=blows:raspberries &=nibbling:noise . 
+MOT	260023	262257	2234	your Daddy's in trouble for teaching you that . 
+MOT	262257	264119	1862	&=nibbling:noise . 
+MOT	265767	338246	72479	would you like the ball ? 
+MOT	343610	345558	1948	put your ball in the mouth then, go on . 
+MOT	347058	349884	2826	you want the cow, moo:@o ? 
+MOT	349884	353560	3676	moo:@o . 
+MOT	353560	358063	4503	&=laughs moo:@o . 
+MOT	360168	362503	2335	moo:@o . 
+MOT	377503	381150	3647	moo:@o . 
+MOT	381150	391614	10464	&=gasps who dropped the ball ? 
+MOT	408983	412532	3549	that's called cause and effect &=kiss . 
+MOT	412532	413990	1458	you drop it, you can't get it . 
+MOT	413990	418280	4290	&=nibbling:noise . 
+CHI	0	9002	9002	&=babbles:&nan . 
+CHI	21450	28412	6962	&=cries . 
+CHI	24931	28412	3481	&=cries .
+CHI	45628	48084	2456	+< &=laughs .
+CHI	50715	53345	2630	+< &=laughs &=cries .
+CHI	53346	55412	2066	&=cries . 
+CHI	65422	72673	7251	&=gurgles .
+CHI	79925	88017	8092	&=moans . 
+CHI	88017	94124	6107	&=cries . 
+CHI	96731	105731	9000	&=blows:raspberries . 
+CHI	107366	110366	3000	&=blows:raspberry &=gurgles . 
+CHI	117355	118212	857	+< &=squeals .
+CHI	118213	122813	4600	&=cries . 
+CHI	129208	131222	2014	&=blows:raspberries . 
+CHI	132722	133722	1000	&=blows:raspberries . 
+CHI	144158	149658	5500	&=whines . 
+CHI	152009	153509	1500	&duh . 
+CHI	167094	168594	1500	&oh . 
+CHI	169094	169894	800	&oh . 
+CHI	170971	173360	2389	&=babbles . 
+CHI	182422	184422	2000	&mm . 
+CHI	187336	195656	8320	&=blows:raspberry &deh . 
+CHI	195656	201922	6266	&=babbles . 
+CHI	211584	221763	10179	&=babbles:&ba . 
+CHI	227773	231758	3985	&=babbles &=cries . 
+CHI	235744	248331	12587	&=babbles . 
+CHI	248331	252523	4192	&=blows:raspberries . 
+CHI	256273	260023	3750	+< &=whines .
+CHI	264119	265767	1648	&=moans . 
+CHI	338246	343610	5364	&=babbles . 
+CHI	345558	347058	1500	&mm . 
+CHI	358063	360168	2105	&ne . 
+CHI	362503	377503	15000	&he . 
+CHI	391614	408983	17369	&=babbles . 

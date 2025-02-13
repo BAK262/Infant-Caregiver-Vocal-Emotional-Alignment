@@ -1,0 +1,110 @@
+@UTF8
+@PID:	11312/a-00047652-1
+@Window:	262_181_668_756_-1_-1_902_0_902_0
+@Begin
+@Languages:	eng
+@Participants:	FAT Father, MOT Mother, CHI Martin Target_Child
+@ID:	eng|Edinburgh|FAT||male|||Father|||
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@ID:	eng|Edinburgh|CHI|0;09.03|male|||Target_Child|||
+@Date:	23-OCT-2013
+@Media:	martin0903, audio, missing
+@Types:	long, toyplay, TD
+*FAT:	what're you saying ?
+%xmor:	pro:int|what~aux|be&PRES pro:per|you part|say-PRESP ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*CHI:	&=babbles .
+*MOT:	+< Martin, twenty three ten . [+ NAC]
+%xmor:	n:prop|Martin cm|cm det:num|twenty det:num|three det:num|ten .
+%xgra:	1|0|INCROOT 2|1|LP 3|4|QUANT 4|5|QUANT 5|1|APP 6|1|PUNCT
+*FAT:	+< hm, what are you saying ?
+%xmor:	co|hm cm|cm pro:int|what aux|be&PRES pro:per|you part|say-PRESP ?
+%xgra:	1|6|COM 2|1|LP 3|6|SUBJ 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|PUNCT
+*FAT:	hey ?
+%xmor:	co|hey ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	what are you saying ?
+%xmor:	pro:int|what aux|be&PRES pro:per|you part|say-PRESP ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*FAT:	ugh !
+%xmor:	co|ugh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	what ya [: you ] saying ?
+%xmor:	pro:int|what pro:per|you part|say-PRESP ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*CHI:	&=babbles .
+*FAT:	+< yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	have you got sore gummies ?
+%xmor:	v|have pro:per|you v|get&PAST n|sore n|gum-DIM-PL ?
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|MOD 5|3|OBJ 6|1|PUNCT
+*CHI:	+< &=babbles .
+*MOT:	he's struggling isn't he ? [+ NAC]
+%xmor:	pro:sub|he~aux|be&3S part|struggle-PRESP cop|be&3S~neg|not
+	pro:sub|he ?
+%xgra:	1|3|SUBJ 2|3|AUX 3|4|SUBJ 4|0|ROOT 5|4|NEG 6|4|PRED 7|4|PUNCT
+*CHI:	+< &=babbes .
+*FAT:	ha:ve you got sore gummies ?
+%xmor:	v|have pro:per|you v|get&PAST n|sore n|gum-DIM-PL ?
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|MOD 5|3|OBJ 6|1|PUNCT
+*MOT:	aw .
+%xmor:	co|aw .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=whines .
+*FAT:	ah: !
+%xmor:	co|ah !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=whines .
+*FAT:	&oh: &ch !
+*FAT:	splashies .
+%xmor:	n|splashy-PL .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	splashies .
+%xmor:	n|splashy-PL .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	we got splashies ?
+%xmor:	pro:sub|we v|get&PAST n|splashy-PL ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	+< &=whines .
+*FAT:	splashy ?
+%xmor:	n|splashy ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	splashy ?
+%xmor:	n|splashy ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	oh: .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*FAT:	no, he's just xxx tonight isn't he ? [+ NAC]
+%xmor:	co|no cm|cm pro:sub|he~cop|be&3S adj|just n|tonight
+	cop|be&3S~neg|not pro:sub|he ?
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|6|MOD 6|4|PRED 7|4|PRED 8|7|NEG
+	9|7|PRED 10|4|PUNCT
+*MOT:	no, he's just not happy . [+ NAC]
+%xmor:	co|no cm|cm pro:sub|he~cop|be&3S adv|just neg|not adj|happy .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|6|JCT 6|7|NEG 7|4|PRED 8|4|PUNCT
+*MOT:	he's, his teeth are obviously really sore tonight . [+ NAC]
+%xmor:	pro:sub|he~cop|be&3S cm|cm det:poss|his n|tooth&PL cop|be&PRES
+	adv|obvious&dadj-LY adv|real&dadj-LY adj|sore adv:tem|tonight .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|LP 4|5|DET 5|6|SUBJ 6|2|PRED 7|6|JCT 8|10|JCT
+	9|10|MOD 10|6|PRED 11|2|PUNCT
+*CHI:	&=whines .
+*MOT:	+< xxx what's that ?
+%xmor:	pro:int|what~cop|be&3S pro:dem|that ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	what's that up in the sky Martin, is that the recorder ?
+%xmor:	pro:int|what~cop|be&3S comp|that adv|up prep|in det:art|the n|sky
+	n:prop|Martin cm|cm aux|be&3S comp|that det:art|the n|record&dv-AGT
+	?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|8|LINK 4|8|JCT 5|8|JCT 6|7|DET 7|5|POBJ 8|2|PRED
+	9|8|LP 10|8|ENUM 11|10|PRED 12|13|DET 13|11|OBJ 14|2|PUNCT
+*MOT:	&=gasps ooh:, &=laughs .
+%xmor:	v|ooh cm|cm .
+%xgra:	1|0|ROOT 2|1|LP 3|1|PUNCT
+*FAT:	are you going to say something ?
+%xmor:	cop|be&PRES pro:per|you part|go-PRESP inf|to v|say
+	pro:indef|something ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|OBJ 7|1|PUNCT
+*CHI:	+< &=whines .
+@End

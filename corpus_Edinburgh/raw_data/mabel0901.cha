@@ -1,0 +1,197 @@
+@UTF8
+@PID:	11312/a-00047643-1
+@Window:	78_110_662_685_-1_-1_352_0_352_0
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Mabel Target_Child
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@ID:	eng|Edinburgh|CHI|0;09.00|female|||Target_Child|||
+@Date:	16-APR-2014
+@Media:	mabel0901, audio
+@Types:	long, toyplay, TD
+*CHI:	&=babbles:&nan . 0_9002
+*MOT:	get the nappies out of the box and we'll go and get you changed . 9002_12809
+%xmor:	v|get det:art|the n|nappy-PL adv|out prep|of
+	det:art|the n|box coord|and pro:sub|we~mod|will v|go coord|and v|get
+	pro:per|you v|change-PAST .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|JCT 5|4|JCT 6|7|DET 7|5|POBJ 8|11|LINK
+	9|11|SUBJ 10|11|AUX 11|1|CJCT 12|11|CONJ 13|12|COORD 14|15|SUBJ 15|13|COMP
+	16|1|PUNCT
+*MOT:	and we'll put you on the changing table . 12809_21450
+%xmor:	coord|and pro:sub|we~mod|will v|put&ZERO pro:per|you prep|on
+	det:art|the part|change-PRESP n|table .
+%xgra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|JCT 7|9|DET 8|9|MOD
+	9|6|POBJ 10|4|PUNCT
+*CHI:	&=cries . 21450_28412
+*MOT:	+< hey, we're gonna put you on the changing table . 21450_28412
+%xmor:	co|hey cm|cm pro:sub|we~aux|be&PRES part|go&PRESP~inf|to v|put&ZERO
+	pro:per|you prep|on det:art|the part|change-PRESP n|table .
+%xgra:	1|5|COM 2|1|LP 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|INF 7|5|COMP 8|7|OBJ
+	9|7|JCT 10|12|DET 11|12|MOD 12|9|POBJ 13|5|PUNCT
+*CHI:	&=cries .
+*MOT:	+< aw: come on, what's this ? 28412_40153
+%xmor:	co|aw v|come adv|on cm|cm pro:int|what~cop|be&3S pro:dem|this ?
+%xgra:	1|2|COM 2|0|ROOT 3|2|JCT 4|2|LP 5|6|SUBJ 6|2|COMP 7|6|PRED 8|2|PUNCT
+*MOT:	&=blows:raspberry . 40153_43172
+*MOT:	&=blows:raspberry &=nibbling:noise . 43172_48085
+*CHI:	+< &=laughs . 
+*MOT:	&=blows:raspberry, <raspberries on your tummy> [/] raspberries on
+	your tummy . 48085_53346
+%xmor:	cm|cm v|raspberry-3S prep|on det:poss|your adj|tum&dn-Y .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*CHI:	+< &=laughs &=cries . 
+*CHI:	&=cries . 53346_57478
+*MOT:	+< &=blows:raspberry &=nibbling:noise . 
+*MOT:	&=blows:raspberry . 57478_60103
+*MOT:	we're gonna pop your legs up in the air, one two
+	three, whee: ! 60103_65422
+%xmor:	pro:sub|we~aux|be&PRES part|go&PRESP~inf|to v|pop det:poss|your
+	n|leg-PL adv|up prep|in det:art|the n|air cm|cm det:num|one
+	det:num|two det:num|three cm|cm co|whee !
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|7|DET 7|5|OBJ 8|5|JCT
+	9|5|JCT 10|11|DET 11|9|POBJ 12|5|LP 13|15|DATE 14|15|DATE 15|5|OBJ 16|15|LP
+	17|15|ENUM 18|3|PUNCT
+*CHI:	&=gurgles .65422_79925
+*MOT:	+< xxx . 
+*CHI:	&=moans . 79925_88017
+*CHI:	&=cries . 88017_94124
+*MOT:	&=blows:raspberry &=kiss . 94124_96731
+*CHI:	&=blows:raspberries . 96731_105731
+*MOT:	good girl . 105731_107366
+%xmor:	adj|good n|girl .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHI:	&=blows:raspberry &=gurgles . 107366_110366
+*MOT:	Toby, it's not the door . [+ NAC] 110366_112298
+%xmor:	n:prop|Toby cm|cm pro:per|it~cop|be&3S neg|not det:art|the n|door .
+%xgra:	1|4|LINK 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|NEG 6|7|DET 7|4|PRED 8|4|PUNCT
+%com:	the dog is barking .
+*MOT:	&=blows:raspberries . 112298_116498
+*MOT:	&=chuckles . 116498_118213
+*CHI:	+< &=squeals .
+*CHI:	&=cries . 118213_127413
+*MOT:	+< aw I took that away from you didn't I ?
+%xmor:	co|aw pro:sub|I v|take&PAST comp|that adv|away prep|from
+	pro:per|you mod|do&PAST~neg|not pro:sub|I ?
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|JCT 6|4|JCT 7|10|SUBJ 8|10|AUX
+	9|8|NEG 10|6|POBJ 11|3|PUNCT
+*MOT:	you big grumpy xxx . 127413_129208
+%xmor:	pro:per|you adj|big adj|grump&dn-Y .
+%xgra:	1|0|INCROOT 2|3|MOD 3|1|PRED 4|1|PUNCT
+*CHI:	&=blows:raspberries . 129208_131222
+*MOT:	&=blows:raspberries . 131222_132722
+*CHI:	&=blows:raspberries . 132722_133722
+*MOT:	&=blows:raspberries . 133722_135122
+*MOT:	<good girl> [/] good girl . 135122_137322
+%xmor:	adj|good n|girl .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	&=claps <one two three one two three> [/] one two three . 137322_144158
+%xmor:	det:num|one det:num|two det:num|three .
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*CHI:	&=whines . 144158_149658
+*MOT:	&=imitated:whining . 149658_152009
+*CHI:	&duh . 152009_153509
+*MOT:	that's right, &duh . 153509_155033
+%xmor:	pro:dem|that~cop|be&3S adv|right cm|cm .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|LP 5|2|PUNCT
+*MOT:	there's Toby . 155033_156370
+%xmor:	pro:exist|there~cop|be&3S n:prop|Toby .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&duh . 156370_157532
+*MOT:	there's a dog, &duh . 157532_159994
+%xmor:	pro:exist|there~cop|be&3S det:art|a n|dog cm|cm .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|4|LP 6|2|PUNCT
+*CHI:	&oh . 167094_168594
+*MOT:	yeah . 168594_169094
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&oh . 169094_169894
+*MOT:	yeah . 169894_170971
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=babbles . 170971_175750
+*MOT:	+< that's a duck [/] duck . 
+%xmor:	pro:dem|that~cop|be&3S det:art|a n|duck .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	that's a rubber duckie [/] duckie ? 175750_178575
+%xmor:	pro:dem|that~cop|be&3S det:art|a n|rubber n|duck-DIM ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	chew the duck &=nibbling:noise yummy duck . 178575_182422
+%xmor:	v|chew det:art|the n|duck adj|yum&dn-Y n|duck .
+%xgra:	1|0|ROOT 2|3|DET 3|5|MOD 4|5|MOD 5|1|OBJ 6|1|PUNCT
+*CHI:	&mm . 182422_184422
+*MOT:	mmm &=nibbling:noise mmm yummy . 184422_187336
+%xmor:	co|mmm co|mmm adj|yum&dn-Y .
+%xgra:	1|3|COM 2|3|COM 3|0|INCROOT 4|3|PUNCT
+*CHI:	&=blows:raspberry &deh . 187336_195656
+*CHI:	&=babbles . 195656_201922
+*MOT:	quack@o [x 8] . 201922_211584
+%xmor:	on|quack .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=babbles:&ba . 211584_221763
+*MOT:	quack@o [x 5] . 221763_223663
+%xmor:	on|quack .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	ow that was my toe . 223663_225330
+%xmor:	co|ow pro:dem|that cop|be&PAST&13S det:poss|my n|toe .
+%xgra:	1|2|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*MOT:	ow [x 5] that was my toe ! 225330_227773
+%xmor:	co|ow pro:dem|that cop|be&PAST&13S det:poss|my n|toe !
+%xgra:	1|2|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*CHI:	&=babbles &=cries . 227773_235744
+*MOT:	+< that's you +... 
+%xmor:	pro:dem|that~cop|be&3S pro:per|you +...
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHI:	&=babbles . 235744_248331
+*CHI:	&=blows:raspberries . 248331_252523
+*MOT:	well that was a lovely noise &=blows:raspberries &=nibbling:noise . 252523_260023
+%xmor:	co|well pro:dem|that cop|be&PAST&13S det:art|a n|lovely n|noise .
+%xgra:	1|2|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*CHI:	+< &=whines .
+*MOT:	your Daddy's in trouble for teaching you that . 260023_262257
+%xmor:	det:poss|your n:prop|Daddy~cop|be&3S prep|in n|trouble prep|for
+	n:gerund|teach-PRESP pro:per|you pro:dem|that .
+%xgra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|JCT 7|6|POBJ 8|9|SUBJ
+	9|7|OBJ 10|3|PUNCT
+*MOT:	&=nibbling:noise . 262257_264119
+*CHI:	&=moans . 264119_265767
+*MOT:	would you like the ball ? 265767_338246
+%xmor:	mod|will&COND pro:per|you v|like det:art|the n|ball ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	&=babbles . 338246_343610
+*MOT:	put your ball in the mouth then, go on . 343610_345558
+%xmor:	v|put&ZERO det:poss|your n|ball prep|in det:art|the n|mouth
+	adv:tem|then cm|cm v|go adv|on .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|JCT 5|6|DET 6|4|POBJ 7|1|JCT 8|7|LP
+	9|7|ENUM 10|9|JCT 11|1|PUNCT
+*CHI:	&mm . 345558_347058
+*MOT:	you want the cow, moo:@o ? 347058_349884
+%xmor:	pro:per|you v|want det:art|the n|cow cm|cm on|moo ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|LP 6|4|ENUM 7|2|PUNCT
+*MOT:	moo:@o . 349884_353560
+%xmor:	on|moo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=laughs moo:@o . 353560_358063
+%xmor:	on|moo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&ne . 358063_360168
+*MOT:	moo:@o . 360168_362503
+%xmor:	on|moo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&he . 362503_377503
+*MOT:	moo:@o . 377503_381150
+%xmor:	on|moo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=gasps who dropped the ball ? 381150_391614
+%xmor:	pro:int|who v|drop-PAST det:art|the n|ball ?
+%xgra:	1|2|LINK 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	&=babbles . 391614_408983
+*MOT:	that's called cause and effect &=kiss . 408983_412532
+%xmor:	pro:dem|that~aux|be&3S part|call-PASTP n|cause coord|and n|effect .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|4|CONJ 6|5|COORD 7|3|PUNCT
+*MOT:	you drop it, you can't get it . 412532_413990
+%xmor:	pro:per|you v|drop pro:per|it cm|cm pro:per|you mod|can~neg|not
+	v|get pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|LP 5|8|SUBJ 6|8|AUX 7|6|NEG 8|2|COMP
+	9|8|OBJ 10|2|PUNCT
+*MOT:	&=nibbling:noise . 413990_418280
+@End

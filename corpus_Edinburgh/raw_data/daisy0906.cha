@@ -1,0 +1,195 @@
+@UTF8
+@PID:	11312/a-00047546-1
+@Window:	82_110_662_720_-1_-1_537_0_550_0
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Daisy Target_Child
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@ID:	eng|Edinburgh|CHI|0;09.04|female|||Target_Child|||
+@Date:	14-MAR-2014
+@Media:	daisy0906, audio
+@Types:	long, toyplay, TD
+*MOT:	Daisy www, what's that ? 0_5195
+%xmor:	n:prop|Daisy cm|cm pro:int|what~cop|be&3S pro:dem|that ?
+%xgra:	1|4|SUBJ 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|PUNCT
+*CHI:	&babbles . 5195_8195
+*MOT:	are you playing ? 8195_9606
+%xmor:	cop|be&PRES pro:per|you part|play-PRESP ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*MOT:	are you playing darling ? 9606_14723
+%xmor:	cop|be&PRES pro:per|you part|play-PRESP co|darling ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|3|OBJ 5|1|PUNCT
+*MOT:	&ba [x 5] . 14723_28653
+*MOT:	&ba [x 5] . 28653_33813
+*MOT:	give Mum five seconds and we will get you dressed my lovely . 33813_46064
+%xmor:	v|give n:prop|Mum det:num|five n|second-PL coord|and pro:sub|we
+	mod|will v|get pro:per|you v|dress-PAST det:poss|my n|lovely .
+%xgra:	1|0|ROOT 2|1|OBJ 3|4|QUANT 4|2|APP 5|8|LINK 6|8|SUBJ 7|8|AUX 8|1|CJCT
+	9|10|SUBJ 10|8|COMP 11|12|DET 12|10|OBJ 13|1|PUNCT
+*MOT:	Daisy www . 46064_59561
+%xmor:	n:prop|Daisy .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=babble . 59561_64471
+*MOT:	&ba ! 64471_65284
+*MOT:	&baba . 65284_67482
+*CHI:	&da: &da . 67482_71011
+*MOT:	where's Dada ? 71011_83790
+%xmor:	pro:int|where~cop|be&3S n:prop|Dada ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHI:	&ada:da . 83790_84790
+*MOT:	where's Dada ? 84790_85974
+%xmor:	pro:int|where~cop|be&3S n:prop|Dada ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	oh, clunk ! 85974_87228
+%xmor:	co|oh cm|cm v|clunk !
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	oh, clever girl . 87228_91624
+%xmor:	co|oh cm|cm adj|clever n|girl .
+%xgra:	1|4|COM 2|1|LP 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MOT:	clever girl . 91624_93806
+%xmor:	adj|clever n|girl .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	where's Dada ? 93806_96265
+%xmor:	pro:int|where~cop|be&3S n:prop|Dada ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	Dada's away swimming with Max_Max . 96265_98250
+%xmor:	n:prop|Dada~aux|be&3S adv|away part|swim-PRESP prep|with
+	n:prop|Max_Max .
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|PUNCT
+%com:	older brother .
+*CHI:	&high &gu . 98250_99911
+*MOT:	aren't they ? 99911_101924
+%xmor:	aux|be&PRES~neg|not pro:sub|they ?
+%xgra:	1|3|AUX 2|1|NEG 3|0|INCROOT 4|3|PUNCT
+*CHI:	&Dada . 101924_103546
+*MOT:	Dada . 103546_104258
+%xmor:	n:prop|Dada .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=babble &ah ! 104258_136919
+*MOT:	&ah ! 136919_137585
+*CHI:	&=babble . 137585_147370
+*MOT:	you're a busy girl today . 147370_150579
+%xmor:	pro:per|you~cop|be&PRES det:art|a adj|busy n|girl adv:tem|today .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|5|NJCT 7|2|PUNCT
+*CHI:	&=babbles . 150579_152579
+*MOT:	busy [/] busy . 152579_153734
+%xmor:	adj|busy .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=babble . 153734_175295
+*MOT:	right my lovely . 175295_180072
+%xmor:	adv|right det:poss|my n|lovely .
+%xgra:	1|3|JCT 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*MOT:	will we get you dressed and have some milk ? 180072_182310
+%xmor:	mod|will pro:sub|we v|get pro:per|you v|dress-PAST coord|and v|have
+	qn|some n|milk ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|CONJ 7|6|COORD
+	8|9|QUANT 9|7|OBJ 10|3|PUNCT
+*CHI:	&ba . 182310_183855
+*MOT:	&da ! 183855_184804
+*CHI:	&=babbles . 184804_207804
+*MOT:	right baby girl . 207804_209096
+%xmor:	co|right n|baby n|girl .
+%xgra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	watch your head . 209096_223208
+%xmor:	v|watch det:poss|your adj|head .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	there we go . 223208_230136
+%xmor:	adv|there pro:sub|we v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	look, Mummy's going to put your t+shirt on . 230136_233995
+%xmor:	v|look cm|cm n:prop|Mummy~aux|be&3S part|go-PRESP inf|to v|put&ZERO
+	det:poss|your n|+n|t+n|shirt adv|on .
+%xgra:	1|0|ROOT 2|1|LP 3|5|SUBJ 4|5|AUX 5|1|XJCT 6|7|INF 7|5|COMP 8|9|DET
+	9|7|OBJ 10|7|JCT 11|1|PUNCT
+*MOT:	okay ? 233995_235830
+%xmor:	co|okay ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=gasps, you come and sit closer to Mum . 235830_239550
+%xmor:	cm|cm pro:per|you v|come coord|and v|sit adj|close-CP prep|to
+	n:prop|Mum .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|CONJ 5|4|COORD 6|5|PRED 7|6|JCT 8|7|POBJ
+	9|3|PUNCT
+*MOT:	whee, heehee, good girl . 239550_242714
+%xmor:	co|whee cm|cm co|heehee cm|cm adj|good n|girl .
+%xgra:	1|6|COM 2|1|LP 3|1|ENUM 4|3|LP 5|6|MOD 6|0|INCROOT 7|6|PUNCT
+*MOT:	I don't want you to hurt your head . 242714_244042
+%xmor:	pro:sub|I mod|do~neg|not v|want pro:per|you inf|to v|hurt&ZERO
+	det:poss|your adj|head .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|7|SUBJ 6|7|INF 7|4|COMP 8|9|DET
+	9|7|OBJ 10|4|PUNCT
+*MOT:	you ready ? 244042_245078
+%xmor:	pro:per|you v|ready ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	op_a_daisies, where've you gone ? 245078_248566
+%xmor:	co|op_a_daisies cm|cm pro:rel|where~aux|have pro:per|you
+	part|go&PASTP ?
+%xgra:	1|6|COM 2|1|LP 3|6|LINK 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|PUNCT
+*MOT:	hello ! 248566_250444
+%xmor:	co|hello !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	right, one armie in . 250444_253179
+%xmor:	adv|right cm|cm det:num|one n|arm-DIM adv|in .
+%xgra:	1|3|JCT 2|1|LP 3|4|QUANT 4|0|INCROOT 5|4|NJCT 6|4|PUNCT
+*MOT:	there we are . 253179_254717
+%xmor:	adv|there pro:sub|we cop|be&PRES .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	this one ? 254717_255307
+%xmor:	pro:dem|this pro:indef|one ?
+%xgra:	1|2|SUBJ 2|0|INCROOT 3|2|PUNCT
+*CHI:	&awu . 255307_256079
+*MOT:	&abu . 256079_256814
+*CHI:	&Dada . 256814_258101
+*MOT:	&Dada . 258101_259198
+*CHI:	&aba &daba . 259198_261598
+*MOT:	duck [/] duck . 261598_263115
+%xmor:	n|duck .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=babble . 263115_268983
+*MOT:	that's right gorgeous . 268983_270279
+%xmor:	pro:dem|that~cop|be&3S adv|right adj|gorgeous .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*MOT:	that's right . 270279_271671
+%xmor:	pro:dem|that~cop|be&3S co|right .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHI:	&a . 271671_272331
+*MOT:	&a . 272331_273361
+*MOT:	will Mummy dry your hair a wee bit ? 273361_276186
+%xmor:	mod|will n:prop|Mummy v|dry det:poss|your n|hair det:art|a n|wee
+	n|bit ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|8|DET 7|8|MOD 8|5|APP
+	9|3|PUNCT
+*CHI:	&=babble . 276186_277762
+*MOT:	yeah, just had a shower haven't we ? 277762_280089
+%xmor:	co|yeah cm|cm adv|just v|have&PAST det:art|a n|shower
+	v|have~neg|not pro:sub|we ?
+%xgra:	1|4|COM 2|1|LP 3|4|JCT 4|0|ROOT 5|6|DET 6|7|SUBJ 7|4|COMP 8|9|NEG
+	9|7|COMP 10|4|PUNCT
+*MOT:	&=gasps broo@o ! 280101_283404
+%xmor:	on|broo !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	there we go . 283404_285182
+%xmor:	adv|there pro:sub|we v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	let's give your hair a wee dry . 285182_286758
+%xmor:	v|let~pro:obj|us v|give det:poss|your n|hair det:art|a n|wee
+	adj|dry .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|5|DET 5|3|OBJ 6|7|DET 7|5|ENUM 8|7|POSTMOD
+	9|1|PUNCT
+*MOT:	and then we'll have some milk . 286786_288657
+%xmor:	coord|and adv:tem|then pro:sub|we~mod|will v|have qn|some n|milk .
+%xgra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|QUANT 7|5|OBJ 8|5|PUNCT
+*MOT:	okay tootsie ? 288657_291355
+%xmor:	co|okay n|tootsie ?
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	op_a_daisies [: whoopsie_daisies] ! 291355_292638
+%xmor:	co|whoopsie_daisies !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	op_a_daisies [: whoopsie_daisies] ! 292638_295170
+%xmor:	co|whoopsie_daisies !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=laughs . 295170_296843
+*MOT:	&ticka [x 5] . 296843_298133
+*MOT:	&ticka [x 6] . 298133_300047
+*MOT:	&ticka [x 6] . 300047_301861
+*MOT:	&ticka [x 6] . 301861_303658
+@End

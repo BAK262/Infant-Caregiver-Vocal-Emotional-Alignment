@@ -1,0 +1,639 @@
+@UTF8
+@PID:	11312/a-00047506-1
+@Window:	209_827_668_685_-1_-1_3855_0_3855_0
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Alice Target_Child
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@ID:	eng|Edinburgh|CHI|0;09.08|female|||Target_Child|||
+@Date:	02-DEC-2013
+@Media:	alice0906, audio
+@Types:	long, toyplay, TD
+*MOT:	okay . 0_2232
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	let me just put the light on . 2232_4718
+%xmor:	v|let&ZERO pro:obj|me adv|just v|put&ZERO det:art|the n|light
+	adv|on .
+%xgra:	1|0|ROOT 2|1|OBJ 3|4|JCT 4|1|COMP 5|6|DET 6|4|OBJ 7|4|JCT 8|1|PUNCT
+*MOT:	okay, down you go . 4718_10657
+%xmor:	co|okay cm|cm adv|down pro:per|you v|go .
+%xgra:	1|5|COM 2|1|LP 3|5|JCT 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	o:h, three two one . 10657_13294
+%xmor:	co|oh cm|cm det:num|three det:num|two det:num|one .
+%xgra:	1|5|COM 2|1|LP 3|4|QUANT 4|5|QUANT 5|0|INCROOT 6|5|PUNCT
+*MOT:	ugh . 13294_16520
+%xmor:	co|ugh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	< I'm here > [/] I'm here . 16520_19773
+%xmor:	pro:sub|I~cop|be&1S adv|here .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*MOT:	do you want me to read you a story ? 19773_27903
+%xmor:	mod|do pro:per|you v|want pro:obj|me inf|to v|read&ZERO pro:per|you
+	det:art|a n|story ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|INF 6|3|COMP 7|6|OBJ2 8|9|DET
+	9|6|OBJ 10|3|PUNCT
+*CHI:	&=sneeze . 27903_28768
+*MOT:	oh, bless you . 28768_29552
+%xmor:	co|oh cm|cm v|bless pro:per|you .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|OBJ 5|1|PUNCT
+*CHI:	&=sneeze . 29552_30865
+*MOT:	oh, bless you . 30865_32033
+%xmor:	co|oh cm|cm v|bless pro:per|you .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|OBJ 5|1|PUNCT
+*MOT:	now come and get it . 32033_35289
+%xmor:	adv:tem|now v|come coord|and v|get pro:per|it .
+%xgra:	1|2|JCT 2|0|ROOT 3|2|CONJ 4|3|COORD 5|4|OBJ 6|2|PUNCT
+*MOT:	who's that ? 35289_40142
+%xmor:	pro:int|who~cop|be&3S pro:dem|that ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	is that monkey ? 40142_43040
+%xmor:	cop|be&3S comp|that n|monkey ?
+%xgra:	1|0|ROOT 2|3|MOD 3|1|PRED 4|1|PUNCT
+*MOT:	we need to look for Jude's little toy that he left, don't we ? 43040_48287
+%xmor:	pro:sub|we v|need inf|to v|look prep|for adj|Jude&dn-POSS
+	adj|little n|toy pro:rel|that pro:sub|he v|leave&PAST cm|cm
+	mod|do~neg|not pro:sub|we ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|JCT 6|8|MOD 7|8|MOD 8|15|SUBJ
+	9|11|LINK 10|11|SUBJ 11|8|CMOD 12|11|LP 13|15|AUX 14|13|NEG 15|5|POBJ
+	16|2|PUNCT
+*MOT:	do you think it's under the sofa ? 48287_51209
+%xmor:	mod|do pro:per|you v|think pro:per|it~cop|be&3S prep|under
+	det:art|the n|sofa ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	&=pretend:laugh . 51209_54071
+*MOT:	where's your &s spoon ? 54071_56373
+%xmor:	pro:int|where~cop|be&3S det:poss|your n|spoon ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	hang on a second, I shall get it . 56373_59271
+%xmor:	v|hang prep|on det:art|a n|second cm|cm pro:sub|I mod|shall v|get
+	pro:per|it .
+%xgra:	1|0|ROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|LP 6|8|SUBJ 7|8|AUX 8|1|CJCT
+	9|8|OBJ 10|1|PUNCT
+*MOT:	oh, I found it ! 59271_70775
+%xmor:	co|oh cm|cm pro:sub|I v|find&PAST pro:per|it !
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	I found it . 70775_73700
+%xmor:	pro:sub|I v|find&PAST pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	oh, I can't get it . 73700_74846
+%xmor:	co|oh cm|cm pro:sub|I mod|can~neg|not v|get pro:per|it .
+%xgra:	1|6|COM 2|1|LP 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|6|OBJ 8|6|PUNCT
+*MOT:	it's right underneath . 74846_78216
+%xmor:	pro:per|it~cop|be&3S adv|right prep|underneath .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*MOT:	there you go . 78216_81156
+%xmor:	adv|there pro:per|you v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	you bang that . 81156_82195
+%xmor:	pro:per|you v|bang pro:dem|that .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	there you go . 82195_94201
+%xmor:	adv|there pro:per|you v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	I'm sure he wouldn't mind if you played with it until we give it
+	back . 94201_97413
+%xmor:	pro:sub|I~cop|be&1S adv|sure pro:sub|he mod|will&COND~neg|not
+	v|mind comp|if pro:per|you v|play-PAST prep|with pro:per|it
+	conj|until pro:sub|we v|give pro:per|it adv|back .
+%xgra:	1|2|SUBJ 2|7|CJCT 3|2|JCT 4|7|SUBJ 5|7|AUX 6|5|NEG 7|0|ROOT 8|10|LINK
+	9|10|SUBJ 10|7|COMP 11|10|JCT 12|11|POBJ 13|15|LINK 14|15|SUBJ 15|7|CJCT
+	16|15|OBJ 17|15|JCT 18|7|PUNCT
+*MOT:	mhm, good one . 97413_102438
+%xmor:	co|mhm=yes cm|cm adj|good pro:indef|one .
+%xgra:	1|4|COM 2|1|LP 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MOT:	is that a good one ? 102438_104601
+%xmor:	cop|be&3S comp|that det:art|a adj|good pro:indef|one ?
+%xgra:	1|0|ROOT 2|1|PRED 3|5|DET 4|5|MOD 5|2|OM 6|1|PUNCT
+*MOT:	what a snotty nose you've got . 104601_107345
+%xmor:	pro:int|what det:art|a adj|snot&dn-Y n|nose pro:per|you~aux|have
+	part|get&PASTP .
+%xgra:	1|4|DET 2|4|DET 3|4|MOD 4|0|INCROOT 5|7|SUBJ 6|7|AUX 7|4|CMOD 8|4|PUNCT
+*MOT:	what a snotty nose . 107345_110385
+%xmor:	pro:int|what det:art|a adj|snot&dn-Y n|nose .
+%xgra:	1|4|DET 2|4|DET 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MOT:	come here . 110385_112886
+%xmor:	v|come adv|here .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*MOT:	come here, there we go . 112886_118370
+%xmor:	v|come adv|here cm|cm n|there pro:sub|we v|go .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|LP 4|1|ENUM 5|6|SUBJ 6|4|CMOD 7|1|PUNCT
+*MOT:	good girl . 118370_119977
+%xmor:	adj|good n|girl .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	oh deary me . 119977_122869
+%xmor:	co|oh adj|dear&dn-Y pro:obj|me .
+%xgra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	you've just had a cold for a week haven't you ? 122869_127610
+%xmor:	pro:per|you~aux|have adv|just part|have&PASTP det:art|a adv|cold
+	prep|for det:art|a n|week v|have~neg|not pro:per|you ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|6|DET 6|4|JCT 7|4|JCT 8|9|DET
+	9|7|POBJ 10|4|XJCT 11|12|NEG 12|10|OBJ 13|4|PUNCT
+*MOT:	&=laughs is that good ? 127610_132384
+%xmor:	cop|be&3S det:dem|that adj|good ?
+%xgra:	1|0|ROOT 2|3|DET 3|1|PRED 4|1|PUNCT
+*MOT:	is that a good noise ? 132384_134178
+%xmor:	cop|be&3S comp|that det:art|a adj|good n|noise ?
+%xgra:	1|0|ROOT 2|1|PRED 3|5|DET 4|5|MOD 5|2|OM 6|1|PUNCT
+*MOT:	I know what you like to do with it . 134178_136952
+%xmor:	pro:sub|I v|know pro:int|what pro:per|you v|like inf|to v|do
+	prep|with pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|COMP 6|7|INF 7|5|COMP 8|7|JCT
+	9|8|POBJ 10|2|PUNCT
+*MOT:	who's this ? 136952_137900
+%xmor:	pro:int|who~cop|be&3S pro:dem|this ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	who's this ? 137900_140711
+%xmor:	pro:int|who~cop|be&3S pro:dem|this ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=laughs . 140711_151247
+*MOT:	rat_a_tat_tat@o . 151247_154161
+%xmor:	on|rat_a_tat_tat .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	mister crocodile . 154161_158026
+%xmor:	n|mister n|crocodile .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	that's a good shaker . 158026_169680
+%xmor:	pro:dem|that~cop|be&3S det:art|a adj|good n|shake&dv-AGT .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	I'm just +... 169680_195220
+%xmor:	pro:sub|I~cop|be&1S adv|just +...
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*MOT:	+, got a text message from your wee pal . 195220_200297
+%xmor:	v|get&PAST det:art|a n|text n|message prep|from det:poss|your
+	adj|wee n|pal .
+%xgra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|JCT 6|8|DET 7|8|MOD 8|5|POBJ
+	9|1|PUNCT
+*MOT:	from Jamie's Mummy . 200297_203483
+%xmor:	prep|from n:prop|Jamie~cop|be&3S n:prop|Mummy .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*MOT:	but we can't see her tomorrow now . 203483_205978
+%xmor:	conj|but pro:sub|we mod|can~neg|not v|see det:poss|her n|tomorrow
+	adv:tem|now .
+%xgra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|7|DET 7|5|OBJ 8|7|POSTMOD
+	9|5|PUNCT
+*MOT:	bash@o [x 3] . 205978_237909
+%xmor:	on|bash .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+%com:	the baby is making banging noises .
+*MOT:	bish_bash_bosh@o ! 237909_239383
+%xmor:	on|bish_bash_bosh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	gobady_gobady clap, pop@o ! 239383_242722
+%xmor:	co|gobady_gobady n|clap cm|cm on|pop !
+%xgra:	1|2|COM 2|0|INCROOT 3|2|LP 4|2|ENUM 5|2|PUNCT
+*MOT:	you got (h)im ! 242722_244391
+%xmor:	pro:per|you v|get&PAST pro:obj|him !
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	you got (h)im, clever girl . 244391_245721
+%xmor:	pro:per|you v|get&PAST pro:obj|him cm|cm adj|clever n|girl .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|LP 5|6|MOD 6|2|OBJ 7|2|PUNCT
+*MOT:	where are you going ? 245721_279680
+%xmor:	pro:int|where aux|be&PRES pro:per|you part|go-PRESP ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	wanna [: want to] pull that down and see what's inside ? 279680_285856
+%xmor:	v|want inf|to v|pull pro:dem|that adv|down coord|and v|see
+	pro:int|what~cop|be&3S adv|inside ?
+%xgra:	1|0|ROOT 2|3|INF 3|1|COMP 4|3|OBJ 5|3|JCT 6|1|CONJ 7|6|COORD 8|9|SUBJ
+	9|7|COMP 10|9|JCT 11|1|PUNCT
+*MOT:	good girl, stretch [x 4] . 285856_291961
+%xmor:	adj|good n|girl cm|cm n|stretch .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|LP 4|2|ENUM 5|2|PUNCT
+*MOT:	&=gasps ah ! 291961_335262
+%xmor:	co|ah !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	who's that ? 335262_339168
+%xmor:	pro:int|who~cop|be&3S pro:dem|that ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	it's a crocodile . 339168_342729
+%xmor:	pro:per|it~cop|be&3S det:art|a n|crocodile .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	a:nd a monkey .
+%xmor:	coord|and det:art|a n|monkey .
+%xgra:	1|3|LINK 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*MOT:	we've got a story about the crocodile haven't we ? 342729_348448
+%xmor:	pro:sub|we~aux|have part|get&PASTP det:art|a n|story prep|about
+	det:art|the n|crocodile v|have~neg|not pro:sub|we ?
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|PUNCT 6|9|JCT 7|8|DET 8|9|SUBJ
+	9|5|ROOT 10|11|NEG 11|9|INCROOT 12|11|PUNCT
+*MOT:	will we read it ? 348448_350487
+%xmor:	mod|will pro:sub|we v|read&ZERO pro:per|it ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	shall we read it ?
+%xmor:	mod|shall pro:sub|we v|read&ZERO pro:per|it ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	where is it ? 350487_354596
+%xmor:	pro:int|where cop|be&3S pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	here it is . 354596_359135
+%xmor:	adv|here pro:per|it cop|be&3S .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	it's .
+%xmor:	pro:per|it~cop|be&3S .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	+" The_selfish_crocodile . [+ RDG] 359135_361637
+%xmor:	n:prop|The_selfish_crocodile .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" the selfish crocodile .  [+ RDG] 361637_367260
+%xmor:	det:art|the adj|self&dn-ISH n|crocodile .
+%xgra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	+" deep in the forest, in the river .  [+ RDG] 367260_371249
+%xmor:	adj|deep prep|in det:art|the n|forest cm|cm prep|in det:art|the
+	n|river .
+%xgra:	1|0|INCROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|LP 6|1|JCT 7|8|DET 8|6|POBJ
+	9|1|PUNCT
+*MOT:	+" lived a large crocodile . [+ RDG]  371249_375290
+%xmor:	v|live-PAST det:art|a adj|large n|crocodile .
+%xgra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|PUNCT
+*MOT:	+" oh, he was a very selfish crocodile and he didn't want any other
+	creatures to drink or bathe in the river . [+ RDG]  375290_385196
+%xmor:	co|oh cm|cm pro:sub|he cop|be&PAST&13S det:art|a adv|very
+	adj|self&dn-ISH n|crocodile coord|and pro:sub|he mod|do&PAST~neg|not
+	v|want qn|any qn|other n|creature-PL prep|to n|drink coord|or
+	v|bathe prep|in det:art|the n|river .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|8|DET 6|7|JCT 7|8|MOD 8|4|PRED
+	9|13|LINK 10|13|SUBJ 11|13|AUX 12|11|NEG 13|8|CMOD 14|16|QUANT 15|16|QUANT
+	16|13|OBJ 17|16|NJCT 18|17|POBJ 19|13|CONJ 20|19|COORD 21|20|JCT 22|23|DET
+	23|21|POBJ 24|4|PUNCT
+*MOT:	+" he though it was his river . [+ RDG]  385196_387109
+%xmor:	pro:sub|he adv|though pro:per|it cop|be&PAST&13S det:poss|his
+	n|river .
+%xgra:	1|4|SUBJ 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|PRED 7|4|PUNCT
+*MOT:	&=gasps &=exaggerated:eating:sound . 387109_390485
+*MOT:	+" every day he shouted to the creatures of the forest . [+ RDG]  390485_394782
+%xmor:	qn|every n|day pro:sub|he v|shout-PAST prep|to det:art|the
+	n|creature-PL prep|of det:art|the n|forest .
+%xgra:	1|2|QUANT 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|7|NJCT
+	9|10|DET 10|8|POBJ 11|4|PUNCT
+*MOT:	+" stay away from my river ! [+ RDG]  394782_397116
+%xmor:	v|stay adv|away prep|from det:poss|my n|river !
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*MOT:	oh, I can't see the book . 397116_399705
+%xmor:	co|oh cm|cm pro:sub|I mod|can~neg|not v|see det:art|the n|book .
+%xgra:	1|6|COM 2|1|LP 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|8|DET 8|6|OBJ
+	9|6|PUNCT
+*MOT:	+" it's my river . [+ RDG]  399705_402620
+%xmor:	pro:per|it~cop|be&3S det:poss|my n|river .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	+" if you come in my river I'll eat you ! [+ RDG]  402620_406220
+%xmor:	conj|if pro:per|you v|come adv|in det:poss|my n|river
+	pro:sub|I~mod|will v|eat pro:per|you !
+%xgra:	1|3|LINK 2|3|SUBJ 3|9|CJCT 4|3|JCT 5|6|DET 6|3|OBJ 7|9|SUBJ 8|9|AUX
+	9|0|ROOT 10|9|OBJ 11|9|PUNCT
+*MOT:	0 [=! exaggerated eating sound] . 406220_408820
+*MOT:	turn the page . 408820_412337
+%xmor:	v|turn det:art|the n|page .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	+" so there was no fish . [+ RDG] 412337_416293
+%xmor:	co|so pro:exist|there cop|be&PAST&13S qn|no n|fish .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|QUANT 5|3|PRED 6|3|PUNCT
+*MOT:	+" no tadpoles . [+ RDG] 416293_417588
+%xmor:	qn|no n|tadpole-PL .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*MOT:	+" no frogs . [+ RDG]  417588_419425
+%xmor:	qn|no n|frog-PL .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*MOT:	+" no crayfish .  [+ RDG] 419425_420620
+%xmor:	qn|no n|+n|cray+n|fish .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*MOT:	+" in the river . [+ RDG] 420620_422796
+%xmor:	prep|in det:art|the n|river .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*MOT:	oh, have you had enough of that book already ? 422796_424934
+%xmor:	co|oh cm|cm v|have pro:per|you v|have&PAST adv|enough prep|of
+	det:dem|that n|book adv|already ?
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|5|SUBJ 5|3|COMP 6|10|JCT 7|10|JCT 8|9|DET
+	9|7|POBJ 10|5|JCT 11|1|PUNCT
+*MOT:	will I read a different book and you can eat that one ? 424934_431599
+%xmor:	mod|will pro:sub|I v|read&ZERO det:art|a adj|different n|book
+	coord|and pro:per|you mod|can v|eat det:dem|that pro:indef|one ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|10|LINK 8|10|SUBJ
+	9|10|AUX 10|3|CJCT 11|12|DET 12|10|OBJ 13|3|PUNCT
+*MOT:	0 [=! exaggerated eating sound] . 431599_434099
+*MOT:	&=kisses . 434099_435043
+*MOT:	&=yawns it's got good pictures . 435043_439924
+%xmor:	pro:per|it~aux|be&3S part|get&PASTP adj|good n|picture-PL .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|MOD 5|3|OBJ 6|3|PUNCT
+*MOT:	excuse me . 439924_441449
+%xmor:	v|excuse pro:obj|me .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	and what about this one ? 441449_444581
+%xmor:	coord|and pro:int|what prep|about det:dem|this pro:indef|one ?
+%xgra:	1|0|INCROOT 2|1|COORD 3|2|JCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*MOT:	whoops . 444581_452901
+%xmor:	co|whoops .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you like that one . 452901_461195
+%xmor:	pro:per|you v|like comp|that pro:indef|one .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	you want me to do this one ? 461195_469418
+%xmor:	pro:per|you v|want pro:obj|me inf|to v|do det:dem|this
+	pro:indef|one ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|5|INF 5|2|COMP 6|7|DET 7|5|OBJ 8|2|PUNCT
+*MOT:	+" Katie's moose [: mouse ], a Keekaboo book for wee folk . [+ RDG]  469418_473998
+%xmor:	adj|Katie&dn-POSS n|mouse cm|cm det:art|a n:prop|Keekaboo n|book
+	prep|for n|wee n|folk .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|LP 4|6|DET 5|6|MOD 6|2|ENUM 7|6|NJCT 8|9|MOD
+	9|7|POBJ 10|2|PUNCT
+*MOT:	+" where's Katie's dog ? [+ RDG] 474019_475784
+%xmor:	pro:int|where~cop|be&3S adj|Katie&dn-POSS n|dog ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|PRED 5|2|PUNCT
+*MOT:	+" keekaboo ! [+ RDG] 475784_477728
+%xmor:	co|keekaboo !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" there he is noo [: now ] . [+ RDG] 477728_479009
+%xmor:	adv|there pro:sub|he cop|be&3S adv:tem|now .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*MOT:	+" see that daft dog on the flair [: floor ] on a rug . [+ RDG] 479009_482056
+%xmor:	v|see det:dem|that adj|daft n|dog prep|on det:art|the n|floor
+	prep|on det:art|a n|rug .
+%xgra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|JCT 6|7|DET 7|5|POBJ 8|1|JCT
+	9|10|DET 10|8|POBJ 11|1|PUNCT
+*MOT:	+" where's Katie's pig ? [+ RDG] 482056_486845
+%xmor:	pro:int|where~cop|be&3S adj|Katie&dn-POSS n|pig ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|PRED 5|2|PUNCT
+*MOT:	+" &=gasps, keekaboo ! [+ RDG] 486845_489720
+%xmor:	cm|cm co|keekaboo !
+%xgra:	1|0|INCROOT 2|1|COM 3|1|PUNCT
+*MOT:	+" there she is noo [: now ] . [+ RDG] 489720_492221
+%xmor:	adv|there pro:sub|she cop|be&3S adv:tem|now .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*MOT:	+" see that bonnie [: pretty ] pig in the chair doing a jig . [+ RDG] 492221_495054
+%xmor:	v|see comp|that adj|pretty n|pig prep|in det:art|the n|chair
+	part|do-PRESP det:art|a n|jig .
+%xgra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|4|NJCT 6|7|DET 7|5|POBJ 8|4|XJCT
+	9|10|DET 10|8|OBJ 11|1|PUNCT
+*MOT:	o:h . 495054_497318
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" where's Katie's bear ? [+ RDG] 497318_500613
+%xmor:	pro:int|where~cop|be&3S adj|Katie&dn-POSS n|bear ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|PRED 5|2|PUNCT
+*MOT:	+" keekaboo ! [+ RDG] 500613_502672
+%xmor:	co|keekaboo !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" there he is noo [: now ] . [+ RDG] 502672_504239
+%xmor:	adv|there pro:sub|he cop|be&3S adv:tem|now .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*MOT:	+" see that broon [: brown ] bear . [+ RDG] 504239_505904
+%xmor:	v|see comp|that adj|brown n|bear .
+%xgra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|PUNCT
+*MOT:	+" his arm looks gye [: quite] sair [: sore] . [+ RDG] 505904_507978
+%xmor:	det:poss|his n|arm n|look-PL adv|quite adj|sore .
+%xgra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|5|JCT 5|3|POSTMOD 6|3|PUNCT
+*MOT:	he's banged his arm, look ! 507978_510331
+%xmor:	pro:sub|he~aux|be&3S part|bang-PASTP det:poss|his n|arm cm|cm
+	n|look !
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|5|LP 7|5|ENUM 8|3|PUNCT
+*MOT:	&=gasps, are you gonna [: going to ] eat that page ? 510331_513252
+%xmor:	cm|cm aux|be&PRES pro:per|you part|go-PRESP inf|to v|eat
+	det:dem|that n|page ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|6|INF 6|4|COMP 7|8|DET 8|6|OBJ
+	9|4|PUNCT
+*MOT:	+" keekaboo ! [+ RDG] 513252_514765
+%xmor:	co|keekaboo !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=gasps, look this is the page that was stuck together for ages and
+	you didn't know it existed . 514765_519848
+%xmor:	cm|cm v|look pro:dem|this cop|be&3S det:art|the n|page pro:rel|that
+	aux|be&PAST&13S part|stick&PASTP adv|together prep|for n|age-PL
+	coord|and pro:per|you mod|do&PAST~neg|not v|know pro:per|it
+	v|exist-PAST .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|6|DET 6|4|PRED 7|9|LINK 8|9|AUX
+	9|6|CMOD 10|9|JCT 11|9|JCT 12|11|POBJ 13|17|LINK 14|17|SUBJ 15|17|AUX
+	16|15|NEG 17|9|CJCT 18|19|SUBJ 19|17|COMP 20|2|PUNCT
+*MOT:	+" where's Katie's craw [: crow ] ? [+ RDG] 519848_521993
+%xmor:	pro:int|where~cop|be&3S adj|Katie&dn-POSS n|crow ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|PRED 5|2|PUNCT
+*MOT:	+" keekaboo ! [+ RDG] 521993_524234
+%xmor:	co|keekaboo !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" there she is noo [: now ] . [+ RDG] 524234_525903
+%xmor:	adv|there pro:sub|she cop|be&3S adv:tem|now .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*MOT:	+" see that braw [: fine ] craw [: crow ], do you think she's going
+	to faw [: fall] ? [+ RDG] 525903_529228
+%xmor:	v|see comp|that adj|fine n|crow cm|cm mod|do pro:per|you v|think
+	pro:sub|she~aux|be&3S part|go-PRESP prep|to n|fall ?
+%xgra:	1|0|ROOT 2|8|LINK 3|4|MOD 4|8|SUBJ 5|4|LP 6|8|AUX 7|8|SUBJ 8|1|COMP
+	9|11|SUBJ 10|11|AUX 11|8|COMP 12|11|JCT 13|12|POBJ 14|1|PUNCT
+*MOT:	hm ? 529228_531607
+%xmor:	co|hm ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" where's Katie's coo [: cow ] ? [+ RDG] 531607_534500
+%xmor:	pro:int|where~cop|be&3S adj|Katie&dn-POSS n|cow ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|PRED 5|2|PUNCT
+*MOT:	+" &=gasps keekaboo ! [+ RDG] 534500_537752
+%xmor:	co|keekaboo !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" there she is noo [: now ] . [+ RDG] 537752_538950
+%xmor:	adv|there pro:sub|she cop|be&3S adv:tem|now .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*MOT:	+" imagine a coo [: cow ] sittin(g) on the loo ! [+ RDG] 538950_541317
+%xmor:	v|imagine det:art|a n|cow part|sit-PRESP prep|on det:art|the n|loo
+	!
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|3|XMOD 5|4|JCT 6|7|DET 7|5|POBJ 8|1|PUNCT
+*MOT:	yeah, there she is . 541317_545146
+%xmor:	co|yeah cm|cm n|there pro:sub|she cop|be&3S .
+%xgra:	1|5|COM 2|1|LP 3|5|SUBJ 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	moo@o . 545146_547207
+%xmor:	on|moo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" where's Katie noo [: now ] ? [+ RDG] 547207_549928
+%xmor:	pro:int|where~cop|be&3S n:prop|Katie adv:tem|now ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|OM 5|2|PUNCT
+*MOT:	+" &=gasps, keekaboo ! [+ RDG] 549928_552721
+%xmor:	cm|cm co|keekaboo !
+%xgra:	1|0|INCROOT 2|1|COM 3|1|PUNCT
+*MOT:	+" there she is . [+ RDG] 552721_554383
+%xmor:	adv|there pro:sub|she cop|be&3S .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	+" warm and safe . [+ RDG] 554383_555641
+%xmor:	adj|warm coord|and adj|safe .
+%xgra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*MOT:	+" in her bed . [+ RDG] 555907_556872
+%xmor:	prep|in det:poss|her n|bed .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*MOT:	+" in the hoose [: house ] . [+ RDG] 556872_558076
+%xmor:	prep|in det:art|the n|house .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*MOT:	+" with the dug [: dog ], the pig, the bear, the craw [: crow ] and
+	the coo [: cow ] . [+ RDG] 558076_560920
+%xmor:	prep|with det:art|the n|dog cm|cm det:art|the n|pig cm|cm
+	det:art|the n|bear cm|cm det:art|the n|crow coord|and det:art|the
+	n|cow .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|3|LP 5|6|DET 6|1|POBJ 7|6|LP 8|9|DET
+	9|6|ENUM 10|9|LP 11|12|DET 12|9|ENUM 13|12|CONJ 14|15|DET 15|13|COORD
+	16|1|PUNCT
+*MOT:	+" and her ain [: own ] wee moose [: mouse] . [+ RDG] 560920_563850
+%xmor:	coord|and det:poss|her adj|own n|wee n|mouse .
+%xgra:	1|5|LINK 2|5|DET 3|5|MOD 4|5|MOD 5|0|INCROOT 6|5|PUNCT
+*MOT:	&=gasps she's sleeping zzz@o . 563850_566442
+%xmor:	pro:sub|she~aux|be&3S part|sleep-PRESP on|zzz .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	&=imitating:snoring . 566574_571597
+*MOT:	Daddy makes that noise . 571597_573223
+%xmor:	n:prop|Daddy v|make-3S comp|that n|noise .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|PUNCT
+*MOT:	&=kisses . 573223_574752
+*MOT:	&a:r . 574752_577845
+*MOT:	&a:r . 577845_588211
+*MOT:	you want to make a tower ? 588211_591922
+%xmor:	pro:per|you v|want inf|to v|make det:art|a n|tower ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*MOT:	where are your cups ? 591922_593118
+%xmor:	pro:int|where cop|be&PRES det:poss|your n|cup-PL ?
+%xgra:	1|2|LINK 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	we haven't had them for ages ? 593118_594818
+%xmor:	pro:sub|we aux|have~neg|not part|have&PASTP pro:obj|them prep|for
+	n|age-PL ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|OBJ 6|4|JCT 7|6|POBJ 8|4|PUNCT
+*MOT:	&=yawns where have we put them ? 594818_597859
+%xmor:	pro:rel|where v|have pro:sub|we v|put&ZERO pro:obj|them ?
+%xgra:	1|2|LINK 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|OBJ 6|2|PUNCT
+*MOT:	where have we put them ? 597859_598987
+%xmor:	pro:rel|where v|have pro:sub|we v|put&ZERO pro:obj|them ?
+%xgra:	1|2|LINK 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|OBJ 6|2|PUNCT
+*MOT:	I've found them, < I've got them > [/] I've got them ! 598987_611822
+%xmor:	pro:sub|I~aux|have part|find&PASTP pro:obj|them cm|cm
+	pro:sub|I~aux|have part|get&PASTP pro:obj|them !
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|LP 6|8|SUBJ 7|8|AUX 8|3|XJCT
+	9|8|OBJ 10|3|PUNCT
+*MOT:	yeah ! 611822_613619
+%xmor:	co|yeah !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	remember these ? 613619_615826
+%xmor:	v|remember det:dem|these ?
+%xgra:	1|0|ROOT 2|3|DET 3|1|PUNCT
+*MOT:	you have some . 615826_620740
+%xmor:	pro:per|you v|have qn|some .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	clever girl . 620740_629266
+%xmor:	adj|clever n|girl .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	it's the big one, isn't it ? 629266_637663
+%xmor:	pro:per|it~cop|be&3S det:art|the adj|big pro:indef|one cm|cm
+	cop|be&3S~neg|not pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|LP 7|2|PRED 8|7|NEG
+	9|7|SUBJ 10|2|PUNCT
+*MOT:	yeah, bang@o [x 3] . 637663_641028
+%xmor:	co|yeah cm|cm on|bang .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	bang@o [x 3] . 641028_645726
+%xmor:	on|bang .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	clap [/] clap hands together clap [/] clap away [=! singing] . [+ SNG] 645726_650228
+%xmor:	n|clap v|hand-3S adv|together v|clap adv|away .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|COMP 5|4|JCT 6|2|PUNCT
+%com:	the mother is yawning whilst singing .
+*MOT:	clap [/] clap hands together then there's washing day [=! singing] . [+ SNG]
+	650228_655623
+%xmor:	n|clap v|hand-3S adv|together adv:tem|then
+	pro:exist|there~cop|be&3S part|wash-PRESP n|day .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|6|JCT 5|6|SUBJ 6|2|COMP 7|8|MOD 8|6|PRED
+	9|2|PUNCT
+*MOT:	hm, where does this one go ? 655623_664383
+%xmor:	co|hm cm|cm pro:int|where mod|do&3S det:dem|this pro:indef|one v|go
+	?
+%xgra:	1|7|COM 2|1|LP 3|7|JCT 4|7|AUX 5|6|DET 6|7|SUBJ 7|0|ROOT 8|7|PUNCT
+*MOT:	where does this one go ? 664383_669378
+%xmor:	pro:int|where mod|do&3S det:dem|this pro:indef|one v|go ?
+%xgra:	1|5|JCT 2|5|AUX 3|4|DET 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	&a:r yellow one . 669378_672657
+%xmor:	n|yellow pro:indef|one .
+%xgra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*MOT:	green one . 672657_675733
+%xmor:	n|green pro:indef|one .
+%xgra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*MOT:	red one . 675733_678553
+%xmor:	adj|red pro:indef|one .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	black one ! 678553_681072
+%xmor:	n|black pro:indef|one !
+%xgra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*MOT:	yay ! 681072_683820
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=gasps, are you gonna [: going to ] knock it down ?  683820_687044
+%xmor:	cm|cm aux|be&PRES pro:per|you part|go-PRESP inf|to v|knock
+	pro:per|it adv|down ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|6|INF 6|4|COMP 7|6|OBJ 8|6|JCT
+	9|4|PUNCT
+*CHI:	+< &age: .
+*MOT:	yeah, tower . 687044_688327
+%xmor:	co|yeah cm|cm n|tower .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	you said tower ? 688327_690450
+%xmor:	pro:per|you v|say&PAST n|tower ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	oh, all fall down ! 690450_694303
+%xmor:	co|oh cm|cm qn|all n|fall adv|down !
+%xgra:	1|0|INCROOT 2|1|LP 3|4|QUANT 4|1|ENUM 5|4|NJCT 6|1|PUNCT
+*MOT:	all fall down . 694303_696490
+%xmor:	qn|all n|fall adv|down .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|NJCT 4|2|PUNCT
+*MOT:	shall we do it again ? 696490_699806
+%xmor:	mod|shall pro:sub|we mod|do pro:per|it adv:tem|again ?
+%xgra:	1|4|AUX 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*MOT:	hm, blue one . 699806_704806
+%xmor:	co|hm cm|cm adj|blue pro:indef|one .
+%xgra:	1|4|COM 2|1|LP 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*CHI:	&adu: . 704806_706290
+*MOT:	mhm, green one . 706290_708158
+%xmor:	co|mhm=yes cm|cm adj|green pro:indef|one .
+%xgra:	1|4|COM 2|1|LP 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MOT:	yellow one . 708158_711417
+%xmor:	n|yellow pro:indef|one .
+%xgra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*MOT:	you got +//. 711417_715817
+%xmor:	pro:per|you v|get&PAST +//.
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	what one have you got ? 715817_717300
+%xmor:	pro:int|what det:num|one v|have pro:per|you v|get&PAST ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|5|PRED 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	&=gasps . 717300_719343
+*MOT:	you got the green one ? 719343_720981
+%xmor:	pro:per|you v|get&PAST det:art|the n|green pro:indef|one ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*CHI:	&=blows:raspberry . 720981_724281
+*CHI:	&adej . 724281_725699
+*MOT:	oh, that's a cute noise . 725699_727365
+%xmor:	co|oh cm|cm pro:dem|that~cop|be&3S det:art|a adj|cute n|noise .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|7|DET 6|7|MOD 7|4|PRED 8|4|PUNCT
+*MOT:	&ade, &ade &=kisses . 727365_731102
+%xmor:	cm|cm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you gonna [: going to ] knock it down ? 731102_733301
+%xmor:	pro:per|you part|go-PRESP inf|to v|knock pro:per|it adv|down ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|OBJ 6|4|JCT 7|2|PUNCT
+*MOT:	go on ! 733301_734078
+%xmor:	v|go adv|on !
+%xgra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*MOT:	ready, oh, whoops ! 734078_737826
+%xmor:	adj|ready cm|cm co|oh cm|cm co|whoops !
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|LP 5|1|ENUM 6|1|PUNCT
+*MOT:	I did it . 737826_739036
+%xmor:	pro:sub|I mod|do&PAST pro:per|it .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	it fell down &=yawns . 739036_741396
+%xmor:	pro:per|it v|fall&PAST adv|down .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*CHI:	&e: . 741396_743633
+*MOT:	oh ! 743633_744139
+%xmor:	co|oh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	six five four +... 744139_748786
+%xmor:	det:num|six det:num|five det:num|four +...
+%xgra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*MOT:	+, three two one . 748786_751933
+%xmor:	det:num|three det:num|two det:num|one .
+%xgra:	1|2|QUANT 2|3|ENUM 3|0|INCROOT 4|3|PUNCT
+%com:	the phone is ringing .
+*MOT:	oh, the phone . 751933_753040
+%xmor:	co|oh cm|cm det:art|the n|phone .
+%xgra:	1|4|COM 2|1|LP 3|4|DET 4|0|INCROOT 5|4|PUNCT
+*MOT:	somebody on the phone . 753040_754708
+%xmor:	pro:indef|somebody prep|on det:art|the n|phone .
+%xgra:	1|0|INCROOT 2|1|NJCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+@End

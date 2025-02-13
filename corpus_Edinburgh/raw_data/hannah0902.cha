@@ -1,0 +1,317 @@
+@UTF8
+@PID:	11312/a-00047581-1
+@Window:	82_110_662_685_-1_-1_3661_0_3661_0
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Hannah Target_Child, SIS Sister
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@ID:	eng|Edinburgh|CHI|0;09.18|female|||Target_Child|||
+@ID:	eng|Edinburgh|SIS||female|||Sister|||
+@Date:	29-OCT-2013
+@Media:	hannah0902, audio, missing
+@Types:	long, toyplay, TD
+*SIS:	Hannah [x 3] ?
+%xmor:	n:prop|Hannah ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	+< &=laughs .
+*CHI:	&=laughs .
+*MOT:	+< &=laughs .
+*MOT:	oh !
+%xmor:	co|oh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	+< &=laughs .
+*SIS:	+< &=babbles .
+*MOT:	is you big sister funny ?
+%xmor:	aux|be&3S pro:per|you adj|big n|sister adj|fun&dn-Y ?
+%xgra:	1|0|INCROOT 2|4|SUBJ 3|4|MOD 4|1|PRED 5|4|POSTMOD 6|1|PUNCT
+*MOT:	was Maisy_Moo funny ?
+%xmor:	cop|be&PAST&13S n:prop|Maisy_Moo adj|fun&dn-Y ?
+%xgra:	1|0|ROOT 2|3|MOD 3|1|PRED 4|1|PUNCT
+*MOT:	she makes you laugh doesn't she ?
+%xmor:	pro:sub|she v|make-3S pro:per|you v|laugh mod|do&3S~neg|not
+	pro:sub|she ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|7|AUX 6|5|NEG 7|4|OBJ 8|2|PUNCT
+*MOT:	&=laughs .
+*SIS:	+< &=laughs Hannah down .
+%xmor:	n:prop|Hannah adv|down .
+%xgra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*MOT:	where did Maisy go ?
+%xmor:	pro:int|where mod|do&PAST n:prop|Maisy v|go ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	peepo !
+%xmor:	co|peepo !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*SIS:	+< &lay Mummy don't look under the table . [+ NAC]
+%xmor:	n:prop|Mummy mod|do~neg|not v|look prep|under det:art|the n|table .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|PUNCT
+*MOT:	+< okay .
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=laughs .
+*MOT:	+< &=laughs .
+*MOT:	is your sister a funny bunny ?
+%xmor:	cop|be&3S det:poss|your n|sister det:art|a adj|fun&dn-Y n|bunny ?
+%xgra:	1|0|ROOT 2|3|DET 3|1|PRED 4|6|DET 5|6|MOD 6|3|APP 7|1|PUNCT
+*MOT:	you're both funny bunnies aren't you ?
+%xmor:	pro:per|you~cop|be&PRES post|both adj|fun&dn-Y n|bunny-PL
+	cop|be&PRES~neg|not pro:per|you ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT 4|5|MOD 5|6|SUBJ 6|3|ROOT 7|6|NEG 8|6|PRED
+	9|6|PUNCT
+*MOT:	where did Maisy go ?
+%xmor:	pro:int|where mod|do&PAST n:prop|Maisy v|go ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	can you see her, Hannah ?
+%xmor:	mod|can pro:per|you v|see pro:obj|her cm|cm n:prop|Hannah ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|LP 6|3|ENUM 7|3|PUNCT
+*MOT:	can you see where Maisy is ?
+%xmor:	mod|can pro:per|you v|see pro:int|where n:prop|Maisy cop|be&3S ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|LINK 5|6|SUBJ 6|3|COMP 7|3|PUNCT
+*MOT:	well you're having a good look .
+%xmor:	co|well pro:per|you~aux|be&PRES part|have-PRESP det:art|a adj|good
+	n|look .
+%xgra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|7|DET 6|7|MOD 7|4|OBJ 8|4|PUNCT
+*MOT:	where did she go ?
+%xmor:	pro:int|where mod|do&PAST pro:sub|she v|go ?
+%xgra:	1|4|JCT 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	where did she go ?
+%xmor:	pro:int|where mod|do&PAST pro:sub|she v|go ?
+%xgra:	1|4|JCT 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	&=gasps, no she's not over my shoulder .
+%xmor:	cm|cm qn|no pro:sub|she~cop|be&3S neg|not prep|over det:poss|my
+	n|shoulder .
+%xgra:	1|4|LINK 2|4|QUANT 3|4|SUBJ 4|0|ROOT 5|4|NEG 6|4|JCT 7|8|DET 8|6|POBJ
+	9|4|PUNCT
+*MOT:	do you want to look somewhere else ?
+%xmor:	mod|do pro:per|you v|want inf|to v|look n|somewhere post|else ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|6|POSTMOD
+	8|3|PUNCT
+*CHI:	&heh .
+*MOT:	&=laughs, she's not in the kitchen .
+%xmor:	cm|cm pro:sub|she~cop|be&3S neg|not prep|in det:art|the n|kitchen .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|NEG 5|3|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*MOT:	do you want to look somewhere else ?
+%xmor:	mod|do pro:per|you v|want inf|to v|look n|somewhere post|else ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|6|POSTMOD
+	8|3|PUNCT
+*MOT:	let's have a look under +//.
+%xmor:	v|let~pro:obj|us v|have det:art|a n|look adv|under +//.
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|DET 5|3|OBJ 6|3|JCT 7|1|PUNCT
+*MOT:	well you have a look, I won't look but you have a look under
+	Mummy's chair .
+%xmor:	co|well pro:per|you v|have det:art|a n|look cm|cm pro:sub|I
+	mod|will~neg|not v|look conj|but pro:per|you v|have det:art|a n|look
+	adv|under adj|Mummy&dn-POSS n|chair .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|LP 7|10|SUBJ 8|10|AUX
+	9|8|NEG 10|3|CJCT 11|13|LINK 12|13|SUBJ 13|10|CJCT 14|15|DET 15|13|OBJ
+	16|17|JCT 17|18|MOD 18|15|APP 19|3|PUNCT
+*MOT:	see if you can see anybody there .
+%xmor:	v|see conj|if pro:per|you mod|can v|see pro:indef|anybody n|there .
+%xgra:	1|0|ROOT 2|5|LINK 3|5|SUBJ 4|5|AUX 5|1|COMP 6|7|MOD 7|5|OBJ 8|1|PUNCT
+*MOT:	can you see +/?
+%xmor:	mod|can pro:per|you v|see +/?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*CHI:	+< &=laughs .
+*MOT:	+< oh did you find Maisy ?
+%xmor:	co|oh mod|do&PAST pro:per|you v|find n:prop|Maisy ?
+%xgra:	1|4|COM 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	&=laughs .
+*MOT:	was Maisy in a good hiding place ?
+%xmor:	cop|be&PAST&13S n:prop|Maisy prep|in det:art|a adj|good
+	n:gerund|hide-PRESP n|place ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|NJCT 4|7|DET 5|7|MOD 6|7|MOD 7|3|POBJ 8|1|PUNCT
+*CHI:	&=laughs .
+*MOT:	+< peepo Maisy .
+%xmor:	co|peepo n:prop|Maisy .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*SIS:	+< no I said don't look !
+%xmor:	co|no pro:sub|I v|say&PAST mod|do~neg|not v|look !
+%xgra:	1|3|COM 2|3|SUBJ 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|6|PUNCT
+*CHI:	&=laughs .
+*MOT:	+< &=laughs .
+*SIS:	Mummy put Hannah on your knee again . [+ NAC]
+%xmor:	n:prop|Mummy part|put&PASTP n:prop|Hannah prep|on det:poss|your
+	n|knee adv:tem|again .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|6|DET 6|4|POBJ 7|2|JCT 8|2|PUNCT
+*SIS:	put Hannah on your knee again . [+ NAC]
+%xmor:	v|put&ZERO n:prop|Hannah prep|on det:poss|your n|knee adv:tem|again
+	.
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|5|DET 5|3|POBJ 6|1|JCT 7|1|PUNCT
+*CHI:	+< &=laughs .
+*MOT:	I'll put Hannah on my knee again, can you not be so bossy please .
+	[+ NAC]
+%xmor:	pro:sub|I~mod|will v|put&ZERO n:prop|Hannah prep|on det:poss|my
+	n|knee adv:tem|again cm|cm mod|can pro:per|you neg|not cop|be adv|so
+	adj|boss&dn-Y co|please .
+%xgra:	1|3|SUBJ 2|3|AUX 3|13|SUBJ 4|3|OBJ 5|3|JCT 6|7|DET 7|5|POBJ 8|3|JCT
+	9|3|LP 10|13|AUX 11|13|SUBJ 12|11|NEG 13|0|ROOT 14|15|JCT 15|13|PRED
+	16|13|COM 17|13|PUNCT
+*MOT:	mhm, think of nicer ways +//. [+ NAC]
+%xmor:	co|mhm=yes cm|cm v|think prep|of adj|nice-CP n|way-PL +//.
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|JCT 5|6|MOD 6|4|POBJ 7|1|PUNCT
+*MOT:	think of ways of asking me that [/] that are ways that you would
+	like to be asked something or to do something . [+ NAC]
+%xmor:	v|think prep|of n|way-PL prep|of n:gerund|ask-PRESP pro:obj|me
+	pro:rel|that cop|be&PRES n|way-PL comp|that pro:per|you
+	mod|will&COND v|like inf|to aux|be part|ask-PASTP
+	pro:indef|something coord|or inf|to v|do pro:indef|something .
+%xgra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|3|NJCT 5|4|POBJ 6|5|OBJ 7|8|LINK 8|6|CMOD
+	9|8|PRED 10|13|LINK 11|13|SUBJ 12|13|AUX 13|9|CMOD 14|16|INF 15|16|AUX
+	16|13|COMP 17|16|OBJ 18|17|CONJ 19|20|INF 20|18|COORD 21|20|OBJ 22|1|PUNCT
+*SIS:	right, say that thing again . [+ NAC]
+%xmor:	adv|right cm|cm v|say comp|that n|thing adv:tem|again .
+%xgra:	1|3|JCT 2|1|LP 3|0|ROOT 4|3|OBJ 5|6|MOD 6|4|JCT 7|3|PUNCT
+*MOT:	what did I say &=laughs ? [+ NAC]
+%xmor:	pro:int|what mod|do&PAST pro:sub|I v|say ?
+%xgra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	can you remind me please . [+ NAC]
+%xmor:	mod|can pro:per|you v|remind pro:obj|me v|please .
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|COMP 6|3|PUNCT
+*SIS:	just say it ! [+ NAC]
+%xmor:	adv|just v|say pro:per|it !
+%xgra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	I don't +//. [+ NAC]
+%xmor:	pro:sub|I mod|do~neg|not +//.
+%xgra:	1|0|INCROOT 2|4|AUX 3|2|NEG 4|1|PUNCT
+*MOT:	I can't remember what I said &=laughs . [+ NAC]
+%xmor:	pro:sub|I mod|can~neg|not v|remember pro:int|what pro:sub|I
+	v|say&PAST .
+%xgra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|7|LINK 6|7|SUBJ 7|4|COMP 8|4|PUNCT
+*MOT:	can you remind me ? [+ NAC]
+%xmor:	mod|can pro:per|you v|remind pro:obj|me ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*SIS:	&mm &mm, just say it, no, xxx question .[+ NAC]
+%xmor:	cm|cm adj|just v|say pro:per|it cm|cm qn|no cm|cm n|question .
+%xgra:	1|3|LINK 2|3|JCT 3|0|ROOT 4|3|OBJ 5|3|LP 6|8|QUANT 7|6|LP 8|3|OBJ
+	9|3|PUNCT
+*MOT:	what <where did Ha(nnah)> [//] where did Maisy go ? [+ NAC]
+%xmor:	pro:int|what pro:int|where mod|do&PAST n:prop|Maisy v|go ?
+%xgra:	1|5|LINK 2|5|JCT 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*SIS:	yes . [+ NAC]
+%xmor:	co|yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	okay . [+ NAC]
+%xmor:	co|okay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	where did Maisy go ?
+%xmor:	pro:int|where mod|do&PAST n:prop|Maisy v|go ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*CHI:	&ba !
+*MOT:	can you see Maisy, Hannah ?
+%xmor:	mod|can pro:per|you v|see n:prop|Maisy cm|cm n:prop|Hannah ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|LP 6|4|ENUM 7|3|PUNCT
+*MOT:	is she in the kitchen ?
+%xmor:	cop|be&3S pro:sub|she prep|in det:art|the n|kitchen ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|JCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*MOT:	no, just the cats .
+%xmor:	co|no cm|cm adv|just det:art|the n|cat-PL .
+%xgra:	1|0|INCROOT 2|1|LP 3|5|JCT 4|5|DET 5|1|ENUM 6|1|PUNCT
+*MOT:	erh +/.
+%xmor:	co|erh +/.
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	+< &=laughs .
+*MOT:	did you find her ?
+%xmor:	mod|do&PAST pro:per|you v|find pro:obj|her ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	oh did you hear knocking there ?
+%xmor:	co|oh mod|do&PAST pro:per|you v|hear part|knock-PRESP adv|there ?
+%xgra:	1|4|COM 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|COMP 6|5|JCT 7|4|PUNCT
+*MOT:	just going to see if that was somebody knocking at the door .
+%xmor:	adv|just part|go-PRESP inf|to v|see comp|if pro:dem|that
+	cop|be&PAST&13S pro:indef|somebody part|knock-PRESP prep|at
+	det:art|the n|door .
+%xgra:	1|2|JCT 2|0|ROOT 3|4|INF 4|2|COMP 5|7|LINK 6|7|SUBJ 7|4|COMP 8|7|PRED
+	9|8|XMOD 10|9|JCT 11|12|DET 12|10|POBJ 13|2|PUNCT
+*MOT:	no .
+%xmor:	co|no .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	Mummy's hearing things today .
+%xmor:	n:prop|Mummy~aux|be&3S part|hear-PRESP n|thing-PL adv:tem|today .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|PUNCT
+*MOT:	&=gasps where did Maisy go ?
+%xmor:	pro:int|where mod|do&PAST n:prop|Maisy v|go ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*SIS:	surprise !
+%xmor:	n|surprise !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	oh &=laughs .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	there she is, peepo Maisy .
+%xmor:	adv|there pro:sub|she cop|be&3S cm|cm co|peepo n:prop|Maisy .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|LP 5|6|COM 6|3|PRED 7|3|PUNCT
+*SIS:	+< Mummy, can we play fishing ? [+ NAC]
+%xmor:	n:prop|Mummy cm|cm mod|can pro:sub|we v|play part|fish-PRESP ?
+%xgra:	1|5|SUBJ 2|1|LP 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|COMP 7|5|PUNCT
+*MOT:	pardon ? [+ NAC]
+%xmor:	n|pardon ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*SIS:	can we play fishing ? [+ NAC]
+%xmor:	mod|can pro:sub|we v|play part|fish-PRESP ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|COMP 5|3|PUNCT
+*MOT:	yes, do you know where your fishing things are ? [+ NAC]
+%xmor:	co|yes cm|cm mod|do pro:per|you v|know pro:int|where det:poss|your
+	part|fish-PRESP n|thing-PL cop|be&PRES ?
+%xgra:	1|5|COM 2|1|LP 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|10|LINK 7|9|DET 8|9|XMOD
+	9|10|SUBJ 10|5|COMP 11|5|PUNCT
+*MOT:	they're upstairs in my room . [+ NAC]
+%xmor:	pro:sub|they~cop|be&PRES adv|upstairs prep|in det:poss|my n|room .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|JCT 5|6|DET 6|4|POBJ 7|2|PUNCT
+*MOT:	okay, I'll come and open the gates for you . [+ NAC]
+%xmor:	co|okay cm|cm pro:sub|I~mod|will v|come coord|and v|open
+	det:art|the n|gate-PL prep|for pro:per|you .
+%xgra:	1|5|COM 2|1|LP 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|CONJ 7|6|COORD 8|9|DET
+	9|7|OBJ 10|7|JCT 11|10|POBJ 12|5|PUNCT
+*SIS:	okay and [/] and I need to see a picture of one so you can see .
+	[+ NAC]
+%xmor:	co|okay coord|and pro:sub|I v|need inf|to v|see det:art|a n|picture
+	prep|of det:num|one conj|so pro:per|you mod|can v|see .
+%xgra:	1|4|COM 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|6|INF 6|4|COMP 7|8|DET 8|6|OBJ
+	9|8|NJCT 10|9|POBJ 11|14|LINK 12|14|SUBJ 13|14|AUX 14|4|CJCT 15|4|PUNCT
+*MOT:	I see . [+ NAC]
+%xmor:	pro:sub|I v|see .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*SIS:	I'll look for it upstairs . [+ NAC]
+%xmor:	pro:sub|I~mod|will v|look prep|for pro:per|it adv|upstairs .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|4|POBJ 6|5|JCT 7|3|PUNCT
+*MOT:	what <the> [//] your fishing things ? [+ NAC]
+%xmor:	pro:int|what det:poss|your part|fish-PRESP n|thing-PL ?
+%xgra:	1|4|LINK 2|4|DET 3|4|XMOD 4|0|INCROOT 5|4|PUNCT
+*SIS:	yes . [+ NAC]
+%xmor:	co|yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	good idea . [+ NAC]
+%xmor:	adj|good n|idea .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	oh it is dark isn't it ? [+ NAC]
+%xmor:	co|oh pro:per|it cop|be&3S adj|dark cop|be&3S~neg|not pro:per|it ?
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PRED 6|5|NEG 7|5|SUBJ 8|3|PUNCT
+*SIS:	mhm . [+ NAC]
+%xmor:	co|mhm=yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*SIS:	I can climb over the gate . [+ NAC]
+%xmor:	pro:sub|I mod|can v|climb adv|over det:art|the n|gate .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*SIS:	you wait down there and [/] and wait for me to till I come back .
+	[+ NAC]
+%xmor:	pro:per|you v|wait prep|down n|there coord|and v|wait prep|for
+	pro:obj|me prep|to n|till pro:sub|I v|come adv|back .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|CONJ 6|5|COORD 7|6|JCT 8|7|POBJ
+	9|6|JCT 10|9|POBJ 11|12|SUBJ 12|2|CJCT 13|12|JCT 14|2|PUNCT
+*SIS:	oh no xxx . [+ NAC]
+%xmor:	co|oh co|no .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*SIS:	Mummy ? [+ NAC]
+%xmor:	n:prop|Mummy ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	yes . [+ NAC]
+%xmor:	co|yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*SIS:	xxx gate xxx . [+ NAC]
+%xmor:	n|gate .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*SIS:	xxx . [+ NAC]
+*SIS:	look, there's the gate . [+ NAC]
+%xmor:	v|look cm|cm pro:exist|there~cop|be&3S det:art|the n|gate .
+%xgra:	1|0|ROOT 2|1|LP 3|4|SUBJ 4|1|COMP 5|6|DET 6|4|PRED 7|1|PUNCT
+*CHI:	&=laughs .
+@End

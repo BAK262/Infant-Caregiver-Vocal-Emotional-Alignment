@@ -1,0 +1,201 @@
+@UTF8
+@PID:	11312/a-00047655-1
+@Window:	291_701_662_685_-1_-1_8291_0_8291_0
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Mary Target_Child
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@ID:	eng|Edinburgh|CHI|0;09.04|female|||Target_Child|||
+@Date:	28-JAN-2014
+@Media:	mary0903, audio
+@Types:	long, toyplay, TD
+*CHI:	&=blows:raspberries . 0_4751
+*MOT:	drink your water ? 4751_5901
+%xmor:	v|drink det:poss|your n|water ?
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	yes ? 5901_15906
+%xmor:	co|yes ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	good girl . 15906_18282
+%xmor:	adj|good n|girl .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	uhuh . 18282_26675
+%xmor:	co|uhuh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	that's it . 26675_28578
+%xmor:	pro:dem|that~cop|be&3S pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	cup . 28578_38455
+%xmor:	n|cup .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	that's it, cup . 38455_41781
+%xmor:	pro:dem|that~cop|be&3S pro:per|it cm|cm n|cup .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|LP 5|3|ENUM 6|2|PUNCT
+*CHI:	&=blows:raspberries . 41781_49911
+*MOT:	what's that ? 49911_52028
+%xmor:	pro:int|what~cop|be&3S pro:dem|that ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHI:	&=coughs . 52028_55047
+*MOT:	all done ? 55047_64438
+%xmor:	post|all part|do&PASTP ?
+%xgra:	1|2|JCT 2|0|ROOT 3|2|PUNCT
+*MOT:	all done ? 64438_70900
+%xmor:	post|all part|do&PASTP ?
+%xgra:	1|2|JCT 2|0|ROOT 3|2|PUNCT
+*MOT:	cup . 70900_86152
+%xmor:	n|cup .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=blows:raspberries &=babble . 86152_111965
+*MOT:	+< are you waving ? 
+%xmor:	cop|be&PRES pro:per|you part|wave-PRESP ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*CHI:	&=babbles . 111965_126333
+*MOT:	+< are you eating your bib ? 
+%xmor:	cop|be&PRES pro:per|you part|eat-PRESP det:poss|your n|bib ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|DET 5|3|OBJ 6|1|PUNCT
+*CHI:	&=babble &=hiccups .
+*MOT:	have you got hiccups ? 126333_154432
+%xmor:	aux|have pro:per|you v|get&PAST n|hiccup-PL ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	you got hickey hiccups ? 154432_159010
+%xmor:	pro:per|you v|get&PAST n|hickey n|hiccup-PL ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|2|PUNCT
+*CHI:	&=babbles . 159010_171510
+*CHI:	&=hiccups . 171510_178510
+*MOT:	oh that's big hiccups . 178510_180743
+%xmor:	co|oh pro:dem|that~cop|be&3S adj|big n|hiccup-PL .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|3|PUNCT
+*MOT:	will we get rid of the hiccups ? 180743_182435
+%xmor:	mod|will pro:sub|we v|get v|rid&ZERO prep|of det:art|the
+	n|hiccup-PL ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*CHI:	&=hiccup . 182435_185835
+*MOT:	let's get rid . 185835_187550
+%xmor:	v|let~pro:obj|us aux|get part|rid&PASTP .
+%xgra:	1|0|ROOT 2|1|OBJ 3|4|AUX 4|1|COMP 5|1|PUNCT
+*CHI:	&=hiccup . 187550_206080
+*MOT:	are they gone ? 206080_208112
+%xmor:	cop|be&PRES pro:sub|they part|go&PASTP ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+%com:	MOT has given CHI some water .
+*CHI:	&=hiccup . 208112_211927
+*MOT:	no . 211927_213056
+%xmor:	co|no .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=hiccup . 213056_244056
+%com:	more water .
+*MOT:	you want the cup ? 244056_246194
+%xmor:	pro:per|you v|want det:art|the n|cup ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	&=blows:raspberries . 246194_256240
+*CHI:	&blows:raspberries &=hiccups &=babbles . 256240_272358
+*MOT:	oh really ? 272358_276856
+%xmor:	co|oh adv|real&dadj-LY ?
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	not want that ? 276856_285255
+%xmor:	neg|not v|want pro:dem|that ?
+%xgra:	1|2|NEG 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	&=unhappy:noise . 285255_294759
+*MOT:	was it the worst thing ever ? 294759_296876
+%xmor:	cop|be&PAST&13S pro:per|it det:art|the adj|bad&SP n|thing adv|ever
+	?
+%xgra:	1|0|ROOT 2|1|PRED 3|5|DET 4|5|MOD 5|2|OM 6|5|NJCT 7|1|PUNCT
+*CHI:	&=cries . 296876_312938
+*MOT:	aw, come on . 312938_316862
+%xmor:	co|aw cm|cm v|come adv|on .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|JCT 5|1|PUNCT
+*MOT:	I was away for two seconds . 316862_319354
+%xmor:	pro:sub|I cop|be&PAST&13S adv|away prep|for det:num|two n|second-PL
+	.
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|JCT 5|6|QUANT 6|4|POBJ 7|2|PUNCT
+*CHI:	&=hiccup . 319354_325754
+*MOT:	have we got the hickey hiccups ? 325754_327780
+%xmor:	v|have pro:sub|we v|get&PAST det:art|the n|hickey n|hiccup-PL ?
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|6|DET 5|6|MOD 6|3|OBJ 7|1|PUNCT
+*MOT:	have we got the hickey hiccups ? 327780_334353
+%xmor:	v|have pro:sub|we v|get&PAST det:art|the n|hickey n|hiccup-PL ?
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|6|DET 5|6|MOD 6|3|OBJ 7|1|PUNCT
+*MOT:	what will we do ? 334353_337018
+%xmor:	pro:int|what mod|will pro:sub|we v|do ?
+%xgra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	we have a little play and see ? 337018_341327
+%xmor:	pro:sub|we v|have det:art|a adj|little n|play coord|and v|see ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|CONJ 7|6|COORD 8|2|PUNCT
+*MOT:	there we go . 341327_347940
+%xmor:	adv|there pro:sub|we v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	what do you want to play with tonight ? 347940_351072
+%xmor:	pro:int|what mod|do pro:per|you v|want prep|to n|play prep|with
+	adv:tem|tonight ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|JCT 8|7|POBJ
+	9|4|PUNCT
+*MOT:	in the box ? 351072_353988
+%xmor:	prep|in det:art|the n|box ?
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*MOT:	monkey drum ? 353988_355970
+%xmor:	n|monkey n|drum ?
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	and see what else is in your box . 355970_388293
+%xmor:	coord|and v|see pro:int|what post|else aux|be&3S prep|in
+	det:poss|your n|box .
+%xgra:	1|2|LINK 2|0|ROOT 3|2|OBJ 4|3|PQ 5|3|ENUM 6|5|JCT 7|8|DET 8|6|POBJ
+	9|2|PUNCT
+*MOT:	two rattles . 388293_420483
+%xmor:	det:num|two n|rattle-PL .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*MOT:	have you got two rattles now ? 420483_423467
+%xmor:	aux|have pro:per|you v|get&PAST det:num|two n|rattle-PL adv:tem|now
+	?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|QUANT 5|3|OBJ 6|5|JCT 7|3|PUNCT
+*MOT:	where's the other one ? 423467_448046
+%xmor:	pro:int|where~cop|be&3S det:art|the qn|other pro:indef|one ?
+%xgra:	1|2|LINK 2|0|ROOT 3|5|DET 4|5|QUANT 5|2|PRED 6|2|PUNCT
+*MOT:	you got your rattles . 448046_456350
+%xmor:	pro:per|you v|get&PAST det:poss|your n|rattle-PL .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	you got Jenny here . 456350_475423
+%xmor:	pro:per|you v|get&PAST n:prop|Jenny adv|here .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|2|PUNCT
+%com:	sound of cat miaowing .
+*MOT:	here's your cat . 475423_477641
+%xmor:	pro:exist|here~cop|be&3S det:poss|your n|cat .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	here's your cat . 477641_480288
+%xmor:	pro:exist|here~cop|be&3S det:poss|your n|cat .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	&=gasps, is she there ? 480288_482567
+%xmor:	cm|cm aux|be&3S pro:sub|she adv|there ?
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*MOT:	oh you got the hickey hiccups . 482567_512612
+%xmor:	co|oh pro:per|you v|get&PAST det:art|the n|hickey n|hiccup-PL .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|3|PUNCT
+*MOT:	oh you got the hickey hiccups . 512612_515765
+%xmor:	co|oh pro:per|you v|get&PAST det:art|the n|hickey n|hiccup-PL .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|3|PUNCT
+*MOT:	they go with your bottle . 515765_518544
+%xmor:	pro:sub|they v|go prep|with det:poss|your n|bottle .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*MOT:	will they go with your bottle ? 518544_521950
+%xmor:	mod|will pro:sub|they v|go prep|with det:poss|your n|bottle ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*MOT:	&ba [x 6] . 521950_523376
+*MOT:	oh, where did it go ? 523376_536185
+%xmor:	co|oh cm|cm pro:int|where mod|do&PAST pro:per|it v|go ?
+%xgra:	1|6|COM 2|1|LP 3|6|JCT 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|PUNCT
+*MOT:	you dropped it ? 536185_537316
+%xmor:	pro:per|you v|drop-PAST pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	did you drop it ? 537316_539737
+%xmor:	mod|do&PAST pro:per|you v|drop pro:per|it ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	there you go . 539737_542635
+%xmor:	adv|there pro:per|you v|go .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	&hey &ya &hey &ya . 542635_556223
+*MOT:	you got thumb_thumb ? 556223_560618
+%xmor:	pro:per|you v|get&PAST n|thumb&DUP ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	you're  tired now . 560618_563452
+%xmor:	pro:per|you~aux|be&PRES part|tire-PASTP adv:tem|now .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|3|PUNCT
+@End

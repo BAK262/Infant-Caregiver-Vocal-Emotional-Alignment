@@ -1,0 +1,77 @@
+MOT	2913	5826	2913	+< oh Luca, what's wrong ?
+MOT	5827	7743	1916	look, do you wanna look at your book ? 
+MOT	7743	10694	2951	look it's your book . 
+MOT	10694	12738	2044	it's your duck book . 
+MOT	12738	14788	2050	can you say book ? 
+MOT	14788	17879	3091	book . 
+MOT	17879	24668	6789	look, what's on the book ? 
+MOT	24668	26458	1790	it's a duck . 
+MOT	26458	28048	1590	quack_quack@o . 
+MOT	28048	29822	1774	what does a duck do ? 
+MOT	29822	32797	2975	quack_quack@o [/] quack_quack@o . 
+MOT	32797	35492	2695	can you say book ? 
+MOT	35492	37131	1639	book . 
+MOT	37131	38770	1639	what's on the back ?
+MOT	38770	45333	6563	it's a frog . 
+MOT	45333	49091	3758	frog [/] frog ! 
+MOT	51220	53109	1889	aw Luca are you tired ? 
+MOT	53109	57511	4402	aw don't scratch it you'll make it worse . 
+MOT	59586	61661	2075	+< it's okay look [/] look we're gonna get milk in a second .
+MOT	61662	64515	2853	but you can play with your book in the meantime . 
+MOT	64515	66605	2090	book . 
+MOT	66605	70029	3424	you know how to say book . 
+MOT	71429	73511	2082	aw you're a little bit unhappy . 
+MOT	73511	75538	2027	okay well what shall we play with ? 
+MOT	75538	76970	1432	oh it's Santa_Claus . 
+MOT	76970	79992	3022	yay . 
+MOT	79992	84088	4096	Santa_Claus makes me happy too . 
+MOT	84088	93629	9541	<jingle bells> [/] jingle bells jingle all the way [=! singing] . [+ SNG] 
+MOT	104848	107086	2238	aw, it's over now . 
+MOT	107086	109717	2631	look [/] look it's a stick . 
+MOT	109717	111707	1990	it's a digger inside . 
+MOT	111707	112724	1017	do you see that ? 
+MOT	112724	115174	2450	it's a digger . 
+MOT	115174	120041	4867	&=clears:throat digging up his balls . 
+MOT	120041	121183	1142	look . 
+MOT	121183	123333	2150	aw tired boy . 
+MOT	125483	129000	3517	&=car:noise . 
+MOT	129000	130718	1718	look, it's a car . 
+MOT	130718	132528	1810	you wanna play with your car ? 
+MOT	132528	133983	1455	oh that's making you happy . 
+MOT	133983	134817	834	that's good . 
+MOT	134817	139262	4445	&=gasps beep_beep@o [x 2] . 
+MOT	139262	143645	4383	&=sniff &=clears:throat . 
+MOT	143645	146473	2828	and there's a bigger car . 
+MOT	146473	147937	1464	that's Mummy car . 
+MOT	147937	150809	2872	and that's baby car . 
+MOT	150809	152689	1880	actually I think that's Daddy car . 
+MOT	152689	160765	8076	&=car:noise beep_beep@o [x 2] . 
+MOT	160765	163162	2397	<excuse me> [/] excuse me . 
+MOT	163162	165456	2294	&=car:noise . 
+MOT	165456	169272	3816	&=gasps that's a nice car you can chew that one . 
+MOT	169272	172625	3353	those wheels look so tasty . 
+MOT	172625	176989	4364	yay, is that good for your teeth ? 
+MOT	176989	182371	5382	is it a red car ? 
+MOT	182371	185711	3340	it matches your trousers . 
+MOT	185711	200676	14965	that's better . 
+MOT	200676	203197	2521	a bit happier . 
+MOT	203197	206594	3397	&=sniff &=clears:throat . 
+MOT	206594	212496	5902	&=gasps it's your milk . 
+MOT	212496	218091	5595	do you wanna get milk and I'll read you a story ? 
+MOT	218091	222360	4269	look . 
+MOT	222360	223764	1404	yummy milk . 
+MOT	223764	229285	5521	can you lift it up yourself ? 
+MOT	229285	236073	6788	yay, that's it oh <good boy> [/] good boy . 
+MOT	236073	237877	1804	I think you need to lie back . 
+MOT	237877	240677	2800	you wanna lie back so you can get your milk better ? 
+MOT	240677	241989	1312	mmm . 
+MOT	241989	252298	10309	pause while we drink milk . 
+MOT	252298	258304	6006	ah no . 
+MOT	258304	262979	4675	dunno how to pause it, ah pause . 
+MOT	262979	273184	10205	&=clears:throat . 
+CHI	0	2913	2913	&=unhappy:noise . 
+CHI	49091	51220	2129	&=unhappy:noise . 
+CHI	57511	59586	2075	&=unhappy:noise . 
+CHI	70029	71429	1400	&=unhappy:noise . 
+CHI	93629	104848	11219	&=unhappy:noise . 
+CHI	123333	125483	2150	+< &=unhappy:noise .

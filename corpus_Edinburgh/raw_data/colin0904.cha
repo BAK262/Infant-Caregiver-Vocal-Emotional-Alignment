@@ -1,0 +1,1286 @@
+@UTF8
+@PID:	11312/a-00047536-1
+@Window:	281_825_668_685_-1_-1_32087_0_32087_0
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Colin Target_Child
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@ID:	eng|Edinburgh|CHI|0;09.08|male|||Target_Child|||
+@Date:	09-MAR-2014
+@Media:	colin0904, audio, missing
+@Types:	long, toyplay, TD
+*MOT:	good morning .
+%xmor:	adj|good n|morning .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	good morning my baby .
+%xmor:	adj|good n|morning det:poss|my n|baby .
+%xgra:	1|2|MOD 2|0|INCROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	hiya .
+%xmor:	co|hiya .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	hello gorgeous .
+%xmor:	co|hello adj|gorgeous .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	what you got ?
+%xmor:	pro:int|what pro:per|you part|get&PASTP ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	what you got, let's see .
+%xmor:	pro:int|what pro:per|you v|get&PAST cm|cm v|let~pro:obj|us v|see .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|LP 5|3|ENUM 6|5|OBJ 7|5|COMP 8|3|PUNCT
+*MOT:	let's take this dummy out .
+%xmor:	v|let~pro:obj|us v|take det:dem|this n|dummy adv|out .
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|DET 5|3|OBJ 6|3|JCT 7|1|PUNCT
+*MOT:	good morning .
+%xmor:	adj|good n|morning .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	Mummy have a cuddle ?
+%xmor:	n:prop|Mummy v|have det:art|a v|cuddle ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	ooh &=kisses .
+%xmor:	v|ooh .
+%xgra:	1|0|ROOT 2|1|PUNCT
+*MOT:	what's this ?
+%xmor:	pro:int|what~cop|be&3S pro:dem|this ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=laughs yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	can you get the other one up ?
+%xmor:	mod|can pro:per|you v|get det:art|the qn|other pro:indef|one adv|up
+	?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|QUANT 6|3|OBJ 7|6|NJCT 8|3|PUNCT
+*MOT:	get the pink one .
+%xmor:	v|get det:art|the n|pink pro:indef|one .
+%xgra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|PUNCT
+*MOT:	get the pink one .
+%xmor:	v|get det:art|the n|pink pro:indef|one .
+%xgra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|PUNCT
+*MOT:	yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	heehee .
+%xmor:	co|heehee .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	ah, ah !
+%xmor:	co|ah cm|cm co|ah !
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	where did it go ?
+%xmor:	pro:int|where mod|do&PAST pro:per|it v|go ?
+%xgra:	1|4|JCT 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	where is it ?
+%xmor:	pro:int|where cop|be&3S pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=gasps &=gasps .
+*MOT:	where is it ?
+%xmor:	pro:int|where cop|be&3S pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=yawns, it's far too early .
+%xmor:	cm|cm pro:per|it~cop|be&3S adj|far adv|too adv|early .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|6|JCT 6|3|JCT 7|3|PUNCT
+*CHI:	&=coughs .
+*MOT:	oh no .
+%xmor:	co|oh co|no .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	&=laughs .
+*CHI:	&=moans .
+*MOT:	a:h .
+%xmor:	co|ah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	get breakfast ready .
+%xmor:	v|get n|breakfast adj|ready .
+%xgra:	1|0|ROOT 2|1|OBJ 3|2|POSTMOD 4|1|PUNCT
+*MOT:	we'll play with some toys .
+%xmor:	pro:sub|we~mod|will v|play prep|with qn|some n|toy-PL .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|QUANT 6|4|POBJ 7|3|PUNCT
+*MOT:	&urh, come on then .
+%xmor:	cm|cm v|come adv|on adv:tem|then .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|JCT 5|2|PUNCT
+*MOT:	let's go .
+%xmor:	v|let~pro:obj|us v|go .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|1|PUNCT
+*MOT:	baby, &=gasp, who's that ?
+%xmor:	n|baby cm|cm cm|cm pro:int|who~cop|be&3S pro:dem|that ?
+%xgra:	1|5|SUBJ 2|1|LP 3|1|LP 4|5|SUBJ 5|0|ROOT 6|5|PRED 7|5|PUNCT
+*MOT:	who's that ?
+%xmor:	pro:int|who~cop|be&3S pro:dem|that ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=gasps that's [/] that's woah, that's Daddy .
+%xmor:	pro:dem|that~cop|be&3S co|woah cm|cm pro:rel|that~cop|be&3S
+	n:prop|Daddy .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|COM 4|3|LP 5|6|LINK 6|2|PRED 7|6|PRED 8|2|PUNCT
+%com:	sound of something falling over .
+*MOT:	&=gasps and Mummy .
+%xmor:	coord|and n:prop|Mummy .
+%xgra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
+*MOT:	and baby .
+%xmor:	coord|and n|baby .
+%xgra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
+*MOT:	&=gasps &=kisses .
+*MOT:	oh .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	alright .
+%xmor:	co|alright .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	what's in here ?
+%xmor:	pro:int|what~cop|be&3S prep|in n|here ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*MOT:	&=gasps .
+*MOT:	heehee, you found the t_v .
+%xmor:	co|heehee cm|cm pro:per|you v|find&PAST det:art|the n|t_v .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	what's this one Colin ?
+%xmor:	pro:int|what~cop|be&3S pro:dem|this pro:indef|one n:prop|Colin ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|SUBJ 4|2|PRED 5|4|OM 6|2|PUNCT
+*MOT:	shaky [x 5] .
+%xmor:	adj|shake&dv-Y .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	can you do it ?
+%xmor:	mod|can pro:per|you mod|do pro:per|it ?
+%xgra:	1|4|AUX 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*MOT:	can you do it ?
+%xmor:	mod|can pro:per|you mod|do pro:per|it ?
+%xgra:	1|4|AUX 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*MOT:	shaky [/] shaky .
+%xmor:	adj|shake&dv-Y .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	clever boy .
+%xmor:	adj|clever n|boy .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	can't have that .
+%xmor:	mod|can~neg|not v|have pro:dem|that .
+%xgra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	I'm afraid you can't have that one .
+%xmor:	pro:sub|I~cop|be&1S adj|afraid pro:per|you mod|can~neg|not v|have
+	det:dem|that pro:indef|one .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|7|SUBJ 5|7|AUX 6|5|NEG 7|3|CMOD 8|9|DET
+	9|7|OBJ 10|2|PUNCT
+*CHI:	&U .
+*MOT:	what's that one ?
+%xmor:	pro:int|what~cop|be&3S det:dem|that pro:indef|one ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	&=gasps found the snail .
+%xmor:	v|find&PAST det:art|the n|snail .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	what's Mummy doing ?
+%xmor:	pro:int|what~aux|be&3S n:prop|Mummy part|do-PRESP ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	what's Mummy writing ?
+%xmor:	pro:int|what~aux|be&3S n:prop|Mummy part|write-PRESP ?
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	heehee .
+%xmor:	co|heehee .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+%com:	sound of musical toy .
+*MOT:	where are you going ?
+%xmor:	pro:int|where aux|be&PRES pro:per|you part|go-PRESP ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*CHI:	&=squeals .
+*MOT:	where are you going ?
+%xmor:	pro:int|where aux|be&PRES pro:per|you part|go-PRESP ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	wow, clever boy standing up .
+%xmor:	co|wow cm|cm adj|clever n|boy part|stand-PRESP adv|up .
+%xgra:	1|4|COM 2|1|LP 3|4|MOD 4|0|INCROOT 5|4|XMOD 6|5|JCT 7|4|PUNCT
+%com:	mother claps her hands .
+*MOT:	uhoh .
+%xmor:	co|uhoh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+%com:	sound of something falling to the floor .
+*MOT:	uhoh, where did the ball go ?
+%xmor:	co|uhoh cm|cm pro:int|where mod|do&PAST det:art|the n|ball v|go ?
+%xgra:	1|7|COM 2|1|LP 3|7|JCT 4|7|AUX 5|6|DET 6|7|SUBJ 7|0|ROOT 8|7|PUNCT
+*MOT:	where did the ball go ?
+%xmor:	pro:int|where mod|do&PAST det:art|the n|ball v|go ?
+%xgra:	1|5|JCT 2|5|AUX 3|4|DET 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	&=laughs .
+*MOT:	&=yawns .
+*MOT:	what's the date today ?
+%xmor:	pro:int|what~cop|be&3S det:art|the n|date adv:tem|today ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|4|NJCT 6|2|PUNCT
+*MOT:	ninth, I think, yeah .
+%xmor:	adj|ninth cm|cm pro:sub|I v|think cm|cm co|yeah .
+%xgra:	1|4|JCT 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|LP 6|4|COM 7|4|PUNCT
+*MOT:	the ninth of march .
+%xmor:	det:art|the adj|ninth prep|of n|march .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*MOT:	soon your birthday .
+%xmor:	adv|soon det:poss|your n|+n|birth+n|day .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*MOT:	three months to go .
+%xmor:	det:num|three n|month-PL inf|to v|go .
+%xgra:	1|2|QUANT 2|0|INCROOT 3|4|INF 4|2|XMOD 5|2|PUNCT
+*MOT:	need to start getting it organized .
+%xmor:	v|need inf|to v|start part|get-PRESP pro:per|it v|organize-PAST .
+%xgra:	1|0|ROOT 2|3|INF 3|1|COMP 4|3|XJCT 5|6|SUBJ 6|4|COMP 7|1|PUNCT
+*MOT:	who's a clever boy ?
+%xmor:	pro:int|who~cop|be&3S det:art|a adj|clever n|boy ?
+%xgra:	1|2|LINK 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	clever boy .
+%xmor:	adj|clever n|boy .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	you know where that goes don't you ?
+%xmor:	pro:per|you v|know pro:int|where pro:dem|that v|go-3S
+	mod|do~neg|not pro:per|you ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|COMP 6|8|AUX 7|6|NEG 8|5|OBJ
+	9|2|PUNCT
+*MOT:	um .
+%xmor:	co|um .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	wednesday .
+%xmor:	adv:tem|wednesday .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	wednesday xxx .
+%xmor:	adv:tem|wednesday .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=yawns .
+*MOT:	boo !
+%xmor:	n|boo !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=gasps .
+*MOT:	no, that's Mummy's pen .
+%xmor:	co|no cm|cm pro:rel|that~cop|be&3S adj|Mummy&dn-POSS n|pen .
+%xgra:	1|4|COM 2|1|LP 3|4|LINK 4|0|ROOT 5|6|MOD 6|4|PRED 7|4|PUNCT
+*MOT:	what's this one ?
+%xmor:	pro:int|what~cop|be&3S pro:dem|this pro:indef|one ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	&=gasps .
+*MOT:	where is she ?
+%xmor:	pro:int|where cop|be&3S pro:sub|she ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	< watch this > [/] watch this .
+%xmor:	v|watch pro:dem|this .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	&=gasps .
+*MOT:	can you do it ?
+%xmor:	mod|can pro:per|you mod|do pro:per|it ?
+%xgra:	1|4|AUX 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*MOT:	&=laughs that's it !
+%xmor:	pro:dem|that~cop|be&3S pro:per|it !
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	that's it !
+%xmor:	pro:dem|that~cop|be&3S pro:per|it !
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	are you standing up again ?
+%xmor:	cop|be&PRES pro:per|you part|stand-PRESP adv|up adv:tem|again ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|3|JCT 5|3|JCT 6|1|PUNCT
+*MOT:	Colin come and we'll change your nappy .
+%xmor:	n:prop|Colin v|come coord|and pro:sub|we~mod|will v|change
+	det:poss|your n|nappy .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|6|SUBJ 5|6|AUX 6|2|CJCT 7|8|DET 8|6|OBJ
+	9|2|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	you come and play with Mummy ?
+%xmor:	pro:per|you v|come coord|and n|play prep|with n:prop|Mummy ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|CONJ 4|3|COORD 5|4|NJCT 6|5|POBJ 7|2|PUNCT
+*MOT:	are you gonna [: going to ] wave Mummy goodbye ?
+%xmor:	cop|be&PRES pro:per|you part|go-PRESP prep|to n|wave n:prop|Mummy
+	co|goodbye ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|3|JCT 5|6|MOD 6|4|POBJ 7|3|COM 8|1|PUNCT
+*MOT:	no you have to come with Mummy .
+%xmor:	co|no pro:per|you v|have inf|to v|come prep|with n:prop|Mummy .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|JCT 7|6|POBJ 8|3|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	come on !
+%xmor:	v|come adv|on !
+%xgra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*MOT:	let's go !
+%xmor:	v|let~pro:obj|us v|go !
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|1|PUNCT
+*MOT:	come on then !
+%xmor:	v|come adv|on adv:tem|then !
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	come on .
+%xmor:	v|come adv|on .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*MOT:	heehee come on .
+%xmor:	co|heehee v|come adv|on .
+%xgra:	1|2|COM 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*CHI:	&=babble .
+*MOT:	yeah, that's it, come on .
+%xmor:	co|yeah cm|cm pro:dem|that~cop|be&3S pro:per|it cm|cm v|come adv|on
+	.
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|5|LP 7|4|ENUM 8|7|JCT
+	9|4|PUNCT
+*MOT:	come on .
+%xmor:	v|come adv|on .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	let's go through your bedroom .
+%xmor:	v|let~pro:obj|us v|go prep|through det:poss|your n|+n|bed+n|room .
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|3|JCT 5|6|DET 6|4|POBJ 7|1|PUNCT
+*MOT:	keep coming .
+%xmor:	v|keep part|come-PRESP .
+%xgra:	1|0|ROOT 2|1|COMP 3|1|PUNCT
+*MOT:	who's a clever boy, come on !
+%xmor:	pro:int|who~cop|be&3S det:art|a adj|clever n|boy cm|cm v|come
+	adv|on !
+%xgra:	1|2|LINK 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|LP 7|2|ENUM 8|7|JCT
+	9|2|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	heehee .
+%xmor:	co|heehee .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	this way .
+%xmor:	pro:dem|this adv|way .
+%xgra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*MOT:	almost there .
+%xmor:	adv|almost adv|there .
+%xgra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	oh, we're stopped half way .
+%xmor:	co|oh cm|cm pro:sub|we~aux|be&PRES part|stop-PASTP n|half n|way .
+%xgra:	1|5|COM 2|1|LP 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|MOD 7|5|OBJ 8|5|PUNCT
+*MOT:	that's because the t_v's there, isn't it ?
+%xmor:	pro:dem|that~cop|be&3S conj|because det:art|the adj|t_v&dn-POSS
+	n|there cm|cm cop|be&3S~neg|not pro:per|it ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|8|LINK 4|6|DET 5|6|MOD 6|8|SUBJ 7|6|LP 8|2|PRED
+	9|8|NEG 10|8|PRED 11|2|PUNCT
+*MOT:	come on then !
+%xmor:	v|come adv|on adv:tem|then !
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	come on !
+%xmor:	v|come adv|on !
+%xgra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*MOT:	&=laughs .
+*MOT:	yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you love your bedroom, don't you ?
+%xmor:	pro:per|you v|love det:poss|your n|+n|bed+n|room cm|cm
+	mod|do~neg|not pro:per|you ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|LP 6|8|AUX 7|6|NEG 8|2|SUBJ
+	9|2|PUNCT
+*MOT:	you've got all you toys .
+%xmor:	pro:per|you~aux|have part|get&PASTP adv|all pro:per|you v|toy-3S .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|6|JCT 5|6|SUBJ 6|3|COMP 7|3|PUNCT
+*MOT:	&=gasps .
+*MOT:	wow !
+%xmor:	co|wow !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you're almost there .
+%xmor:	pro:per|you~cop|be&PRES adv|almost adv|there .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|JCT 5|2|PUNCT
+*MOT:	oh, we've going fast now, we're going fast now .
+%xmor:	co|oh cm|cm pro:sub|we~aux|have part|go-PRESP adv|fast adv:tem|now
+	cm|cm pro:sub|we~aux|be&PRES part|go-PRESP adv|fast adv:tem|now .
+%xgra:	1|5|COM 2|1|LP 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|JCT 7|5|JCT 8|5|LP
+	9|11|SUBJ 10|11|AUX 11|5|COMP 12|13|JCT 13|11|JCT 14|5|PUNCT
+*MOT:	&gasps .
+*MOT:	that's it !
+%xmor:	pro:dem|that~cop|be&3S pro:per|it !
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	that's it !
+%xmor:	pro:dem|that~cop|be&3S pro:per|it !
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	heehee .
+%xmor:	co|heehee .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	ah, you saw the one toy that you love .
+%xmor:	co|ah cm|cm pro:per|you v|see&PAST det:art|the det:num|one n|toy
+	pro:rel|that pro:per|you v|love .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|7|DET 6|7|QUANT 7|4|OBJ 8|10|LINK
+	9|10|SUBJ 10|7|CMOD 11|4|PUNCT
+*MOT:	let's get it then .
+%xmor:	v|let~pro:obj|us aux|get pro:per|it adv:tem|then .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|5|SUBJ 5|3|PRED 6|1|PUNCT
+*MOT:	it's a bit noisy so we'll need to turn the volume off .
+%xmor:	pro:per|it~cop|be&3S det:art|a n|bit adj|noise&dn-Y conj|so
+	pro:sub|we~mod|will v|need inf|to v|turn det:art|the n|volume
+	adv|off .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|5|JCT 5|2|PRED 6|9|LINK 7|9|SUBJ 8|9|AUX
+	9|2|CJCT 10|11|INF 11|9|COMP 12|13|DET 13|11|OBJ 14|11|JCT 15|2|PUNCT
+*MOT:	I'm afraid .
+%xmor:	pro:sub|I~cop|be&1S adj|afraid .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&a &a .
+*MOT:	will we turn it on just for a quick minute then ?
+%xmor:	mod|will pro:sub|we v|turn pro:per|it adv|on adv|just prep|for
+	det:art|a adj|quick n|minute adv:tem|then ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|JCT 7|3|JCT 8|10|DET
+	9|10|MOD 10|11|SUBJ 11|7|POBJ 12|3|PUNCT
+*MOT:	so you can have a shot .
+%xmor:	co|so pro:per|you mod|can v|have det:art|a n|shot .
+%xgra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*MOT:	&=laughs .
+%com:	sound of musical toy .
+*MOT:	stop waving me goodbye you !
+%xmor:	n|stop part|wave-PRESP pro:obj|me co|goodbye pro:per|you !
+%xgra:	1|0|INCROOT 2|1|XMOD 3|2|OBJ 4|5|COM 5|2|OBJ 6|1|PUNCT
+*MOT:	Colin dancing ?
+%xmor:	n:prop|Colin part|dance-PRESP ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*MOT:	&=gasps dancing [/] dancing .
+%xmor:	part|dance-PRESP .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	kisses .
+%xmor:	n|kiss-PL .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=kisses .
+*MOT:	there, turn it off now .
+%xmor:	adv|there cm|cm n|turn pro:per|it adv|off adv:tem|now .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|6|SUBJ 5|6|JCT 6|3|CMOD 7|1|PUNCT
+*MOT:	&=gasps .
+*MOT:	oh .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=kisses heehee .
+%xmor:	co|heehee .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	right, let's change this xxx .
+%xmor:	adv|right cm|cm v|let~pro:obj|us v|change pro:dem|this .
+%xgra:	1|3|JCT 2|1|LP 3|0|ROOT 4|3|OBJ 5|3|COMP 6|5|OBJ 7|3|PUNCT
+*MOT:	this is going to be a challenge, isn't it ?
+%xmor:	pro:dem|this aux|be&3S part|go-PRESP inf|to cop|be det:art|a
+	n|challenge cm|cm cop|be&3S~neg|not pro:per|it ?
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|7|DET 7|5|PRED 8|3|LP
+	9|3|ENUM 10|9|NEG 11|9|SUBJ 12|3|PUNCT
+*MOT:	you hate your nappy getting changed .
+%xmor:	pro:per|you v|hate det:poss|your n|nappy part|get-PRESP
+	part|change-PASTP .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|XJCT 6|2|XJCT 7|2|PUNCT
+*MOT:	right, what to do ?
+%xmor:	adv|right cm|cm pro:int|what inf|to v|do ?
+%xgra:	1|3|JCT 2|1|LP 3|5|LINK 4|5|INF 5|0|ROOT 6|5|PUNCT
+*MOT:	you sit there and I'll get your nappy .
+%xmor:	pro:per|you v|sit adv|there coord|and pro:sub|I~mod|will v|get
+	det:poss|your n|nappy .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|7|LINK 5|7|SUBJ 6|7|AUX 7|2|CJCT 8|9|DET
+	9|7|OBJ 10|2|PUNCT
+*MOT:	one .
+%xmor:	det:num|one .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	two .
+%xmor:	det:num|two .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	three .
+%xmor:	det:num|three .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	four .
+%xmor:	det:num|four .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you can have another shot on the toy after .
+%xmor:	pro:per|you mod|can v|have qn|another n|shot prep|on det:art|the
+	n|toy prep|after .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|QUANT 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|JCT 10|3|PUNCT
+*MOT:	let's do your nappy first .
+%xmor:	v|let~pro:obj|us v|do det:poss|your n|nappy adv|first .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|5|DET 5|3|OBJ 6|3|JCT 7|1|PUNCT
+*MOT:	Mummy give yo:u your xxx in here .
+%xmor:	n:prop|Mummy v|give pro:per|you det:poss|your prep|in n|here .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|5|DET 5|2|JCT 6|5|POBJ 7|2|PUNCT
+*MOT:	oh look at the bunny rabbit .
+%xmor:	co|oh v|look prep|at det:art|the n|bunny n|rabbit .
+%xgra:	1|2|COM 2|0|ROOT 3|2|JCT 4|6|DET 5|6|MOD 6|3|POBJ 7|2|PUNCT
+*MOT:	&=gasps here that's a bunny .
+%xmor:	adv|here pro:dem|that~cop|be&3S det:art|a n|bunny .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*MOT:	&=gasps Peter rabbit had a fly upon his nose [=! singing] . [+ SNG]
+%xmor:	n:prop|Peter n|rabbit v|have&PAST det:art|a n|fly prep|upon
+	det:poss|his n|nose .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	Peter rabbit had a fly upon his nose [=! singing] . [+ SNG]
+%xmor:	n:prop|Peter n|rabbit v|have&PAST det:art|a n|fly prep|upon
+	det:poss|his n|nose .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	Peter rabbit had a fly upon his nose [=! singing] . [+ SNG]
+%xmor:	n:prop|Peter n|rabbit v|have&PAST det:art|a n|fly prep|upon
+	det:poss|his n|nose .
+%xgra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*MOT:	so he flipped it and he flopped it and the fly flew away
+	[=! singing] . [+ SNG]
+%xmor:	co|so pro:sub|he v|flip-PAST pro:per|it coord|and pro:sub|he
+	v|flop-PAST pro:per|it coord|and det:art|the n|fly v|fly&PAST
+	adv|away .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|7|LINK 6|7|SUBJ 7|3|CJCT 8|7|OBJ
+	9|12|LINK 10|11|DET 11|12|SUBJ 12|7|CJCT 13|12|JCT 14|3|PUNCT
+*MOT:	floppy ears and curly whiskers [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*MOT:	floppy ears and curly whiskers [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*MOT:	floppy ears and curly whiskers [=! singing] . [+ SNG]
+%xmor:	adj|flop&dv-Y n|ear-PL coord|and adj|curl&dv-Y n|whisker-PL .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|MOD 5|3|COORD 6|2|PUNCT
+*MOT:	so he flipped it and flopped it and the fly flew away [=! singing]
+	. [+ SNG]
+%xmor:	co|so pro:sub|he v|flip-PAST pro:per|it coord|and v|flop-PAST
+	pro:per|it coord|and det:art|the n|fly v|fly&PAST adv|away .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|CONJ 6|5|COORD 7|6|OBJ 8|11|LINK
+	9|10|DET 10|11|SUBJ 11|6|CJCT 12|11|JCT 13|3|PUNCT
+*MOT:	why won't you just lie down ?
+%xmor:	pro:int|why mod|will~neg|not pro:per|you adj|just n|lie adv|down ?
+%xgra:	1|6|JCT 2|6|AUX 3|2|NEG 4|6|SUBJ 5|6|MOD 6|0|INCROOT 7|6|JCT 8|6|PUNCT
+*MOT:	we need to do your nappy standing up ?
+%xmor:	pro:sub|we v|need inf|to v|do det:poss|your n|nappy
+	part|stand-PRESP adv|up ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|6|DET 6|4|OBJ 7|4|XJCT 8|7|JCT
+	9|2|PUNCT
+*MOT:	okay, well, I'll try .
+%xmor:	co|okay cm|cm n|well cm|cm pro:sub|I~mod|will v|try .
+%xgra:	1|7|COM 2|1|LP 3|1|ENUM 4|3|LP 5|7|SUBJ 6|7|AUX 7|0|ROOT 8|7|PUNCT
+*MOT:	I'll try .
+%xmor:	pro:sub|I~mod|will v|try .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*MOT:	your pyjamas .
+%xmor:	det:poss|your n:pt|pyjamas .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*MOT:	let's get these up .
+%xmor:	v|let~pro:obj|us v|get det:dem|these adv|up .
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|DET 5|3|JCT 6|1|PUNCT
+*MOT:	that's it .
+%xmor:	pro:dem|that~cop|be&3S pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	Daddy's got you all coordinated last night, didn't he ?
+%xmor:	n:prop|Daddy~aux|be&3S part|get&PASTP pro:per|you adv|all
+	part|coordinate-PASTP adj|last n|night cm|cm mod|do&PAST~neg|not
+	pro:sub|he ?
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|6|JCT 6|3|XJCT 7|8|MOD 8|6|OBJ
+	9|6|LP 10|12|AUX 11|10|NEG 12|6|JCT 13|3|PUNCT
+*MOT:	hm .
+%xmor:	co|hm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	it's a change .
+%xmor:	pro:per|it~cop|be&3S det:art|a n|change .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	Daddy's not very good at getting you dressed .
+%xmor:	n:prop|Daddy~cop|be&3S neg|not adv|very adj|good prep|at
+	n:gerund|get-PRESP pro:per|you v|dress-PAST .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|NEG 4|5|JCT 5|2|PRED 6|5|JCT 7|6|POBJ 8|9|SUBJ
+	9|7|COMP 10|2|PUNCT
+*MOT:	usually [/] usually have multicolors on .
+%xmor:	adv|usual&dadj-LY v|have multi#n|color-PL prep|on .
+%xgra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|JCT 5|2|PUNCT
+*MOT:	up we get .
+%xmor:	adv|up pro:sub|we v|get .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	clever boy .
+%xmor:	adj|clever n|boy .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	heehee .
+%xmor:	co|heehee .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you hold on there .
+%xmor:	pro:per|you v|hold prep|on n|there .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*MOT:	I'll wipe your bum .
+%xmor:	pro:sub|I~mod|will v|wipe det:poss|your n|bum .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	I'll wipe your bum .
+%xmor:	pro:sub|I~mod|will v|wipe det:poss|your n|bum .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	be cold !
+%xmor:	cop|be adv|cold !
+%xgra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*MOT:	&=gasps it's cold .
+%xmor:	pro:per|it~cop|be&3S adj|cold .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	it's cold .
+%xmor:	pro:per|it~cop|be&3S adj|cold .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&mhm .
+*MOT:	&=kiss aw big kisses for Mummy .
+%xmor:	co|aw adj|big n|kiss-PL prep|for n:prop|Mummy .
+%xgra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|NJCT 5|4|POBJ 6|3|PUNCT
+*MOT:	big kisses for Mummy attacking you .
+%xmor:	adj|big n|kiss-PL prep|for n:prop|Mummy part|attack-PRESP
+	pro:per|you .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|NJCT 4|3|POBJ 5|2|XJCT 6|5|OBJ 7|2|PUNCT
+*MOT:	she's attacking you !
+%xmor:	pro:sub|she~aux|be&3S part|attack-PRESP pro:per|you !
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	&=kiss .
+*MOT:	xxx &=gasps .
+*MOT:	where's Colin ?
+%xmor:	pro:int|where~cop|be&3S n:prop|Colin ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=kisses .
+*MOT:	0 [=! blows into CHI's body] .
+*MOT:	where's Colin ?
+%xmor:	pro:int|where~cop|be&3S n:prop|Colin ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHI:	+< &=laughs .
+*MOT:	where's Colin ?
+%xmor:	pro:int|where~cop|be&3S n:prop|Colin ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=gasps .
+*MOT:	0 [=! blows into CHI's body] .
+*MOT:	&=laughs .
+*MOT:	there !
+%xmor:	adv|there !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	there he is !
+%xmor:	adv|there pro:sub|he cop|be&3S !
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	there he is !
+%xmor:	adv|there pro:sub|he cop|be&3S !
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MOT:	oh .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=gasps tickle [x 5] .
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	+" cross [/] cross, line [/] line . [+ RHY]
+%xmor:	n|cross cm|cm n|line .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	+" spider crawling up your spine ! [+ RHY]
+%xmor:	n|spider part|crawl-PRESP prep|up det:poss|your n|spine !
+%xgra:	1|0|INCROOT 2|1|XMOD 3|2|JCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*CHI:	+< &=laughs .
+*MOT:	one done !
+%xmor:	det:num|one part|do&PASTP !
+%xgra:	1|2|QUANT 2|0|ROOT 3|2|PUNCT
+*MOT:	right .
+%xmor:	co|right .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	nappy on .
+%xmor:	adj|nappy&aael prep|on .
+%xgra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*MOT:	this is a bigger challenge .
+%xmor:	pro:dem|this cop|be&3S det:art|a adj|big-CP n|challenge .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*CHI:	&huja .
+*MOT:	uhhuh .
+%xmor:	co|uhhuh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	again ?
+%xmor:	adv:tem|again ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=gasps .
+*MOT:	+" cross [/] cross, line [/] line . [+ RHY]
+%xmor:	n|cross cm|cm n|line .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	+" spider crawling up your spine . [+ RHY]
+%xmor:	n|spider part|crawl-PRESP prep|up det:poss|your n|spine .
+%xgra:	1|0|INCROOT 2|1|XMOD 3|2|JCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*CHI:	+< &=laughs .
+*MOT:	you're a tickly boy .
+%xmor:	pro:per|you~cop|be&PRES det:art|a adj|tickle&dv-Y n|boy .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	right .
+%xmor:	co|right .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	nappy .
+%xmor:	adj|nappy&aael .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	we need to go to Asda's whilst Daddy's at work .
+%xmor:	pro:sub|we v|need inf|to v|go prep|to n:prop|Asda~cop|be&3S
+	conj|whilst n:prop|Daddy~cop|be&3S prep|at n|work .
+%xgra:	1|2|SUBJ 2|7|SUBJ 3|4|INF 4|2|COMP 5|4|JCT 6|5|POBJ 7|0|ROOT 8|10|LINK
+	9|10|SUBJ 10|7|PRED 11|10|JCT 12|11|POBJ 13|7|PUNCT
+*MOT:	and the:n what, and then what are we doing ?
+%xmor:	coord|and adv:tem|then pro:int|what cm|cm coord|and adv:tem|then
+	pro:int|what cop|be&PRES pro:sub|we part|do-PRESP ?
+%xgra:	1|10|LINK 2|10|JCT 3|10|LINK 4|3|LP 5|3|CONJ 6|5|COORD 7|10|OBJ
+	8|10|AUX 9|10|SUBJ 10|0|ROOT 11|10|PUNCT
+*MOT:	we're going swimming .
+%xmor:	pro:sub|we~aux|be&PRES part|go-PRESP n:gerund|swim-PRESP .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	yes .
+%xmor:	co|yes .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	and then we're going out for lunch .
+%xmor:	coord|and adv:tem|then pro:sub|we~aux|be&PRES part|go-PRESP adv|out
+	prep|for n|lunch .
+%xgra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|JCT 7|5|JCT 8|7|POBJ
+	9|5|PUNCT
+*MOT:	yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	we're going to see Gran and Grandpa for lunch .
+%xmor:	pro:sub|we~aux|be&PRES part|go-PRESP inf|to v|see n:prop|Gran
+	coord|and n:prop|Grandpa prep|for n|lunch .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|6|CONJ 8|7|COORD
+	9|8|NJCT 10|9|POBJ 11|3|PUNCT
+*MOT:	oh no .
+%xmor:	co|oh co|no .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	this nappy's not going on well .
+%xmor:	pro:dem|this n|nappy~aux|be&3S neg|not part|go-PRESP adv|on
+	adv|well .
+%xgra:	1|2|DET 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|5|JCT 7|5|JCT 8|5|PUNCT
+*MOT:	right .
+%xmor:	co|right .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	don't move .
+%xmor:	mod|do~neg|not v|move .
+%xgra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|3|PUNCT
+*MOT:	your nappies are huge .
+%xmor:	det:poss|your n|nappy-PL cop|be&PRES adj|huge .
+%xgra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*MOT:	oh, watch the face .
+%xmor:	co|oh cm|cm n|watch det:art|the n|face .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|5|DET 5|3|OBJ 6|1|PUNCT
+%com:	sound of a rainmaker being played with .
+*MOT:	can you stand up for Mummy ?
+%xmor:	mod|can pro:per|you v|stand adv|up prep|for n:prop|Mummy ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|JCT 6|5|POBJ 7|3|PUNCT
+*MOT:	no [/] no, no jumping .
+%xmor:	co|no cm|cm qn|no part|jump-PRESP .
+%xgra:	1|4|COM 2|1|LP 3|4|QUANT 4|0|ROOT 5|4|PUNCT
+*MOT:	stand up with you hands in the air .
+%xmor:	v|stand adv|up prep|with pro:per|you n|hand-PL prep|in det:art|the
+	n|air .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|5|SUBJ 5|3|POBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|1|PUNCT
+*MOT:	good boy .
+%xmor:	adj|good n|boy .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	really clever boy .
+%xmor:	adv|real&dadj-LY adj|clever n|boy .
+%xgra:	1|2|JCT 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MOT:	right .
+%xmor:	co|right .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=babble .
+*MOT:	ah, nearly done, I'm almost done .
+%xmor:	co|ah cm|cm adv|near&dadj-LY part|do&PASTP cm|cm
+	pro:sub|I~aux|be&1S adv|almost part|do&PASTP .
+%xgra:	1|4|COM 2|1|LP 3|4|JCT 4|0|ROOT 5|4|LP 6|9|SUBJ 7|9|AUX 8|9|JCT
+	9|4|CJCT 10|4|PUNCT
+*MOT:	I'm almost done .
+%xmor:	pro:sub|I~aux|be&1S adv|almost part|do&PASTP .
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|4|PUNCT
+*MOT:	stand up one more time .
+%xmor:	v|stand adv|up det:num|one qn|more n|time .
+%xgra:	1|0|ROOT 2|1|JCT 3|5|QUANT 4|5|QUANT 5|2|POBJ 6|1|PUNCT
+*MOT:	< that's it > [/] that's it, I've got ya .
+%xmor:	pro:dem|that~cop|be&3S pro:per|it cm|cm pro:sub|I~aux|have
+	part|get&PASTP pro:per|you .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|LP 5|7|SUBJ 6|7|AUX 7|2|CPRED 8|7|OBJ
+	9|2|PUNCT
+*MOT:	< I've got him > [/] I've got him .
+%xmor:	pro:sub|I~aux|have part|get&PASTP pro:obj|him .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	I'm gonna [: going to ] tickle !
+%xmor:	pro:sub|I~aux|be&1S part|go-PRESP prep|to n|tickle !
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*MOT:	my goodness .
+%xmor:	det:poss|my co|goodness .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*MOT:	things you've gotta [: got to ] do for a nappy change .
+%xmor:	n|thing-PL pro:per|you~aux|have part|get&PASTP inf|to v|do prep|for
+	det:art|a adj|nappy&aael n|change .
+%xgra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|6|JCT 8|10|DET
+	9|10|MOD 10|7|POBJ 11|4|PUNCT
+*MOT:	&=gasps &tIk &tIk &tIk &tIk &tIk &tIk .
+*MOT:	tickle [/] tickle .
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=laughs .
+*MOT:	tickle [/] tickle .
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	heehee .
+%xmor:	co|heehee .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	whoo !
+%xmor:	co|whoo !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	wow !
+%xmor:	co|wow !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	and that's why the nappy changing is the worst time, yes .
+%xmor:	coord|and pro:dem|that~cop|be&3S pro:int|why det:art|the
+	adj|nappy&aael n:gerund|change-PRESP cop|be&3S det:art|the
+	adj|bad&SP n|time cm|cm co|yes .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|8|LINK 5|6|DET 6|8|JCT 7|8|SUBJ 8|3|PRED
+	9|11|DET 10|11|MOD 11|8|PRED 12|11|LP 13|11|ENUM 14|3|PUNCT
+*MOT:	&=gasps are you +//.
+%xmor:	cop|be&PRES pro:per|you +//.
+%xgra:	1|0|ROOT 2|1|SUBJ 3|1|PUNCT
+*MOT:	what are you doing ?
+%xmor:	pro:int|what aux|be&PRES pro:per|you part|do-PRESP ?
+%xgra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MOT:	&=laughs I'll tickle ya !
+%xmor:	pro:sub|I~mod|will v|tickle pro:per|you !
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	I'll tickle ya !
+%xmor:	pro:sub|I~mod|will v|tickle pro:per|you !
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	tickle [x 5] .
+%xmor:	n|tickle .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	oh, you can't go away yet .
+%xmor:	co|oh cm|cm pro:per|you mod|can~neg|not v|go adv|away adv:tem|yet .
+%xgra:	1|6|COM 2|1|LP 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|6|JCT 8|6|JCT
+	9|6|PUNCT
+*MOT:	we need to put your (py)jamas back on .
+%xmor:	pro:sub|we v|need inf|to v|put&ZERO det:poss|your n:pt|pyjamas
+	adv|back adv|on .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|6|DET 6|4|OBJ 7|4|JCT 8|4|JCT
+	9|2|PUNCT
+*MOT:	come on .
+%xmor:	v|come adv|on .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*MOT:	ugh !
+%xmor:	co|ugh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	will Mummy get your pyjamas back on ?
+%xmor:	mod|will n:prop|Mummy v|get det:poss|your n:pt|pyjamas adv|back
+	adv|on ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|JCT 7|3|JCT 8|3|PUNCT
+*MOT:	(be)cause you'll get cold .
+%xmor:	conj|because pro:per|you~mod|will v|get adv|cold .
+%xgra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*MOT:	are you gonna [: going to ] stand up on the door, okay .
+%xmor:	cop|be&PRES pro:per|you part|go-PRESP inf|to v|stand adv|up prep|on
+	det:art|the n|door cm|cm adj|okay .
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|JCT 7|5|JCT 8|9|DET
+	9|7|POBJ 10|5|LP 11|5|JCT 12|1|PUNCT
+*MOT:	oh .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	one more .
+%xmor:	det:num|one adv|more .
+%xgra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*MOT:	one more button .
+%xmor:	det:num|one qn|more n|button .
+%xgra:	1|3|QUANT 2|3|QUANT 3|0|INCROOT 4|3|PUNCT
+*MOT:	are you slamming my door ?
+%xmor:	cop|be&PRES pro:per|you part|slam-PRESP det:poss|my n|door ?
+%xgra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|DET 5|3|OBJ 6|1|PUNCT
+*MOT:	right .
+%xmor:	co|right .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	vest done .
+%xmor:	n|vest part|do&PASTP .
+%xgra:	1|0|INCROOT 2|1|XMOD 3|1|PUNCT
+*MOT:	let's get your feet in here .
+%xmor:	v|let~pro:obj|us v|get det:poss|your n|foot&PL prep|in n|here .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|5|DET 5|3|OBJ 6|3|JCT 7|6|POBJ 8|1|PUNCT
+*MOT:	I know, you don't like it .
+%xmor:	pro:sub|I v|know cm|cm pro:per|you mod|do~neg|not v|like pro:per|it
+	.
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|LP 4|7|SUBJ 5|7|AUX 6|5|NEG 7|2|COMP 8|7|OBJ
+	9|2|PUNCT
+%com:	baby has made very slight upset noise .
+*MOT:	but tough, it's tough [x 4] .
+%xmor:	conj|but adj|tough cm|cm pro:per|it~cop|be&3S adj|tough .
+%xgra:	1|5|LINK 2|5|JCT 3|2|LP 4|5|SUBJ 5|0|ROOT 6|5|PRED 7|5|PUNCT
+*MOT:	right .
+%xmor:	co|right .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	what about if Mummy sings, um .
+%xmor:	pro:int|what adv|about conj|if n:prop|Mummy v|sing-3S cm|cm co|um .
+%xgra:	1|5|LINK 2|5|JCT 3|5|LINK 4|5|SUBJ 5|0|ROOT 6|5|LP 7|5|COM 8|5|PUNCT
+*MOT:	down in the jungle where nobody goes [=! singing] . [+ SNG]
+%xmor:	adv|down prep|in det:art|the n|jungle pro:rel|where
+	pro:indef|nobody v|go-3S .
+%xgra:	1|2|JCT 2|0|INCROOT 3|4|DET 4|2|POBJ 5|7|LINK 6|7|SUBJ 7|4|CMOD
+	8|2|PUNCT
+*MOT:	there's a big monkey washing his clothes [=! singing] . [+ SNG]
+%xmor:	pro:exist|there~cop|be&3S det:art|a adj|big n|monkey
+	part|wash-PRESP det:poss|his n:pt|clothes .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|5|XMOD 7|8|DET 8|6|OBJ
+	9|2|PUNCT
+*MOT:	with a rub_a_dub here and a rub_a_dub there [=! singing] . [+ SNG]
+%xmor:	prep|with det:art|a co|rub_a_dub adv|here coord|and det:art|a
+	co|rub_a_dub adv|there .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|3|NJCT 5|4|CONJ 6|7|DET 7|5|COORD
+	8|7|JCT 9|1|PUNCT
+*MOT:	that's the way he washes his clothes [=! singing] . [+ SNG]
+%xmor:	pro:dem|that~cop|be&3S det:art|the n|way pro:sub|he v|wash-3S
+	det:poss|his n:pt|clothes .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|6|JCT 5|6|SUBJ 6|2|CPRED 7|8|DET 8|6|OBJ
+	9|2|PUNCT
+*MOT:	with a boogie a woogie boogie woogie [/] woogie [=! singing] .
+	[+ SNG]
+%xmor:	prep|with det:art|a n|boogie det:art|a co|woogie n|boogie co|woogie
+	.
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|6|DET 5|6|COM 6|1|POBJ 7|6|COM 8|1|PUNCT
+*MOT:	with a boogie a woogie boogie woogie [/] woogie [=! singing] .
+	[+ SNG]
+%xmor:	prep|with det:art|a n|boogie det:art|a co|woogie n|boogie co|woogie
+	.
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|6|DET 5|6|COM 6|1|POBJ 7|6|COM 8|1|PUNCT
+*MOT:	with a boogie a woogie boogie woogie [/] woogie [=! singing] .
+	[+ SNG]
+%xmor:	prep|with det:art|a n|boogie det:art|a co|woogie n|boogie co|woogie
+	.
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|6|DET 5|6|COM 6|1|POBJ 7|6|COM 8|1|PUNCT
+*MOT:	that's the way he washes his clothes [=! singing] . [+ SNG]
+%xmor:	pro:dem|that~cop|be&3S det:art|the n|way pro:sub|he v|wash-3S
+	det:poss|his n:pt|clothes .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|6|JCT 5|6|SUBJ 6|2|CPRED 7|8|DET 8|6|OBJ
+	9|2|PUNCT
+*MOT:	down in the jungle where nobody goes [=! singing] . [+ SNG]
+%xmor:	adv|down prep|in det:art|the n|jungle pro:rel|where
+	pro:indef|nobody v|go-3S .
+%xgra:	1|2|JCT 2|0|INCROOT 3|4|DET 4|2|POBJ 5|7|LINK 6|7|SUBJ 7|4|CMOD
+	8|2|PUNCT
+*MOT:	there's a big hippo washing his clothes [=! singing] . [+ SNG]
+%xmor:	pro:exist|there~cop|be&3S det:art|a adj|big n|hippo part|wash-PRESP
+	det:poss|his n:pt|clothes .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|5|XMOD 7|8|DET 8|6|OBJ
+	9|2|PUNCT
+*MOT:	with a rub_a_dub here and a rub_a_dub there [=! singing] . [+ SNG]
+%xmor:	prep|with det:art|a co|rub_a_dub adv|here coord|and det:art|a
+	co|rub_a_dub adv|there .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|3|NJCT 5|4|CONJ 6|7|DET 7|5|COORD
+	8|7|JCT 9|1|PUNCT
+*MOT:	that's the way he washes his clothes [=! singing] . [+ SNG]
+%xmor:	pro:dem|that~cop|be&3S det:art|the n|way pro:sub|he v|wash-3S
+	det:poss|his n:pt|clothes .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|6|JCT 5|6|SUBJ 6|2|CPRED 7|8|DET 8|6|OBJ
+	9|2|PUNCT
+*MOT:	with a boogie woogie boogie woogie [/] woogie [=! singing] .
+	[+ SNG]
+%xmor:	prep|with det:art|a n|boogie co|woogie n|boogie co|woogie .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|5|COM 5|3|CMOD 6|5|COM 7|1|PUNCT
+%com:	mother is laughing whilst singing .
+*MOT:	&=laughs with a boogie a woogie boogie woogie [/] woogie
+	[=! singing] . [+ SNG]
+%xmor:	prep|with det:art|a n|boogie det:art|a co|woogie n|boogie co|woogie
+	.
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|6|DET 5|6|COM 6|1|POBJ 7|6|COM 8|1|PUNCT
+*MOT:	with a boogie woogie boogie woogie [/] woogie [=! singing] .
+	[+ SNG]
+%xmor:	prep|with det:art|a n|boogie co|woogie n|boogie co|woogie .
+%xgra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|5|COM 5|3|CMOD 6|5|COM 7|1|PUNCT
+*MOT:	that's the way he washes his clothes [=! singing] . [+ SNG]
+%xmor:	pro:dem|that~cop|be&3S det:art|the n|way pro:sub|he v|wash-3S
+	det:poss|his n:pt|clothes .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|6|JCT 5|6|SUBJ 6|2|CPRED 7|8|DET 8|6|OBJ
+	9|2|PUNCT
+*MOT:	you're a clever boy dancing .
+%xmor:	pro:per|you~aux|be&PRES det:art|a adj|clever n|boy part|dance-PRESP
+	.
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|5|XMOD 7|2|PUNCT
+*MOT:	yeah &=kiss .
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	let's go through .
+%xmor:	v|let~pro:obj|us v|go adv|through .
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|3|JCT 5|1|PUNCT
+*MOT:	ah !
+%xmor:	co|ah !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	all go through .
+%xmor:	post|all v|go adv|through .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*MOT:	Mummy'll get breakfast sorted .
+%xmor:	n:prop|Mummy~mod|will v|get n|breakfast v|sort-PAST .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|3|PUNCT
+*MOT:	woah .
+%xmor:	co|woah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	take your time .
+%xmor:	v|take det:poss|your n|time .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	take your time .
+%xmor:	v|take det:poss|your n|time .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	you'll fall over .
+%xmor:	pro:per|you~mod|will v|fall adv|over .
+%xgra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*CHI:	&=coughs .
+*MOT:	oh, oh .
+%xmor:	co|oh cm|cm co|oh .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	byebye Mummy .
+%xmor:	co|byebye n:prop|Mummy .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	say byebye .
+%xmor:	co|say co|byebye .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	“byebye Mummy” .
+%xmor:	co|byebye n:prop|Mummy .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	heehee .
+%xmor:	co|heehee .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	clever boy .
+%xmor:	adj|clever n|boy .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	< let's go > [/] let's go .
+%xmor:	v|let~pro:obj|us v|go .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|1|PUNCT
+*MOT:	comin(g) ?
+%xmor:	part|come-PRESP ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you're so cute when you're crawling .
+%xmor:	pro:per|you~cop|be&PRES adv|so adj|cute conj|when
+	pro:per|you~aux|be&PRES part|crawl-PRESP .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|8|LINK 6|8|SUBJ 7|8|AUX 8|2|CJCT
+	9|2|PUNCT
+*MOT:	close this door so you can't go out .
+%xmor:	v|close det:dem|this n|door conj|so pro:per|you mod|can~neg|not
+	v|go adv|out .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|8|LINK 5|8|SUBJ 6|8|AUX 7|6|NEG 8|1|CJCT
+	9|8|JCT 10|1|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	what are we having for breakfast ?
+%xmor:	pro:int|what cop|be&PRES pro:sub|we n:gerund|have-PRESP prep|for
+	n|breakfast ?
+%xgra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|3|OM 5|4|JCT 6|5|POBJ 7|2|PUNCT
+*MOT:	porridge ?
+%xmor:	n|porridge ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	Mummy get porridge sorted ?
+%xmor:	n:prop|Mummy v|get n|porridge v|sort-PAST ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|2|PUNCT
+*MOT:	a:h .
+%xmor:	co|ah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=yawns I'm still tired (be)cause of you cheeky boy .
+%xmor:	pro:sub|I~aux|be&1S adv|still part|tire-PASTP conj|because prep|of
+	pro:per|you adj|cheek&dn-Y n|boy .
+%xgra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|4|OBJ 6|5|JCT 7|9|MOD 8|9|MOD
+	9|6|POBJ 10|4|PUNCT
+*MOT:	come on then .
+%xmor:	v|come adv|on adv:tem|then .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|PUNCT
+*MOT:	roll on the rug .
+%xmor:	n|roll prep|on det:art|the n|rug .
+%xgra:	1|0|INCROOT 2|1|NJCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+*MOT:	you be careful now if you stand up .
+%xmor:	pro:per|you aux|be adj|care&dn-FULL adv:tem|now conj|if pro:per|you
+	v|stand adv|up .
+%xgra:	1|7|SUBJ 2|7|AUX 3|2|PRED 4|3|JCT 5|7|LINK 6|7|SUBJ 7|0|ROOT 8|7|JCT
+	9|7|PUNCT
+*MOT:	whoop !
+%xmor:	n|whoop !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	that's a sock .
+%xmor:	pro:dem|that~cop|be&3S det:art|a n|sock .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	&=yawns my goodness .
+%xmor:	det:poss|my co|goodness .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*MOT:	we need to get going to Asda's .
+%xmor:	pro:sub|we v|need inf|to v|get n:gerund|go-PRESP prep|to
+	n:prop|Asda~cop|be&3S .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|OBJ 6|4|JCT 7|8|SUBJ 8|6|POBJ
+	9|2|PUNCT
+*MOT:	yes, before Dad gets home .
+%xmor:	co|yes cm|cm conj|before n:prop|Dad v|get-3S adv|home .
+%xgra:	1|0|INCROOT 2|1|LP 3|5|LINK 4|5|SUBJ 5|1|ENUM 6|5|JCT 7|1|PUNCT
+*MOT:	then we can go swimming .
+%xmor:	adv:tem|then pro:sub|we mod|can v|go part|swim-PRESP .
+%xgra:	1|5|JCT 2|5|SUBJ 3|5|AUX 4|5|SRL 5|0|ROOT 6|5|PUNCT
+*MOT:	you just going to destroy the place, okay .
+%xmor:	pro:per|you adv|just part|go-PRESP inf|to v|destroy det:art|the
+	n|place cm|cm adj|okay .
+%xgra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|5|INF 5|3|COMP 6|7|DET 7|5|OBJ 8|7|LP
+	9|7|ENUM 10|3|PUNCT
+*MOT:	peekaboo .
+%xmor:	co|peekaboo .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	hi !
+%xmor:	co|hi !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	hi !
+%xmor:	co|hi !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	what ya doing to my rug ?
+%xmor:	pro:int|what pro:per|you part|do-PRESP prep|to det:poss|my n|rug ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*MOT:	what ya doing ?
+%xmor:	pro:int|what pro:per|you part|do-PRESP ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*CHI:	&hu: .
+*MOT:	&a:u: .
+*MOT:	what ya doing baby ?
+%xmor:	pro:int|what pro:per|you part|do-PRESP n|baby ?
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	Colin ?
+%xmor:	n:prop|Colin ?
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	Colin, what's this ?
+%xmor:	n:prop|Colin cm|cm pro:int|what~cop|be&3S pro:dem|this ?
+%xgra:	1|4|SUBJ 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|PUNCT
+*MOT:	no, too busy .
+%xmor:	co|no cm|cm adv|too adj|busy .
+%xgra:	1|4|COM 2|1|LP 3|4|JCT 4|0|INCROOT 5|4|PUNCT
+*MOT:	&=gasps high five .
+%xmor:	adj|high det:num|five .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	high five .
+%xmor:	adj|high det:num|five .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	yay !
+%xmor:	co|yay !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=laughs &=kisses .
+*MOT:	right, let's brush your teeth now huh ?
+%xmor:	adv|right cm|cm v|let~pro:obj|us v|brush det:poss|your n|tooth&PL
+	adv:tem|now co|huh ?
+%xgra:	1|3|JCT 2|1|LP 3|0|ROOT 4|3|OBJ 5|3|COMP 6|7|DET 7|8|SUBJ 8|5|JCT
+	9|8|COM 10|3|PUNCT
+*MOT:	then we get our breakfast .
+%xmor:	adv:tem|then pro:sub|we v|get det:poss|our n|breakfast .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	yum .
+%xmor:	n|yum .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&ah .
+*MOT:	oh, right .
+%xmor:	co|oh cm|cm co|right .
+%xgra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MOT:	hey you, open .
+%xmor:	co|hey pro:per|you cm|cm adj|open .
+%xgra:	1|4|COM 2|4|SUBJ 3|2|LP 4|0|ROOT 5|4|PUNCT
+*MOT:	open !
+%xmor:	adj|open !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	see what Mummy's got .
+%xmor:	v|see pro:int|what n:prop|Mummy~aux|be&3S part|get&PASTP .
+%xgra:	1|0|ROOT 2|5|LINK 3|5|SUBJ 4|5|AUX 5|1|COMP 6|1|PUNCT
+*MOT:	open the mouth !
+%xmor:	v|open det:art|the n|mouth !
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	xxx .
+*MOT:	that's it .
+%xmor:	pro:dem|that~cop|be&3S pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	a:h .
+%xmor:	co|ah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	it's a good job you like the taste of your toothpaste .
+%xmor:	pro:per|it~cop|be&3S det:art|a adj|good n|job pro:per|you v|like
+	det:art|the n|taste prep|of det:poss|your n|+n|tooth+n|paste .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|7|SUBJ 7|5|CMOD 8|9|DET
+	9|7|OBJ 10|9|NJCT 11|12|DET 12|10|POBJ 13|2|PUNCT
+*CHI:	&=babble .
+*MOT:	come on, we need your teeth brushed .
+%xmor:	v|come adv|on cm|cm pro:sub|we v|need det:poss|your n|tooth&PL
+	v|brush-PAST .
+%xgra:	1|5|CJCT 2|1|JCT 3|1|LP 4|5|SUBJ 5|0|ROOT 6|7|DET 7|8|SUBJ 8|5|COMP
+	9|5|PUNCT
+*MOT:	open the mouth .
+%xmor:	v|open det:art|the n|mouth .
+%xgra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	open [/] open !
+%xmor:	adj|open !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	oh, that was your tongue I got .
+%xmor:	co|oh cm|cm pro:rel|that cop|be&PAST&13S det:poss|your n|tongue
+	pro:sub|I v|get&PAST .
+%xgra:	1|8|COM 2|1|LP 3|4|LINK 4|8|CJCT 5|6|DET 6|4|PRED 7|8|SUBJ 8|0|ROOT
+	9|8|PUNCT
+*MOT:	right you .
+%xmor:	adv|right pro:per|you .
+%xgra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
+*MOT:	come on .
+%xmor:	v|come adv|on .
+%xgra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*MOT:	oh &=laughs .
+%xmor:	co|oh .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	open .
+%xmor:	adj|open .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	that's your tongue, I need your teeth .
+%xmor:	pro:dem|that~cop|be&3S det:poss|your n|tongue cm|cm pro:sub|I
+	v|need det:poss|your n|tooth&PL .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|LP 6|7|SUBJ 7|2|CJCT 8|9|DET
+	9|7|OBJ 10|2|PUNCT
+*MOT:	a:h .
+%xmor:	co|ah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	right .
+%xmor:	co|right .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	ahhah !
+%xmor:	co|ahhah !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	see, Colin, watch Mummy do it .
+%xmor:	v|see cm|cm n:prop|Colin cm|cm n|watch n:prop|Mummy mod|do
+	pro:per|it .
+%xgra:	1|0|ROOT 2|1|LP 3|1|ENUM 4|3|LP 5|3|ENUM 6|8|SUBJ 7|8|AUX 8|5|OBJ
+	9|1|PUNCT
+*MOT:	&ch [x 7] that's it .
+%xmor:	pro:dem|that~cop|be&3S pro:per|it .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	watch Mummy do it again .
+%xmor:	n|watch n:prop|Mummy mod|do pro:per|it adv:tem|again .
+%xgra:	1|0|INCROOT 2|1|PUNCT 3|2|INCROOT 4|3|OBJ 5|4|JCT 6|3|PUNCT
+*MOT:	watch .
+%xmor:	n|watch .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&ch [x 4] see .
+%xmor:	v|see .
+%xgra:	1|0|ROOT 2|1|PUNCT
+*MOT:	see Mummy's doing .
+%xmor:	co|see n:prop|Mummy~aux|be&3S part|do-PRESP .
+%xgra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
+*MOT:	&ch [x 4] yeah .
+%xmor:	co|yeah .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	one more brush .
+%xmor:	det:num|one qn|more n|brush .
+%xgra:	1|3|QUANT 2|3|QUANT 3|0|INCROOT 4|3|PUNCT
+*MOT:	one more brush .
+%xmor:	det:num|one qn|more n|brush .
+%xgra:	1|3|QUANT 2|3|QUANT 3|0|INCROOT 4|3|PUNCT
+*MOT:	I know .
+%xmor:	pro:sub|I v|know .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+%com:	baby making slight struggling noises .
+*MOT:	xxx .
+*MOT:	haha, I got them !
+%xmor:	co|haha cm|cm pro:sub|I v|get&PAST pro:obj|them !
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	I got them .
+%xmor:	pro:sub|I v|get&PAST pro:obj|them .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	it's all over .
+%xmor:	pro:per|it~cop|be&3S adv|all adv|over .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*MOT:	it's all over .
+%xmor:	pro:per|it~cop|be&3S adv|all adv|over .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHI:	&ax !
+*MOT:	ugh !
+%xmor:	co|ugh !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+@End

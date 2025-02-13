@@ -1,0 +1,248 @@
+@UTF8
+@PID:	11312/a-00047640-1
+@Window:	74_110_662_685_-1_-1_3488_0_3488_0
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Luca Target_Child
+@ID:	eng|Edinburgh|MOT||female|||Mother|||
+@ID:	eng|Edinburgh|CHI|0;09.17|male|||Target_Child|||
+@Date:	05-JAN-2014
+@Media:	luca0905, audio
+@Types:	long, toyplay, TD
+*CHI:	&=unhappy:noise . 0_5827
+*MOT:	+< oh Luca, what's wrong ? 
+%xmor:	co|oh n:prop|Luca cm|cm pro:int|what~cop|be&3S n|wrong ?
+%xgra:	1|2|COM 2|5|SUBJ 3|2|LP 4|5|SUBJ 5|0|ROOT 6|5|PRED 7|5|PUNCT
+*MOT:	look, do you wanna look at your book ? 5827_7743
+%xmor:	v|look cm|cm mod|do pro:per|you v|want~inf|to co|look prep|at
+	det:poss|your n|book ?
+%xgra:	1|5|JCT 2|1|LP 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|7|INF 7|5|COMP 8|7|JCT
+	9|10|DET 10|8|POBJ 11|5|PUNCT
+*MOT:	look it's your book . 7743_10694
+%xmor:	co|look pro:per|it~cop|be&3S det:poss|your n|book .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*MOT:	it's your duck book . 10694_12738
+%xmor:	pro:per|it~cop|be&3S det:poss|your n|duck n|book .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*MOT:	can you say book ? 12738_14788
+%xmor:	mod|can pro:per|you v|say n|book ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	book . 14788_17879
+%xmor:	n|book .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	look, what's on the book ? 17879_24668
+%xmor:	v|look cm|cm pro:int|what~cop|be&3S prep|on det:art|the n|book ?
+%xgra:	1|0|ROOT 2|1|LP 3|4|SUBJ 4|1|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|1|PUNCT
+*MOT:	it's a duck . 24668_26458
+%xmor:	pro:per|it~cop|be&3S det:art|a n|duck .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	quack_quack@o . 26458_28048
+%xmor:	on|quack_quack .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	what does a duck do ? 28048_29822
+%xmor:	pro:int|what mod|do&3S det:art|a n|duck v|do ?
+%xgra:	1|5|SUBJ 2|5|AUX 3|4|DET 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*MOT:	quack_quack@o [/] quack_quack@o . 29822_32797
+%xmor:	on|quack_quack .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	can you say book ? 32797_35492
+%xmor:	mod|can pro:per|you v|say n|book ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	book . 35492_38770
+%xmor:	n|book .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	what's on the back ?
+%xmor:	pro:int|what~cop|be&3S prep|on det:art|the n|back ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*MOT:	it's a frog . 38770_45333
+%xmor:	pro:per|it~cop|be&3S det:art|a n|frog .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	frog [/] frog ! 45333_49091
+%xmor:	n|frog !
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&=unhappy:noise . 49091_51220
+*MOT:	aw Luca are you tired ? 51220_53109
+%xmor:	co|aw n:prop|Luca cop|be&PRES pro:per|you v|tire-PAST ?
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|PRED 6|3|PUNCT
+*MOT:	aw don't scratch it you'll make it worse . 53109_57511
+%xmor:	co|aw mod|do~neg|not v|scratch pro:per|it pro:per|you~mod|will
+	v|make pro:per|it adj|bad&CP .
+%xgra:	1|4|COM 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|OBJ 6|8|SUBJ 7|8|AUX 8|4|COMP
+	9|8|OBJ 10|8|JCT 11|4|PUNCT
+*CHI:	&=unhappy:noise . 57511_61662
+*MOT:	+< it's okay look [/] look we're gonna get
+	milk in a second . 
+%xmor:	pro:per|it~cop|be&3S adj|okay n|look pro:sub|we~aux|be&PRES
+	part|go&PRESP~inf|to v|get n|milk prep|in det:art|a n|second .
+%xgra:	1|2|SUBJ 2|7|JCT 3|4|MOD 4|2|PRED 5|7|SUBJ 6|7|AUX 7|0|ROOT 8|9|INF
+	9|7|COMP 10|9|OBJ 11|9|JCT 12|13|DET 13|11|POBJ 14|7|PUNCT
+*MOT:	but you can play with your book in the meantime . 61662_64515
+%xmor:	conj|but pro:per|you mod|can v|play prep|with det:poss|your n|book
+	prep|in det:art|the n|meantime .
+%xgra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|7|NJCT
+	9|10|DET 10|8|POBJ 11|4|PUNCT
+*MOT:	book . 64515_66605
+%xmor:	n|book .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	you know how to say book . 66605_70029
+%xmor:	pro:per|you v|know pro:int|how inf|to v|say n|book .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|INF 5|2|COMP 6|5|OBJ 7|2|PUNCT
+*CHI:	&=unhappy:noise . 70029_71429
+*MOT:	aw you're a little bit unhappy . 71429_73511
+%xmor:	co|aw pro:per|you~cop|be&PRES det:art|a adj|little n|bit
+	un#adj|happy .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|7|JCT 7|3|PRED 8|3|PUNCT
+*MOT:	okay well what shall we play with ? 73511_75538
+%xmor:	co|okay adv|well pro:int|what mod|shall pro:sub|we v|play prep|with
+	?
+%xgra:	1|6|COM 2|6|JCT 3|6|JCT 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|JCT 8|6|PUNCT
+*MOT:	oh it's Santa_Claus . 75538_76970
+%xmor:	co|oh pro:per|it~cop|be&3S n:prop|Santa_Claus .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*MOT:	yay . 76970_79992
+%xmor:	co|yay .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	Santa_Claus makes me happy too . 79992_84088
+%xmor:	n:prop|Santa_Claus v|make-3S pro:obj|me adj|happy post|too .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|4|PQ 6|2|PUNCT
+*MOT:	<jingle bells> [/] jingle bells jingle all the way [=! singing] . [+ SNG] 84088_93629
+%xmor:	v|jingle n|bell-PL v|jingle qn|all det:art|the n|way .
+%xgra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|6|QUANT 5|6|DET 6|3|OBJ 7|1|PUNCT
+%com:	a toy is playing the jingle bells tune .
+*CHI:	&=unhappy:noise . 93629_104848
+*MOT:	aw, it's over now . 104848_107086
+%xmor:	co|aw cm|cm pro:per|it~cop|be&3S adv|over adv:tem|now .
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|6|JCT 6|4|PRED 7|4|PUNCT
+*MOT:	look [/] look it's a stick . 107086_109717
+%xmor:	co|look pro:per|it~cop|be&3S det:art|a n|stick .
+%xgra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*MOT:	it's a digger inside . 109717_111707
+%xmor:	pro:per|it~cop|be&3S det:art|a n|dig&dv-AGT adv|inside .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|4|NJCT 6|2|PUNCT
+*MOT:	do you see that ? 111707_112724
+%xmor:	mod|do pro:per|you v|see comp|that ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	it's a digger . 112724_115174
+%xmor:	pro:per|it~cop|be&3S det:art|a n|dig&dv-AGT .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	&=clears:throat digging up his balls . 115174_120041
+%xmor:	part|dig-PRESP prep|up det:poss|his n|ball-PL .
+%xgra:	1|0|ROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+*MOT:	look . 120041_121183
+%xmor:	co|look .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	aw tired boy . 121183_125483
+%xmor:	co|aw part|tire-PASTP n|boy .
+%xgra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	+< &=unhappy:noise . 
+*MOT:	&=car:noise . 125483_129000
+*MOT:	look, it's a car . 129000_130718
+%xmor:	v|look cm|cm pro:per|it~cop|be&3S det:art|a n|car .
+%xgra:	1|0|ROOT 2|1|LP 3|4|SUBJ 4|1|COMP 5|6|DET 6|4|PRED 7|1|PUNCT
+*MOT:	you wanna play with your car ? 130718_132528
+%xmor:	pro:per|you v|want~inf|to v|play prep|with det:poss|your n|car ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*MOT:	oh that's making you happy . 132528_133983
+%xmor:	co|oh pro:dem|that~aux|be&3S part|make-PRESP pro:per|you adj|happy
+	.
+%xgra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|5|POSTMOD 7|4|PUNCT
+*MOT:	that's good . 133983_134817
+%xmor:	pro:dem|that~cop|be&3S adj|good .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MOT:	&=gasps beep_beep@o [x 2] . 134817_139262
+%xmor:	on|beep_beep .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	&=sniff &=clears:throat . 139262_143645
+*MOT:	and there's a bigger car . 143645_146473
+%xmor:	coord|and pro:exist|there~cop|be&3S det:art|a adj|big-CP n|car .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*MOT:	that's Mummy car . 146473_147937
+%xmor:	pro:dem|that~cop|be&3S n:prop|Mummy n|car .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|PRED 5|2|PUNCT
+*MOT:	and that's baby car . 147937_150809
+%xmor:	coord|and pro:dem|that~cop|be&3S n|baby n|car .
+%xgra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|3|PUNCT
+*MOT:	actually I think that's Daddy car . 150809_152689
+%xmor:	adv|actual&dadj-LY pro:sub|I v|think comp|that~aux|be&3S
+	n:prop|Daddy n|car .
+%xgra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|7|SUBJ 5|7|AUX 6|7|MOD 7|3|COMP 8|3|PUNCT
+*MOT:	&=car:noise beep_beep@o [x 2] . 152689_160765
+%xmor:	on|beep_beep .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	<excuse me> [/] excuse me . 160765_163162
+%xmor:	v|excuse pro:obj|me .
+%xgra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	&=car:noise . 163162_165456
+*MOT:	&=gasps that's a nice car you can chew that one . 165456_169272
+%xmor:	pro:dem|that~cop|be&3S det:art|a adj|nice n|car pro:per|you mod|can
+	v|chew det:dem|that pro:indef|one .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|8|SUBJ 7|8|AUX 8|5|CMOD
+	9|10|DET 10|8|OBJ 11|2|PUNCT
+*MOT:	those wheels look so tasty . 169272_172625
+%xmor:	det:dem|those n|wheel-PL co|look adv|so adj|taste&dn-Y .
+%xgra:	1|2|DET 2|0|INCROOT 3|5|COM 4|5|JCT 5|2|POSTMOD 6|2|PUNCT
+*MOT:	yay, is that good for your teeth ? 172625_176989
+%xmor:	co|yay cm|cm aux|be&3S det:dem|that adj|good prep|for det:poss|your
+	n|tooth&PL ?
+%xgra:	1|5|COM 2|1|LP 3|5|AUX 4|5|DET 5|0|ROOT 6|5|JCT 7|8|DET 8|6|POBJ
+	9|5|PUNCT
+*MOT:	is it a red car ? 176989_182371
+%xmor:	aux|be&3S pro:per|it det:art|a adj|red n|car ?
+%xgra:	1|5|AUX 2|5|SUBJ 3|5|DET 4|5|MOD 5|0|INCROOT 6|5|PUNCT
+*MOT:	it matches your trousers . 182371_185711
+%xmor:	pro:per|it v|match-3S det:poss|your n|trouser-PL .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	that's better . 185711_200676
+%xmor:	pro:dem|that~cop|be&3S v|better .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|2|CPRED 4|2|PUNCT
+*MOT:	a bit happier . 200676_203197
+%xmor:	det:art|a n|bit adj|happy-CP .
+%xgra:	1|2|DET 2|0|INCROOT 3|2|POSTMOD 4|2|PUNCT
+*MOT:	&=sniff &=clears:throat . 203197_206594
+*MOT:	&=gasps it's your milk . 206594_212496
+%xmor:	pro:per|it~cop|be&3S det:poss|your n|milk .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*MOT:	do you wanna get milk and I'll read you a
+	story ? 212496_218091
+%xmor:	mod|do pro:per|you v|want~inf|to v|get n|milk coord|and
+	pro:sub|I~mod|will v|read&ZERO pro:per|you det:art|a n|story ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|10|LINK 8|10|SUBJ
+	9|10|AUX 10|3|CJCT 11|10|OBJ2 12|13|DET 13|10|OBJ 14|3|PUNCT
+*MOT:	look . 218091_222360
+%xmor:	co|look .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	yummy milk . 222360_223764
+%xmor:	adj|yum&dn-Y n|milk .
+%xgra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MOT:	can you lift it up yourself ? 223764_229285
+%xmor:	mod|can pro:per|you v|lift pro:per|it adv|up pro:refl|yourself ?
+%xgra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|JCT 7|3|PUNCT
+*MOT:	yay, that's it oh <good boy> [/] good boy . 229285_236073
+%xmor:	co|yay cm|cm pro:dem|that~cop|be&3S pro:per|it co|oh adj|good n|boy
+	.
+%xgra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|8|DET 6|8|COM 7|8|MOD 8|4|PRED
+	9|4|PUNCT
+*MOT:	I think you need to lie back . 236073_237877
+%xmor:	pro:sub|I v|think pro:per|you v|need inf|to v|lie adv|back .
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|6|INF 6|4|COMP 7|6|JCT 8|2|PUNCT
+*MOT:	you wanna lie back so you can get your milk better ? 237877_240677
+%xmor:	pro:per|you v|want~inf|to v|lie adv|back conj|so pro:per|you
+	mod|can v|get det:poss|your n|milk v|better ?
+%xgra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|JCT 6|9|LINK 7|9|SUBJ 8|9|AUX
+	9|2|CJCT 10|11|DET 11|12|SUBJ 12|9|COMP 13|2|PUNCT
+*MOT:	mmm . 240677_241989
+%xmor:	co|mmm .
+%xgra:	1|0|INCROOT 2|1|PUNCT
+*MOT:	pause while we drink milk . 241989_252298
+%xmor:	n|pause conj|while pro:sub|we v|drink n|milk .
+%xgra:	1|0|INCROOT 2|4|LINK 3|4|SUBJ 4|1|CMOD 5|4|OBJ 6|1|PUNCT
+*MOT:	ah no . 252298_258304
+%xmor:	co|ah co|no .
+%xgra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MOT:	dunno how to pause it, ah pause . 258304_262979
+%xmor:	mod|do~neg|no~v|know pro:int|how inf|to v|pause pro:per|it cm|cm
+	co|ah n|pause .
+%xgra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|6|LINK 5|6|INF 6|3|COMP 7|6|OBJ 8|3|LP
+	9|10|COM 10|3|OBJ 11|3|PUNCT
+*MOT:	&=clears:throat . 262979_273184
+@End
